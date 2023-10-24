@@ -1,5 +1,5 @@
 # pfr-digital-content
-s package contains data used in the PfR Digital project 
+This package contains data used in the PfR Digital project 
 
 ## App Preview
 https://parenting-for-respectability.web.app
