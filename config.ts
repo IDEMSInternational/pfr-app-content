@@ -13,7 +13,7 @@ config.google_drive = {
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/pfr-app-content.git",
-  content_tag_latest: "1.1.3",
+  content_tag_latest: "1.1.4",
 };
 
 config.error_logging = {
@@ -22,7 +22,7 @@ config.error_logging = {
 
 config.app_data.output_path = "./app_data";
 
-config.app_config.APP_THEMES.available = ["pfr"];
+config.app_config.APP_THEMES.available = ["default", "pfr"];
 config.app_config.APP_THEMES.defaultThemeName = "pfr";
 config.app_config.APP_SIDEMENU_DEFAULTS.title = "Parenting for Respectability";
 config.app_config.APP_HEADER_DEFAULTS.title = "Parenting for Respectability";
