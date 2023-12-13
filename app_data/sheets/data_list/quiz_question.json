@@ -20,7 +20,7 @@
       "topic": "current_pract",
       "image_asset": "images/parents_children_playing_football.jpg",
       "question_type": "select_one",
-      "question_text": "What is happening this image?",
+      "question_text": "What is happening in this image?",
       "option_1_text": "The child is kicking a ball",
       "option_2_text": "The parents are cheering the kids as they play",
       "option_3_text": "The parents are playing with the kids"
@@ -45,7 +45,7 @@
       "topic": "current_pract",
       "image_asset": "images/mother_reading_map_with_children.jpg",
       "question_type": "select_one",
-      "question_text": "What is happening this image?",
+      "question_text": "What is happening in this image?",
       "option_1_text": "A child sitting on the table",
       "option_2_text": "Parent and child interpreting a map",
       "option_3_text": "The parent engages with the kids in their comfort"
@@ -70,7 +70,7 @@
       "topic": "current_pract",
       "image_asset": "images/parents_child_reading.jpg",
       "question_type": "select_one",
-      "question_text": "What is happening this image?",
+      "question_text": "What is happening in this image?",
       "option_1_text": "Parent and child are reading together",
       "option_2_text": "The child is sitting on the caregiver's lap",
       "option_3_text": "The caregiver is pointing at an image"
@@ -125,10 +125,34 @@
       "question_text": "How will you ensure that this child will grow well socially (social awareness)?"
     },
     {
-      "id": "often_see",
+      "id": "similar_experience",
       "topic": "parent_childhood",
       "question_type": "select_one",
-      "question_text": "Do you often see men in your community doing the things Ssemakula does with his wife and family?",
+      "question_text": "Do you have a similar experience and practices like Mr. Semakula and his family?",
+      "option_1_text": "Yes",
+      "option_2_text": "No"
+    },
+    {
+      "id": "accompany_wife",
+      "topic": "parent_childhood",
+      "question_type": "select_one",
+      "question_text": "Do you find it convenient to accompany your wife to the health facility?",
+      "option_1_text": "Yes",
+      "option_2_text": "No"
+    },
+    {
+      "id": "cuddle_time",
+      "topic": "parent_childhood",
+      "question_type": "select_one",
+      "question_text": "Do you find time to cuddle your little kids at least once a week?",
+      "option_1_text": "Yes",
+      "option_2_text": "No"
+    },
+    {
+      "id": "purpose_games",
+      "topic": "parent_childhood",
+      "question_type": "select_one",
+      "question_text": "Do you purpose to have out and indoor games with your children at least once a week?",
       "option_1_text": "Yes",
       "option_2_text": "No"
     },
@@ -136,7 +160,7 @@
       "id": "learn_new",
       "topic": "parent_childhood",
       "question_type": "select_one",
-      "question_text": "Have you learnt anything new from the story?",
+      "question_text": "Did you learn anything new?",
       "option_1_text": "Yes",
       "option_2_text": "No"
     },

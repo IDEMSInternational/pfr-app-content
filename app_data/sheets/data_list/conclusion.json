@@ -16,12 +16,6 @@
       "row_id": "id_1"
     },
     {
-      "id": "conclusion_intro",
-      "priority": 4,
-      "data_list_name": "intro",
-      "row_id": "conclusion"
-    },
-    {
       "id": "conclusion_tbg_1",
       "priority": 5,
       "data_list_name": "topic_block_group",

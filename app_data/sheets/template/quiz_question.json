@@ -863,6 +863,9 @@
     {
       "type": "text_box",
       "condition": "@local.question_type == \"text_input\"",
+      "parameter_list": {
+        "text_align": "left"
+      },
       "action_list": [
         {
           "trigger": "changed",
@@ -896,6 +899,9 @@
     {
       "type": "text_area",
       "condition": "@local.question_type == \"text_input_long\"",
+      "parameter_list": {
+        "text_align": "left"
+      },
       "action_list": [
         {
           "trigger": "changed",

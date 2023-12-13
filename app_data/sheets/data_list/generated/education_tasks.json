@@ -28,14 +28,6 @@
       "completed": "@fields.task_discipline_review_hp_completed"
     },
     {
-      "id": "education_intro",
-      "priority": 4,
-      "data_list_name": "intro",
-      "row_id": "education",
-      "completed_field": "task_education_intro_completed",
-      "completed": "@fields.task_education_intro_completed"
-    },
-    {
       "id": "education_tbg",
       "priority": 5,
       "data_list_name": "topic_block_group",

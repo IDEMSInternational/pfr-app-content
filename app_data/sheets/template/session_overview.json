@@ -513,29 +513,60 @@
           "_nested_name": "top.dg_top"
         },
         {
-          "type": "title",
-          "name": "title",
-          "value": "@local.card_title",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "_nested_name": "top.title",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@local.card_title",
-                "matchedExpression": "@local.card_title",
-                "type": "local",
-                "fieldName": "card_title"
+          "type": "display_group",
+          "rows": [
+            {
+              "type": "title",
+              "name": "title",
+              "value": "@local.card_title",
+              "_translations": {
+                "value": {}
+              },
+              "exclude_from_translation": true,
+              "_nested_name": "top.display_group.title",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@local.card_title",
+                    "matchedExpression": "@local.card_title",
+                    "type": "local",
+                    "fieldName": "card_title"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.card_title": [
+                  "value"
+                ]
               }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.card_title": [
-              "value"
-            ]
-          }
+            },
+            {
+              "type": "image",
+              "name": "image",
+              "value": "@local.session_data.image_asset",
+              "_translations": {
+                "value": {}
+              },
+              "_nested_name": "top.display_group.image",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@local.session_data.image_asset",
+                    "matchedExpression": "@local.session_data.image_asset",
+                    "type": "local",
+                    "fieldName": "session_data"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.session_data.image_asset": [
+                  "value"
+                ]
+              }
+            }
+          ],
+          "name": "display_group",
+          "_nested_name": "top.display_group"
         }
       ],
       "_nested_name": "top"
@@ -550,7 +581,7 @@
         {
           "type": "text",
           "name": "goals_title",
-          "value": "Goals",
+          "value": "Objectives (To turn these into narrative statements)",
           "_translations": {
             "value": {}
           },
@@ -578,7 +609,7 @@
         {
           "type": "text",
           "name": "goals_title",
-          "value": "Goal",
+          "value": "Objective (To turn this into a narrative statement)",
           "_translations": {
             "value": {}
           },

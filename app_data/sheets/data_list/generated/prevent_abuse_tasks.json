@@ -28,14 +28,6 @@
       "completed": "@fields.task_gender_equal_review_hp_completed"
     },
     {
-      "id": "prevent_abuse_intro",
-      "priority": 4,
-      "data_list_name": "intro",
-      "row_id": "prevent_abuse",
-      "completed_field": "task_prevent_abuse_intro_completed",
-      "completed": "@fields.task_prevent_abuse_intro_completed"
-    },
-    {
       "id": "prevent_abuse_tbg_1",
       "priority": 5,
       "data_list_name": "topic_block_group",

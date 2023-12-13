@@ -22,12 +22,6 @@
       "row_id": "impact_conflict"
     },
     {
-      "id": "sharing_care_intro",
-      "priority": 4,
-      "data_list_name": "intro",
-      "row_id": "sharing_care"
-    },
-    {
       "id": "sharing_care_tbg_1",
       "priority": 5,
       "data_list_name": "topic_block_group",

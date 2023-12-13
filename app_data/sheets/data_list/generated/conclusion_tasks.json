@@ -20,14 +20,6 @@
       "completed": "@fields.task_conclusion_relax_completed"
     },
     {
-      "id": "conclusion_intro",
-      "priority": 4,
-      "data_list_name": "intro",
-      "row_id": "conclusion",
-      "completed_field": "task_conclusion_intro_completed",
-      "completed": "@fields.task_conclusion_intro_completed"
-    },
-    {
       "id": "conclusion_tbg_1",
       "priority": 5,
       "data_list_name": "topic_block_group",

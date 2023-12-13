@@ -5,7 +5,8 @@
   "rows": [
     {
       "id": "pfr_goals",
-      "title": "Introduction to Parenting for Respectability",
+      "title": "About Parenting for Respectability",
+      "icon_asset": "images/icons/picture_book.svg",
       "intro_text": "Parenting for Respectability develops fathers’ and mothers’ skills to bring up their children well so that they respect their parents and also earn respect from their parents. Respectability helps to improve relationships in families in order to prevent violence in homes and communities.",
       "text": "The long-term goals of this programme are:\n* Improve infants’ secure attachment to their parents and promote parental bonding and love.\n* Improve upbringing of children through positive discipline for family respectability.\n* Improve how boys and girls are socialized and reduce negative gender norms in families.\n* Reduce conflict between parents especially violence, which has negative health consequences and affects family functioning.",
       "question_text": "What do you want to learn in relation to parenting?",
@@ -13,15 +14,17 @@
     },
     {
       "id": "ground_rules",
-      "title": "Setting ground rules",
+      "title": "Guidelines",
+      "icon_asset": "images/icons/light_bulb.svg",
       "intro_text": "We encourage you to set some ground rules.",
-      "text": "These may include:\n* Attend all the sessions.\n* Encourage others to attend regularly.\n* Encourage their spouses to enrol in the programme.\n* Do home practice when given.\n* See themselves as the village role model who should help others in regard to parenting.\n* Maintaining confidentiality.\n* Active participation by everyone for every session.",
+      "text": "These may include:\n* Complete all sessions and activities.\n* If you have a spouse, encourage them to take these sessions as well.\n* Encourage their spouses to enrol in the programme.\n* Do home practice when given.\n* Commit yourself to becoming a role model and a champion of good parenting in your community.\n* Maintaining confidentiality.",
       "question_text": "What will enable you to participate freely in the programme?",
       "question_type": "text_input_long"
     },
     {
       "id": "user_name",
       "title": "About you",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "question_text": "What is your name?",
       "question_type": "text_input"
     }

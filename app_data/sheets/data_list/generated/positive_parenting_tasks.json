@@ -28,14 +28,6 @@
       "completed": "@fields.task_parent_childhood_review_hp_completed"
     },
     {
-      "id": "positive_parenting_intro",
-      "priority": 4,
-      "data_list_name": "intro",
-      "row_id": "positive_parenting",
-      "completed_field": "task_positive_parenting_intro_completed",
-      "completed": "@fields.task_positive_parenting_intro_completed"
-    },
-    {
       "id": "positive_parenting_behavior_tbg",
       "priority": 5,
       "data_list_name": "topic_block_group",

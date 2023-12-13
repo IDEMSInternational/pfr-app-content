@@ -22,12 +22,6 @@
       "row_id": "parent_childhood"
     },
     {
-      "id": "positive_parenting_intro",
-      "priority": 4,
-      "data_list_name": "intro",
-      "row_id": "positive_parenting"
-    },
-    {
       "id": "positive_parenting_behavior_tbg",
       "priority": 5,
       "data_list_name": "topic_block_group",

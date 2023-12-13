@@ -28,14 +28,6 @@
       "completed": "@fields.task_child_dev_review_hp_completed"
     },
     {
-      "id": "parent_childhood_intro",
-      "priority": 4,
-      "data_list_name": "intro",
-      "row_id": "parent_childhood",
-      "completed_field": "task_parent_childhood_intro_completed",
-      "completed": "@fields.task_parent_childhood_intro_completed"
-    },
-    {
       "id": "parent_childhood_legacy_tbg",
       "priority": 5,
       "data_list_name": "topic_block_group",

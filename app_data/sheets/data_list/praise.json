@@ -6,87 +6,121 @@
     {
       "id": "onboarding",
       "title": "Well done!",
-      "intro_text": "Congratulations for completing the @data.session.onboarding.title session."
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations for completing the @data.session.onboarding.title session.",
+      "image": "images/icons/cup.svg"
     },
     {
       "id": "family_relation",
       "title": "Well done!",
-      "intro_text": "Congratulations for completing the @data.session.family_relation.title session."
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations for completing the @data.session.family_relation.title session.",
+      "image": "images/icons/cup.svg"
     },
     {
       "id": "current_pract",
       "title": "Well done!",
-      "intro_text": "Congratulations for completing the @data.session.current_pract.title session."
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations for completing the @data.session.current_pract.title session.",
+      "image": "images/icons/cup.svg"
     },
     {
       "id": "child_dev",
       "title": "Well done!",
-      "intro_text": "Congratulations for completing the @data.session.child_dev.title session."
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations for completing the @data.session.child_dev.title session.",
+      "image": "images/icons/cup.svg"
     },
     {
       "id": "parent_childhood",
       "title": "Well done!",
-      "intro_text": "Congratulations for completing the @data.session.parent_childhood.title session."
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations for completing the @data.session.parent_childhood.title session.",
+      "image": "images/icons/cup.svg"
     },
     {
       "id": "positive_parenting",
       "title": "Well done!",
-      "intro_text": "Congratulations for completing the @data.session.positive_parenting.title session."
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations for completing the @data.session.positive_parenting.title session.",
+      "image": "images/icons/cup.svg"
     },
     {
       "id": "gender_power",
       "title": "Well done!",
-      "intro_text": "Congratulations for completing the @data.session.gender_power.title session."
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations for completing the @data.session.gender_power.title session.",
+      "image": "images/icons/cup.svg"
     },
     {
       "id": "impact_conflict",
       "title": "Well done!",
-      "intro_text": "Congratulations for completing the @data.session.impact_conflict.title session."
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations for completing the @data.session.impact_conflict.title session.",
+      "image": "images/icons/cup.svg"
     },
     {
       "id": "sharing_care",
       "title": "Well done!",
-      "intro_text": "Congratulations for completing the @data.session.sharing_care.title session."
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations for completing the @data.session.sharing_care.title session.",
+      "image": "images/icons/cup.svg"
     },
     {
       "id": "healthy_relation",
       "title": "Well done!",
-      "intro_text": "Congratulations for completing the @data.session.healthy_relation.title session."
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations for completing the @data.session.healthy_relation.title session.",
+      "image": "images/icons/cup.svg"
     },
     {
       "id": "review",
       "title": "Well done!",
-      "intro_text": "Congratulations for completing the @data.session.review.title session."
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations for completing the @data.session.review.title session.",
+      "image": "images/icons/cup.svg"
     },
     {
       "id": "discipline",
       "title": "Well done!",
-      "intro_text": "Congratulations for completing the @data.session.discipline.title session."
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations for completing the @data.session.discipline.title session.",
+      "image": "images/icons/cup.svg"
     },
     {
       "id": "education",
       "title": "Well done!",
-      "intro_text": "Congratulations for completing the @data.session.education.title session."
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations for completing the @data.session.education.title session.",
+      "image": "images/icons/cup.svg"
     },
     {
       "id": "gender_equal",
       "title": "Well done!",
-      "intro_text": "Congratulations for completing the @data.session.gender_equal.title session."
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations for completing the @data.session.gender_equal.title session.",
+      "image": "images/icons/cup.svg"
     },
     {
       "id": "prevent_abuse",
       "title": "Well done!",
-      "intro_text": "Congratulations for completing the @data.session.prevent_abuse.title session."
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations for completing the @data.session.prevent_abuse.title session.",
+      "image": "images/icons/cup.svg"
     },
     {
       "id": "reduce_conflict",
       "title": "Well done!",
-      "intro_text": "Congratulations for completing the @data.session.reduce_conflict.title session."
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations for completing the @data.session.reduce_conflict.title session.",
+      "image": "images/icons/cup.svg"
     },
     {
       "id": "conclusion",
       "title": "Well done!",
-      "intro_text": "Congratulations for completing the @data.session.conclusion.title session."
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations for completing the @data.session.conclusion.title session.",
+      "image": "images/icons/cup.svg"
     }
   ],
   "_xlsxPath": "global/data_lists/sessions.xlsx"
