@@ -8,6 +8,7 @@
       "topic": "family_relation",
       "question_done": "Were you able to invite your partner/ other family members to reflect with you on the importance of close family relationships and practice an activity that made you come closer in love and relationship as a family?",
       "title": "Review your home practice: @data.topic.family_relation.title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp.family_relation.text",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
       "question_how": "How did your home practice go?",
@@ -24,6 +25,7 @@
       "feedback_happy": "Good job on getting you and your family to talk about parenting measures.",
       "outro_text": "Parenting measures will help you model positive behavior that helps in supporting your children to become responsible adults.",
       "title": "Review your home practice: @data.topic.current_pract.title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp.current_pract.text",
       "question_how": "How did your home practice go?",
       "feedback_okay": "Every small step counts. Keep up the good work!",
@@ -34,6 +36,7 @@
       "topic": "child_dev",
       "question_done": "Were you able to have an interactive play with your child while following their lead in the game they chose?",
       "title": "Review your home practice: @data.topic.child_dev.title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp.child_dev.text",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
       "question_how": "How did your home practice go?",
@@ -45,11 +48,12 @@
     {
       "id": "parent_childhood",
       "topic": "parent_childhood",
-      "question_done": "Did you get a chance to practice one positive thing from your childhood to improve your relationship with your children?",
+      "question_done": "Did you get a chance to practice one play or fun moment from your childhood that improves your relationship with your children?",
       "feedback_no": "Regularly taking initiative to do a positive practice to your child will help build a positive relationship with him/her. You can always refer back to this home practise activity in our session 4 on Attachment and Bonding - Influence of one’s own parents and positive discipline techniques",
       "feedback_happy": "Good job on integrating a positive practice from your childhood to improve the relationship with your child. We have a deep and long-lasting impact on our children’s lives. These legacies may be positive or negative and are passed on intentionally or unintentionally.",
       "outro_text": "Continue practicing positive things from your childhood with your child. This will strengthen the relationship you have with your child.",
       "title": "Review your home practice: @data.topic.parent_childhood.title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp.parent_childhood.text",
       "question_how": "How did your home practice go?",
       "feedback_okay": "Every small step counts. Keep up the good work!",
@@ -61,6 +65,7 @@
       "question_done": "Were you able to practice the new techniques of resolving conflict?",
       "question_other": "What were the benefits and challenges about the promise of having a non- violent home?",
       "title": "Review your home practice: @data.topic.impact_conflict.title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp.impact_conflict.text",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
       "question_how": "How did your home practice go?",
@@ -77,6 +82,7 @@
       "feedback_happy": "Good job on getting you and your family to talk about benefits and challenges of spending family time and the domestic chores or childcare activity you did with them.",
       "outro_text": "You can always find this home practise activity in our session 8 on Sharing Child Care Responsibility",
       "title": "Review your home practice: @data.topic.sharing_care.title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp.sharing_care.text",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
       "feedback_okay": "Every small step counts. Keep up the good work!",
@@ -90,6 +96,7 @@
       "feedback_happy": "Good job! Disciplining your child in positive ways will encourage good behavior and discourage bad behaviors hence promoting respect.",
       "outro_text": "Achieving good behavior takes practicing positive ways to discipline your child. You can always find this home practice activity in our session on Achieving Respectability and Discipline",
       "title": "Review your home practice: @data.topic.education.title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp.education.text",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
       "feedback_okay": "Every small step counts. Keep up the good work!",
@@ -100,6 +107,7 @@
       "topic": "gender_equal",
       "question_done": "Were able to discuss the effects of the gender norms and practices that influenced your adult behaviour and parenting styles today with your children and spouse; and together decide on what you should change?",
       "title": "Review your home practice: @data.topic.gender_equal.title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp.gender_equal.text",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
       "question_how": "How did your home practice go?",
@@ -114,6 +122,7 @@
       "question_how": "How was your experience?",
       "question_other": "What benefits and challenges of gender norms did you reflect on and what plans have you come up with to modify some of these on families?",
       "title": "Review your home practice: @data.topic.prevent_abuse.title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp.prevent_abuse.text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -125,6 +134,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -137,6 +147,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -149,6 +160,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -161,6 +173,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -173,6 +186,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -185,6 +199,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -197,6 +212,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -209,6 +225,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -221,6 +238,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -233,6 +251,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -245,6 +264,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -257,6 +277,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -269,6 +290,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -281,6 +303,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -293,6 +316,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -305,6 +329,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -317,6 +342,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -329,6 +355,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -341,6 +368,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -353,6 +381,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -365,6 +394,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -377,6 +407,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -389,6 +420,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -401,6 +433,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -413,6 +446,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -425,6 +459,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -437,6 +472,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -449,6 +485,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -461,6 +498,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -473,6 +511,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -485,6 +524,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -497,6 +537,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -509,6 +550,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -521,6 +563,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -533,6 +576,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -545,6 +589,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -557,6 +602,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -569,6 +615,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -581,6 +628,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -593,6 +641,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -605,6 +654,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -617,6 +667,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -629,6 +680,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -641,6 +693,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -653,6 +706,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -665,6 +719,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -677,6 +732,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -689,6 +745,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -701,6 +758,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -713,6 +771,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -725,6 +784,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -737,6 +797,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -749,6 +810,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -761,6 +823,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -773,6 +836,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -785,6 +849,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -797,6 +862,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -809,6 +875,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -821,6 +888,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -833,6 +901,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
@@ -845,6 +914,7 @@
     {
       "id": "",
       "title": "Review your home practice: @data.topic..title",
+      "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp..text",
       "question_done": "Did you get a chance to do your home practice?",
       "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",

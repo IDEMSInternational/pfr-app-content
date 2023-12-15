@@ -22,12 +22,6 @@
       "row_id": "child_dev"
     },
     {
-      "id": "parent_childhood_intro",
-      "priority": 4,
-      "data_list_name": "intro",
-      "row_id": "parent_childhood"
-    },
-    {
       "id": "parent_childhood_legacy_tbg",
       "priority": 5,
       "data_list_name": "topic_block_group",

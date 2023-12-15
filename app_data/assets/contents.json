@@ -3,6 +3,18 @@
     "md5Checksum": "91b71aa328f31c46b56bf7949448ae55",
     "size_kb": 1746.5
   },
+  "emojis/happier.svg": {
+    "md5Checksum": "0950af49455cc3a0f45fdb58a7729f69",
+    "size_kb": 0.6
+  },
+  "emojis/neutral.svg": {
+    "md5Checksum": "8f4bc93561fb7114ea8802a04a220fb8",
+    "size_kb": 0.5
+  },
+  "emojis/sad.svg": {
+    "md5Checksum": "1020fc8785a8f8aeeadfa74de88c73d3",
+    "size_kb": 0.6
+  },
   "images/X/child_dev.png": {
     "md5Checksum": "555458425a8251a6baa6ac770b59d642",
     "size_kb": 440.2
@@ -235,6 +247,10 @@
     "md5Checksum": "794a6cb601af82d57d1f4cebc2a416ef",
     "size_kb": 5
   },
+  "images/icons/ask_question.svg": {
+    "md5Checksum": "a442e88503da6639f07b956f55f935a8",
+    "size_kb": 1.4
+  },
   "images/icons/book.svg": {
     "md5Checksum": "1b287c85e36a3375196a2a6ee7a0bca3",
     "size_kb": 0.7
@@ -242,6 +258,10 @@
   "images/icons/book_white.svg": {
     "md5Checksum": "12c477faa57812b7a16bc6a0d0424c06",
     "size_kb": 0.7
+  },
+  "images/icons/cup.svg": {
+    "md5Checksum": "e0e8d2e92e7218264f93fd8640eb66fd",
+    "size_kb": 1.2
   },
   "images/icons/faces/happy.svg": {
     "md5Checksum": "971f8d822fb3d3d79163d0ed327b052d",
@@ -267,6 +287,18 @@
     "md5Checksum": "8e791b3a63a264780daa816589472b9e",
     "size_kb": 1.1
   },
+  "images/icons/light_bulb.svg": {
+    "md5Checksum": "f3db584a6f4c85a1c91c1f0c21f3949b",
+    "size_kb": 2.4
+  },
+  "images/icons/paper_pencil.svg": {
+    "md5Checksum": "2406f8b8c72c56aa52c484124f32b8c0",
+    "size_kb": 1.2
+  },
+  "images/icons/parent_child_heart.svg": {
+    "md5Checksum": "e0e9374e6badd81257bbb42505fbf92b",
+    "size_kb": 3
+  },
   "images/icons/pause.svg": {
     "md5Checksum": "b9a01b9c0b6ed86d47ff094f22d23c73",
     "size_kb": 0.7
@@ -274,6 +306,10 @@
   "images/icons/pause_white.svg": {
     "md5Checksum": "f6989826fb94a865281b035fa155689d",
     "size_kb": 0.7
+  },
+  "images/icons/picture_book.svg": {
+    "md5Checksum": "398b07248ce7b5b59ef471466d089af4",
+    "size_kb": 1.8
   },
   "images/icons/play.svg": {
     "md5Checksum": "5393d2113acd3a4b7d5f03795067a678",
@@ -283,9 +319,21 @@
     "md5Checksum": "6508bf39f8cb3c3ab0f30b96994a6cbc",
     "size_kb": 0.5
   },
+  "images/icons/smile.svg": {
+    "md5Checksum": "f42f7fb9cb105b8bf1f465533a1362c4",
+    "size_kb": 0.6
+  },
+  "images/icons/smile_eyes_down.svg": {
+    "md5Checksum": "3e00c1fa0db9fabcfe65d6846e833c6e",
+    "size_kb": 0.9
+  },
   "images/icons/star.svg": {
     "md5Checksum": "7d4e0f861269a6d8b84456aa7302fa8e",
     "size_kb": 0.6
+  },
+  "images/icons/thought_bubble.svg": {
+    "md5Checksum": "860f0a38023afb4e888fe885f4f02f9a",
+    "size_kb": 2.1
   },
   "images/icons/tick.svg": {
     "md5Checksum": "b4e6f1e9ba6e5bcdd2e404bc432ba745",

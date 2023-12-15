@@ -28,14 +28,6 @@
       "completed": "@fields.task_current_pract_review_hp_completed"
     },
     {
-      "id": "child_dev_intro",
-      "priority": 4,
-      "data_list_name": "intro",
-      "row_id": "child_dev",
-      "completed_field": "task_child_dev_intro_completed",
-      "completed": "@fields.task_child_dev_intro_completed"
-    },
-    {
       "id": "child_dev_stages_tbg",
       "priority": 5,
       "data_list_name": "topic_block_group",

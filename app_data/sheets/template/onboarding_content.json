@@ -357,7 +357,8 @@
         }
       ],
       "parameter_list": {
-        "placeholder": "@local.placeholder"
+        "placeholder": "@local.placeholder",
+        "text_align": "left"
       },
       "condition": "@local.row_data.question_type == \"text_input\"",
       "_nested_name": "text_box",
@@ -457,7 +458,8 @@
         }
       ],
       "parameter_list": {
-        "placeholder": "@local.placeholder"
+        "placeholder": "@local.placeholder",
+        "text_align": "left"
       },
       "condition": "@local.row_data.question_type == \"text_input_long\"",
       "_nested_name": "text_area",

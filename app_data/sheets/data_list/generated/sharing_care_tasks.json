@@ -28,14 +28,6 @@
       "completed": "@fields.task_impact_conflict_review_hp_completed"
     },
     {
-      "id": "sharing_care_intro",
-      "priority": 4,
-      "data_list_name": "intro",
-      "row_id": "sharing_care",
-      "completed_field": "task_sharing_care_intro_completed",
-      "completed": "@fields.task_sharing_care_intro_completed"
-    },
-    {
       "id": "sharing_care_tbg_1",
       "priority": 5,
       "data_list_name": "topic_block_group",

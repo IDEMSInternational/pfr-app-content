@@ -6,6 +6,7 @@
     {
       "id": "interactive_play_distracted",
       "topic": "child_dev",
+      "icon_asset": "images/icons/picture_book.svg",
       "slide_1_text": "A mother is busy on the phone.",
       "slide_2_text": "Her son David keeps talking to her trying to get her attention to join and enjoy play.",
       "slide_3_text": "The child gets disappointed and annoyed."
@@ -22,21 +23,21 @@
       "topic": "parent_childhood",
       "gender": "men",
       "intro_text": "Here's a story of a supportive father in child care.",
-      "slide_1_text": "Ssemakula from Kirowoza village is married with four children. Whenever his wife is pregnant, Mr. Ssemakula accompanies her to the Health Centre and brings her back home.",
-      "slide_2_text": "The family does not have a lot of money, but they seem happy and healthy. On weekends, the family works together on the farm.",
-      "slide_3_text": "Whenever the wife delivers, Ssemakula takes turns with her to look after the baby even at night when the child is restless or crying.",
-      "slide_4_text": "In his compound, Ssemakula plays different games with the older children such as football, hide and seek, and spends time reading with them and teaching them to ride the bicycle."
+      "slide_1_text": "Mr. Ssemakula is married with four children. Whenever his wife is pregnant, Mr. Ssemakula supports her by accompanying her to the health facility.",
+      "slide_2_text": "Whenever the wife delivers and the baby is about 2 - 3 weeks, he takes turns with his wife to carry the crying baby in the night.",
+      "slide_3_text": "He picks up any opportunity in his busy schedule to cuddle with his children including finding play time for out and indoor games.",
+      "slide_4_text": "Within their limited resources, his family seems happy and healthy. On most weekends, the family works and eats together."
     },
     {
       "id": "managing_behaviour",
       "topic": "positive_parenting",
-      "slide_1_text": "Sarah's mother is washing clothes while his younger brother is playing with bricks.",
+      "slide_1_text": "Sarah was trying to get her brother to play with her.",
       "slide_1_image_asset": "images/managing_difficult_behaviour_1.jpg",
-      "slide_2_text": "Sarah walks toward his brother\n \nSarah humbly: \"Give it to me!\"",
+      "slide_2_text": "Instead of the mother encouraging them to enjoy the play together, she made it worse by shouting at her daughter Sarah. This is common in our everyday lives. As parents, we tend to favor the young ones at the expense of the older ones.",
       "slide_2_image_asset": "images/managing_difficult_behaviour_2.jpg",
-      "slide_3_text": "Sarah's mother shouting: \"Please give the bricks back to your brother.\"",
+      "slide_3_text": "The mother needed to resolve the problem between the two siblings instead of referring the issue to their father.",
       "slide_3_image_asset": "images/managing_difficult_behaviour_3.jpg",
-      "slide_4_text": "Sarah's brother begins to cry :\n\"WAAAAH...Mama\"",
+      "slide_4_text": "She needed to help the to children to happily play together.",
       "slide_4_image_asset": "images/managing_difficult_behaviour_4.jpg",
       "slide_5_text": "Sarah's mother: Sarah, if you cannot place nicely with your brother, I will tell your father.\nSarah's brother continues crying.",
       "slide_5_image_asset": "images/managing_difficult_behaviour_5.jpg"

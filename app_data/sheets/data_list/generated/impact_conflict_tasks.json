@@ -20,14 +20,6 @@
       "completed": "@fields.task_impact_conflict_relax_completed"
     },
     {
-      "id": "impact_conflict_intro",
-      "priority": 4,
-      "data_list_name": "intro",
-      "row_id": "impact_conflict",
-      "completed_field": "task_impact_conflict_intro_completed",
-      "completed": "@fields.task_impact_conflict_intro_completed"
-    },
-    {
       "id": "impact_conflict_tbg",
       "priority": 5,
       "data_list_name": "topic_block_group",

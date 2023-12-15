@@ -28,14 +28,6 @@
       "completed": "@fields.task_sharing_care_review_hp_completed"
     },
     {
-      "id": "healthy_relation_intro",
-      "priority": 4,
-      "data_list_name": "intro",
-      "row_id": "healthy_relation",
-      "completed_field": "task_healthy_relation_intro_completed",
-      "completed": "@fields.task_healthy_relation_intro_completed"
-    },
-    {
       "id": "healthy_relation_tbg_1",
       "priority": 5,
       "data_list_name": "topic_block_group",
