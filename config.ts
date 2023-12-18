@@ -20,6 +20,7 @@ config.error_logging = {
   dsn: "https://b28164f40cf444d5860c68ce3c66c362@app.glitchtip.com/2975",
 };
 
+config.api.db_name = "pfr"
 config.app_data.output_path = "./app_data";
 
 config.app_config.APP_THEMES.available = ["default", "pfr"];
