@@ -4,24 +4,21 @@
   "flow_type": "data_list",
   "rows": [
     {
-      "id": "current_pract_check_in",
-      "priority": 1,
-      "data_list_name": "check_in",
-      "row_id": "id_1",
-      "completed_field": "task_current_pract_check_in_completed",
-      "completed": "@fields.task_current_pract_check_in_completed"
-    },
-    {
       "id": "current_pract_relax",
-      "priority": 2,
       "data_list_name": "relax",
       "row_id": "id_1",
       "completed_field": "task_current_pract_relax_completed",
       "completed": "@fields.task_current_pract_relax_completed"
     },
     {
+      "id": "current_pract_check_in",
+      "data_list_name": "check_in",
+      "row_id": "id_1",
+      "completed_field": "task_current_pract_check_in_completed",
+      "completed": "@fields.task_current_pract_check_in_completed"
+    },
+    {
       "id": "family_relation_review_hp",
-      "priority": 3,
       "data_list_name": "review_hp",
       "row_id": "family_relation",
       "completed_field": "task_family_relation_review_hp_completed",
@@ -29,7 +26,6 @@
     },
     {
       "id": "current_pract_tips_1",
-      "priority": 11,
       "data_list_name": "tips",
       "row_id": "child_perception",
       "completed_field": "task_current_pract_tips_1_completed",
@@ -37,7 +33,6 @@
     },
     {
       "id": "current_pract_tbg",
-      "priority": 12,
       "data_list_name": "topic_block_group",
       "row_id": "child_20",
       "completed_field": "task_current_pract_tbg_completed",
@@ -45,7 +40,6 @@
     },
     {
       "id": "current_pract_quiz",
-      "priority": 13,
       "data_list_name": "quiz",
       "row_id": "picture_quiz",
       "completed_field": "task_current_pract_quiz_completed",
@@ -53,7 +47,6 @@
     },
     {
       "id": "current_pract_tips_2",
-      "priority": 14,
       "data_list_name": "tips",
       "row_id": "raise_child",
       "completed_field": "task_current_pract_tips_2_completed",
@@ -61,7 +54,6 @@
     },
     {
       "id": "current_pract_set_hp",
-      "priority": 16,
       "data_list_name": "set_hp",
       "row_id": "current_pract",
       "completed_field": "task_current_pract_set_hp_completed",
@@ -69,7 +61,6 @@
     },
     {
       "id": "current_pract_praise",
-      "priority": 17,
       "data_list_name": "praise",
       "row_id": "current_pract",
       "completed_field": "task_current_pract_praise_completed",

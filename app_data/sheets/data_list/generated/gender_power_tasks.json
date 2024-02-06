@@ -4,24 +4,21 @@
   "flow_type": "data_list",
   "rows": [
     {
-      "id": "gender_power_check_in",
-      "priority": 1,
-      "data_list_name": "check_in",
-      "row_id": "id_1",
-      "completed_field": "task_gender_power_check_in_completed",
-      "completed": "@fields.task_gender_power_check_in_completed"
-    },
-    {
       "id": "gender_power_relax",
-      "priority": 2,
       "data_list_name": "relax",
       "row_id": "id_1",
       "completed_field": "task_gender_power_relax_completed",
       "completed": "@fields.task_gender_power_relax_completed"
     },
     {
+      "id": "gender_power_check_in",
+      "data_list_name": "check_in",
+      "row_id": "id_1",
+      "completed_field": "task_gender_power_check_in_completed",
+      "completed": "@fields.task_gender_power_check_in_completed"
+    },
+    {
       "id": "gender_power_stereotypes_tbg",
-      "priority": 5,
       "data_list_name": "topic_block_group",
       "row_id": "gender_stereotypes",
       "completed_field": "task_gender_power_stereotypes_tbg_completed",
@@ -29,7 +26,6 @@
     },
     {
       "id": "gender_power_tips",
-      "priority": 6,
       "data_list_name": "tips",
       "row_id": "gender_power",
       "completed_field": "task_gender_power_tips_completed",
@@ -37,7 +33,6 @@
     },
     {
       "id": "gender_power_praise",
-      "priority": 18,
       "data_list_name": "praise",
       "row_id": "gender_power",
       "completed_field": "task_gender_power_praise_completed",

@@ -79,106 +79,13 @@
       }
     },
     {
-      "type": "title",
-      "name": "title",
-      "value": "@local.row_data.title",
+      "type": "lottie_animation",
+      "name": "lottie_circles",
+      "value": "lottie/bulging_circles.json",
       "_translations": {
         "value": {}
       },
-      "condition": "!!(@local.row_data.title)",
-      "_nested_name": "title",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@local.row_data.title",
-            "matchedExpression": "@local.row_data.title",
-            "type": "local",
-            "fieldName": "row_data"
-          }
-        ],
-        "condition": [
-          {
-            "fullExpression": "!!(@local.row_data.title)",
-            "matchedExpression": "@local.row_data.title",
-            "type": "local",
-            "fieldName": "row_data"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@local.row_data.title": [
-          "value",
-          "condition"
-        ]
-      }
-    },
-    {
-      "type": "text",
-      "name": "intro_text",
-      "value": "@local.row_data.intro_text",
-      "_translations": {
-        "value": {}
-      },
-      "condition": "!!(@local.row_data.intro_text)",
-      "_nested_name": "intro_text",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@local.row_data.intro_text",
-            "matchedExpression": "@local.row_data.intro_text",
-            "type": "local",
-            "fieldName": "row_data"
-          }
-        ],
-        "condition": [
-          {
-            "fullExpression": "!!(@local.row_data.intro_text)",
-            "matchedExpression": "@local.row_data.intro_text",
-            "type": "local",
-            "fieldName": "row_data"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@local.row_data.intro_text": [
-          "value",
-          "condition"
-        ]
-      }
-    },
-    {
-      "type": "text",
-      "name": "text",
-      "value": "@local.row_data.text",
-      "_translations": {
-        "value": {}
-      },
-      "condition": "!!(@local.row_data.text)",
-      "_nested_name": "text",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@local.row_data.text",
-            "matchedExpression": "@local.row_data.text",
-            "type": "local",
-            "fieldName": "row_data"
-          }
-        ],
-        "condition": [
-          {
-            "fullExpression": "!!(@local.row_data.text)",
-            "matchedExpression": "@local.row_data.text",
-            "type": "local",
-            "fieldName": "row_data"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@local.row_data.text": [
-          "value",
-          "condition"
-        ]
-      }
+      "_nested_name": "lottie_circles"
     },
     {
       "name": "audio_transcript",
@@ -229,15 +136,6 @@
       }
     },
     {
-      "name": "audio_title",
-      "value": "Listen and relax",
-      "_translations": {
-        "value": {}
-      },
-      "type": "set_variable",
-      "_nested_name": "audio_title"
-    },
-    {
       "type": "audio",
       "name": "audio",
       "value": "@local.audio_asset",
@@ -245,7 +143,7 @@
         "value": {}
       },
       "parameter_list": {
-        "title": "@local.audio_title"
+        "title": "@local.row_data.title"
       },
       "_nested_name": "audio",
       "_dynamicFields": {
@@ -260,10 +158,10 @@
         "parameter_list": {
           "title": [
             {
-              "fullExpression": "@local.audio_title",
-              "matchedExpression": "@local.audio_title",
+              "fullExpression": "@local.row_data.title",
+              "matchedExpression": "@local.row_data.title",
               "type": "local",
-              "fieldName": "audio_title"
+              "fieldName": "row_data"
             }
           ]
         }
@@ -272,120 +170,53 @@
         "@local.audio_asset": [
           "value"
         ],
-        "@local.audio_title": [
+        "@local.row_data.title": [
           "parameter_list.title"
         ]
       }
     },
     {
       "type": "button",
-      "name": "button",
-      "value": "Read and relax",
+      "name": "button_@item.id",
+      "value": "Transcript",
       "_translations": {
         "value": {}
       },
       "action_list": [
         {
           "trigger": "click",
-          "action_id": "set_field",
-          "args": [
-            "current_relax_id",
-            "@local.id"
-          ],
-          "_raw": "click | set_field: current_relax_id: @local.id",
-          "_cleaned": "click | set_field: current_relax_id: @local.id"
-        },
-        {
-          "trigger": "click",
           "action_id": "pop_up",
           "args": [
             "relax_text"
           ],
-          "_raw": "click | pop_up: relax_text",
-          "_cleaned": "click | pop_up: relax_text"
+          "_raw": "click | pop_up:relax_text",
+          "_cleaned": "click | pop_up:relax_text"
         }
       ],
-      "_nested_name": "button",
+      "exclude_from_translation": true,
+      "_nested_name": "button_@item.id",
       "_dynamicFields": {
-        "action_list": {
-          "0": {
-            "args": {
-              "1": [
-                {
-                  "fullExpression": "@local.id",
-                  "matchedExpression": "@local.id",
-                  "type": "local",
-                  "fieldName": "id"
-                }
-              ]
-            },
-            "_raw": [
-              {
-                "fullExpression": "click | set_field: current_relax_id: @local.id",
-                "matchedExpression": "@local.id",
-                "type": "local",
-                "fieldName": "id"
-              }
-            ],
-            "_cleaned": [
-              {
-                "fullExpression": "click | set_field: current_relax_id: @local.id",
-                "matchedExpression": "@local.id",
-                "type": "local",
-                "fieldName": "id"
-              }
-            ]
-          }
-        }
-      },
-      "_dynamicDependencies": {
-        "@local.id": [
-          "action_list.0.args.1",
-          "action_list.0._raw",
-          "action_list.0._cleaned"
-        ]
-      }
-    },
-    {
-      "type": "template",
-      "name": "nav_buttons",
-      "value": "nav_buttons",
-      "action_list": [
-        {
-          "trigger": "completed",
-          "action_id": "emit",
-          "args": [
-            "completed"
-          ],
-          "_raw": "completed | emit: completed",
-          "_cleaned": "completed | emit: completed"
-        },
-        {
-          "trigger": "uncompleted",
-          "action_id": "emit",
-          "args": [
-            "uncompleted"
-          ],
-          "_raw": "uncompleted | emit: uncompleted",
-          "_cleaned": "uncompleted | emit: uncompleted"
-        }
-      ],
-      "condition": "@fields.show_nav_buttons",
-      "rows": [],
-      "_nested_name": "nav_buttons",
-      "_dynamicFields": {
-        "condition": [
+        "name": [
           {
-            "fullExpression": "@fields.show_nav_buttons",
-            "matchedExpression": "@fields.show_nav_buttons",
-            "type": "fields",
-            "fieldName": "show_nav_buttons"
+            "fullExpression": "button_@item.id",
+            "matchedExpression": "@item.id",
+            "type": "item",
+            "fieldName": "id"
+          }
+        ],
+        "_nested_name": [
+          {
+            "fullExpression": "button_@item.id",
+            "matchedExpression": "@item.id",
+            "type": "item",
+            "fieldName": "id"
           }
         ]
       },
       "_dynamicDependencies": {
-        "@fields.show_nav_buttons": [
-          "condition"
+        "@item.id": [
+          "name",
+          "_nested_name"
         ]
       }
     }

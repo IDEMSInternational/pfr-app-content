@@ -218,7 +218,7 @@
       "id": "session_review",
       "topic": "session_review",
       "title": "Review",
-      "icon_asset": "imagesicons/ask_question.svg",
+      "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let us review sessions 1-9 and share some of the lessons learned.",
       "task_1_data": "quiz",
       "task_1_id": "session_review",

@@ -4,24 +4,21 @@
   "flow_type": "data_list",
   "rows": [
     {
-      "id": "education_check_in",
-      "priority": 1,
-      "data_list_name": "check_in",
-      "row_id": "id_1",
-      "completed_field": "task_education_check_in_completed",
-      "completed": "@fields.task_education_check_in_completed"
-    },
-    {
       "id": "education_relax",
-      "priority": 2,
       "data_list_name": "relax",
       "row_id": "id_1",
       "completed_field": "task_education_relax_completed",
       "completed": "@fields.task_education_relax_completed"
     },
     {
+      "id": "education_check_in",
+      "data_list_name": "check_in",
+      "row_id": "id_1",
+      "completed_field": "task_education_check_in_completed",
+      "completed": "@fields.task_education_check_in_completed"
+    },
+    {
       "id": "discipline_review_hp",
-      "priority": 3,
       "data_list_name": "review_hp",
       "row_id": "discipline",
       "completed_field": "task_discipline_review_hp_completed",
@@ -29,7 +26,6 @@
     },
     {
       "id": "education_tbg",
-      "priority": 5,
       "data_list_name": "topic_block_group",
       "row_id": "education",
       "completed_field": "task_education_tbg_completed",
@@ -37,7 +33,6 @@
     },
     {
       "id": "education_needs_tbg",
-      "priority": 6,
       "data_list_name": "topic_block_group",
       "row_id": "school_needs",
       "completed_field": "task_education_needs_tbg_completed",
@@ -45,7 +40,6 @@
     },
     {
       "id": "education_encourage_tbg",
-      "priority": 7,
       "data_list_name": "topic_block_group",
       "row_id": "encourage_school",
       "completed_field": "task_education_encourage_tbg_completed",
@@ -53,7 +47,6 @@
     },
     {
       "id": "education_tips",
-      "priority": 9,
       "data_list_name": "tips",
       "row_id": "education",
       "completed_field": "task_education_tips_completed",
@@ -61,7 +54,6 @@
     },
     {
       "id": "education_set_hp",
-      "priority": 16,
       "data_list_name": "set_hp",
       "row_id": "education",
       "completed_field": "task_education_set_hp_completed",
@@ -69,7 +61,6 @@
     },
     {
       "id": "education_praise",
-      "priority": 18,
       "data_list_name": "praise",
       "row_id": "education",
       "completed_field": "task_education_praise_completed",
