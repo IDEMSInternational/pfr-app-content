@@ -1,6 +1,11 @@
 {
   "asset_pack": {},
   "data_list": {
+    "Data  List v1": {
+      "flow_type": "data_list",
+      "flow_name": "Data  List v1",
+      "_xlsxPath": "global/data_lists/sessions.xlsx"
+    },
     "app_section_data": {
       "flow_type": "data_list",
       "flow_name": "app_section_data",
@@ -1190,6 +1195,16 @@
     "home_screen": {
       "flow_type": "template",
       "flow_name": "home_screen",
+      "_xlsxPath": "global/templates/navigation_templates.xlsx",
+      "_overrides": {
+        "home_screen_modular": "@fields._app_skin == \"modular\""
+      }
+    },
+    "home_screen_modular": {
+      "flow_type": "template",
+      "flow_name": "home_screen_modular",
+      "override_target": "home_screen",
+      "override_condition": "@fields._app_skin == \"modular\"",
       "_xlsxPath": "global/templates/navigation_templates.xlsx"
     },
     "intro": {
@@ -1250,6 +1265,11 @@
     "relax": {
       "flow_type": "template",
       "flow_name": "relax",
+      "_xlsxPath": "global/templates/blocks/session_blocks.xlsx"
+    },
+    "relax_card": {
+      "flow_type": "template",
+      "flow_name": "relax_card",
       "_xlsxPath": "global/templates/blocks/session_blocks.xlsx"
     },
     "relax_text": {

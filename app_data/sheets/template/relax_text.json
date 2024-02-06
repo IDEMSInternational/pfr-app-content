@@ -5,27 +5,12 @@
   "rows": [
     {
       "name": "relax_id",
-      "value": "@fields.current_relax_id",
+      "value": "id_1",
       "_translations": {
         "value": {}
       },
       "type": "set_variable",
-      "_nested_name": "relax_id",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@fields.current_relax_id",
-            "matchedExpression": "@fields.current_relax_id",
-            "type": "fields",
-            "fieldName": "current_relax_id"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@fields.current_relax_id": [
-          "value"
-        ]
-      }
+      "_nested_name": "relax_id"
     },
     {
       "name": "relax_relax_id",

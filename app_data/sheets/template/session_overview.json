@@ -786,9 +786,6 @@
     {
       "type": "items",
       "value": "@data.@local.task_data",
-      "parameter_list": {
-        "sort": "priority"
-      },
       "exclude_from_translation": true,
       "rows": [
         {
