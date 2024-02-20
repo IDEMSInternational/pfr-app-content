@@ -48,7 +48,7 @@
     },
     {
       "type": "display_group",
-      "name": "dg_highlighted_module",
+      "name": "dg_highlighted_session",
       "parameter_list": {
         "style": "column"
       },
@@ -67,7 +67,7 @@
               },
               "exclude_from_translation": true,
               "type": "set_variable",
-              "_nested_name": "dg_highlighted_module.highlighted_session_card.session_id",
+              "_nested_name": "dg_highlighted_session.highlighted_session_card.session_id",
               "_dynamicFields": {
                 "value": [
                   {
@@ -92,13 +92,13 @@
               },
               "exclude_from_translation": true,
               "type": "set_variable",
-              "_nested_name": "dg_highlighted_module.highlighted_session_card.card_style"
+              "_nested_name": "dg_highlighted_session.highlighted_session_card.card_style"
             }
           ],
-          "_nested_name": "dg_highlighted_module.highlighted_session_card"
+          "_nested_name": "dg_highlighted_session.highlighted_session_card"
         }
       ],
-      "_nested_name": "dg_highlighted_module"
+      "_nested_name": "dg_highlighted_session"
     },
     {
       "type": "title",
@@ -110,38 +110,74 @@
       "_nested_name": "title"
     },
     {
-      "type": "carousel",
-      "name": "carousel",
+      "type": "display_group",
+      "name": "dg_all_session",
       "parameter_list": {
-        "space_between": "8",
-        "task_group_data": "session_tasks"
+        "style": "column"
       },
-      "exclude_from_translation": true,
       "rows": [
         {
-          "type": "items",
-          "value": "@data.session_tasks",
+          "type": "carousel",
+          "name": "carousel",
+          "parameter_list": {
+            "space_between": "8",
+            "task_group_data": "session_tasks"
+          },
           "exclude_from_translation": true,
           "rows": [
             {
-              "type": "template",
-              "name": "session_card_@item.id",
-              "value": "session_card",
+              "type": "items",
+              "value": "@data.session_tasks",
               "exclude_from_translation": true,
               "rows": [
                 {
-                  "name": "session_id",
-                  "value": "@item.id",
-                  "_translations": {
-                    "value": {}
-                  },
+                  "type": "template",
+                  "name": "session_card_@item.id",
+                  "value": "session_card",
                   "exclude_from_translation": true,
-                  "type": "set_variable",
-                  "_nested_name": "carousel.items.session_card_@item.id.session_id",
+                  "rows": [
+                    {
+                      "name": "session_id",
+                      "value": "@item.id",
+                      "_translations": {
+                        "value": {}
+                      },
+                      "exclude_from_translation": true,
+                      "type": "set_variable",
+                      "_nested_name": "dg_all_session.carousel.items.session_card_@item.id.session_id",
+                      "_dynamicFields": {
+                        "value": [
+                          {
+                            "fullExpression": "@item.id",
+                            "matchedExpression": "@item.id",
+                            "type": "item",
+                            "fieldName": "id"
+                          }
+                        ],
+                        "_nested_name": [
+                          {
+                            "fullExpression": "dg_all_session.carousel.items.session_card_@item.id.session_id",
+                            "matchedExpression": "@item.id.session_id",
+                            "type": "item",
+                            "fieldName": "id"
+                          }
+                        ]
+                      },
+                      "_dynamicDependencies": {
+                        "@item.id": [
+                          "value"
+                        ],
+                        "@item.id.session_id": [
+                          "_nested_name"
+                        ]
+                      }
+                    }
+                  ],
+                  "_nested_name": "dg_all_session.carousel.items.session_card_@item.id",
                   "_dynamicFields": {
-                    "value": [
+                    "name": [
                       {
-                        "fullExpression": "@item.id",
+                        "fullExpression": "session_card_@item.id",
                         "matchedExpression": "@item.id",
                         "type": "item",
                         "fieldName": "id"
@@ -149,8 +185,8 @@
                     ],
                     "_nested_name": [
                       {
-                        "fullExpression": "carousel.items.session_card_@item.id.session_id",
-                        "matchedExpression": "@item.id.session_id",
+                        "fullExpression": "dg_all_session.carousel.items.session_card_@item.id",
+                        "matchedExpression": "@item.id",
                         "type": "item",
                         "fieldName": "id"
                       }
@@ -158,61 +194,35 @@
                   },
                   "_dynamicDependencies": {
                     "@item.id": [
-                      "value"
-                    ],
-                    "@item.id.session_id": [
+                      "name",
                       "_nested_name"
                     ]
                   }
                 }
               ],
-              "_nested_name": "carousel.items.session_card_@item.id",
+              "name": "items",
+              "_nested_name": "dg_all_session.carousel.items",
               "_dynamicFields": {
-                "name": [
+                "value": [
                   {
-                    "fullExpression": "session_card_@item.id",
-                    "matchedExpression": "@item.id",
-                    "type": "item",
-                    "fieldName": "id"
-                  }
-                ],
-                "_nested_name": [
-                  {
-                    "fullExpression": "carousel.items.session_card_@item.id",
-                    "matchedExpression": "@item.id",
-                    "type": "item",
-                    "fieldName": "id"
+                    "fullExpression": "@data.session_tasks",
+                    "matchedExpression": "@data.session_tasks",
+                    "type": "data",
+                    "fieldName": "session_tasks"
                   }
                 ]
               },
               "_dynamicDependencies": {
-                "@item.id": [
-                  "name",
-                  "_nested_name"
+                "@data.session_tasks": [
+                  "value"
                 ]
               }
             }
           ],
-          "name": "items",
-          "_nested_name": "carousel.items",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@data.session_tasks",
-                "matchedExpression": "@data.session_tasks",
-                "type": "data",
-                "fieldName": "session_tasks"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@data.session_tasks": [
-              "value"
-            ]
-          }
+          "_nested_name": "dg_all_session.carousel"
         }
       ],
-      "_nested_name": "carousel"
+      "_nested_name": "dg_all_session"
     }
   ],
   "_xlsxPath": "global/templates/navigation_templates.xlsx"
