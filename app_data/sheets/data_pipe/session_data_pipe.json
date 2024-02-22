@@ -4,13 +4,21 @@
   "status": "released",
   "rows": [
     {
+      "operation": "map",
+      "args_list": [
+        "session_id: @row.id",
+        "id: {@row.id}_tasks",
+        "number: @row.number"
+      ],
+      "input_source": "session"
+    },
+    {
       "operation": "append_columns",
       "args_list": [
-        "completed_field: task_{@row.id}_completed",
+        "completed_field: task_{@row.session_id}_completed",
         "completed: @fields.@row.completed_field",
-        "skipped_field: task_{@row.id}_skipped"
+        "skipped_field: task_{@row.session_id}_skipped"
       ],
-      "input_source": "session",
       "output_target": "session_tasks"
     }
   ],
