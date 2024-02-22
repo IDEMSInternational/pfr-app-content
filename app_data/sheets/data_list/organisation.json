@@ -6,14 +6,13 @@
   "rows": [
     {
       "id": "organisation_1",
-      "name": "CHDC",
-      "image_asset": "logos/CHDC_logo.png",
+      "name": "Child Health and Development Centre (CDHC)",
       "group": "partners",
       "attached_single_doc": "https://docs.google.com/document/d/1PWD0URrev1bVlK8SnK3LeU_lvEXbao7Jm43hegGVMGk"
     },
     {
       "id": "organisation_2",
-      "name": "Oxford Uni",
+      "name": "University of Oxford",
       "image_asset": "logos/university_of_oxford.png",
       "group": "partners"
     },
@@ -25,7 +24,7 @@
     },
     {
       "id": "organisation_4",
-      "name": "Makerere Uni",
+      "name": "Makerere University",
       "image_asset": "logos/makerere_university_logo.png",
       "group": "partners"
     },

@@ -1288,13 +1288,13 @@
       "flow_type": "template",
       "flow_subtype": "legal_terms",
       "flow_name": "app_menu_privacy_policy",
-      "_xlsxPath": "global/templates/legal_terms_pfr.xlsx"
+      "_xlsxPath": "global/templates/app_launch_templates.xlsx"
     },
     "app_menu_terms": {
       "flow_type": "template",
       "flow_subtype": "legal_terms",
       "flow_name": "app_menu_terms",
-      "_xlsxPath": "global/templates/legal_terms_pfr.xlsx"
+      "_xlsxPath": "global/templates/app_launch_templates.xlsx"
     },
     "library": {
       "flow_type": "template",
