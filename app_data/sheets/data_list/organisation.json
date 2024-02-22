@@ -1,0 +1,94 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "organisation",
+  "status": "released",
+  "data_list_name": "organisation",
+  "rows": [
+    {
+      "id": "organisation_1",
+      "name": "CHDC",
+      "image_asset": "logos/CHDC_logo.png",
+      "group": "partners",
+      "attached_single_doc": "https://docs.google.com/document/d/1PWD0URrev1bVlK8SnK3LeU_lvEXbao7Jm43hegGVMGk"
+    },
+    {
+      "id": "organisation_2",
+      "name": "Oxford Uni",
+      "image_asset": "logos/university_of_oxford.png",
+      "group": "partners"
+    },
+    {
+      "id": "organisation_3",
+      "name": "GPI",
+      "image_asset": "logos/GPI_logo.png",
+      "group": "partners"
+    },
+    {
+      "id": "organisation_4",
+      "name": "Makerere Uni",
+      "image_asset": "logos/makerere_university_logo.png",
+      "group": "partners"
+    },
+    {
+      "id": "organisation_5",
+      "name": "SVRI",
+      "image_asset": "logos/SVRI_logo.png",
+      "group": "partners"
+    },
+    {
+      "id": "organisation_6",
+      "name": "Uni of Glasgow",
+      "image_asset": "logos/University_of_Glasgow-logo.png",
+      "group": "partners"
+    },
+    {
+      "id": "organisation_7",
+      "name": "SOS Children's Home",
+      "image_asset": "logos/sos_logo.png",
+      "group": "partners"
+    },
+    {
+      "id": "organisation_8",
+      "name": "PfR",
+      "image_asset": "images/pfr_latest_logo.jpg",
+      "group": "partners"
+    },
+    {
+      "id": "organisation_9",
+      "name": "IDEMS",
+      "image_asset": "logos/idems.png",
+      "group": "partners"
+    },
+    {
+      "id": "organisation_10",
+      "name": "INNODEMS",
+      "image_asset": "logos/innodems.png",
+      "group": "partners"
+    },
+    {
+      "id": "organisation_11",
+      "name": "Oak",
+      "image_asset": "logos/oak_foundation.png",
+      "group": "funders"
+    },
+    {
+      "id": "organisation_12",
+      "name": "Lego",
+      "image_asset": "logos/lego_foundation.png",
+      "group": "funders"
+    },
+    {
+      "id": "organisation_13",
+      "name": "Evaluation Fund",
+      "image_asset": "logos/Evaluation_fund_logo.png",
+      "group": "funders"
+    },
+    {
+      "id": "organisation_14",
+      "name": "Wellspring",
+      "image_asset": "logos/wellspring.png",
+      "group": "funders"
+    }
+  ],
+  "_xlsxPath": "global/data_lists/deployment_data_pfr.xlsx"
+}

@@ -222,6 +222,15 @@
           "condition"
         ]
       }
+    },
+    {
+      "value": "lottie_src: lottie/cascading_stars.json;",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "name": "set_variable",
+      "_nested_name": "set_variable"
     }
   ],
   "_xlsxPath": "global/templates/blocks/session_blocks.xlsx"

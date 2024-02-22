@@ -1,10 +1,18 @@
 {
   "asset_pack": {},
   "data_list": {
-    "Data  List v1": {
+    "about_this_app": {
       "flow_type": "data_list",
-      "flow_name": "Data  List v1",
-      "_xlsxPath": "global/data_lists/sessions.xlsx"
+      "flow_name": "about_this_app",
+      "data_list_name": "about_this_app",
+      "_xlsxPath": "global/data_lists/deployment_data_pfr.xlsx"
+    },
+    "language": {
+      "flow_type": "data_list",
+      "flow_name": "language",
+      "data_list_name": "language",
+      "flow_subtype": "app_config_language_list",
+      "_xlsxPath": "global/data_lists/deployment_data_pfr.xlsx"
     },
     "app_section_data": {
       "flow_type": "data_list",
@@ -161,6 +169,20 @@
       "flow_name": "impact_conflict",
       "_xlsxPath": "global/data_lists/session_tasks.xlsx"
     },
+    "privacy_policy": {
+      "flow_type": "data_list",
+      "flow_name": "privacy_policy",
+      "data_list_name": "privacy_policy",
+      "flow_subtype": "legal_terms",
+      "_xlsxPath": "global/data_lists/deployment_data_pfr.xlsx"
+    },
+    "terms_and_conditions": {
+      "flow_type": "data_list",
+      "flow_name": "terms_and_conditions",
+      "data_list_name": "terms_and_conditions",
+      "flow_subtype": "legal_terms",
+      "_xlsxPath": "global/data_lists/deployment_data_pfr.xlsx"
+    },
     "library_data": {
       "flow_type": "data_list",
       "flow_name": "library_data",
@@ -187,6 +209,18 @@
       "flow_type": "data_list",
       "flow_name": "onboarding_content",
       "_xlsxPath": "global/data_lists/onboarding.xlsx"
+    },
+    "organisation": {
+      "flow_type": "data_list",
+      "flow_name": "organisation",
+      "data_list_name": "organisation",
+      "_xlsxPath": "global/data_lists/deployment_data_pfr.xlsx"
+    },
+    "organisation_group": {
+      "flow_type": "data_list",
+      "flow_name": "organisation_group",
+      "data_list_name": "organisation_group",
+      "_xlsxPath": "global/data_lists/deployment_data_pfr.xlsx"
     },
     "parent_childhood": {
       "flow_type": "data_list",
@@ -518,6 +552,13 @@
     }
   },
   "global": {
+    "deployment_global_pfr": {
+      "flow_type": "global",
+      "flow_name": "deployment_global_pfr",
+      "override_target": "deployment_global",
+      "override_condition": "@fields._deployment_name == \"plh_facilitator_pfr\"",
+      "_xlsxPath": "global/data_lists/deployment_data_pfr.xlsx"
+    },
     "navigation_defaults": {
       "flow_type": "global",
       "flow_name": "navigation_defaults",
@@ -525,6 +566,27 @@
     }
   },
   "template": {
+    "accept_terms": {
+      "flow_type": "template",
+      "flow_name": "accept_terms",
+      "_xlsxPath": "global/templates/app_launch_templates.xlsx"
+    },
+    "accept_terms_warning": {
+      "flow_type": "template",
+      "flow_name": "accept_terms_warning",
+      "_xlsxPath": "global/templates/app_launch_templates.xlsx"
+    },
+    "app_about": {
+      "flow_type": "template",
+      "flow_name": "app_about",
+      "_xlsxPath": "global/templates/navigation_templates.xlsx"
+    },
+    "app_launch_calculations": {
+      "flow_type": "template",
+      "flow_name": "app_launch_calculations",
+      "process_on_start": 1,
+      "_xlsxPath": "global/templates/pfr_app_launch_calculations.xlsx"
+    },
     "app_menu": {
       "flow_type": "template",
       "flow_name": "app_menu",
@@ -534,6 +596,11 @@
       "flow_type": "template",
       "flow_name": "app_settings",
       "_xlsxPath": "global/templates/app_settings.xlsx"
+    },
+    "app_update_complete": {
+      "flow_type": "template",
+      "flow_name": "app_update_complete",
+      "_xlsxPath": "global/templates/app_launch_templates.xlsx"
     },
     "check_in": {
       "flow_type": "template",
@@ -1217,6 +1284,18 @@
       "flow_name": "language_select",
       "_xlsxPath": "global/templates/app_settings.xlsx"
     },
+    "app_menu_privacy_policy": {
+      "flow_type": "template",
+      "flow_subtype": "legal_terms",
+      "flow_name": "app_menu_privacy_policy",
+      "_xlsxPath": "global/templates/legal_terms_pfr.xlsx"
+    },
+    "app_menu_terms": {
+      "flow_type": "template",
+      "flow_subtype": "legal_terms",
+      "flow_name": "app_menu_terms",
+      "_xlsxPath": "global/templates/legal_terms_pfr.xlsx"
+    },
     "library": {
       "flow_type": "template",
       "flow_name": "library",
@@ -1287,6 +1366,11 @@
       "flow_name": "review_hp",
       "_xlsxPath": "global/templates/blocks/topic_blocks.xlsx"
     },
+    "review_hp_yes": {
+      "flow_type": "template",
+      "flow_name": "review_hp_yes",
+      "_xlsxPath": "global/templates/blocks/topic_blocks.xlsx"
+    },
     "session_card": {
       "flow_type": "template",
       "flow_name": "session_card",
@@ -1301,6 +1385,16 @@
       "flow_type": "template",
       "flow_name": "set_hp",
       "_xlsxPath": "global/templates/blocks/topic_blocks.xlsx"
+    },
+    "splash_partners": {
+      "flow_type": "template",
+      "flow_name": "splash_partners",
+      "_xlsxPath": "global/templates/app_launch_templates.xlsx"
+    },
+    "splash_screens": {
+      "flow_type": "template",
+      "flow_name": "splash_screens",
+      "_xlsxPath": "global/templates/app_launch_templates.xlsx"
     },
     "story": {
       "flow_type": "template",
@@ -1338,5 +1432,11 @@
       "_xlsxPath": "global/templates/app_settings.xlsx"
     }
   },
-  "tour": {}
+  "tour": {
+    "home_screen_tour": {
+      "flow_type": "tour",
+      "flow_name": "home_screen_tour",
+      "_xlsxPath": "tours/global/home_screen_tour.xlsx"
+    }
+  }
 }

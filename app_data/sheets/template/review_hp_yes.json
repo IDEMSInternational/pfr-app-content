@@ -1,19 +1,19 @@
 {
   "flow_type": "template",
-  "flow_name": "check_in",
+  "flow_name": "review_hp_yes",
   "status": "released",
   "rows": [
     {
       "name": "data_list_name",
       "value": [
-        "check_in"
+        "review_hp"
       ],
       "type": "set_variable",
       "_nested_name": "data_list_name"
     },
     {
       "name": "id",
-      "value": "id_1",
+      "value": "child_dev",
       "_translations": {
         "value": {}
       },
@@ -79,141 +79,26 @@
       }
     },
     {
-      "type": "title",
-      "name": "title",
-      "value": "@local.row_data.title",
-      "_translations": {
-        "value": {}
-      },
-      "condition": "!!(@local.row_data.title)",
-      "_nested_name": "title",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@local.row_data.title",
-            "matchedExpression": "@local.row_data.title",
-            "type": "local",
-            "fieldName": "row_data"
-          }
-        ],
-        "condition": [
-          {
-            "fullExpression": "!!(@local.row_data.title)",
-            "matchedExpression": "@local.row_data.title",
-            "type": "local",
-            "fieldName": "row_data"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@local.row_data.title": [
-          "value",
-          "condition"
-        ]
-      }
-    },
-    {
       "type": "text",
-      "name": "intro_text",
-      "value": "@local.row_data.intro_text",
+      "name": "question_how",
+      "value": "@local.row_data.question_how",
       "_translations": {
         "value": {}
       },
-      "condition": "!!(@local.row_data.intro_text)",
-      "_nested_name": "intro_text",
+      "_nested_name": "question_how",
       "_dynamicFields": {
         "value": [
           {
-            "fullExpression": "@local.row_data.intro_text",
-            "matchedExpression": "@local.row_data.intro_text",
-            "type": "local",
-            "fieldName": "row_data"
-          }
-        ],
-        "condition": [
-          {
-            "fullExpression": "!!(@local.row_data.intro_text)",
-            "matchedExpression": "@local.row_data.intro_text",
+            "fullExpression": "@local.row_data.question_how",
+            "matchedExpression": "@local.row_data.question_how",
             "type": "local",
             "fieldName": "row_data"
           }
         ]
       },
       "_dynamicDependencies": {
-        "@local.row_data.intro_text": [
-          "value",
-          "condition"
-        ]
-      }
-    },
-    {
-      "type": "text",
-      "name": "text",
-      "value": "@local.row_data.text",
-      "_translations": {
-        "value": {}
-      },
-      "condition": "!!(@local.row_data.text)",
-      "_nested_name": "text",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@local.row_data.text",
-            "matchedExpression": "@local.row_data.text",
-            "type": "local",
-            "fieldName": "row_data"
-          }
-        ],
-        "condition": [
-          {
-            "fullExpression": "!!(@local.row_data.text)",
-            "matchedExpression": "@local.row_data.text",
-            "type": "local",
-            "fieldName": "row_data"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@local.row_data.text": [
-          "value",
-          "condition"
-        ]
-      }
-    },
-    {
-      "type": "text",
-      "name": "question_text",
-      "value": "@local.row_data.question_text",
-      "_translations": {
-        "value": {}
-      },
-      "parameter_list": {
-        "style": "emphasised"
-      },
-      "condition": "!!(@local.row_data.question_text)",
-      "_nested_name": "question_text",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@local.row_data.question_text",
-            "matchedExpression": "@local.row_data.question_text",
-            "type": "local",
-            "fieldName": "row_data"
-          }
-        ],
-        "condition": [
-          {
-            "fullExpression": "!!(@local.row_data.question_text)",
-            "matchedExpression": "@local.row_data.question_text",
-            "type": "local",
-            "fieldName": "row_data"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@local.row_data.question_text": [
-          "value",
-          "condition"
+        "@local.row_data.question_how": [
+          "value"
         ]
       }
     },
@@ -227,54 +112,36 @@
       "_nested_name": "store_response_field"
     },
     {
-      "name": "answer_list",
+      "name": "answer_list_how",
       "value": [
-        "name: happy | image: @local.row_data.option_happy_image_asset | text: @local.row_data.option_happy_text",
-        "name: ok | image: @local.row_data.option_ok_image_asset | text: @local.row_data.option_ok_text",
-        "name: sad | image: @local.row_data.option_sad_image_asset | text: @local.row_data.option_sad_text"
+        "name: happy | text: @local.row_data.how_happy",
+        "name: okay | text: @local.row_data.how_okay",
+        "name: sad | text: @local.row_data.how_sad"
       ],
       "type": "set_variable",
-      "_nested_name": "answer_list",
+      "_nested_name": "answer_list_how",
       "_dynamicFields": {
         "value": {
           "0": [
             {
-              "fullExpression": "name: happy | image: @local.row_data.option_happy_image_asset | text: @local.row_data.option_happy_text",
-              "matchedExpression": "@local.row_data.option_happy_image_asset",
-              "type": "local",
-              "fieldName": "row_data"
-            },
-            {
-              "fullExpression": "name: happy | image: @local.row_data.option_happy_image_asset | text: @local.row_data.option_happy_text",
-              "matchedExpression": "@local.row_data.option_happy_text",
+              "fullExpression": "name: happy | text: @local.row_data.how_happy",
+              "matchedExpression": "@local.row_data.how_happy",
               "type": "local",
               "fieldName": "row_data"
             }
           ],
           "1": [
             {
-              "fullExpression": "name: ok | image: @local.row_data.option_ok_image_asset | text: @local.row_data.option_ok_text",
-              "matchedExpression": "@local.row_data.option_ok_image_asset",
-              "type": "local",
-              "fieldName": "row_data"
-            },
-            {
-              "fullExpression": "name: ok | image: @local.row_data.option_ok_image_asset | text: @local.row_data.option_ok_text",
-              "matchedExpression": "@local.row_data.option_ok_text",
+              "fullExpression": "name: okay | text: @local.row_data.how_okay",
+              "matchedExpression": "@local.row_data.how_okay",
               "type": "local",
               "fieldName": "row_data"
             }
           ],
           "2": [
             {
-              "fullExpression": "name: sad | image: @local.row_data.option_sad_image_asset | text: @local.row_data.option_sad_text",
-              "matchedExpression": "@local.row_data.option_sad_image_asset",
-              "type": "local",
-              "fieldName": "row_data"
-            },
-            {
-              "fullExpression": "name: sad | image: @local.row_data.option_sad_image_asset | text: @local.row_data.option_sad_text",
-              "matchedExpression": "@local.row_data.option_sad_text",
+              "fullExpression": "name: sad | text: @local.row_data.how_sad",
+              "matchedExpression": "@local.row_data.how_sad",
               "type": "local",
               "fieldName": "row_data"
             }
@@ -282,22 +149,13 @@
         }
       },
       "_dynamicDependencies": {
-        "@local.row_data.option_happy_image_asset": [
+        "@local.row_data.how_happy": [
           "value.0"
         ],
-        "@local.row_data.option_happy_text": [
-          "value.0"
-        ],
-        "@local.row_data.option_ok_image_asset": [
+        "@local.row_data.how_okay": [
           "value.1"
         ],
-        "@local.row_data.option_ok_text": [
-          "value.1"
-        ],
-        "@local.row_data.option_sad_image_asset": [
-          "value.2"
-        ],
-        "@local.row_data.option_sad_text": [
+        "@local.row_data.how_sad": [
           "value.2"
         ]
       }
@@ -318,7 +176,7 @@
         }
       ],
       "parameter_list": {
-        "answer_list": "@local.answer_list",
+        "answer_list": "@local.answer_list_how",
         "item_width": "70px",
         "grid_width": "350px"
       },
@@ -369,10 +227,10 @@
         "parameter_list": {
           "answer_list": [
             {
-              "fullExpression": "@local.answer_list",
-              "matchedExpression": "@local.answer_list",
+              "fullExpression": "@local.answer_list_how",
+              "matchedExpression": "@local.answer_list_how",
               "type": "local",
-              "fieldName": "answer_list"
+              "fieldName": "answer_list_how"
             }
           ]
         }
@@ -387,18 +245,18 @@
           "action_list.0._raw",
           "action_list.0._cleaned"
         ],
-        "@local.answer_list": [
+        "@local.answer_list_how": [
           "parameter_list.answer_list"
         ]
       }
     },
     {
       "type": "display_group",
-      "name": "feedback_happy_dg",
-      "hidden": "@local.radio_button_grid!=\"happy\"",
+      "name": "feedback_happy",
       "parameter_list": {
         "style": "column"
       },
+      "hidden": "@local.radio_button_grid!=\"happy\"",
       "rows": [
         {
           "type": "text",
@@ -407,7 +265,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "feedback_happy_dg.feedback_happy",
+          "_nested_name": "feedback_happy.feedback_happy",
           "_dynamicFields": {
             "value": [
               {
@@ -425,7 +283,7 @@
           }
         }
       ],
-      "_nested_name": "feedback_happy_dg",
+      "_nested_name": "feedback_happy",
       "_dynamicFields": {
         "hidden": [
           {
@@ -444,42 +302,42 @@
     },
     {
       "type": "display_group",
-      "name": "feedback_ok_dg",
-      "hidden": "@local.radio_button_grid!=\"ok\"",
+      "name": "feedback_okay",
       "parameter_list": {
         "style": "column"
       },
+      "hidden": "@local.radio_button_grid!=\"okay\"",
       "rows": [
         {
           "type": "text",
-          "name": "feedback_ok",
-          "value": "@local.row_data.feedback_ok",
+          "name": "feedback_okay",
+          "value": "@local.row_data.feedback_okay",
           "_translations": {
             "value": {}
           },
-          "_nested_name": "feedback_ok_dg.feedback_ok",
+          "_nested_name": "feedback_okay.feedback_okay",
           "_dynamicFields": {
             "value": [
               {
-                "fullExpression": "@local.row_data.feedback_ok",
-                "matchedExpression": "@local.row_data.feedback_ok",
+                "fullExpression": "@local.row_data.feedback_okay",
+                "matchedExpression": "@local.row_data.feedback_okay",
                 "type": "local",
                 "fieldName": "row_data"
               }
             ]
           },
           "_dynamicDependencies": {
-            "@local.row_data.feedback_ok": [
+            "@local.row_data.feedback_okay": [
               "value"
             ]
           }
         }
       ],
-      "_nested_name": "feedback_ok_dg",
+      "_nested_name": "feedback_okay",
       "_dynamicFields": {
         "hidden": [
           {
-            "fullExpression": "@local.radio_button_grid!=\"ok\"",
+            "fullExpression": "@local.radio_button_grid!=\"okay\"",
             "matchedExpression": "@local.radio_button_grid",
             "type": "local",
             "fieldName": "radio_button_grid"
@@ -494,11 +352,11 @@
     },
     {
       "type": "display_group",
-      "name": "feedback_sad_dg",
-      "hidden": "@local.radio_button_grid!=\"sad\"",
+      "name": "feedback_sad",
       "parameter_list": {
         "style": "column"
       },
+      "hidden": "@local.radio_button_grid!=\"sad\"",
       "rows": [
         {
           "type": "text",
@@ -507,7 +365,7 @@
           "_translations": {
             "value": {}
           },
-          "_nested_name": "feedback_sad_dg.feedback_sad",
+          "_nested_name": "feedback_sad.feedback_sad",
           "_dynamicFields": {
             "value": [
               {
@@ -525,7 +383,7 @@
           }
         }
       ],
-      "_nested_name": "feedback_sad_dg",
+      "_nested_name": "feedback_sad",
       "_dynamicFields": {
         "hidden": [
           {
@@ -541,50 +399,7 @@
           "hidden"
         ]
       }
-    },
-    {
-      "type": "template",
-      "name": "nav_buttons",
-      "value": "nav_buttons",
-      "action_list": [
-        {
-          "trigger": "completed",
-          "action_id": "emit",
-          "args": [
-            "completed"
-          ],
-          "_raw": "completed | emit: completed",
-          "_cleaned": "completed | emit: completed"
-        },
-        {
-          "trigger": "uncompleted",
-          "action_id": "emit",
-          "args": [
-            "uncompleted"
-          ],
-          "_raw": "uncompleted | emit: uncompleted",
-          "_cleaned": "uncompleted | emit: uncompleted"
-        }
-      ],
-      "condition": "@fields.show_nav_buttons",
-      "rows": [],
-      "_nested_name": "nav_buttons",
-      "_dynamicFields": {
-        "condition": [
-          {
-            "fullExpression": "@fields.show_nav_buttons",
-            "matchedExpression": "@fields.show_nav_buttons",
-            "type": "fields",
-            "fieldName": "show_nav_buttons"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@fields.show_nav_buttons": [
-          "condition"
-        ]
-      }
     }
   ],
-  "_xlsxPath": "global/templates/blocks/session_blocks.xlsx"
+  "_xlsxPath": "global/templates/blocks/topic_blocks.xlsx"
 }
