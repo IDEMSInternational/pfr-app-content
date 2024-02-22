@@ -15,7 +15,7 @@
     },
     {
       "name": "session_id",
-      "value": "introduction",
+      "value": "child_dev",
       "_translations": {
         "value": {}
       },
@@ -67,6 +67,48 @@
       }
     },
     {
+      "name": "session_id",
+      "value": "@calc(@local.session_tasks.replace(@local.tasks,\"\"))",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "session_id",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@calc(@local.session_tasks.replace(@local.tasks,\"\"))",
+            "matchedExpression": "@local.session_tasks.replace",
+            "type": "local",
+            "fieldName": "session_tasks"
+          },
+          {
+            "fullExpression": "@calc(@local.session_tasks.replace(@local.tasks,\"\"))",
+            "matchedExpression": "@local.tasks",
+            "type": "local",
+            "fieldName": "tasks"
+          },
+          {
+            "fullExpression": "@calc(@local.session_tasks.replace(@local.tasks,\"\"))",
+            "matchedExpression": "@calc(@local.session_tasks.replace(@local.tasks,\"\"))",
+            "type": "calc",
+            "fieldName": "@local.session_tasks.replace(@local.tasks,\"\")"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.session_tasks.replace": [
+          "value"
+        ],
+        "@local.tasks": [
+          "value"
+        ],
+        "@calc(@local.session_tasks.replace(@local.tasks,\"\"))": [
+          "value"
+        ]
+      }
+    },
+    {
       "name": "completed",
       "value": "_completed",
       "_translations": {
@@ -112,7 +154,7 @@
     },
     {
       "name": "ww_id",
-      "value": "session_tasks.@local.session_id",
+      "value": "session.@local.session_id",
       "_translations": {
         "value": {}
       },
@@ -122,7 +164,7 @@
       "_dynamicFields": {
         "value": [
           {
-            "fullExpression": "session_tasks.@local.session_id",
+            "fullExpression": "session.@local.session_id",
             "matchedExpression": "@local.session_id",
             "type": "local",
             "fieldName": "session_id"
@@ -131,6 +173,30 @@
       },
       "_dynamicDependencies": {
         "@local.session_id": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "wt_id",
+      "value": "session_tasks.@local.session_tasks",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "wt_id",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "session_tasks.@local.session_tasks",
+            "matchedExpression": "@local.session_tasks",
+            "type": "local",
+            "fieldName": "session_tasks"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.session_tasks": [
           "value"
         ]
       }
@@ -156,6 +222,30 @@
       },
       "_dynamicDependencies": {
         "@local.ww_id": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "session_tasks_data",
+      "value": "@data.@local.wt_id",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "session_tasks_data",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@data.@local.wt_id",
+            "matchedExpression": "@local.wt_id",
+            "type": "local",
+            "fieldName": "wt_id"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.wt_id": [
           "value"
         ]
       }
@@ -560,6 +650,30 @@
       "_nested_name": "highlighted_text"
     },
     {
+      "name": "completed_field",
+      "value": "@local.session_tasks_data.completed_field",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "completed_field",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.session_tasks_data.completed_field",
+            "matchedExpression": "@local.session_tasks_data.completed_field",
+            "type": "local",
+            "fieldName": "session_tasks_data"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.session_tasks_data.completed_field": [
+          "value"
+        ]
+      }
+    },
+    {
       "type": "task_card",
       "name": "task_card",
       "action_list": [
@@ -604,7 +718,7 @@
       "parameter_list": {
         "task_group_id": "@local.session_id@local.tasks",
         "task_group_data": "@local.session_id@local.tasks",
-        "completed_field": "@local.session_data.completed_field",
+        "completed_field": "@local.completed_field",
         "title": "@local.card_title",
         "subtitle": "@local.card_subtitle",
         "image": "@local.card_image",
@@ -705,10 +819,10 @@
           ],
           "completed_field": [
             {
-              "fullExpression": "@local.session_data.completed_field",
-              "matchedExpression": "@local.session_data.completed_field",
+              "fullExpression": "@local.completed_field",
+              "matchedExpression": "@local.completed_field",
               "type": "local",
-              "fieldName": "session_data"
+              "fieldName": "completed_field"
             }
           ],
           "title": [
@@ -770,7 +884,7 @@
           "parameter_list.task_group_id",
           "parameter_list.task_group_data"
         ],
-        "@local.session_data.completed_field": [
+        "@local.completed_field": [
           "parameter_list.completed_field"
         ],
         "@local.card_title": [

@@ -22,31 +22,6 @@
       "_nested_name": "custom_actions_1"
     },
     {
-      "name": "highlighted_session",
-      "value": "@fields._task_highlighted_group_id",
-      "_translations": {
-        "value": {}
-      },
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "_nested_name": "highlighted_session",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@fields._task_highlighted_group_id",
-            "matchedExpression": "@fields._task_highlighted_group_id",
-            "type": "fields",
-            "fieldName": "_task_highlighted_group_id"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@fields._task_highlighted_group_id": [
-          "value"
-        ]
-      }
-    },
-    {
       "type": "display_group",
       "name": "dg_highlighted_session",
       "parameter_list": {
@@ -60,26 +35,26 @@
           "exclude_from_translation": true,
           "rows": [
             {
-              "name": "session_id",
-              "value": "@local.highlighted_session",
+              "name": "session_tasks",
+              "value": "@fields._task_highlighted_group_id",
               "_translations": {
                 "value": {}
               },
               "exclude_from_translation": true,
               "type": "set_variable",
-              "_nested_name": "dg_highlighted_session.highlighted_session_card.session_id",
+              "_nested_name": "dg_highlighted_session.highlighted_session_card.session_tasks",
               "_dynamicFields": {
                 "value": [
                   {
-                    "fullExpression": "@local.highlighted_session",
-                    "matchedExpression": "@local.highlighted_session",
-                    "type": "local",
-                    "fieldName": "highlighted_session"
+                    "fullExpression": "@fields._task_highlighted_group_id",
+                    "matchedExpression": "@fields._task_highlighted_group_id",
+                    "type": "fields",
+                    "fieldName": "_task_highlighted_group_id"
                   }
                 ]
               },
               "_dynamicDependencies": {
-                "@local.highlighted_session": [
+                "@fields._task_highlighted_group_id": [
                   "value"
                 ]
               }
@@ -127,7 +102,7 @@
           "rows": [
             {
               "type": "items",
-              "value": "@data.session_tasks",
+              "value": "@data.session",
               "exclude_from_translation": true,
               "rows": [
                 {
@@ -205,15 +180,15 @@
               "_dynamicFields": {
                 "value": [
                   {
-                    "fullExpression": "@data.session_tasks",
-                    "matchedExpression": "@data.session_tasks",
+                    "fullExpression": "@data.session",
+                    "matchedExpression": "@data.session",
                     "type": "data",
-                    "fieldName": "session_tasks"
+                    "fieldName": "session"
                   }
                 ]
               },
               "_dynamicDependencies": {
-                "@data.session_tasks": [
+                "@data.session": [
                   "value"
                 ]
               }

@@ -47,6 +47,59 @@
       "_translations": {
         "value": {}
       }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "terms_and_conditions",
+      "value": "Terms & Conditions",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "privacy_policy",
+      "value": "Privacy Policy",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "dev_mode_code",
+      "value": "app_dev",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_field_default",
+      "name": "user_mode",
+      "value": true
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "test_mode_code",
+      "value": "PfR_App_Test",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "language",
+      "value": "Language",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "user_info",
+      "value": "Your Profile",
+      "_translations": {
+        "value": {}
+      }
     }
   ],
   "_xlsxPath": "global/data_lists/navigation.xlsx"

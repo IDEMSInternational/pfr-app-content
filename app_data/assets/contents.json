@@ -411,10 +411,6 @@
     "md5Checksum": "0a7233c6b3cd46ec4e708f81eacae687",
     "size_kb": 62.4
   },
-  "images/makerere_university_logo.png": {
-    "md5Checksum": "32ea097efc60d6f04ce980f599620183",
-    "size_kb": 14.9
-  },
   "images/managing_difficult_behaviour_1.jpg": {
     "md5Checksum": "6d3affcfcf75716fcbcd5bff474879d2",
     "size_kb": 58.7
@@ -736,8 +732,8 @@
     "size_kb": 38.8
   },
   "lottie/well_done.txt": {
-    "md5Checksum": "7a10387b0df7a27efc81dbe6742fa34f",
-    "size_kb": 1.7
+    "md5Checksum": "47443abc05d66955ae94643f73adfb67",
+    "size_kb": 0.2
   },
   "pdf/facilitator_manual/10_review_pfr_manual.pdf": {
     "md5Checksum": "dede387f6b7070109f5d472b00427be9",
