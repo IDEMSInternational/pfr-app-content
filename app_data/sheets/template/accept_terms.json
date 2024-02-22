@@ -6,7 +6,7 @@
     {
       "type": "image",
       "name": "image",
-      "value": "first_app_launch/shield.svg",
+      "value": "images/shield.svg",
       "_translations": {
         "value": {}
       },
