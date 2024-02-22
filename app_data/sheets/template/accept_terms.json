@@ -18,7 +18,7 @@
     {
       "type": "text",
       "name": "text_1",
-      "value": "By providing your consent below you acknowledge reading and accepting the @global.terms_and_conditions and @global.privacy_policy. The most important commitments are:\n1. This is, and will always be, a fully free app.\n2. Your data will never be sold. We are not for profit.\n3. By using the app you are helping to make the app better for you and others.\n4. Your anonymised data may be used for research purposes by our @global.parent_app team.",
+      "value": "By providing your consent below you acknowledge reading and accepting the Terms & Conditions and Privacy Policy. The most important commitments are:\n1. This is, and will always be, a fully free app.\n2. Your data will never be sold. We are not for profit.\n3. By using the app you are helping to make the app better for you and others.\n4. Your anonymised data may be used for research purposes by our @global.parent_app team.",
       "_translations": {
         "value": {}
       },
@@ -26,19 +26,7 @@
       "_dynamicFields": {
         "value": [
           {
-            "fullExpression": "By providing your consent below you acknowledge reading and accepting the @global.terms_and_conditions and @global.privacy_policy. The most important commitments are:\n1. This is, and will always be, a fully free app.\n2. Your data will never be sold. We are not for profit.\n3. By using the app you are helping to make the app better for you and others.\n4. Your anonymised data may be used for research purposes by our @global.parent_app team.",
-            "matchedExpression": "@global.terms_and_conditions",
-            "type": "global",
-            "fieldName": "terms_and_conditions"
-          },
-          {
-            "fullExpression": "By providing your consent below you acknowledge reading and accepting the @global.terms_and_conditions and @global.privacy_policy. The most important commitments are:\n1. This is, and will always be, a fully free app.\n2. Your data will never be sold. We are not for profit.\n3. By using the app you are helping to make the app better for you and others.\n4. Your anonymised data may be used for research purposes by our @global.parent_app team.",
-            "matchedExpression": "@global.privacy_policy",
-            "type": "global",
-            "fieldName": "privacy_policy"
-          },
-          {
-            "fullExpression": "By providing your consent below you acknowledge reading and accepting the @global.terms_and_conditions and @global.privacy_policy. The most important commitments are:\n1. This is, and will always be, a fully free app.\n2. Your data will never be sold. We are not for profit.\n3. By using the app you are helping to make the app better for you and others.\n4. Your anonymised data may be used for research purposes by our @global.parent_app team.",
+            "fullExpression": "By providing your consent below you acknowledge reading and accepting the Terms & Conditions and Privacy Policy. The most important commitments are:\n1. This is, and will always be, a fully free app.\n2. Your data will never be sold. We are not for profit.\n3. By using the app you are helping to make the app better for you and others.\n4. Your anonymised data may be used for research purposes by our @global.parent_app team.",
             "matchedExpression": "@global.parent_app",
             "type": "global",
             "fieldName": "parent_app"
@@ -46,12 +34,6 @@
         ]
       },
       "_dynamicDependencies": {
-        "@global.terms_and_conditions": [
-          "value"
-        ],
-        "@global.privacy_policy": [
-          "value"
-        ],
         "@global.parent_app": [
           "value"
         ]
@@ -60,7 +42,7 @@
     {
       "type": "button",
       "name": "button_1",
-      "value": "@global.terms_and_conditions",
+      "value": "Terms & Conditions",
       "_translations": {
         "value": {}
       },
@@ -75,27 +57,12 @@
           "_cleaned": "click | pop_up: app_menu_terms"
         }
       ],
-      "_nested_name": "button_1",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@global.terms_and_conditions",
-            "matchedExpression": "@global.terms_and_conditions",
-            "type": "global",
-            "fieldName": "terms_and_conditions"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@global.terms_and_conditions": [
-          "value"
-        ]
-      }
+      "_nested_name": "button_1"
     },
     {
       "type": "button",
       "name": "button_2",
-      "value": "@global.privacy_policy",
+      "value": "Privacy Policy",
       "_translations": {
         "value": {}
       },
@@ -110,22 +77,7 @@
           "_cleaned": "click | pop_up: app_menu_privacy_policy"
         }
       ],
-      "_nested_name": "button_2",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@global.privacy_policy",
-            "matchedExpression": "@global.privacy_policy",
-            "type": "global",
-            "fieldName": "privacy_policy"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@global.privacy_policy": [
-          "value"
-        ]
-      }
+      "_nested_name": "button_2"
     },
     {
       "type": "text",
