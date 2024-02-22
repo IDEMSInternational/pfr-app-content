@@ -179,7 +179,7 @@
     },
     {
       "name": "wt_id",
-      "value": "session_tasks.@local.session_id",
+      "value": "session_tasks.@local.session_tasks",
       "_translations": {
         "value": {}
       },
@@ -188,15 +188,15 @@
       "_dynamicFields": {
         "value": [
           {
-            "fullExpression": "session_tasks.@local.session_id",
-            "matchedExpression": "@local.session_id",
+            "fullExpression": "session_tasks.@local.session_tasks",
+            "matchedExpression": "@local.session_tasks",
             "type": "local",
-            "fieldName": "session_id"
+            "fieldName": "session_tasks"
           }
         ]
       },
       "_dynamicDependencies": {
-        "@local.session_id": [
+        "@local.session_tasks": [
           "value"
         ]
       }
@@ -650,6 +650,30 @@
       "_nested_name": "highlighted_text"
     },
     {
+      "name": "completed_field",
+      "value": "@local.session_tasks_data.completed_field",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "completed_field",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.session_tasks_data.completed_field",
+            "matchedExpression": "@local.session_tasks_data.completed_field",
+            "type": "local",
+            "fieldName": "session_tasks_data"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.session_tasks_data.completed_field": [
+          "value"
+        ]
+      }
+    },
+    {
       "type": "task_card",
       "name": "task_card",
       "action_list": [
@@ -694,7 +718,7 @@
       "parameter_list": {
         "task_group_id": "@local.session_id@local.tasks",
         "task_group_data": "@local.session_id@local.tasks",
-        "completed_field": "@local.session_tasks_data.completed_field",
+        "completed_field": "@local.completed_field",
         "title": "@local.card_title",
         "subtitle": "@local.card_subtitle",
         "image": "@local.card_image",
@@ -795,10 +819,10 @@
           ],
           "completed_field": [
             {
-              "fullExpression": "@local.session_tasks_data.completed_field",
-              "matchedExpression": "@local.session_tasks_data.completed_field",
+              "fullExpression": "@local.completed_field",
+              "matchedExpression": "@local.completed_field",
               "type": "local",
-              "fieldName": "session_tasks_data"
+              "fieldName": "completed_field"
             }
           ],
           "title": [
@@ -860,7 +884,7 @@
           "parameter_list.task_group_id",
           "parameter_list.task_group_data"
         ],
-        "@local.session_tasks_data.completed_field": [
+        "@local.completed_field": [
           "parameter_list.completed_field"
         ],
         "@local.card_title": [
