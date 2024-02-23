@@ -13,7 +13,7 @@
     },
     {
       "name": "session_task_id",
-      "value": "onboarding_user_name",
+      "value": "onboarding_pfr_goals",
       "_translations": {
         "value": {}
       },

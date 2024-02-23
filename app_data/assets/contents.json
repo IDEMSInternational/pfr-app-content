@@ -271,6 +271,10 @@
     "md5Checksum": "bfa1481824dc135d25527d63175fb4df",
     "size_kb": 10
   },
+  "images/gb.svg": {
+    "md5Checksum": "d3ddd6025a06a78535b0d432d14905bf",
+    "size_kb": 0.5
+  },
   "images/gender_box_1.jpg": {
     "md5Checksum": "9525932e5536ed941400ec4bd4dd7b41",
     "size_kb": 112.6
@@ -526,6 +530,10 @@
   "images/sexual_violence_research_initiative_logo.jpg": {
     "md5Checksum": "a850396cfae4bb31f6d5b3f703f1c26d",
     "size_kb": 75.7
+  },
+  "images/shield.svg": {
+    "md5Checksum": "7bef996b92b5d2cadd4e1ca2bac7c2d1",
+    "size_kb": 2.8
   },
   "images/south_africa_medical_research_council_logo.jpg": {
     "md5Checksum": "9dbff98c117c766774ab84fecb371979",
