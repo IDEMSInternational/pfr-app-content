@@ -24,11 +24,6 @@
       "row_id": "ground_rules"
     },
     {
-      "id": "onboarding_user_name",
-      "data_list_name": "onboarding_content",
-      "row_id": "user_name"
-    },
-    {
       "id": "onboarding_praise",
       "data_list_name": "praise",
       "row_id": "onboarding"

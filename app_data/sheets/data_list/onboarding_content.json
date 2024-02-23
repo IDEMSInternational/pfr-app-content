@@ -20,13 +20,6 @@
       "text": "These may include:\n* Complete all sessions and activities.\n* If you have a spouse, encourage them to take these sessions as well.\n* Encourage their spouses to enrol in the programme.\n* Do home practice when given.\n* Commit yourself to becoming a role model and a champion of good parenting in your community.\n* Maintaining confidentiality.",
       "question_text": "What will enable you to participate freely in the programme?",
       "question_type": "text_input_long"
-    },
-    {
-      "id": "user_name",
-      "title": "About you",
-      "icon_asset": "images/icons/paper_pencil.svg",
-      "question_text": "What is your name?",
-      "question_type": "text_input"
     }
   ],
   "_xlsxPath": "global/data_lists/onboarding.xlsx"

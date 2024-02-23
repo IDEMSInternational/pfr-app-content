@@ -718,7 +718,7 @@
       "parameter_list": {
         "task_group_id": "@local.session_id@local.tasks",
         "task_group_data": "@local.session_id@local.tasks",
-        "completed_field": "@local.completed_field",
+        "completed_field": "@local.session_tasks_data.completed_field",
         "title": "@local.card_title",
         "subtitle": "@local.card_subtitle",
         "image": "@local.card_image",
@@ -819,10 +819,10 @@
           ],
           "completed_field": [
             {
-              "fullExpression": "@local.completed_field",
-              "matchedExpression": "@local.completed_field",
+              "fullExpression": "@local.session_tasks_data.completed_field",
+              "matchedExpression": "@local.session_tasks_data.completed_field",
               "type": "local",
-              "fieldName": "completed_field"
+              "fieldName": "session_tasks_data"
             }
           ],
           "title": [
@@ -884,7 +884,7 @@
           "parameter_list.task_group_id",
           "parameter_list.task_group_data"
         ],
-        "@local.completed_field": [
+        "@local.session_tasks_data.completed_field": [
           "parameter_list.completed_field"
         ],
         "@local.card_title": [

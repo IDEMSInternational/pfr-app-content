@@ -32,13 +32,6 @@
       "completed": "@fields.task_onboarding_ground_rules_completed"
     },
     {
-      "id": "onboarding_user_name",
-      "data_list_name": "onboarding_content",
-      "row_id": "user_name",
-      "completed_field": "task_onboarding_user_name_completed",
-      "completed": "@fields.task_onboarding_user_name_completed"
-    },
-    {
       "id": "onboarding_praise",
       "data_list_name": "praise",
       "row_id": "onboarding",
