@@ -45,7 +45,7 @@
                   },
                   "exclude_from_translation": true,
                   "type": "set_variable",
-                  "_nested_name": "dg_all_sessions.items.session_card_@item.id.session_id",
+                  "_nested_name": "dg_all_sessions.items_1.session_card_@item.id.session_id",
                   "_dynamicFields": {
                     "value": [
                       {
@@ -57,7 +57,7 @@
                     ],
                     "_nested_name": [
                       {
-                        "fullExpression": "dg_all_sessions.items.session_card_@item.id.session_id",
+                        "fullExpression": "dg_all_sessions.items_1.session_card_@item.id.session_id",
                         "matchedExpression": "@item.id.session_id",
                         "type": "item",
                         "fieldName": "id"
@@ -81,11 +81,11 @@
                   },
                   "exclude_from_translation": true,
                   "type": "set_variable",
-                  "_nested_name": "dg_all_sessions.items.session_card_@item.id.card_style",
+                  "_nested_name": "dg_all_sessions.items_1.session_card_@item.id.card_style",
                   "_dynamicFields": {
                     "_nested_name": [
                       {
-                        "fullExpression": "dg_all_sessions.items.session_card_@item.id.card_style",
+                        "fullExpression": "dg_all_sessions.items_1.session_card_@item.id.card_style",
                         "matchedExpression": "@item.id.card_style",
                         "type": "item",
                         "fieldName": "id"
@@ -99,7 +99,7 @@
                   }
                 }
               ],
-              "_nested_name": "dg_all_sessions.items.session_card_@item.id",
+              "_nested_name": "dg_all_sessions.items_1.session_card_@item.id",
               "_dynamicFields": {
                 "name": [
                   {
@@ -111,7 +111,7 @@
                 ],
                 "_nested_name": [
                   {
-                    "fullExpression": "dg_all_sessions.items.session_card_@item.id",
+                    "fullExpression": "dg_all_sessions.items_1.session_card_@item.id",
                     "matchedExpression": "@item.id",
                     "type": "item",
                     "fieldName": "id"
@@ -126,8 +126,8 @@
               }
             }
           ],
-          "name": "items",
-          "_nested_name": "dg_all_sessions.items",
+          "name": "items_1",
+          "_nested_name": "dg_all_sessions.items_1",
           "_dynamicFields": {
             "value": [
               {

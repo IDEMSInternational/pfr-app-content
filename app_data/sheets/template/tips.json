@@ -5,9 +5,10 @@
   "rows": [
     {
       "name": "data_list_name",
-      "value": [
-        "tips"
-      ],
+      "value": "tips",
+      "_translations": {
+        "value": {}
+      },
       "type": "set_variable",
       "_nested_name": "data_list_name"
     },
@@ -255,7 +256,7 @@
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "items.text_temp",
+          "_nested_name": "items_12.text_temp",
           "_dynamicFields": {
             "value": [
               {
@@ -279,7 +280,7 @@
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "items.text",
+          "_nested_name": "items_12.text",
           "_dynamicFields": {
             "value": [
               {
@@ -321,7 +322,7 @@
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "items.subtitle_temp",
+          "_nested_name": "items_12.subtitle_temp",
           "_dynamicFields": {
             "value": [
               {
@@ -345,7 +346,7 @@
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "items.subtitle",
+          "_nested_name": "items_12.subtitle",
           "_dynamicFields": {
             "value": [
               {
@@ -395,7 +396,7 @@
               "_translations": {
                 "value": {}
               },
-              "_nested_name": "items.dashed_box_@item.id.title_@item.id",
+              "_nested_name": "items_12.dashed_box_@item.id.title_@item.id",
               "_dynamicFields": {
                 "name": [
                   {
@@ -415,13 +416,13 @@
                 ],
                 "_nested_name": [
                   {
-                    "fullExpression": "items.dashed_box_@item.id.title_@item.id",
+                    "fullExpression": "items_12.dashed_box_@item.id.title_@item.id",
                     "matchedExpression": "@item.id.title_",
                     "type": "item",
                     "fieldName": "id"
                   },
                   {
-                    "fullExpression": "items.dashed_box_@item.id.title_@item.id",
+                    "fullExpression": "items_12.dashed_box_@item.id.title_@item.id",
                     "matchedExpression": "@item.id",
                     "type": "item",
                     "fieldName": "id"
@@ -448,7 +449,7 @@
               "_translations": {
                 "value": {}
               },
-              "_nested_name": "items.dashed_box_@item.id.text_@item.id",
+              "_nested_name": "items_12.dashed_box_@item.id.text_@item.id",
               "_dynamicFields": {
                 "name": [
                   {
@@ -468,13 +469,13 @@
                 ],
                 "_nested_name": [
                   {
-                    "fullExpression": "items.dashed_box_@item.id.text_@item.id",
+                    "fullExpression": "items_12.dashed_box_@item.id.text_@item.id",
                     "matchedExpression": "@item.id.text_",
                     "type": "item",
                     "fieldName": "id"
                   },
                   {
-                    "fullExpression": "items.dashed_box_@item.id.text_@item.id",
+                    "fullExpression": "items_12.dashed_box_@item.id.text_@item.id",
                     "matchedExpression": "@item.id",
                     "type": "item",
                     "fieldName": "id"
@@ -495,7 +496,7 @@
               }
             }
           ],
-          "_nested_name": "items.dashed_box_@item.id",
+          "_nested_name": "items_12.dashed_box_@item.id",
           "_dynamicFields": {
             "name": [
               {
@@ -515,7 +516,7 @@
             ],
             "_nested_name": [
               {
-                "fullExpression": "items.dashed_box_@item.id",
+                "fullExpression": "items_12.dashed_box_@item.id",
                 "matchedExpression": "@item.id",
                 "type": "item",
                 "fieldName": "id"
@@ -533,8 +534,8 @@
           }
         }
       ],
-      "name": "items",
-      "_nested_name": "items",
+      "name": "items_12",
+      "_nested_name": "items_12",
       "_dynamicFields": {
         "value": [
           {

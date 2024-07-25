@@ -5,27 +5,37 @@
   "rows": [
     {
       "id": "gender_power_relax",
-      "data_list_name": "relax",
+      "data_list_name": [
+        "relax"
+      ],
       "row_id": "id_1"
     },
     {
       "id": "gender_power_check_in",
-      "data_list_name": "check_in",
+      "data_list_name": [
+        "check_in"
+      ],
       "row_id": "id_1"
     },
     {
       "id": "gender_power_stereotypes_tbg",
-      "data_list_name": "topic_block_group",
+      "data_list_name": [
+        "topic_block_group"
+      ],
       "row_id": "gender_stereotypes"
     },
     {
       "id": "gender_power_tips",
-      "data_list_name": "tips",
+      "data_list_name": [
+        "tips"
+      ],
       "row_id": "gender_power"
     },
     {
       "id": "gender_power_praise",
-      "data_list_name": "praise",
+      "data_list_name": [
+        "praise"
+      ],
       "row_id": "gender_power"
     }
   ],

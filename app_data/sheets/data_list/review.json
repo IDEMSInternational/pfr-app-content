@@ -5,27 +5,37 @@
   "rows": [
     {
       "id": "review_relax",
-      "data_list_name": "relax",
+      "data_list_name": [
+        "relax"
+      ],
       "row_id": "id_1"
     },
     {
       "id": "review_check_in",
-      "data_list_name": "check_in",
+      "data_list_name": [
+        "check_in"
+      ],
       "row_id": "id_1"
     },
     {
       "id": "review_tbg",
-      "data_list_name": "topic_block_group",
+      "data_list_name": [
+        "topic_block_group"
+      ],
       "row_id": "session_review"
     },
     {
       "id": "review_ball_change_tbg",
-      "data_list_name": "topic_block_group",
+      "data_list_name": [
+        "topic_block_group"
+      ],
       "row_id": "ball_change"
     },
     {
       "id": "review_praise",
-      "data_list_name": "praise",
+      "data_list_name": [
+        "praise"
+      ],
       "row_id": "review"
     }
   ],

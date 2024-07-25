@@ -5,9 +5,10 @@
   "rows": [
     {
       "name": "session_data_list_name",
-      "value": [
-        "onboarding"
-      ],
+      "value": "onboarding",
+      "_translations": {
+        "value": {}
+      },
       "type": "set_variable",
       "_nested_name": "session_data_list_name"
     },
@@ -88,26 +89,25 @@
     },
     {
       "name": "data_list_name",
-      "value": [
-        "@local.session_task_row_data.data_list_name"
-      ],
+      "value": "@local.session_task_row_data.data_list_name",
+      "_translations": {
+        "value": {}
+      },
       "type": "set_variable",
       "_nested_name": "data_list_name",
       "_dynamicFields": {
-        "value": {
-          "0": [
-            {
-              "fullExpression": "@local.session_task_row_data.data_list_name",
-              "matchedExpression": "@local.session_task_row_data.data_list_name",
-              "type": "local",
-              "fieldName": "session_task_row_data"
-            }
-          ]
-        }
+        "value": [
+          {
+            "fullExpression": "@local.session_task_row_data.data_list_name",
+            "matchedExpression": "@local.session_task_row_data.data_list_name",
+            "type": "local",
+            "fieldName": "session_task_row_data"
+          }
+        ]
       },
       "_dynamicDependencies": {
         "@local.session_task_row_data.data_list_name": [
-          "value.0"
+          "value"
         ]
       }
     },
@@ -137,35 +137,34 @@
     },
     {
       "name": "data_list_name_id",
-      "value": [
-        "@local.data_list_name.@local.id"
-      ],
+      "value": "@local.data_list_name.@local.id",
+      "_translations": {
+        "value": {}
+      },
       "type": "set_variable",
       "_nested_name": "data_list_name_id",
       "_dynamicFields": {
-        "value": {
-          "0": [
-            {
-              "fullExpression": "@local.data_list_name.@local.id",
-              "matchedExpression": "@local.data_list_name",
-              "type": "local",
-              "fieldName": "data_list_name"
-            },
-            {
-              "fullExpression": "@local.data_list_name.@local.id",
-              "matchedExpression": "@local.id",
-              "type": "local",
-              "fieldName": "id"
-            }
-          ]
-        }
+        "value": [
+          {
+            "fullExpression": "@local.data_list_name.@local.id",
+            "matchedExpression": "@local.data_list_name",
+            "type": "local",
+            "fieldName": "data_list_name"
+          },
+          {
+            "fullExpression": "@local.data_list_name.@local.id",
+            "matchedExpression": "@local.id",
+            "type": "local",
+            "fieldName": "id"
+          }
+        ]
       },
       "_dynamicDependencies": {
         "@local.data_list_name": [
-          "value.0"
+          "value"
         ],
         "@local.id": [
-          "value.0"
+          "value"
         ]
       }
     },

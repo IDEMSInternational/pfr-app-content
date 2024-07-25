@@ -5,47 +5,65 @@
   "rows": [
     {
       "id": "education_relax",
-      "data_list_name": "relax",
+      "data_list_name": [
+        "relax"
+      ],
       "row_id": "id_1"
     },
     {
       "id": "education_check_in",
-      "data_list_name": "check_in",
+      "data_list_name": [
+        "check_in"
+      ],
       "row_id": "id_1"
     },
     {
       "id": "discipline_review_hp",
-      "data_list_name": "review_hp",
+      "data_list_name": [
+        "review_hp"
+      ],
       "row_id": "discipline"
     },
     {
       "id": "education_tbg",
-      "data_list_name": "topic_block_group",
+      "data_list_name": [
+        "topic_block_group"
+      ],
       "row_id": "education"
     },
     {
       "id": "education_needs_tbg",
-      "data_list_name": "topic_block_group",
+      "data_list_name": [
+        "topic_block_group"
+      ],
       "row_id": "school_needs"
     },
     {
       "id": "education_encourage_tbg",
-      "data_list_name": "topic_block_group",
+      "data_list_name": [
+        "topic_block_group"
+      ],
       "row_id": "encourage_school"
     },
     {
       "id": "education_tips",
-      "data_list_name": "tips",
+      "data_list_name": [
+        "tips"
+      ],
       "row_id": "education"
     },
     {
       "id": "education_set_hp",
-      "data_list_name": "set_hp",
+      "data_list_name": [
+        "set_hp"
+      ],
       "row_id": "education"
     },
     {
       "id": "education_praise",
-      "data_list_name": "praise",
+      "data_list_name": [
+        "praise"
+      ],
       "row_id": "education"
     }
   ],

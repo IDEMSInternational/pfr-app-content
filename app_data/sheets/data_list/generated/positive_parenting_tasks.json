@@ -5,63 +5,81 @@
   "rows": [
     {
       "id": "positive_parenting_relax",
-      "data_list_name": "relax",
+      "data_list_name": [
+        "relax"
+      ],
       "row_id": "id_1",
       "completed_field": "task_positive_parenting_relax_completed",
       "completed": "@fields.task_positive_parenting_relax_completed"
     },
     {
       "id": "positive_parenting_check_in",
-      "data_list_name": "check_in",
+      "data_list_name": [
+        "check_in"
+      ],
       "row_id": "id_1",
       "completed_field": "task_positive_parenting_check_in_completed",
       "completed": "@fields.task_positive_parenting_check_in_completed"
     },
     {
       "id": "parent_childhood_review_hp",
-      "data_list_name": "review_hp",
+      "data_list_name": [
+        "review_hp"
+      ],
       "row_id": "parent_childhood",
       "completed_field": "task_parent_childhood_review_hp_completed",
       "completed": "@fields.task_parent_childhood_review_hp_completed"
     },
     {
       "id": "positive_parenting_behavior_tbg",
-      "data_list_name": "topic_block_group",
+      "data_list_name": [
+        "topic_block_group"
+      ],
       "row_id": "managing_behaviour",
       "completed_field": "task_positive_parenting_behavior_tbg_completed",
       "completed": "@fields.task_positive_parenting_behavior_tbg_completed"
     },
     {
       "id": "positive_parenting_limits_tbg",
-      "data_list_name": "topic_block_group",
+      "data_list_name": [
+        "topic_block_group"
+      ],
       "row_id": "setting_limits",
       "completed_field": "task_positive_parenting_limits_tbg_completed",
       "completed": "@fields.task_positive_parenting_limits_tbg_completed"
     },
     {
       "id": "positive_parenting_how_tbg",
-      "data_list_name": "topic_block_group",
+      "data_list_name": [
+        "topic_block_group"
+      ],
       "row_id": "setting_limits_how",
       "completed_field": "task_positive_parenting_how_tbg_completed",
       "completed": "@fields.task_positive_parenting_how_tbg_completed"
     },
     {
       "id": "positive_parenting_style_tbg",
-      "data_list_name": "topic_block_group",
+      "data_list_name": [
+        "topic_block_group"
+      ],
       "row_id": "parenting_style",
       "completed_field": "task_positive_parenting_style_tbg_completed",
       "completed": "@fields.task_positive_parenting_style_tbg_completed"
     },
     {
       "id": "positive_parenting_tips",
-      "data_list_name": "tips",
+      "data_list_name": [
+        "tips"
+      ],
       "row_id": "parenting_relationships",
       "completed_field": "task_positive_parenting_tips_completed",
       "completed": "@fields.task_positive_parenting_tips_completed"
     },
     {
       "id": "positive_parenting_praise",
-      "data_list_name": "praise",
+      "data_list_name": [
+        "praise"
+      ],
       "row_id": "positive_parenting",
       "completed_field": "task_positive_parenting_praise_completed",
       "completed": "@fields.task_positive_parenting_praise_completed"

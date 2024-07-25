@@ -5,56 +5,72 @@
   "rows": [
     {
       "id": "gender_equal_check_in",
-      "data_list_name": "check_in",
+      "data_list_name": [
+        "check_in"
+      ],
       "row_id": "id_1",
       "completed_field": "task_gender_equal_check_in_completed",
       "completed": "@fields.task_gender_equal_check_in_completed"
     },
     {
       "id": "gender_equal_relax",
-      "data_list_name": "relax",
+      "data_list_name": [
+        "relax"
+      ],
       "row_id": "id_1",
       "completed_field": "task_gender_equal_relax_completed",
       "completed": "@fields.task_gender_equal_relax_completed"
     },
     {
       "id": "education_review_hp",
-      "data_list_name": "review_hp",
+      "data_list_name": [
+        "review_hp"
+      ],
       "row_id": "education",
       "completed_field": "task_education_review_hp_completed",
       "completed": "@fields.task_education_review_hp_completed"
     },
     {
       "id": "gender_equal_tbg_1",
-      "data_list_name": "topic_block_group",
+      "data_list_name": [
+        "topic_block_group"
+      ],
       "row_id": "gender_equal",
       "completed_field": "task_gender_equal_tbg_1_completed",
       "completed": "@fields.task_gender_equal_tbg_1_completed"
     },
     {
       "id": "gender_equal_tbg_2",
-      "data_list_name": "topic_block_group",
+      "data_list_name": [
+        "topic_block_group"
+      ],
       "row_id": "partnership_parenting",
       "completed_field": "task_gender_equal_tbg_2_completed",
       "completed": "@fields.task_gender_equal_tbg_2_completed"
     },
     {
       "id": "gender_equal_tips_2",
-      "data_list_name": "tips",
+      "data_list_name": [
+        "tips"
+      ],
       "row_id": "patnership_parenting",
       "completed_field": "task_gender_equal_tips_2_completed",
       "completed": "@fields.task_gender_equal_tips_2_completed"
     },
     {
       "id": "gender_equal_set_hp",
-      "data_list_name": "set_hp",
+      "data_list_name": [
+        "set_hp"
+      ],
       "row_id": "gender_equal",
       "completed_field": "task_gender_equal_set_hp_completed",
       "completed": "@fields.task_gender_equal_set_hp_completed"
     },
     {
       "id": "gender_equal_praise",
-      "data_list_name": "praise",
+      "data_list_name": [
+        "praise"
+      ],
       "row_id": "gender_equal",
       "completed_field": "task_gender_equal_praise_completed",
       "completed": "@fields.task_gender_equal_praise_completed"
