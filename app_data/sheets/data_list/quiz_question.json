@@ -105,25 +105,25 @@
       "id": "dev_stage_physical",
       "topic": "child_dev",
       "question_type": "text_input_long",
-      "question_text": "How will you ensure that this child will grow well physically (growth)?"
+      "question_text": "What will you do to ensure that this child will grow well physically (growth)?"
     },
     {
       "id": "dev_stage_think",
       "topic": "child_dev",
       "question_type": "text_input_long",
-      "question_text": "How will you ensure that this child will grow well cognitively (thinking)?"
+      "question_text": "What will you do to ensure that this child will grow well cognitively (thinking)?"
     },
     {
       "id": "dev_stage_feel",
       "topic": "child_dev",
       "question_type": "text_input_long",
-      "question_text": "How will you ensure that this child will grow well emotionally (feelings)?"
+      "question_text": "What will you do to ensure that this child will grow well emotionally (feelings)?"
     },
     {
       "id": "dev_stage_social",
       "topic": "child_dev",
       "question_type": "text_input_long",
-      "question_text": "How will you ensure that this child will grow well socially (social awareness)?"
+      "question_text": "What will you do to ensure that this child will grow well socially (social awareness)?"
     },
     {
       "id": "similar_experience",

@@ -5,35 +5,45 @@
   "rows": [
     {
       "id": "onboarding_relax",
-      "data_list_name": "relax",
+      "data_list_name": [
+        "relax"
+      ],
       "row_id": "id_1",
       "completed_field": "task_onboarding_relax_completed",
       "completed": "@fields.task_onboarding_relax_completed"
     },
     {
       "id": "onboarding_check_in",
-      "data_list_name": "check_in",
+      "data_list_name": [
+        "check_in"
+      ],
       "row_id": "id_1",
       "completed_field": "task_onboarding_check_in_completed",
       "completed": "@fields.task_onboarding_check_in_completed"
     },
     {
       "id": "onboarding_pfr_goals",
-      "data_list_name": "onboarding_content",
+      "data_list_name": [
+        "onboarding_content"
+      ],
       "row_id": "pfr_goals",
       "completed_field": "task_onboarding_pfr_goals_completed",
       "completed": "@fields.task_onboarding_pfr_goals_completed"
     },
     {
       "id": "onboarding_ground_rules",
-      "data_list_name": "onboarding_content",
+      "data_list_name": [
+        "onboarding_content"
+      ],
       "row_id": "ground_rules",
       "completed_field": "task_onboarding_ground_rules_completed",
       "completed": "@fields.task_onboarding_ground_rules_completed"
     },
     {
       "id": "onboarding_praise",
-      "data_list_name": "praise",
+      "data_list_name": [
+        "praise"
+      ],
       "row_id": "onboarding",
       "completed_field": "task_onboarding_praise_completed",
       "completed": "@fields.task_onboarding_praise_completed"

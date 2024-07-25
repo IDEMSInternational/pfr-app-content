@@ -6,7 +6,7 @@
     {
       "id": "family_relation",
       "topic": "family_relation",
-      "question_done": "Were you able to invite your partner/ other family members to reflect with you on the importance of close family relationships and practice an activity that made you come closer in love and relationship as a family?",
+      "question_done": "Were you able to invite your partner/ other family members to reflect with you on the importance of close family relationships?",
       "title": "Review your home practice: @data.topic.family_relation.title",
       "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp.family_relation.text",
@@ -26,10 +26,10 @@
     {
       "id": "current_pract",
       "topic": "current_pract",
-      "question_done": "Did you get a chance to discuss the importance of parenting measures with your partner/other family members?",
+      "question_done": "* Did you try out parenting practices that can help your child to become the child you desire to have at 20 years.\n* Did you develop family goals and objectives that will support you in nurturing the children.",
       "feedback_no": "You can always find this home practice activity in our session on @data.topic.current_pract.title",
-      "feedback_happy": "Good job on getting you and your family to talk about parenting measures.",
-      "outro_text": "Parenting measures will help you model positive behavior that helps in supporting your children to become responsible adults.",
+      "feedback_happy": "Good job on getting you and your family to talk about parenting family goals and objectives.",
+      "outro_text": "To achieve your dream child in 20 years, there is need for every parent to be deliberate in their parenting and to invest time and care from the start.",
       "title": "Review your home practice: @data.topic.current_pract.title",
       "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your home practice for this week was to:\n@data.set_hp.current_pract.text",

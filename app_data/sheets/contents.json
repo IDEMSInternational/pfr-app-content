@@ -694,6 +694,11 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "conclusion_praise": {
+      "flow_name": "conclusion_praise",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "conclusion_relax": {
       "flow_name": "conclusion_relax",
       "flow_subtype": "generated",
@@ -761,16 +766,6 @@
     },
     "discipline_conflict_children_tbg": {
       "flow_name": "discipline_conflict_children_tbg",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "discipline_interaction_1_tbg": {
-      "flow_name": "discipline_interaction_1_tbg",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "discipline_interaction_2_tbg": {
-      "flow_name": "discipline_interaction_2_tbg",
       "flow_subtype": "generated",
       "flow_type": "template"
     },

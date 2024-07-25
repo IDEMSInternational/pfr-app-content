@@ -13,7 +13,7 @@ config.google_drive = {
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/pfr-app-content.git",
-  content_tag_latest: "1.1.10",
+  content_tag_latest: "1.1.11",
 };
 
 config.error_logging = {

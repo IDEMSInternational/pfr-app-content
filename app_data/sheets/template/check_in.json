@@ -5,9 +5,10 @@
   "rows": [
     {
       "name": "data_list_name",
-      "value": [
-        "check_in"
-      ],
+      "value": "check_in",
+      "_translations": {
+        "value": {}
+      },
       "type": "set_variable",
       "_nested_name": "data_list_name"
     },
@@ -22,35 +23,34 @@
     },
     {
       "name": "data_list_name_id",
-      "value": [
-        "@local.data_list_name.@local.id"
-      ],
+      "value": "@local.data_list_name.@local.id",
+      "_translations": {
+        "value": {}
+      },
       "type": "set_variable",
       "_nested_name": "data_list_name_id",
       "_dynamicFields": {
-        "value": {
-          "0": [
-            {
-              "fullExpression": "@local.data_list_name.@local.id",
-              "matchedExpression": "@local.data_list_name",
-              "type": "local",
-              "fieldName": "data_list_name"
-            },
-            {
-              "fullExpression": "@local.data_list_name.@local.id",
-              "matchedExpression": "@local.id",
-              "type": "local",
-              "fieldName": "id"
-            }
-          ]
-        }
+        "value": [
+          {
+            "fullExpression": "@local.data_list_name.@local.id",
+            "matchedExpression": "@local.data_list_name",
+            "type": "local",
+            "fieldName": "data_list_name"
+          },
+          {
+            "fullExpression": "@local.data_list_name.@local.id",
+            "matchedExpression": "@local.id",
+            "type": "local",
+            "fieldName": "id"
+          }
+        ]
       },
       "_dynamicDependencies": {
         "@local.data_list_name": [
-          "value.0"
+          "value"
         ],
         "@local.id": [
-          "value.0"
+          "value"
         ]
       }
     },
@@ -229,76 +229,100 @@
     {
       "name": "answer_list",
       "value": [
-        "name: happy | image: @local.row_data.option_happy_image_asset | text: @local.row_data.option_happy_text",
-        "name: ok | image: @local.row_data.option_ok_image_asset | text: @local.row_data.option_ok_text",
-        "name: sad | image: @local.row_data.option_sad_image_asset | text: @local.row_data.option_sad_text"
+        {
+          "name": "happy",
+          "image": "@local.row_data.option_happy_image_asset",
+          "text": "@local.row_data.option_happy_text"
+        },
+        {
+          "name": "ok",
+          "image": "@local.row_data.option_ok_image_asset",
+          "text": "@local.row_data.option_ok_text"
+        },
+        {
+          "name": "sad",
+          "image": "@local.row_data.option_sad_image_asset",
+          "text": "@local.row_data.option_sad_text"
+        }
       ],
       "type": "set_variable",
       "_nested_name": "answer_list",
       "_dynamicFields": {
         "value": {
-          "0": [
-            {
-              "fullExpression": "name: happy | image: @local.row_data.option_happy_image_asset | text: @local.row_data.option_happy_text",
-              "matchedExpression": "@local.row_data.option_happy_image_asset",
-              "type": "local",
-              "fieldName": "row_data"
-            },
-            {
-              "fullExpression": "name: happy | image: @local.row_data.option_happy_image_asset | text: @local.row_data.option_happy_text",
-              "matchedExpression": "@local.row_data.option_happy_text",
-              "type": "local",
-              "fieldName": "row_data"
-            }
-          ],
-          "1": [
-            {
-              "fullExpression": "name: ok | image: @local.row_data.option_ok_image_asset | text: @local.row_data.option_ok_text",
-              "matchedExpression": "@local.row_data.option_ok_image_asset",
-              "type": "local",
-              "fieldName": "row_data"
-            },
-            {
-              "fullExpression": "name: ok | image: @local.row_data.option_ok_image_asset | text: @local.row_data.option_ok_text",
-              "matchedExpression": "@local.row_data.option_ok_text",
-              "type": "local",
-              "fieldName": "row_data"
-            }
-          ],
-          "2": [
-            {
-              "fullExpression": "name: sad | image: @local.row_data.option_sad_image_asset | text: @local.row_data.option_sad_text",
-              "matchedExpression": "@local.row_data.option_sad_image_asset",
-              "type": "local",
-              "fieldName": "row_data"
-            },
-            {
-              "fullExpression": "name: sad | image: @local.row_data.option_sad_image_asset | text: @local.row_data.option_sad_text",
-              "matchedExpression": "@local.row_data.option_sad_text",
-              "type": "local",
-              "fieldName": "row_data"
-            }
-          ]
+          "0": {
+            "image": [
+              {
+                "fullExpression": "@local.row_data.option_happy_image_asset",
+                "matchedExpression": "@local.row_data.option_happy_image_asset",
+                "type": "local",
+                "fieldName": "row_data"
+              }
+            ],
+            "text": [
+              {
+                "fullExpression": "@local.row_data.option_happy_text",
+                "matchedExpression": "@local.row_data.option_happy_text",
+                "type": "local",
+                "fieldName": "row_data"
+              }
+            ]
+          },
+          "1": {
+            "image": [
+              {
+                "fullExpression": "@local.row_data.option_ok_image_asset",
+                "matchedExpression": "@local.row_data.option_ok_image_asset",
+                "type": "local",
+                "fieldName": "row_data"
+              }
+            ],
+            "text": [
+              {
+                "fullExpression": "@local.row_data.option_ok_text",
+                "matchedExpression": "@local.row_data.option_ok_text",
+                "type": "local",
+                "fieldName": "row_data"
+              }
+            ]
+          },
+          "2": {
+            "image": [
+              {
+                "fullExpression": "@local.row_data.option_sad_image_asset",
+                "matchedExpression": "@local.row_data.option_sad_image_asset",
+                "type": "local",
+                "fieldName": "row_data"
+              }
+            ],
+            "text": [
+              {
+                "fullExpression": "@local.row_data.option_sad_text",
+                "matchedExpression": "@local.row_data.option_sad_text",
+                "type": "local",
+                "fieldName": "row_data"
+              }
+            ]
+          }
         }
       },
       "_dynamicDependencies": {
         "@local.row_data.option_happy_image_asset": [
-          "value.0"
+          "value.0.image"
         ],
         "@local.row_data.option_happy_text": [
-          "value.0"
+          "value.0.text"
         ],
         "@local.row_data.option_ok_image_asset": [
-          "value.1"
+          "value.1.image"
         ],
         "@local.row_data.option_ok_text": [
-          "value.1"
+          "value.1.text"
         ],
         "@local.row_data.option_sad_image_asset": [
-          "value.2"
+          "value.2.image"
         ],
         "@local.row_data.option_sad_text": [
-          "value.2"
+          "value.2.text"
         ]
       }
     },

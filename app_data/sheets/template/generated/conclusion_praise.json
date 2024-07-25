@@ -1,12 +1,12 @@
 {
-  "flow_name": "discipline_interaction_1_tbg",
+  "flow_name": "conclusion_praise",
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
     {
       "type": "template",
-      "name": "topic_block_group",
-      "value": "topic_block_group",
+      "name": "praise",
+      "value": "praise",
       "action_list": [
         {
           "trigger": "completed",
@@ -30,15 +30,15 @@
       "rows": [
         {
           "name": "id",
-          "value": "interaction_children_1",
+          "value": "conclusion",
           "_translations": {
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "topic_block_group.id"
+          "_nested_name": "praise.id"
         }
       ],
-      "_nested_name": "topic_block_group"
+      "_nested_name": "praise"
     }
   ]
 }

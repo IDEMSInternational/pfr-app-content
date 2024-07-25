@@ -60,7 +60,7 @@
                 "value": {}
               },
               "exclude_from_translation": true,
-              "_nested_name": "animated_slides.animated_section.image"
+              "_nested_name": "animated_slides_4.animated_section_1.image"
             },
             {
               "type": "text",
@@ -72,11 +72,11 @@
               "parameter_list": {
                 "text_align": "center"
               },
-              "_nested_name": "animated_slides.animated_section.slogan"
+              "_nested_name": "animated_slides_4.animated_section_1.slogan"
             }
           ],
-          "name": "animated_section",
-          "_nested_name": "animated_slides.animated_section"
+          "name": "animated_section_1",
+          "_nested_name": "animated_slides_4.animated_section_1"
         },
         {
           "type": "animated_section",
@@ -89,15 +89,15 @@
               "name": "splash_partners",
               "value": "splash_partners",
               "rows": [],
-              "_nested_name": "animated_slides.animated_section.splash_partners"
+              "_nested_name": "animated_slides_4.animated_section_2.splash_partners"
             }
           ],
-          "name": "animated_section",
-          "_nested_name": "animated_slides.animated_section"
+          "name": "animated_section_2",
+          "_nested_name": "animated_slides_4.animated_section_2"
         }
       ],
-      "name": "animated_slides",
-      "_nested_name": "animated_slides",
+      "name": "animated_slides_4",
+      "_nested_name": "animated_slides_4",
       "_dynamicFields": {
         "parameter_list": {
           "skip_text": [

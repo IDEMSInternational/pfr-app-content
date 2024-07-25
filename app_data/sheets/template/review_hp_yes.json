@@ -5,9 +5,10 @@
   "rows": [
     {
       "name": "data_list_name",
-      "value": [
-        "review_hp"
-      ],
+      "value": "review_hp",
+      "_translations": {
+        "value": {}
+      },
       "type": "set_variable",
       "_nested_name": "data_list_name"
     },
@@ -22,35 +23,34 @@
     },
     {
       "name": "data_list_name_id",
-      "value": [
-        "@local.data_list_name.@local.id"
-      ],
+      "value": "@local.data_list_name.@local.id",
+      "_translations": {
+        "value": {}
+      },
       "type": "set_variable",
       "_nested_name": "data_list_name_id",
       "_dynamicFields": {
-        "value": {
-          "0": [
-            {
-              "fullExpression": "@local.data_list_name.@local.id",
-              "matchedExpression": "@local.data_list_name",
-              "type": "local",
-              "fieldName": "data_list_name"
-            },
-            {
-              "fullExpression": "@local.data_list_name.@local.id",
-              "matchedExpression": "@local.id",
-              "type": "local",
-              "fieldName": "id"
-            }
-          ]
-        }
+        "value": [
+          {
+            "fullExpression": "@local.data_list_name.@local.id",
+            "matchedExpression": "@local.data_list_name",
+            "type": "local",
+            "fieldName": "data_list_name"
+          },
+          {
+            "fullExpression": "@local.data_list_name.@local.id",
+            "matchedExpression": "@local.id",
+            "type": "local",
+            "fieldName": "id"
+          }
+        ]
       },
       "_dynamicDependencies": {
         "@local.data_list_name": [
-          "value.0"
+          "value"
         ],
         "@local.id": [
-          "value.0"
+          "value"
         ]
       }
     },
@@ -114,49 +114,64 @@
     {
       "name": "answer_list_how",
       "value": [
-        "name: happy | text: @local.row_data.how_happy",
-        "name: okay | text: @local.row_data.how_okay",
-        "name: sad | text: @local.row_data.how_sad"
+        {
+          "name": "happy",
+          "text": "@local.row_data.how_happy"
+        },
+        {
+          "name": "okay",
+          "text": "@local.row_data.how_okay"
+        },
+        {
+          "name": "sad",
+          "text": "@local.row_data.how_sad"
+        }
       ],
       "type": "set_variable",
       "_nested_name": "answer_list_how",
       "_dynamicFields": {
         "value": {
-          "0": [
-            {
-              "fullExpression": "name: happy | text: @local.row_data.how_happy",
-              "matchedExpression": "@local.row_data.how_happy",
-              "type": "local",
-              "fieldName": "row_data"
-            }
-          ],
-          "1": [
-            {
-              "fullExpression": "name: okay | text: @local.row_data.how_okay",
-              "matchedExpression": "@local.row_data.how_okay",
-              "type": "local",
-              "fieldName": "row_data"
-            }
-          ],
-          "2": [
-            {
-              "fullExpression": "name: sad | text: @local.row_data.how_sad",
-              "matchedExpression": "@local.row_data.how_sad",
-              "type": "local",
-              "fieldName": "row_data"
-            }
-          ]
+          "0": {
+            "text": [
+              {
+                "fullExpression": "@local.row_data.how_happy",
+                "matchedExpression": "@local.row_data.how_happy",
+                "type": "local",
+                "fieldName": "row_data"
+              }
+            ]
+          },
+          "1": {
+            "text": [
+              {
+                "fullExpression": "@local.row_data.how_okay",
+                "matchedExpression": "@local.row_data.how_okay",
+                "type": "local",
+                "fieldName": "row_data"
+              }
+            ]
+          },
+          "2": {
+            "text": [
+              {
+                "fullExpression": "@local.row_data.how_sad",
+                "matchedExpression": "@local.row_data.how_sad",
+                "type": "local",
+                "fieldName": "row_data"
+              }
+            ]
+          }
         }
       },
       "_dynamicDependencies": {
         "@local.row_data.how_happy": [
-          "value.0"
+          "value.0.text"
         ],
         "@local.row_data.how_okay": [
-          "value.1"
+          "value.1.text"
         ],
         "@local.row_data.how_sad": [
-          "value.2"
+          "value.2.text"
         ]
       }
     },
