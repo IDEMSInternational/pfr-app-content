@@ -51,6 +51,16 @@
       "outro_text": "It is good practice for parents to be involved in their children’s play but this should be done respectfully with the full consent of the child. Play should meet the needs of the child and not the parents; thus play the child’s way and not the parent’s way."
     },
     {
+      "id": "interactive_child_lead",
+      "topic": "child_dev",
+      "title": "Following the childs lead",
+      "icon_asset": "images/icons/picture_book.svg",
+      "task_1_data": "story",
+      "task_1_id": "interactive_child_lead",
+      "task_2_data": "reflect",
+      "task_2_id": "interactive_child_lead"
+    },
+    {
       "id": "interactive_play",
       "topic": "child_dev",
       "title": "Interactive play with children",
@@ -82,7 +92,9 @@
       "task_1_data": "story",
       "task_1_id": "outstanding_abilities",
       "task_2_data": "quiz",
-      "task_2_id": "relation_pregnancy"
+      "task_2_id": "relation_pregnancy",
+      "task_3_data": "tips",
+      "task_3_id": "relation_pregnancy"
     },
     {
       "id": "managing_behaviour",
@@ -107,7 +119,9 @@
       "task_1_data": "story",
       "task_1_id": "setting_limits",
       "task_2_data": "reflect",
-      "task_2_id": "setting_limits",
+      "task_2_id": "setting_limits_1",
+      "task_3_data": "reflect",
+      "task_3_id": "setting_limits_2",
       "outro_text": "Notice:\n* The mother sits with the child at the same level and communicates the limit. It’s a respectful position where both people are ready to listen.\n* The limit should be for a specific behaviour to ensure that Sam abides to the limit. A watch is provided so that they can refer to it.\n* Just like the mother, we need to appreciate the children when they follow family rules and limits to encourage them to keep following them."
     },
     {
@@ -118,17 +132,15 @@
       "task_1_data": "tips",
       "task_1_id": "setting_limits",
       "task_2_data": "tips",
-      "task_2_id": "limits_importance",
-      "task_3_data": "tips",
-      "task_3_id": "establish_limits"
+      "task_2_id": "establish_limits"
     },
     {
       "id": "parenting_style",
       "topic": "positive_parenting",
-      "title": "Four Kinds of Parenting",
+      "title": "Types of Parenting Styles",
       "icon_asset": "images/icons/light_bulb.svg",
-      "intro_text": "For parents to make use of principles on Love/connectedness & Setting limits and boundaries, we need to understand four parenting styles:",
-      "task_1_data": "tips",
+      "intro_text": "There are four different kinds of parenting styles:",
+      "task_1_data": "reflect",
       "task_1_id": "parenting_style_firm",
       "task_2_data": "tips",
       "task_2_id": "parenting_style_strict",
@@ -148,12 +160,10 @@
       "task_2_data": "reflect",
       "task_2_id": "gender_stereotypes_2",
       "task_3_data": "tips",
-      "task_3_id": "gender_stereotypes_1",
-      "task_4_data": "tips",
-      "task_4_id": "gender_stereotypes_2"
+      "task_3_id": "gender_stereotypes_1"
     },
     {
-      "id": "impact_conflict",
+      "id": "impact_conflict_1",
       "topic": "impact_conflict",
       "title": "The violence around me",
       "icon_asset": "images/icons/picture_book.svg",
@@ -165,6 +175,17 @@
       "task_3_data": "tips",
       "task_3_id": "impact_conflict",
       "outro_text": "To construct healthy non-violent respectful relationships with spouses and/or children fathers/mothers should consistently practice to:\n* Listen carefully to the other party\n* Be patient and stay calm\n* Agree to disagree\n* Set realistic rules, communicate them clearly to family, and stick to them\n* Allow conversation/dialogue and negotiate"
+    },
+    {
+      "id": "impact_conflict_2",
+      "topic": "impact_conflict",
+      "title": "The Head of the Family",
+      "icon_asset": "images/icons/thought_bubble.svg",
+      "intro_text": "* This activity is often implemented with men but we know that there are are families that are led by women as well.",
+      "task_1_data": "reflect",
+      "task_1_id": "family_head",
+      "task_2_data": "tips",
+      "task_2_id": "family_head"
     },
     {
       "id": "sharing_care",
@@ -187,7 +208,7 @@
       "intro_text": "In this activity we wil promote reflection and increase awareness about gender differences in terms of care-giving and caring relationships.",
       "task_1_data": "reflect",
       "task_1_id": "caregiving",
-      "task_2_data": "quiz",
+      "task_2_data": "tips",
       "task_2_id": "caregiving"
     },
     {
@@ -212,7 +233,9 @@
       "task_2_data": "quiz",
       "task_2_id": "rships_communication",
       "task_3_data": "tips",
-      "task_3_id": "rships_communication"
+      "task_3_id": "rships_communication_1",
+      "task_4_data": "reflect",
+      "task_4_id": "rships_communication"
     },
     {
       "id": "session_review",

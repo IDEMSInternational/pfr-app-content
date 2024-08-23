@@ -1,12 +1,12 @@
 {
-  "flow_name": "impact_conflict_tbg",
+  "flow_name": "discipline_children_tips_2",
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
     {
       "type": "template",
-      "name": "topic_block_group",
-      "value": "topic_block_group",
+      "name": "tips",
+      "value": "tips",
       "action_list": [
         {
           "trigger": "completed",
@@ -30,15 +30,15 @@
       "rows": [
         {
           "name": "id",
-          "value": "impact_conflict",
+          "value": "parenting_style_strict",
           "_translations": {
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "topic_block_group.id"
+          "_nested_name": "tips.id"
         }
       ],
-      "_nested_name": "topic_block_group"
+      "_nested_name": "tips"
     }
   ]
 }

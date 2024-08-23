@@ -49,6 +49,11 @@
       "flow_name": "discipline",
       "_xlsxPath": "global/data_lists/session_tasks.xlsx"
     },
+    "discipline_children": {
+      "flow_type": "data_list",
+      "flow_name": "discipline_children",
+      "_xlsxPath": "global/data_lists/session_tasks.xlsx"
+    },
     "education": {
       "flow_type": "data_list",
       "flow_name": "education",
@@ -81,6 +86,11 @@
     },
     "current_pract_tasks": {
       "flow_name": "current_pract_tasks",
+      "flow_subtype": "generated",
+      "flow_type": "data_list"
+    },
+    "discipline_children_tasks": {
+      "flow_name": "discipline_children_tasks",
       "flow_subtype": "generated",
       "flow_type": "data_list"
     },
@@ -141,11 +151,6 @@
     },
     "reduce_conflict_tasks": {
       "flow_name": "reduce_conflict_tasks",
-      "flow_subtype": "generated",
-      "flow_type": "data_list"
-    },
-    "review_tasks": {
-      "flow_name": "review_tasks",
       "flow_subtype": "generated",
       "flow_type": "data_list"
     },
@@ -267,11 +272,6 @@
       "flow_name": "relax",
       "_xlsxPath": "global/data_lists/sessions.xlsx"
     },
-    "review": {
-      "flow_type": "data_list",
-      "flow_name": "review",
-      "_xlsxPath": "global/data_lists/session_tasks.xlsx"
-    },
     "review_hp": {
       "flow_type": "data_list",
       "flow_name": "review_hp",
@@ -392,6 +392,18 @@
         "output_flow_subtype": "generated"
       },
       "session": "discipline",
+      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+    },
+    "gen_discipline_children_blocks": {
+      "flow_type": "generator",
+      "flow_name": "gen_discipline_children_blocks",
+      "parameter_list": {
+        "input_data_list": "discipline_children",
+        "output_flow_name": "@gen.id",
+        "output_flow_type": "template",
+        "output_flow_subtype": "generated"
+      },
+      "session": "discipline_children",
       "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
     },
     "gen_education_blocks": {
@@ -526,18 +538,6 @@
       "session": "reduce_conflict",
       "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
     },
-    "gen_review_blocks": {
-      "flow_type": "generator",
-      "flow_name": "gen_review_blocks",
-      "parameter_list": {
-        "input_data_list": "review",
-        "output_flow_name": "@gen.id",
-        "output_flow_type": "template",
-        "output_flow_subtype": "generated"
-      },
-      "session": "review",
-      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
-    },
     "gen_sharing_care_blocks": {
       "flow_type": "generator",
       "flow_name": "gen_sharing_care_blocks",
@@ -649,6 +649,11 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "child_dev_lead_tbg": {
+      "flow_name": "child_dev_lead_tbg",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "child_dev_praise": {
       "flow_name": "child_dev_praise",
       "flow_subtype": "generated",
@@ -756,6 +761,61 @@
     },
     "discipline_check_in": {
       "flow_name": "discipline_check_in",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "discipline_children_check_in": {
+      "flow_name": "discipline_children_check_in",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "discipline_children_praise": {
+      "flow_name": "discipline_children_praise",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "discipline_children_reflect": {
+      "flow_name": "discipline_children_reflect",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "discipline_children_relax": {
+      "flow_name": "discipline_children_relax",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "discipline_children_review_hp": {
+      "flow_name": "discipline_children_review_hp",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "discipline_children_set_hp": {
+      "flow_name": "discipline_children_set_hp",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "discipline_children_tips_1": {
+      "flow_name": "discipline_children_tips_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "discipline_children_tips_2": {
+      "flow_name": "discipline_children_tips_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "discipline_children_tips_3": {
+      "flow_name": "discipline_children_tips_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "discipline_children_tips_4": {
+      "flow_name": "discipline_children_tips_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "discipline_children_tips_5": {
+      "flow_name": "discipline_children_tips_5",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -934,8 +994,13 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "gender_power_stereotypes_tbg": {
-      "flow_name": "gender_power_stereotypes_tbg",
+    "gender_power_review_hp": {
+      "flow_name": "gender_power_review_hp",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "gender_power_tbg": {
+      "flow_name": "gender_power_tbg",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -964,13 +1029,13 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "healthy_relation_tbg_1": {
-      "flow_name": "healthy_relation_tbg_1",
+    "healthy_relation_tbg": {
+      "flow_name": "healthy_relation_tbg",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "healthy_relation_tbg_2": {
-      "flow_name": "healthy_relation_tbg_2",
+    "healthy_relation_tips": {
+      "flow_name": "healthy_relation_tips",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -999,13 +1064,13 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "impact_conflict_tbg": {
-      "flow_name": "impact_conflict_tbg",
+    "impact_conflict_tbg_1": {
+      "flow_name": "impact_conflict_tbg_1",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "impact_conflict_tips": {
-      "flow_name": "impact_conflict_tips",
+    "impact_conflict_tbg_2": {
+      "flow_name": "impact_conflict_tbg_2",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1104,13 +1169,8 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "positive_parenting_style_tbg": {
-      "flow_name": "positive_parenting_style_tbg",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "positive_parenting_tips": {
-      "flow_name": "positive_parenting_tips",
+    "positive_parenting_set_hp": {
+      "flow_name": "positive_parenting_set_hp",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1184,31 +1244,6 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "review_ball_change_tbg": {
-      "flow_name": "review_ball_change_tbg",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "review_check_in": {
-      "flow_name": "review_check_in",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "review_praise": {
-      "flow_name": "review_praise",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "review_relax": {
-      "flow_name": "review_relax",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "review_tbg": {
-      "flow_name": "review_tbg",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
     "sharing_care_check_in": {
       "flow_name": "sharing_care_check_in",
       "flow_subtype": "generated",
@@ -1241,11 +1276,6 @@
     },
     "sharing_care_tbg_2": {
       "flow_name": "sharing_care_tbg_2",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "sharing_care_tips": {
-      "flow_name": "sharing_care_tips",
       "flow_subtype": "generated",
       "flow_type": "template"
     },

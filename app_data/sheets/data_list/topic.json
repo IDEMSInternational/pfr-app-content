@@ -35,26 +35,31 @@
       "image_asset": "images/father_children_washing_utensils.jpg"
     },
     {
-      "id": "gender_power",
-      "title": "6. Norms, practices and behaviour",
-      "topic_group": "gender_relations",
+      "id": "discipline_children",
+      "title": "6. How do discipline our children",
+      "topic_group": "behaviour",
       "image_asset": "images/family_preparing_cereal.jpg"
     },
     {
+      "id": "gender_power",
+      "title": "7. Gendered relationships and Power - Norms, practices and behaviour",
+      "topic_group": "gender_relations"
+    },
+    {
       "id": "impact_conflict",
-      "title": "7. Impact of parental conflict and violence",
+      "title": "8. Impact of parental conflict and violence",
       "topic_group": "parental_conflict",
       "image_asset": "images/father_dressing_child.jpg"
     },
     {
       "id": "sharing_care",
-      "title": "8. Sharing child care responsibility",
+      "title": "9. Sharing child care responsibility",
       "topic_group": "gender_relations",
       "image_asset": "images/father_soothing_baby.jpg"
     },
     {
       "id": "healthy_relation",
-      "title": "9. Healthy marital relationships, sexuality, alcohol and communication",
+      "title": "10. Healthy marital relationships, sexuality, alcohol and communication",
       "topic_group": "parental_conflict",
       "image_asset": "images/father_mother.jpg"
     },
@@ -66,37 +71,37 @@
     },
     {
       "id": "discipline",
-      "title": "10. Achieving respectability and discipline",
+      "title": "11. Achieving respectability and discipline",
       "topic_group": "behaviour",
       "image_asset": "images/parents_kids_reading_magazine.jpg"
     },
     {
       "id": "education",
-      "title": "11. Encouraging education",
+      "title": "12. Encouraging education",
       "topic_group": "behaviour",
       "image_asset": "images/parents_child_reading.jpg"
     },
     {
       "id": "gender_equal",
-      "title": "12. Greater gender equality",
+      "title": "13. Greater gender equality",
       "topic_group": "gender_relations",
       "image_asset": "images/family_cooking_2.jpg"
     },
     {
       "id": "prevent_abuse",
-      "title": "13. Prevention of sexual abuse for children below 17 years",
+      "title": "14. Prevention of sexual abuse for children below 17 years",
       "topic_group": "behaviour",
       "image_asset": "images/sexual_abuse_prevention.jpg"
     },
     {
       "id": "reduce_conflict",
-      "title": "14. Reducing parental conflict and improving communication",
+      "title": "15. Reducing parental conflict and improving communication",
       "topic_group": "parental_conflict",
       "image_asset": "images/family_cooking_1.jpg"
     },
     {
       "id": "conclusion",
-      "title": "15. Conclusion",
+      "title": "Conclusion",
       "topic_group": "conclusion",
       "image_asset": "images/mother_kids_with_magazine.jpg"
     }

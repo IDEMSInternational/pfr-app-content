@@ -22,22 +22,22 @@
       "completed": "@fields.task_impact_conflict_check_in_completed"
     },
     {
-      "id": "impact_conflict_tbg",
+      "id": "impact_conflict_tbg_1",
       "data_list_name": [
         "topic_block_group"
       ],
-      "row_id": "impact_conflict",
-      "completed_field": "task_impact_conflict_tbg_completed",
-      "completed": "@fields.task_impact_conflict_tbg_completed"
+      "row_id": "impact_conflict_1",
+      "completed_field": "task_impact_conflict_tbg_1_completed",
+      "completed": "@fields.task_impact_conflict_tbg_1_completed"
     },
     {
-      "id": "impact_conflict_tips",
+      "id": "impact_conflict_tbg_2",
       "data_list_name": [
-        "tips"
+        "topic_block_group"
       ],
-      "row_id": "parents_involvement",
-      "completed_field": "task_impact_conflict_tips_completed",
-      "completed": "@fields.task_impact_conflict_tips_completed"
+      "row_id": "impact_conflict_2",
+      "completed_field": "task_impact_conflict_tbg_2_completed",
+      "completed": "@fields.task_impact_conflict_tbg_2_completed"
     },
     {
       "id": "impact_conflict_set_hp",

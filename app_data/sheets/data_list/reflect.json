@@ -37,23 +37,31 @@
     {
       "id": "interactive_play_distracted",
       "topic": "child_dev",
-      "intro_text": "If you were David’s mother, what would you do?",
-      "audio_transcript": "If you were David’s mother, what would you do to:\n*  Make him happy again? \n* Give him attention?\n* Avoid this happening again?",
+      "intro_text": "How does David feel when his mother does pay attention?\nHow does the mother feel about David?",
+      "audio_transcript": "To improve attachment and bonding, you need to pay attention to the needs of children even if it means making them aware that you care.\nThe mother has options to keep on her phone but make David aware that she cares and is available for him.\n\"If you were David’s mother, what would you do to:",
       "icon_asset": "images/icons/thought_bubble.svg",
       "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
     },
     {
       "id": "interactive_play_control",
       "topic": "child_dev",
-      "audio_transcript": "* What do you think of Birungi’s father’s actions?\n* What could he have done differently?",
+      "intro_text": "* What do you think of Birungi’s father’s actions?\n* How does Birungi feel when her father controls the game?",
+      "audio_transcript": "Control doesn't teach our children to enjoy the play time and benefit from it. Instead, it will lead to anxiety and feelings of inadequacy. Play is important for health brain development.",
       "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
+      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
+    },
+    {
+      "id": "interactive_child_lead",
+      "topic": "child_dev",
+      "intro_text": "* How does the mother show attention to Doreen?\n* How does the mother help Doreen to do what she wants without controlling her?\n* How does this make Doreen feel?",
+      "audio_transcript": "It is a good practice for parents to be involved in their children's play but this should be done respectfully with the full consent of the child. Play should meet the needs of the child and not the parent. Praise the child for their initiatives and follow their lead.",
+      "icon_asset": "images/icons/thought_bubble.svg",
       "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
     },
     {
       "id": "caregiver_legacy_1",
       "topic": "parent_childhood",
-      "audio_transcript": "* What positive and negative childhood things do you remember in your relationship with your father/mother/caregiver?",
+      "audio_transcript": "What positive childhood experiences do you remember in your relationship with your mother/father/caregiver? Note them down. What negative childhood experiences do you remember in your relationship with your mother/father/caregiver? Note them down. Name one thing about your female/male caregiver that you want to take into your relationship with your children. Name one thing about your female/male caregiver that you do not want to repeat with your children?",
       "icon_asset": "images/icons/thought_bubble.svg",
       "intro_text": "Let's imagine the following situation.",
       "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
@@ -75,7 +83,7 @@
       "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
     },
     {
-      "id": "setting_limits",
+      "id": "setting_limits_1",
       "topic": "positive_parenting",
       "audio_transcript": "* How does the mother communicate to the child about house rules?\n* How does the mother talk to the child to make sure that he is really listening?\n* Is the house rule connected to a specific behavior?\n* What does the mother do to support the child when he follows the house rule?",
       "icon_asset": "images/icons/thought_bubble.svg",
@@ -83,18 +91,35 @@
       "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
     },
     {
+      "id": "setting_limits_2",
+      "topic": "positive_parenting",
+      "intro_text": "Reflect on this illustration or scenario:",
+      "audio_transcript": "Vincent, you will not visit your friends for two weeks because you came back home very late last night. Our rule says that we should all be home by 7:30 PM but mother........................................  \nYou will do exactly what your mother says",
+      "icon_asset": "images/icons/thought_bubble.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
+    },
+    {
+      "id": "parenting_style",
+      "topic": "discipline_children",
+      "title": "Types of Parenting Styles",
+      "intro_text": "There are four different kinds of parenting styles:",
+      "audio_transcript": "For parents to make use of principles on Love/connectedness & Setting limits and boundaries, we need to understand four parenting styles: Authoritative/Firm ParentingFirm;Strict/Authoritarian; Permissive parentingIndifferent/Uninvolved parenting;  What parenting style is predominant in your household? Why?",
+      "icon_asset": "images/icons/thought_bubble.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
+    },
+    {
       "id": "gender_stereotypes_1",
       "topic": "gender_power",
-      "audio_transcript": "* What comes to mind when you hear the words “being a man”? Is it being “father”, “decision maker”, “breadwinner”, “provider”, “strong”, “courageous”, “violent”, “leader”\n* What comes to mind when you hear the words “being a woman”? Is it being “mother”, “weak”, “carer”, “beard”, “penis”, “breasts”, “pregnancy”, and “birth”)",
+      "intro_text": "* What comes to mind when you hear the words “being a man”, \"being a woman\"? Or act like \"a man\", act like \"a woman\"? Note these down",
+      "audio_transcript": "As seen, the two images of our gender boxes show that most attributes, and behaviors are socially constructed, with only a few being biological, like having breasts or the ability to make one pregnant. This means men and women are similar in many ways and can do many things together, which benefits their wellbeing and their children’s. Could social constructs sometimes limit us? Let’s explore attributes and practices outside these gender boxes",
       "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
       "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
     },
     {
       "id": "gender_stereotypes_2",
       "topic": "gender_power",
-      "intro_text": "",
-      "audio_transcript": "* What things do men do that are considered to be for women?\n* What things do women do that are considered to be for men?\n* What attributes can a woman take to make her a better wife and mother?\n* What attributes can a man take to make her a better husband and father?\n* What have you learned from this activity?",
+      "intro_text": "* What attributes and practices can a woman take from both boxes that can make her a better mother, friend and wife?\n* What attributes and practices can a man take from both boxes that can make him a better father, friend and husband?",
+      "audio_transcript": "Often, women and young ladies desire men who possess attributes outside the box, while many a number of  men prefer women who adhere to the traits inside the box. Additionally, more women are stepping outside these roles compared to men. This is partly due to the advantages men have in sticking to traditional roles. Education, modernization, and technology have empowered many women to break out of these roles. For a healthy marriage, it's important for both men and women to adopt positive traits from in and outside the box to benefit themselves, their children, and those around them\n\n* What practices will you adapt to help you move from inside the gender box to outside the gender box as you try to become a better spouse and parent?",
       "icon_asset": "images/icons/thought_bubble.svg",
       "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
     },
@@ -102,7 +127,15 @@
       "id": "impact_conflict",
       "topic": "impact_conflict",
       "intro_text": "Follow up reflection:",
-      "audio_transcript": "* Is such a situation familiar in your community or daily lives?\n* What is the most common type of violence practiced against women? Against men? Against children?\n* Is there a relationship between power and violence?\n* What are the consequences of conflict/violence to women? To the Children? To the Men? To the Family?\n* What are some examples of healthy spousal and family relationships?\n* How can we make our own relationships less violent?",
+      "audio_transcript": "* Is such a situation familiar in your community or daily lives?\n* What is the most common type of violence practiced against women? Against men? Against children?\n* Is there a relationship between power and violence?\n* What are the consequences of conflict/violence to women? To the Children? To the Men? To the Family?\n* What are some examples of healthy spousal and family relationships?\n* How can we make your own relationships free from violence?",
+      "icon_asset": "images/icons/thought_bubble.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
+    },
+    {
+      "id": "family_head",
+      "topic": "impact_conflict",
+      "intro_text": "Reflecting on your head, can you note down the different parts of your head and list their functions?",
+      "audio_transcript": "As you reflect on the different parts of the head, for example, the eye, do you use your eyes to see opportunities that benefit your family (children and spouse) or are you using them for selfish interests? Think about your mouth, do you use it to speak to your family members or to abuse and curse them? How about your ears; do you use them to listen to them? How often. We can only take pride in family headship if we choose to function in our everyday lives for the benefit of those we live with and not for our selfish intentions. What happens if any of the parts of the head fail to function the way they are supposed to? The entire body will feel the effect? This means that if you don't utilize all our capacities and heads of our family, some members of the household will negatively be affected.",
       "icon_asset": "images/icons/thought_bubble.svg",
       "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
     },
@@ -117,7 +150,15 @@
     {
       "id": "caregiving",
       "topic": "sharing_care",
-      "audio_transcript": "Imagine having the following items, two empty boxes, household items such as a radio, phone, plates, baby oil, clothes, hoe, electronic items, and baby toys.\n* Drop in the woman’s box pictures and/or objects of things that women care for, better.\n* In the man’s box drop pictures and/or objects of things that men care for, better.",
+      "intro_text": "Let's do a reflection",
+      "audio_transcript": "How do you think a man can properly care for the infant as in the illustration?  Why? Why not?\nHow do you think a woman can properly care for family items and resources like in the illustration? Why? Why not?\nWhat would you change to improve your own role in taking care of your children?",
+      "icon_asset": "images/icons/thought_bubble.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
+    },
+    {
+      "id": "rships_communication",
+      "topic": "healthy_relation",
+      "audio_transcript": "Does this relate in any way to your own marital relationship. Do you spend time together",
       "icon_asset": "images/icons/thought_bubble.svg",
       "intro_text": "Let's imagine the following situation.",
       "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"

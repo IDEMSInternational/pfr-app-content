@@ -46,6 +46,13 @@
       "image": "images/icons/cup.svg"
     },
     {
+      "id": "discipline_children",
+      "title": "Well done!",
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations for completing the @data.session.discipline_children.title session.",
+      "image": "images/icons/cup.svg"
+    },
+    {
       "id": "gender_power",
       "title": "Well done!",
       "icon_asset": "images/icons/cup.svg",

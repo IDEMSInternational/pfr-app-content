@@ -1,12 +1,12 @@
 {
-  "flow_name": "review_praise",
+  "flow_name": "discipline_children_tips_1",
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
     {
       "type": "template",
-      "name": "praise",
-      "value": "praise",
+      "name": "tips",
+      "value": "tips",
       "action_list": [
         {
           "trigger": "completed",
@@ -30,15 +30,15 @@
       "rows": [
         {
           "name": "id",
-          "value": "review",
+          "value": "parenting_style_firm",
           "_translations": {
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "praise.id"
+          "_nested_name": "tips.id"
         }
       ],
-      "_nested_name": "praise"
+      "_nested_name": "tips"
     }
   ]
 }

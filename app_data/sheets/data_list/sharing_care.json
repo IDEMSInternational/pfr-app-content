@@ -39,13 +39,6 @@
       "row_id": "caregiving"
     },
     {
-      "id": "sharing_care_tips",
-      "data_list_name": [
-        "tips"
-      ],
-      "row_id": "caregiving"
-    },
-    {
       "id": "sharing_care_set_hp",
       "data_list_name": [
         "set_hp"

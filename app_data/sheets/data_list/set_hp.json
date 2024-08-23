@@ -33,7 +33,25 @@
     {
       "id": "parent_childhood",
       "topic": "parent_childhood",
-      "text": "* Practice any one play or fun moments from your childhood that can improve your relationship with your child/children.",
+      "text": "* Practice any one play or fun moments from your childhood that can improve your relationship and bond with your child/children.",
+      "title": "Home practice",
+      "icon_asset": "images/icons/parent_child_heart.svg",
+      "intro_text": "Time to try this at home with your family.",
+      "attached_single_doc": "https://docs.google.com/document/d/1Fn5H-2Za7T3zu01fmgAdmEjHiF3H7GGI989V3qdSjI4"
+    },
+    {
+      "id": "positive_parenting",
+      "topic": "positive_parenting",
+      "text": "* Ask members of your family to develop at least 4 family rules and both the children and adults in your household will uphold. Each rule should have a consequence and this should in accordance to their children's developmental stages",
+      "title": "Home practice",
+      "icon_asset": "images/icons/parent_child_heart.svg",
+      "intro_text": "Time to try this at home with your family.",
+      "attached_single_doc": "https://docs.google.com/document/d/1Fn5H-2Za7T3zu01fmgAdmEjHiF3H7GGI989V3qdSjI4"
+    },
+    {
+      "id": "discipline_children",
+      "topic": "discipline_children",
+      "text": "* Practice the parenting style that you would want to be predominant in your family during the week. Take off time and develop a family goal together with the children and other members in the household.",
       "title": "Home practice",
       "icon_asset": "images/icons/parent_child_heart.svg",
       "intro_text": "Time to try this at home with your family.",
@@ -51,7 +69,7 @@
     {
       "id": "sharing_care",
       "topic": "sharing_care",
-      "text": "* Discuss with your partner/children about the benefits and challenges of family time together",
+      "text": "* Discuss with your partner/children about the benefits and challenges of family time together\n*Practice a new way or something you have not been doing for a long time to care for your child/ren to improve your relationship and bond.",
       "title": "Home practice",
       "icon_asset": "images/icons/parent_child_heart.svg",
       "intro_text": "Time to try this at home with your family.",
@@ -60,7 +78,7 @@
     {
       "id": "healthy_relation",
       "topic": "healthy_relation",
-      "text": "Reflect on the things you like and those you do not like about your marriage or family life.",
+      "text": "If you have a partner, this week discuss with them the goals of your marriage and how to improve marital satisfaction without resorting to blaming each other \n\nTry out three different things during this week to spice up your relationship.",
       "title": "Home practice",
       "icon_asset": "images/icons/parent_child_heart.svg",
       "intro_text": "Time to try this at home with your family.",

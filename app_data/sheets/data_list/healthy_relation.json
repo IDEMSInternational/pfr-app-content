@@ -25,18 +25,18 @@
       "row_id": "sharing_care"
     },
     {
-      "id": "healthy_relation_tbg_1",
-      "data_list_name": [
-        "topic_block_group"
-      ],
-      "row_id": "healthy_relation"
-    },
-    {
-      "id": "healthy_relation_tbg_2",
+      "id": "healthy_relation_tbg",
       "data_list_name": [
         "topic_block_group"
       ],
       "row_id": "rships_communication"
+    },
+    {
+      "id": "healthy_relation_tips",
+      "data_list_name": [
+        "tips"
+      ],
+      "row_id": "rships_communication_2"
     },
     {
       "id": "healthy_relation_set_hp",

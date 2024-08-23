@@ -1,12 +1,12 @@
 {
-  "flow_name": "healthy_relation_tbg_2",
+  "flow_name": "positive_parenting_set_hp",
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
     {
       "type": "template",
-      "name": "topic_block_group",
-      "value": "topic_block_group",
+      "name": "set_hp",
+      "value": "set_hp",
       "action_list": [
         {
           "trigger": "completed",
@@ -30,15 +30,15 @@
       "rows": [
         {
           "name": "id",
-          "value": "rships_communication",
+          "value": "positive_parenting",
           "_translations": {
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "topic_block_group.id"
+          "_nested_name": "set_hp.id"
         }
       ],
-      "_nested_name": "topic_block_group"
+      "_nested_name": "set_hp"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "flow_name": "healthy_relation_tbg_1",
+  "flow_name": "discipline_children_relax",
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
     {
       "type": "template",
-      "name": "topic_block_group",
-      "value": "topic_block_group",
+      "name": "relax",
+      "value": "relax",
       "action_list": [
         {
           "trigger": "completed",
@@ -30,15 +30,15 @@
       "rows": [
         {
           "name": "id",
-          "value": "healthy_relation",
+          "value": "id_1",
           "_translations": {
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "topic_block_group.id"
+          "_nested_name": "relax.id"
         }
       ],
-      "_nested_name": "topic_block_group"
+      "_nested_name": "relax"
     }
   ]
 }

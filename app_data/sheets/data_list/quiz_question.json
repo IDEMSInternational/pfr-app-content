@@ -134,14 +134,6 @@
       "option_2_text": "No"
     },
     {
-      "id": "accompany_wife",
-      "topic": "parent_childhood",
-      "question_type": "select_one",
-      "question_text": "Do you find it convenient to accompany your wife to the health facility?",
-      "option_1_text": "Yes",
-      "option_2_text": "No"
-    },
-    {
       "id": "cuddle_time",
       "topic": "parent_childhood",
       "question_type": "select_one",
@@ -175,19 +167,31 @@
       "option_3_text": "Both"
     },
     {
+      "id": "sharing_care_time",
+      "topic": "sharing_care",
+      "question_type": "text_input_long",
+      "question_text": "How much of the time spent in child upbringing contributes to developing your relationship and bond?"
+    },
+    {
       "id": "sharing_care_relations",
       "topic": "sharing_care",
       "question_type": "text_input_long",
       "question_text": "How does participation affect parent-child relationships?"
     },
     {
-      "id": "sharing_care_obstacles",
+      "id": "sharing_care_obstacles_1",
       "topic": "sharing_care",
       "question_type": "text_input_long",
       "question_text": "What factors contribute to men’s limited participation in child care?"
     },
     {
-      "id": "sharing_care_benefits",
+      "id": "sharing_care_obstacles_2",
+      "topic": "sharing_care",
+      "question_type": "text_input_long",
+      "question_text": "What factors contribute to women’s limited participation in child care?"
+    },
+    {
+      "id": "sharing_care_benefits_1",
       "topic": "sharing_care",
       "question_type": "text_input_long",
       "question_text": "What are the benefits of men participating in child care?"
@@ -241,13 +245,21 @@
       "question_text": "How would you help your partner to control the problem of excessive drinking?"
     },
     {
+      "id": "story_relate",
+      "topic": "healthy_relation",
+      "question_type": "select_one",
+      "question_text": "Are there components of the story that relate to your intimate relationship?",
+      "option_1_text": "Yes",
+      "option_2_text": "No"
+    },
+    {
       "id": "marriage_like",
       "topic": "healthy_relation",
       "question_type": "text_input_long",
       "question_text": "What do you like about marriage?"
     },
     {
-      "id": "marriage_don't_like",
+      "id": "marriage_dont_like",
       "topic": "healthy_relation",
       "question_type": "text_input_long",
       "question_text": "What don’t you like about marriage?"
@@ -256,7 +268,7 @@
       "id": "barrelate_differently",
       "topic": "healthy_relation",
       "question_type": "text_input_long",
-      "question_text": "Why did Dorotia and the lady at the barrelate differently\nwith Adome?"
+      "question_text": "Why did Kevin and the lady at the bar relate differently\nwith Chris?"
     },
     {
       "id": "couple_relate",

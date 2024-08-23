@@ -1,12 +1,12 @@
 {
-  "flow_name": "review_check_in",
+  "flow_name": "impact_conflict_tbg_2",
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
     {
       "type": "template",
-      "name": "check_in",
-      "value": "check_in",
+      "name": "topic_block_group",
+      "value": "topic_block_group",
       "action_list": [
         {
           "trigger": "completed",
@@ -30,15 +30,15 @@
       "rows": [
         {
           "name": "id",
-          "value": "id_1",
+          "value": "impact_conflict_2",
           "_translations": {
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "check_in.id"
+          "_nested_name": "topic_block_group.id"
         }
       ],
-      "_nested_name": "check_in"
+      "_nested_name": "topic_block_group"
     }
   ]
 }

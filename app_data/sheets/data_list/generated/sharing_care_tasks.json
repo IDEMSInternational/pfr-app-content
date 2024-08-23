@@ -49,15 +49,6 @@
       "completed": "@fields.task_sharing_care_tbg_2_completed"
     },
     {
-      "id": "sharing_care_tips",
-      "data_list_name": [
-        "tips"
-      ],
-      "row_id": "caregiving",
-      "completed_field": "task_sharing_care_tips_completed",
-      "completed": "@fields.task_sharing_care_tips_completed"
-    },
-    {
       "id": "sharing_care_set_hp",
       "data_list_name": [
         "set_hp"

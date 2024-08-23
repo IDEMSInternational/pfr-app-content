@@ -1,12 +1,19 @@
 {
-  "flow_name": "positive_parenting_tips",
-  "flow_subtype": "generated",
-  "flow_type": "template",
+  "flow_type": "generator",
+  "flow_name": "gen_discipline_children_blocks",
+  "status": "released",
+  "parameter_list": {
+    "input_data_list": "discipline_children",
+    "output_flow_name": "@gen.id",
+    "output_flow_type": "template",
+    "output_flow_subtype": "generated"
+  },
+  "session": "discipline_children",
   "rows": [
     {
       "type": "template",
-      "name": "tips",
-      "value": "tips",
+      "name": "@gen.data_list_name",
+      "value": "@gen.data_list_name",
       "action_list": [
         {
           "trigger": "completed",
@@ -30,15 +37,10 @@
       "rows": [
         {
           "name": "id",
-          "value": "parenting_relationships",
-          "_translations": {
-            "value": {}
-          },
-          "type": "set_variable",
-          "_nested_name": "tips.id"
+          "value": "@gen.row_id"
         }
-      ],
-      "_nested_name": "tips"
+      ]
     }
-  ]
+  ],
+  "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
 }

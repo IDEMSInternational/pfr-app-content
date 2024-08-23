@@ -46,18 +46,11 @@
       "row_id": "setting_limits_how"
     },
     {
-      "id": "positive_parenting_style_tbg",
+      "id": "positive_parenting_set_hp",
       "data_list_name": [
-        "topic_block_group"
+        "set_hp"
       ],
-      "row_id": "parenting_style"
-    },
-    {
-      "id": "positive_parenting_tips",
-      "data_list_name": [
-        "tips"
-      ],
-      "row_id": "parenting_relationships"
+      "row_id": "positive_parenting"
     },
     {
       "id": "positive_parenting_praise",

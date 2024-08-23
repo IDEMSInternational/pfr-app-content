@@ -1,5 +1,5 @@
 {
-  "flow_name": "impact_conflict_tips",
+  "flow_name": "healthy_relation_tips",
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
@@ -30,7 +30,7 @@
       "rows": [
         {
           "name": "id",
-          "value": "parents_involvement",
+          "value": "rships_communication_2",
           "_translations": {
             "value": {}
           },
