@@ -14,12 +14,27 @@
     },
     {
       "name": "id",
-      "value": "interactive_play_distracted",
+      "value": "@fields.current_story_id",
       "_translations": {
         "value": {}
       },
       "type": "set_variable",
-      "_nested_name": "id"
+      "_nested_name": "id",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@fields.current_story_id",
+            "matchedExpression": "@fields.current_story_id",
+            "type": "fields",
+            "fieldName": "current_story_id"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@fields.current_story_id": [
+          "value"
+        ]
+      }
     },
     {
       "name": "join_image",
