@@ -49,15 +49,6 @@
       "completed": "@fields.task_prevent_abuse_tbg_2_completed"
     },
     {
-      "id": "prevent_abuse_tips",
-      "data_list_name": [
-        "tips"
-      ],
-      "row_id": "values_behaviours",
-      "completed_field": "task_prevent_abuse_tips_completed",
-      "completed": "@fields.task_prevent_abuse_tips_completed"
-    },
-    {
       "id": "prevent_abuse_set_hp",
       "data_list_name": [
         "set_hp"

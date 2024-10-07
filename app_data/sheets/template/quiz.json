@@ -855,6 +855,40 @@
       }
     },
     {
+      "type": "text",
+      "name": "outro_text",
+      "value": "@local.quiz_data.outro_text",
+      "_translations": {
+        "value": {}
+      },
+      "condition": "!!(@local.quiz_data.outro_text)",
+      "_nested_name": "outro_text",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.quiz_data.outro_text",
+            "matchedExpression": "@local.quiz_data.outro_text",
+            "type": "local",
+            "fieldName": "quiz_data"
+          }
+        ],
+        "condition": [
+          {
+            "fullExpression": "!!(@local.quiz_data.outro_text)",
+            "matchedExpression": "@local.quiz_data.outro_text",
+            "type": "local",
+            "fieldName": "quiz_data"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.quiz_data.outro_text": [
+          "value",
+          "condition"
+        ]
+      }
+    },
+    {
       "type": "template",
       "name": "nav_buttons",
       "value": "nav_buttons",

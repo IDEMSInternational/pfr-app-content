@@ -32,11 +32,18 @@
       "row_id": "caregiver_legacy"
     },
     {
-      "id": "parent_childhood_abilities_tbg",
+      "id": "parent_childhood_sbg",
       "data_list_name": [
-        "topic_block_group"
+        "story_block_group"
       ],
       "row_id": "outstanding_abilities"
+    },
+    {
+      "id": "parent_childhood_tips",
+      "data_list_name": [
+        "tips"
+      ],
+      "row_id": "relation_pregnancy"
     },
     {
       "id": "parent_childhood_set_hp",

@@ -1,0 +1,57 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "parenting_teens",
+  "status": "released",
+  "rows": [
+    {
+      "id": "parenting_teens_relax",
+      "data_list_name": [
+        "relax"
+      ],
+      "row_id": "id_1"
+    },
+    {
+      "id": "parenting_teens_check_in",
+      "data_list_name": [
+        "check_in"
+      ],
+      "row_id": "id_1"
+    },
+    {
+      "id": "healthy_relation_review_hp",
+      "data_list_name": [
+        "review_hp"
+      ],
+      "row_id": "healthy_relation"
+    },
+    {
+      "id": "parenting_teens_quiz",
+      "data_list_name": [
+        "quiz"
+      ],
+      "row_id": "adolescence_1"
+    },
+    {
+      "id": "parenting_teens_tbg",
+      "data_list_name": [
+        "topic_block_group"
+      ],
+      "row_id": "discipline"
+    },
+    {
+      "id": "parenting_teens_set_hp",
+      "data_list_name": [
+        "set_hp"
+      ],
+      "row_id": "parenting_teens"
+    },
+    {
+      "id": "parenting_teens_praise",
+      "data_list_name": [
+        "praise"
+      ],
+      "row_id": "parenting_teens"
+    }
+  ],
+  "_xlsxPath": "global/data_lists/session_tasks.xlsx"
+}

@@ -18,13 +18,6 @@
       "row_id": "id_1"
     },
     {
-      "id": "family_relation_reflect",
-      "data_list_name": [
-        "reflect"
-      ],
-      "row_id": "future_now"
-    },
-    {
       "id": "family_relation_tips_1",
       "data_list_name": [
         "tips"

@@ -31,13 +31,13 @@
       "completed": "@fields.task_family_relation_review_hp_completed"
     },
     {
-      "id": "current_pract_tips_1",
+      "id": "current_pract_reflect",
       "data_list_name": [
-        "tips"
+        "reflect"
       ],
-      "row_id": "child_perception",
-      "completed_field": "task_current_pract_tips_1_completed",
-      "completed": "@fields.task_current_pract_tips_1_completed"
+      "row_id": "child_who",
+      "completed_field": "task_current_pract_reflect_completed",
+      "completed": "@fields.task_current_pract_reflect_completed"
     },
     {
       "id": "current_pract_tbg",
@@ -58,13 +58,13 @@
       "completed": "@fields.task_current_pract_quiz_completed"
     },
     {
-      "id": "current_pract_tips_2",
+      "id": "current_pract_tips",
       "data_list_name": [
         "tips"
       ],
       "row_id": "raise_child",
-      "completed_field": "task_current_pract_tips_2_completed",
-      "completed": "@fields.task_current_pract_tips_2_completed"
+      "completed_field": "task_current_pract_tips_completed",
+      "completed": "@fields.task_current_pract_tips_completed"
     },
     {
       "id": "current_pract_set_hp",

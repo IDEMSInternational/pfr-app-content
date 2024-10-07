@@ -18,32 +18,39 @@
       "row_id": "id_1"
     },
     {
-      "id": "conclusion_tbg_1",
+      "id": "reduce_conflict_review_hp",
       "data_list_name": [
-        "topic_block_group"
+        "review_hp"
       ],
-      "row_id": "conclusion"
+      "row_id": "reduce_conflict"
     },
     {
-      "id": "parents_web_tbg_2",
+      "id": "conclusion_tips",
+      "data_list_name": [
+        "tips"
+      ],
+      "row_id": "conclusion_1"
+    },
+    {
+      "id": "parents_web_tbg",
       "data_list_name": [
         "topic_block_group"
       ],
       "row_id": "parents_web"
     },
     {
-      "id": "future_group_tbg_3",
+      "id": "future_group_tbg",
       "data_list_name": [
         "topic_block_group"
       ],
       "row_id": "future_group"
     },
     {
-      "id": "closing_tips",
+      "id": "conclusion_set_hp",
       "data_list_name": [
-        "tips"
+        "set_hp"
       ],
-      "row_id": "closing"
+      "row_id": "conclusion"
     },
     {
       "id": "conclusion_praise",

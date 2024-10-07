@@ -22,67 +22,58 @@
       "completed": "@fields.task_discipline_children_check_in_completed"
     },
     {
-      "id": "discipline_children_review_hp",
+      "id": "discipline_children_quiz",
       "data_list_name": [
-        "review_hp"
+        "quiz"
       ],
-      "row_id": "positive_parenting",
-      "completed_field": "task_discipline_children_review_hp_completed",
-      "completed": "@fields.task_discipline_children_review_hp_completed"
+      "row_id": "discipline_children",
+      "completed_field": "task_discipline_children_quiz_completed",
+      "completed": "@fields.task_discipline_children_quiz_completed"
     },
     {
-      "id": "discipline_children_reflect",
+      "id": "discipline_children_sbg_1",
       "data_list_name": [
-        "reflect"
-      ],
-      "row_id": "parenting_style",
-      "completed_field": "task_discipline_children_reflect_completed",
-      "completed": "@fields.task_discipline_children_reflect_completed"
-    },
-    {
-      "id": "discipline_children_tips_1",
-      "data_list_name": [
-        "tips"
+        "story_block_group"
       ],
       "row_id": "parenting_style_firm",
-      "completed_field": "task_discipline_children_tips_1_completed",
-      "completed": "@fields.task_discipline_children_tips_1_completed"
+      "completed_field": "task_discipline_children_sbg_1_completed",
+      "completed": "@fields.task_discipline_children_sbg_1_completed"
     },
     {
-      "id": "discipline_children_tips_2",
+      "id": "discipline_children_sbg_2",
       "data_list_name": [
-        "tips"
+        "story_block_group"
       ],
       "row_id": "parenting_style_strict",
-      "completed_field": "task_discipline_children_tips_2_completed",
-      "completed": "@fields.task_discipline_children_tips_2_completed"
+      "completed_field": "task_discipline_children_sbg_2_completed",
+      "completed": "@fields.task_discipline_children_sbg_2_completed"
     },
     {
-      "id": "discipline_children_tips_3",
+      "id": "discipline_children_sbg_3",
       "data_list_name": [
-        "tips"
+        "story_block_group"
       ],
       "row_id": "parenting_style_permissive",
-      "completed_field": "task_discipline_children_tips_3_completed",
-      "completed": "@fields.task_discipline_children_tips_3_completed"
+      "completed_field": "task_discipline_children_sbg_3_completed",
+      "completed": "@fields.task_discipline_children_sbg_3_completed"
     },
     {
-      "id": "discipline_children_tips_4",
+      "id": "discipline_children_sbg_4",
       "data_list_name": [
-        "tips"
+        "story_block_group"
       ],
       "row_id": "parenting_style_uninvolved",
-      "completed_field": "task_discipline_children_tips_4_completed",
-      "completed": "@fields.task_discipline_children_tips_4_completed"
+      "completed_field": "task_discipline_children_sbg_4_completed",
+      "completed": "@fields.task_discipline_children_sbg_4_completed"
     },
     {
-      "id": "discipline_children_tips_5",
+      "id": "discipline_children_tips",
       "data_list_name": [
         "tips"
       ],
       "row_id": "parenting_relationships",
-      "completed_field": "task_discipline_children_tips_5_completed",
-      "completed": "@fields.task_discipline_children_tips_5_completed"
+      "completed_field": "task_discipline_children_tips_completed",
+      "completed": "@fields.task_discipline_children_tips_completed"
     },
     {
       "id": "discipline_children_set_hp",

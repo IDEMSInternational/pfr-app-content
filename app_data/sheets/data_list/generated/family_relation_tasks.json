@@ -22,15 +22,6 @@
       "completed": "@fields.task_family_relation_check_in_completed"
     },
     {
-      "id": "family_relation_reflect",
-      "data_list_name": [
-        "reflect"
-      ],
-      "row_id": "future_now",
-      "completed_field": "task_family_relation_reflect_completed",
-      "completed": "@fields.task_family_relation_reflect_completed"
-    },
-    {
       "id": "family_relation_tips_1",
       "data_list_name": [
         "tips"
