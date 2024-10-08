@@ -6,8 +6,7 @@
     {
       "operation": "append_columns",
       "args_list": [
-        "completed_field: task_{@row.id}_completed",
-        "completed: @fields.@row.completed_field"
+        "completed_field: task_{@row.id}_completed"
       ],
       "input_source": "onboarding",
       "output_target": "onboarding_tasks"
@@ -15,8 +14,7 @@
     {
       "operation": "append_columns",
       "args_list": [
-        "completed_field: task_{@row.id}_completed",
-        "completed: @fields.@row.completed_field"
+        "completed_field: task_{@row.id}_completed"
       ],
       "input_source": "family_relation",
       "output_target": "family_relation_tasks"
@@ -24,8 +22,7 @@
     {
       "operation": "append_columns",
       "args_list": [
-        "completed_field: task_{@row.id}_completed",
-        "completed: @fields.@row.completed_field"
+        "completed_field: task_{@row.id}_completed"
       ],
       "input_source": "current_pract",
       "output_target": "current_pract_tasks"
@@ -33,8 +30,7 @@
     {
       "operation": "append_columns",
       "args_list": [
-        "completed_field: task_{@row.id}_completed",
-        "completed: @fields.@row.completed_field"
+        "completed_field: task_{@row.id}_completed"
       ],
       "input_source": "child_dev",
       "output_target": "child_dev_tasks"
@@ -42,8 +38,7 @@
     {
       "operation": "append_columns",
       "args_list": [
-        "completed_field: task_{@row.id}_completed",
-        "completed: @fields.@row.completed_field"
+        "completed_field: task_{@row.id}_completed"
       ],
       "input_source": "parent_childhood",
       "output_target": "parent_childhood_tasks"
@@ -51,8 +46,7 @@
     {
       "operation": "append_columns",
       "args_list": [
-        "completed_field: task_{@row.id}_completed",
-        "completed: @fields.@row.completed_field"
+        "completed_field: task_{@row.id}_completed"
       ],
       "input_source": "positive_parenting",
       "output_target": "positive_parenting_tasks"
@@ -60,8 +54,7 @@
     {
       "operation": "append_columns",
       "args_list": [
-        "completed_field: task_{@row.id}_completed",
-        "completed: @fields.@row.completed_field"
+        "completed_field: task_{@row.id}_completed"
       ],
       "input_source": "discipline_children",
       "output_target": "discipline_children_tasks"
@@ -69,8 +62,7 @@
     {
       "operation": "append_columns",
       "args_list": [
-        "completed_field: task_{@row.id}_completed",
-        "completed: @fields.@row.completed_field"
+        "completed_field: task_{@row.id}_completed"
       ],
       "input_source": "gender_power",
       "output_target": "gender_power_tasks"
@@ -78,8 +70,7 @@
     {
       "operation": "append_columns",
       "args_list": [
-        "completed_field: task_{@row.id}_completed",
-        "completed: @fields.@row.completed_field"
+        "completed_field: task_{@row.id}_completed"
       ],
       "input_source": "impact_conflict",
       "output_target": "impact_conflict_tasks"
@@ -87,8 +78,7 @@
     {
       "operation": "append_columns",
       "args_list": [
-        "completed_field: task_{@row.id}_completed",
-        "completed: @fields.@row.completed_field"
+        "completed_field: task_{@row.id}_completed"
       ],
       "input_source": "sharing_care",
       "output_target": "sharing_care_tasks"
@@ -96,8 +86,7 @@
     {
       "operation": "append_columns",
       "args_list": [
-        "completed_field: task_{@row.id}_completed",
-        "completed: @fields.@row.completed_field"
+        "completed_field: task_{@row.id}_completed"
       ],
       "input_source": "healthy_relation",
       "output_target": "healthy_relation_tasks"
@@ -105,8 +94,7 @@
     {
       "operation": "append_columns",
       "args_list": [
-        "completed_field: task_{@row.id}_completed",
-        "completed: @fields.@row.completed_field"
+        "completed_field: task_{@row.id}_completed"
       ],
       "input_source": "parenting_teens",
       "output_target": "parenting_teens_tasks"
@@ -114,8 +102,7 @@
     {
       "operation": "append_columns",
       "args_list": [
-        "completed_field: task_{@row.id}_completed",
-        "completed: @fields.@row.completed_field"
+        "completed_field: task_{@row.id}_completed"
       ],
       "input_source": "education",
       "output_target": "education_tasks"
@@ -123,8 +110,7 @@
     {
       "operation": "append_columns",
       "args_list": [
-        "completed_field: task_{@row.id}_completed",
-        "completed: @fields.@row.completed_field"
+        "completed_field: task_{@row.id}_completed"
       ],
       "input_source": "gender_equal",
       "output_target": "gender_equal_tasks"
@@ -132,8 +118,7 @@
     {
       "operation": "append_columns",
       "args_list": [
-        "completed_field: task_{@row.id}_completed",
-        "completed: @fields.@row.completed_field"
+        "completed_field: task_{@row.id}_completed"
       ],
       "input_source": "prevent_abuse",
       "output_target": "prevent_abuse_tasks"
@@ -141,8 +126,7 @@
     {
       "operation": "append_columns",
       "args_list": [
-        "completed_field: task_{@row.id}_completed",
-        "completed: @fields.@row.completed_field"
+        "completed_field: task_{@row.id}_completed"
       ],
       "input_source": "reduce_conflict",
       "output_target": "reduce_conflict_tasks"
@@ -150,8 +134,7 @@
     {
       "operation": "append_columns",
       "args_list": [
-        "completed_field: task_{@row.id}_completed",
-        "completed: @fields.@row.completed_field"
+        "completed_field: task_{@row.id}_completed"
       ],
       "input_source": "conclusion",
       "output_target": "conclusion_tasks"

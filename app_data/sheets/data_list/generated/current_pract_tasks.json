@@ -9,8 +9,7 @@
         "relax"
       ],
       "row_id": "id_1",
-      "completed_field": "task_current_pract_relax_completed",
-      "completed": "@fields.task_current_pract_relax_completed"
+      "completed_field": "task_current_pract_relax_completed"
     },
     {
       "id": "current_pract_check_in",
@@ -18,8 +17,7 @@
         "check_in"
       ],
       "row_id": "id_1",
-      "completed_field": "task_current_pract_check_in_completed",
-      "completed": "@fields.task_current_pract_check_in_completed"
+      "completed_field": "task_current_pract_check_in_completed"
     },
     {
       "id": "family_relation_review_hp",
@@ -27,8 +25,7 @@
         "review_hp"
       ],
       "row_id": "family_relation",
-      "completed_field": "task_family_relation_review_hp_completed",
-      "completed": "@fields.task_family_relation_review_hp_completed"
+      "completed_field": "task_family_relation_review_hp_completed"
     },
     {
       "id": "current_pract_reflect",
@@ -36,8 +33,7 @@
         "reflect"
       ],
       "row_id": "child_who",
-      "completed_field": "task_current_pract_reflect_completed",
-      "completed": "@fields.task_current_pract_reflect_completed"
+      "completed_field": "task_current_pract_reflect_completed"
     },
     {
       "id": "current_pract_tbg",
@@ -45,8 +41,7 @@
         "topic_block_group"
       ],
       "row_id": "child_20",
-      "completed_field": "task_current_pract_tbg_completed",
-      "completed": "@fields.task_current_pract_tbg_completed"
+      "completed_field": "task_current_pract_tbg_completed"
     },
     {
       "id": "current_pract_quiz",
@@ -54,8 +49,7 @@
         "quiz"
       ],
       "row_id": "picture_quiz",
-      "completed_field": "task_current_pract_quiz_completed",
-      "completed": "@fields.task_current_pract_quiz_completed"
+      "completed_field": "task_current_pract_quiz_completed"
     },
     {
       "id": "current_pract_tips",
@@ -63,8 +57,7 @@
         "tips"
       ],
       "row_id": "raise_child",
-      "completed_field": "task_current_pract_tips_completed",
-      "completed": "@fields.task_current_pract_tips_completed"
+      "completed_field": "task_current_pract_tips_completed"
     },
     {
       "id": "current_pract_set_hp",
@@ -72,8 +65,7 @@
         "set_hp"
       ],
       "row_id": "current_pract",
-      "completed_field": "task_current_pract_set_hp_completed",
-      "completed": "@fields.task_current_pract_set_hp_completed"
+      "completed_field": "task_current_pract_set_hp_completed"
     },
     {
       "id": "current_pract_praise",
@@ -81,8 +73,7 @@
         "praise"
       ],
       "row_id": "current_pract",
-      "completed_field": "task_current_pract_praise_completed",
-      "completed": "@fields.task_current_pract_praise_completed"
+      "completed_field": "task_current_pract_praise_completed"
     }
   ]
 }
