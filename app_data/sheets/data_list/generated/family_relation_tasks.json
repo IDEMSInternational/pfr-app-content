@@ -9,8 +9,7 @@
         "relax"
       ],
       "row_id": "id_1",
-      "completed_field": "task_family_relation_relax_completed",
-      "completed": "@fields.task_family_relation_relax_completed"
+      "completed_field": "task_family_relation_relax_completed"
     },
     {
       "id": "family_relation_check_in",
@@ -18,8 +17,7 @@
         "check_in"
       ],
       "row_id": "id_1",
-      "completed_field": "task_family_relation_check_in_completed",
-      "completed": "@fields.task_family_relation_check_in_completed"
+      "completed_field": "task_family_relation_check_in_completed"
     },
     {
       "id": "family_relation_tips_1",
@@ -27,8 +25,7 @@
         "tips"
       ],
       "row_id": "rel_vacuum",
-      "completed_field": "task_family_relation_tips_1_completed",
-      "completed": "@fields.task_family_relation_tips_1_completed"
+      "completed_field": "task_family_relation_tips_1_completed"
     },
     {
       "id": "family_relation_set_hp",
@@ -36,8 +33,7 @@
         "set_hp"
       ],
       "row_id": "family_relation",
-      "completed_field": "task_family_relation_set_hp_completed",
-      "completed": "@fields.task_family_relation_set_hp_completed"
+      "completed_field": "task_family_relation_set_hp_completed"
     },
     {
       "id": "family_relation_praise",
@@ -45,8 +41,7 @@
         "praise"
       ],
       "row_id": "family_relation",
-      "completed_field": "task_family_relation_praise_completed",
-      "completed": "@fields.task_family_relation_praise_completed"
+      "completed_field": "task_family_relation_praise_completed"
     }
   ]
 }
