@@ -40,13 +40,22 @@
       "completed": "@fields.task_parent_childhood_legacy_tbg_completed"
     },
     {
-      "id": "parent_childhood_abilities_tbg",
+      "id": "parent_childhood_sbg",
       "data_list_name": [
-        "topic_block_group"
+        "story_block_group"
       ],
       "row_id": "outstanding_abilities",
-      "completed_field": "task_parent_childhood_abilities_tbg_completed",
-      "completed": "@fields.task_parent_childhood_abilities_tbg_completed"
+      "completed_field": "task_parent_childhood_sbg_completed",
+      "completed": "@fields.task_parent_childhood_sbg_completed"
+    },
+    {
+      "id": "parent_childhood_tips",
+      "data_list_name": [
+        "tips"
+      ],
+      "row_id": "relation_pregnancy",
+      "completed_field": "task_parent_childhood_tips_completed",
+      "completed": "@fields.task_parent_childhood_tips_completed"
     },
     {
       "id": "parent_childhood_set_hp",

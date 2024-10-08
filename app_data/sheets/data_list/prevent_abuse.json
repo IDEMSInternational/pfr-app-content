@@ -39,13 +39,6 @@
       "row_id": "info_puberty"
     },
     {
-      "id": "prevent_abuse_tips",
-      "data_list_name": [
-        "tips"
-      ],
-      "row_id": "values_behaviours"
-    },
-    {
       "id": "prevent_abuse_set_hp",
       "data_list_name": [
         "set_hp"

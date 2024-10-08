@@ -1,0 +1,218 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "story_block_group",
+  "status": "released",
+  "rows": [
+    {
+      "id": "interactive_play_distracted",
+      "topic": "child_dev",
+      "title": "When we do not pay attention",
+      "icon_asset": "images/icons/picture_book.svg",
+      "task_1_data": "story",
+      "task_1_id": "interactive_play_distracted",
+      "task_2_data": "quiz",
+      "task_2_id": "interactive_play_distracted",
+      "outro_text": "💡 To improve attachment and bonding, you need to pay attention to the needs of children even if it means making them aware that you care.\nThe mother has options to keep on her phone but make David aware that she cares and is available for him."
+    },
+    {
+      "id": "interactive_play_control",
+      "topic": "child_dev",
+      "title": "Too much control",
+      "icon_asset": "images/icons/picture_book.svg",
+      "task_1_data": "story",
+      "task_1_id": "interactive_play_control",
+      "task_2_data": "quiz",
+      "task_2_id": "interactive_play_control",
+      "outro_text": "💡 Control doesn't teach our children to enjoy the play time and benefit from it. Instead, it will lead to anxiety and feelings of inadequacy."
+    },
+    {
+      "id": "interactive_child_lead",
+      "topic": "child_dev",
+      "title": "Following the childs lead",
+      "icon_asset": "images/icons/picture_book.svg",
+      "task_1_data": "story",
+      "task_1_id": "interactive_child_lead",
+      "task_2_data": "quiz",
+      "task_2_id": "interactive_child_lead",
+      "outro_text": "💡 It is a good practice for parents to be involved in their children's play but this should be done respectfully with the full consent of the child. Play should meet the needs of the child and not the parent. Praise the child for their initiatives and follow their lead."
+    },
+    {
+      "id": "outstanding_abilities",
+      "topic": "parent_childhood",
+      "gender": "men",
+      "title": "Father's support during pregnancy",
+      "icon_asset": "images/icons/picture_book.svg",
+      "task_1_data": "story",
+      "task_1_id": "outstanding_abilities",
+      "task_2_data": "quiz",
+      "task_2_id": "relation_pregnancy"
+    },
+    {
+      "id": "managing_behaviour",
+      "topic": "positive_parenting",
+      "title": "Managing difficult behaviour",
+      "icon_asset": "images/icons/picture_book.svg",
+      "intro_text": "Here is a comic that illustrates a mother reinforcing behavior, followed by an activity.",
+      "task_1_data": "story",
+      "task_1_id": "managing_behaviour",
+      "task_2_data": "quiz",
+      "task_2_id": "manage_behavior",
+      "outro_text": "💡 Instead of the mother encouraging them to enjoy the play together, she made it worse by shouting at her daughter Sarah. This is common in our everyday lives. \nAs parents, we tend to favor the young ones at the expense of the older ones.\n\n💡 The mother needed to resolve the problem between the two siblings instead of referring\\the \nissue to their father.\n\n💡 She needed to help the two children to  play together\n\n💡 Improved discipline and respectability through positive parent-child interactions can be achieved if parent commit time to engage and interact with their children."
+    },
+    {
+      "id": "setting_limits_1",
+      "topic": "positive_parenting",
+      "intro_text": "Here is a comic illustrating a scenario of a parent setting limits for her child, and some questions:",
+      "task_1_data": "story",
+      "task_1_id": "setting_limits_1",
+      "task_2_data": "quiz",
+      "task_2_id": "setting_limits_1",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "setting_limits_2",
+      "topic": "positive_parenting",
+      "task_1_data": "story",
+      "task_1_id": "setting_limits_2",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "parenting_style_firm",
+      "topic": "discipline_children",
+      "title": "Firm Parenting",
+      "task_1_data": "story",
+      "task_1_id": "parenting_style_firm",
+      "task_2_data": "quiz",
+      "task_2_id": "firm",
+      "outro_text": "**Effects of Authoritative parenting**    \n \n* Sometimes children can be misunderstood as being proud\n* They can be vulnerable to abuse if they go to an environment where children's right to expression is not respected.\"",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "parenting_style_strict",
+      "topic": "discipline_children",
+      "title": "Strict Parenting",
+      "task_1_data": "story",
+      "task_1_id": "parenting_style_strict",
+      "task_2_data": "quiz",
+      "task_2_id": "strict",
+      "outro_text": "**Effects of Strict parenting**       \n\n* Unhappy and fearful\n* Low self esteem\n* Problems relating with people\n* Cannot cope with frustration",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "parenting_style_permissive",
+      "topic": "discipline_children",
+      "title": "Permissive Parenting",
+      "task_1_data": "story",
+      "task_1_id": "parenting_style_permissive",
+      "task_2_data": "quiz",
+      "task_2_id": "permissive",
+      "outro_text": "**Effects of Permissive parenting**\n        \n* Cannot control their emotions\n* Often rebellious likely to have problems with authorities\n* Tend to have problems at school",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "parenting_style_uninvolved",
+      "topic": "discipline_children",
+      "title": "Uninvolved Parenting",
+      "task_1_data": "story",
+      "task_1_id": "parenting_style_uninvolved",
+      "task_2_data": "quiz",
+      "task_2_id": "uninvolved",
+      "outro_text": "**Effects of Uninvolved caregiver**\n \n* Unhappy\n* Have problems controlling themselves\n* Have low self-esteem\n* Lack confidence\n* Have problems at school",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "violence_me",
+      "topic": "impact_conflict",
+      "task_1_data": "story",
+      "task_1_id": "impact_conflict",
+      "task_2_data": "quiz",
+      "task_2_id": "violence_around",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "diff_heads",
+      "topic": "impact_conflict",
+      "title": "The Head of the Family",
+      "task_1_data": "story",
+      "task_1_id": "impact_conflict_2",
+      "outro_text": "What do you learn from this activity?",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "caregiving",
+      "topic": "sharing_care",
+      "intro_text": "Let’s reflect on the time men and women dedicate to caring for their children and shaping their future.",
+      "task_1_data": "story",
+      "task_1_id": "caregiving_2",
+      "task_2_data": "quiz",
+      "task_2_id": "sharing_care",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "rships_communication",
+      "topic": "healthy_relation",
+      "intro_text": "In this activity we are going to: \n* Learn what constitutes a healthy marriage and sexuality and the importance of healthy communication in a marriage",
+      "task_1_data": "story",
+      "task_1_id": "rships_communication",
+      "task_2_data": "quiz",
+      "task_2_id": "healthy_relation",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "discipline_1",
+      "topic": "parenting_teens",
+      "task_1_data": "story",
+      "task_1_id": "caro_story",
+      "task_2_data": "quiz",
+      "task_2_id": "adolescence_2",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "discipline_2",
+      "topic": "parenting_teens",
+      "task_1_data": "story",
+      "task_1_id": "doreen_relation",
+      "task_2_data": "quiz",
+      "task_2_id": "adolescence_3",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "education_1",
+      "topic": "education",
+      "task_1_data": "story",
+      "task_1_id": "education_1",
+      "task_2_data": "quiz",
+      "task_2_id": "child_needs_1",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "education_2",
+      "topic": "education",
+      "task_1_data": "story",
+      "task_1_id": "education_2",
+      "task_2_data": "quiz",
+      "task_2_id": "child_needs_2",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "gender_equal",
+      "topic": "gender_equal",
+      "title": "Partnership parenting",
+      "task_1_data": "story",
+      "task_1_id": "gender_equal",
+      "task_2_data": "quiz",
+      "task_2_id": "equality",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "prevent_abuse",
+      "topic": "prevent_abuse",
+      "task_1_data": "story",
+      "task_1_id": "prevent_abuse_2",
+      "task_2_data": "quiz",
+      "task_2_id": "prevent_abuse",
+      "icon_asset": "images/icons/picture_book.svg"
+    }
+  ],
+  "_xlsxPath": "global/data_lists/topics.xlsx"
+}

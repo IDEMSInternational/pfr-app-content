@@ -147,34 +147,68 @@
       }
     },
     {
-      "type": "text",
-      "name": "text",
-      "value": "@local.row_data.text",
+      "type": "image",
+      "name": "image_1_asset",
+      "value": "@local.row_data.image_1_asset",
       "_translations": {
         "value": {}
       },
-      "condition": "!!(@local.row_data.text)",
-      "_nested_name": "text",
+      "condition": "!!(@local.row_data.image_1_asset)",
+      "_nested_name": "image_1_asset",
       "_dynamicFields": {
         "value": [
           {
-            "fullExpression": "@local.row_data.text",
-            "matchedExpression": "@local.row_data.text",
+            "fullExpression": "@local.row_data.image_1_asset",
+            "matchedExpression": "@local.row_data.image_1_asset",
             "type": "local",
             "fieldName": "row_data"
           }
         ],
         "condition": [
           {
-            "fullExpression": "!!(@local.row_data.text)",
-            "matchedExpression": "@local.row_data.text",
+            "fullExpression": "!!(@local.row_data.image_1_asset)",
+            "matchedExpression": "@local.row_data.image_1_asset",
             "type": "local",
             "fieldName": "row_data"
           }
         ]
       },
       "_dynamicDependencies": {
-        "@local.row_data.text": [
+        "@local.row_data.image_1_asset": [
+          "value",
+          "condition"
+        ]
+      }
+    },
+    {
+      "type": "image",
+      "name": "image_2_asset",
+      "value": "@local.row_data.image_2_asset",
+      "_translations": {
+        "value": {}
+      },
+      "condition": "!!(@local.row_data.image_2_asset)",
+      "_nested_name": "image_2_asset",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.row_data.image_2_asset",
+            "matchedExpression": "@local.row_data.image_2_asset",
+            "type": "local",
+            "fieldName": "row_data"
+          }
+        ],
+        "condition": [
+          {
+            "fullExpression": "!!(@local.row_data.image_2_asset)",
+            "matchedExpression": "@local.row_data.image_2_asset",
+            "type": "local",
+            "fieldName": "row_data"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.row_data.image_2_asset": [
           "value",
           "condition"
         ]
@@ -315,6 +349,7 @@
           "_cleaned": "click | pop_up: reflect_text"
         }
       ],
+      "condition": "!!(@local.audio_transcript)",
       "_nested_name": "button",
       "_dynamicFields": {
         "action_list": {
@@ -346,13 +381,24 @@
               }
             ]
           }
-        }
+        },
+        "condition": [
+          {
+            "fullExpression": "!!(@local.audio_transcript)",
+            "matchedExpression": "@local.audio_transcript",
+            "type": "local",
+            "fieldName": "audio_transcript"
+          }
+        ]
       },
       "_dynamicDependencies": {
         "@local.id": [
           "action_list.0.args.1",
           "action_list.0._raw",
           "action_list.0._cleaned"
+        ],
+        "@local.audio_transcript": [
+          "condition"
         ]
       }
     },

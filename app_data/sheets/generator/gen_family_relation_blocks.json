@@ -42,5 +42,32 @@
       ]
     }
   ],
-  "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+  "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+  "_output_flows": [
+    {
+      "flow_name": "family_relation_relax",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "family_relation_check_in",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "family_relation_tips_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "family_relation_set_hp",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "family_relation_praise",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    }
+  ]
 }

@@ -85,27 +85,19 @@
     },
     {
       "id": "healthy_relation_tasks",
-      "number": 9,
+      "number": 10,
       "session_id": "healthy_relation",
       "completed_field": "task_healthy_relation_completed",
       "completed": "@fields.task_healthy_relation_completed",
       "skipped_field": "task_healthy_relation_skipped"
     },
     {
-      "id": "review_tasks",
-      "number": 10,
-      "session_id": "review",
-      "completed_field": "task_review_completed",
-      "completed": "@fields.task_review_completed",
-      "skipped_field": "task_review_skipped"
-    },
-    {
-      "id": "discipline_tasks",
+      "id": "parenting_teens_tasks",
       "number": 11,
-      "session_id": "discipline",
-      "completed_field": "task_discipline_completed",
-      "completed": "@fields.task_discipline_completed",
-      "skipped_field": "task_discipline_skipped"
+      "session_id": "parenting_teens",
+      "completed_field": "task_parenting_teens_completed",
+      "completed": "@fields.task_parenting_teens_completed",
+      "skipped_field": "task_parenting_teens_skipped"
     },
     {
       "id": "education_tasks",

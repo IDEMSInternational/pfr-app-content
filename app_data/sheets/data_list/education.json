@@ -18,11 +18,11 @@
       "row_id": "id_1"
     },
     {
-      "id": "discipline_review_hp",
+      "id": "parenting_teens_review_hp",
       "data_list_name": [
         "review_hp"
       ],
-      "row_id": "discipline"
+      "row_id": "parenting_teens"
     },
     {
       "id": "education_tbg",
@@ -37,20 +37,6 @@
         "topic_block_group"
       ],
       "row_id": "school_needs"
-    },
-    {
-      "id": "education_encourage_tbg",
-      "data_list_name": [
-        "topic_block_group"
-      ],
-      "row_id": "encourage_school"
-    },
-    {
-      "id": "education_tips",
-      "data_list_name": [
-        "tips"
-      ],
-      "row_id": "education"
     },
     {
       "id": "education_set_hp",

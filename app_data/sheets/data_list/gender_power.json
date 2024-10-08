@@ -18,7 +18,7 @@
       "row_id": "id_1"
     },
     {
-      "id": "gender_power_review_hp",
+      "id": "discipline_children_review_hp",
       "data_list_name": [
         "review_hp"
       ],
@@ -36,7 +36,7 @@
       "data_list_name": [
         "tips"
       ],
-      "row_id": "gender_power"
+      "row_id": "gender_stereotypes"
     },
     {
       "id": "gender_power_praise",

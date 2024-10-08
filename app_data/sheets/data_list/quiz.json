@@ -7,6 +7,7 @@
       "id": "child_20",
       "topic": "current_pract",
       "question_1_id": "child_20",
+      "outro_text": "💡 It is important to involve both men and women in raising a child.",
       "title": "Quiz",
       "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let's do a reflection."
@@ -41,6 +42,48 @@
       "intro_text": "Let's do a reflection."
     },
     {
+      "id": "interactive_play_distracted",
+      "topic": "child_dev",
+      "question_1_id": "david_feel",
+      "question_2_id": "david_mum_feel",
+      "outro_text": "💡 To improve attachment and bonding, you need to pay attention to the needs of children even if it means making them aware that you care.\nThe mother has options to keep on her phone but make David aware that she cares and is available for him.",
+      "title": "Quiz",
+      "icon_asset": "images/icons/ask_question.svg",
+      "intro_text": "Let's do a reflection."
+    },
+    {
+      "id": "interactive_play_control",
+      "topic": "child_dev",
+      "question_1_id": "father_action",
+      "question_2_id": "father_control",
+      "outro_text": "💡 Control doesn't teach our children to enjoy the play time and benefit from it. Instead, it will lead to anxiety and feelings of inadequacy.",
+      "title": "Quiz",
+      "icon_asset": "images/icons/ask_question.svg",
+      "intro_text": "Let's do a reflection."
+    },
+    {
+      "id": "interactive_child_lead",
+      "topic": "child_dev",
+      "question_1_id": "mother_attention",
+      "question_2_id": "mother_control",
+      "question_3_id": "doreen_feel",
+      "outro_text": "💡 It is a good practice for parents to be involved in their children's play but this should be done respectfully with the full consent of the child. Play should meet the needs of the child and not the parent. Praise the child for their initiatives and follow their lead.",
+      "title": "Quiz",
+      "icon_asset": "images/icons/ask_question.svg",
+      "intro_text": "Let's do a reflection."
+    },
+    {
+      "id": "caregiver_legacy",
+      "topic": "parent_childhood",
+      "question_1_id": "positive_exp",
+      "question_2_id": "negative_exp",
+      "question_3_id": "will_repeat",
+      "question_4_id": "wont_repeat",
+      "title": "Quiz",
+      "icon_asset": "images/icons/ask_question.svg",
+      "intro_text": "Let's do a reflection."
+    },
+    {
       "id": "relation_pregnancy",
       "topic": "parent_childhood",
       "question_1_id": "similar_experience",
@@ -52,6 +95,85 @@
       "intro_text": "Let's do a reflection."
     },
     {
+      "id": "manage_behavior",
+      "topic": "positive_parenting",
+      "question_1_id": "get_attention",
+      "question_2_id": "important_attention",
+      "question_3_id": "mother_response",
+      "question_4_id": "problem",
+      "question_5_id": "respond_best",
+      "outro_text": "💡 Instead of the mother encouraging them to enjoy the play together, she made it worse by shouting at her daughter Sarah. This is common in our everyday lives. \nAs parents, we tend to favor the young ones at the expense of the older ones.\n\n💡 The mother needed to resolve the problem between the two siblings instead of referring\\the \nissue to their father.\n\n💡 She needed to help the two children to  play together\n\n💡 Improved discipline and respectability through positive parent-child interactions can be achieved if parent commit time to engage and interact with their children.",
+      "title": "Quiz",
+      "icon_asset": "images/icons/ask_question.svg",
+      "intro_text": "Let's do a reflection."
+    },
+    {
+      "id": "setting_limits_1",
+      "topic": "positive_parenting",
+      "question_1_id": "communicate_rules",
+      "question_2_id": "child_listen",
+      "question_3_id": "support_rules",
+      "title": "Quiz",
+      "icon_asset": "images/icons/ask_question.svg",
+      "intro_text": "Let's do a reflection."
+    },
+    {
+      "id": "discipline_children",
+      "topic": "discipline_children",
+      "title": "Types of parenting styles",
+      "intro_text": "There are four different kinds of parenting styles: \n\nFor parents to make use of principles on Love/connectedness & Setting limits and boundaries, we need to understand four parenting styles: Authoritative/Firm Parenting; Strict/Authoritarian; Permissive parenting; Indifferent/Uninvolved parenting;",
+      "question_1_id": "discipline_children_1",
+      "question_2_id": "discipline_children_2",
+      "icon_asset": "images/icons/ask_question.svg"
+    },
+    {
+      "id": "firm",
+      "topic": "discipline_children",
+      "question_1_id": "parenting_style_firm",
+      "outro_text": "**Effects of Authoritative parenting**    \n \n* Sometimes children can be misunderstood as being proud\n* They can be vulnerable to abuse if they go to an environment where children's right to expression is not respected.\"",
+      "title": "Quiz",
+      "icon_asset": "images/icons/ask_question.svg",
+      "intro_text": "Let's do a reflection."
+    },
+    {
+      "id": "strict",
+      "topic": "discipline_children",
+      "question_1_id": "parenting_style_strict",
+      "outro_text": "**Effects of Strict parenting**       \n\n* Unhappy and fearful\n* Low self esteem\n* Problems relating with people\n* Cannot cope with frustration",
+      "title": "Quiz",
+      "icon_asset": "images/icons/ask_question.svg",
+      "intro_text": "Let's do a reflection."
+    },
+    {
+      "id": "permissive",
+      "topic": "discipline_children",
+      "question_1_id": "parenting_style_permissive",
+      "outro_text": "**Effects of Permissive parenting**\n        \n* Cannot control their emotions\n* Often rebellious likely to have problems with authorities\n* Tend to have problems at school",
+      "title": "Quiz",
+      "icon_asset": "images/icons/ask_question.svg",
+      "intro_text": "Let's do a reflection."
+    },
+    {
+      "id": "uninvolved",
+      "topic": "discipline_children",
+      "question_1_id": "parenting_style_uninvolved",
+      "outro_text": "**Effects of Uninvolved caregiver**\n \n* Unhappy\n* Have problems controlling themselves\n* Have low self-esteem\n* Lack confidence\n* Have problems at school",
+      "title": "Quiz",
+      "icon_asset": "images/icons/ask_question.svg",
+      "intro_text": "Let's do a reflection."
+    },
+    {
+      "id": "violence_around",
+      "topic": "impact_conflict",
+      "intro_text": "Follow-up refection",
+      "question_1_id": "situation_familiar",
+      "question_2_id": "power_violence",
+      "question_3_id": "consequence_conflict",
+      "question_4_id": "relation_violence",
+      "title": "Quiz",
+      "icon_asset": "images/icons/ask_question.svg"
+    },
+    {
       "id": "sharing_care",
       "topic": "sharing_care",
       "question_1_id": "sharing_care_who",
@@ -61,16 +183,8 @@
       "question_5_id": "sharing_care_obstacles_2",
       "question_6_id": "sharing_care_benefits_2",
       "question_7_id": "sharing_care_how",
-      "title": "Quiz",
-      "icon_asset": "images/icons/ask_question.svg",
-      "intro_text": "Let's do a reflection."
-    },
-    {
-      "id": "caregiving",
-      "topic": "sharing_care",
-      "question_1_id": "caregiving_man",
-      "question_2_id": "caregiving_woman",
-      "question_3_id": "caregiving_self",
+      "question_8_id": "caregiving_man",
+      "question_9_id": "caregiving_woman",
       "title": "Quiz",
       "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let's do a reflection."
@@ -78,50 +192,61 @@
     {
       "id": "healthy_relation",
       "topic": "healthy_relation",
-      "question_1_id": "difference_signs",
-      "question_2_id": "do_why",
-      "question_3_id": "influence_how",
-      "question_4_id": "help_control",
-      "title": "Quiz",
-      "icon_asset": "images/icons/ask_question.svg",
-      "intro_text": "Let's do a reflection."
-    },
-    {
-      "id": "rships_communication",
-      "topic": "healthy_relation",
       "question_1_id": "story_relate",
       "question_2_id": "marriage_like",
       "question_3_id": "marriage_dont_like",
-      "question_4_id": "barrelate_differently",
-      "question_5_id": "couple_relate",
-      "question_6_id": "lose_interest",
+      "question_4_id": "couple_relate",
+      "question_5_id": "lose_interest",
+      "question_6_id": "barrelate_differently",
       "title": "Quiz",
       "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let's do a reflection."
     },
     {
-      "id": "session_review",
-      "topic": "session_review",
-      "question_1_id": "useful_session",
-      "question_2_id": "useful_activity",
-      "question_3_id": "least_session",
-      "title": "Quiz",
-      "icon_asset": "images/icons/ask_question.svg",
-      "intro_text": "Let's do a reflection."
-    },
-    {
-      "id": "spousal_relationships",
-      "topic": "session_review",
-      "question_1_id": "discuss_parenting",
-      "question_2_id": "helped_how",
-      "title": "Quiz",
-      "icon_asset": "images/icons/ask_question.svg",
-      "intro_text": "Let's do a reflection."
-    },
-    {
-      "id": "education",
-      "topic": "education",
+      "id": "adolescence_1",
+      "topic": "parenting_teens",
+      "title": "Adolescence and the Race",
       "question_1_id": "encourage_how",
+      "question_2_id": "parent_values",
+      "question_3_id": "religious_values",
+      "question_4_id": "behaviour_influence",
+      "icon_asset": "images/icons/ask_question.svg",
+      "intro_text": "Let's do a reflection."
+    },
+    {
+      "id": "adolescence_2",
+      "topic": "parenting_teens",
+      "question_1_id": "discipline_1",
+      "question_2_id": "discipline_2",
+      "title": "Quiz",
+      "icon_asset": "images/icons/ask_question.svg",
+      "intro_text": "Let's do a reflection."
+    },
+    {
+      "id": "adolescence_3",
+      "topic": "parenting_teens",
+      "question_1_id": "race_child",
+      "question_2_id": "target_conflict",
+      "question_3_id": "positive_race",
+      "title": "Quiz",
+      "icon_asset": "images/icons/ask_question.svg",
+      "intro_text": "Let's do a reflection."
+    },
+    {
+      "id": "child_needs_1",
+      "topic": "education",
+      "question_1_id": "opportunities",
+      "question_2_id": "mentor_supoort",
+      "question_3_id": "moral_support",
+      "title": "Quiz",
+      "icon_asset": "images/icons/ask_question.svg",
+      "intro_text": "Let's do a reflection."
+    },
+    {
+      "id": "child_needs_2",
+      "topic": "education",
+      "question_1_id": "you_relate",
+      "question_2_id": "react_story",
       "title": "Quiz",
       "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let's do a reflection."
@@ -136,22 +261,22 @@
       "intro_text": "Let's do a reflection."
     },
     {
-      "id": "gender_equal",
-      "topic": "gender_equal",
-      "question_1_id": "common_issues",
-      "question_2_id": "techniques",
+      "id": "building_values",
+      "topic": "prevent_abuse",
+      "question_1_id": "prevent_abuse_1",
+      "question_2_id": "prevent_abuse_2",
       "title": "Quiz",
       "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let's do a reflection."
     },
     {
-      "id": "building_values",
+      "id": "prevent_abuse",
       "topic": "prevent_abuse",
-      "title": "Building values for better decision making on sexual issues",
-      "question_1_id": "parent_values",
-      "question_2_id": "religious_values",
-      "question_3_id": "behaviour_influence",
-      "question_4_id": "different_values",
+      "question_1_id": "prevent_abuse_3",
+      "question_2_id": "prevent_abuse_4",
+      "question_3_id": "prevent_abuse_5",
+      "question_4_id": "prevent_abuse_6",
+      "title": "Quiz",
       "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let's do a reflection."
     },
@@ -166,10 +291,10 @@
     {
       "id": "future_group",
       "topic": "conclusion",
-      "question_1_id": "each_other_support",
-      "question_2_id": "plan_reach",
-      "question_3_id": "wish_receive",
-      "question_4_id": "support_need",
+      "question_1_id": "conclusion_1",
+      "question_2_id": "conclusion_2",
+      "question_3_id": "conclusion_3",
+      "question_4_id": "conclusion_4",
       "title": "Quiz",
       "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let's do a reflection."

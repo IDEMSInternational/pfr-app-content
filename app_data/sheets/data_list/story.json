@@ -6,128 +6,242 @@
     {
       "id": "interactive_play_distracted",
       "topic": "child_dev",
+      "slide_1_text": "A mother is busy on the phone.A mother is busy on the phone. Her son David keeps talking to her trying to get her attention to join and enjoy play.The child gets disappointed and annoyed.",
+      "attached_single_doc": "https://docs.google.com/document/d/1H5gFW_si9jaLurJhhwrv-tVqv2akY2WR3Gsy9S5Av98",
       "icon_asset": "images/icons/picture_book.svg",
-      "slide_1_text": "A mother is busy on the phone.",
-      "slide_2_text": "Her son David keeps talking to her trying to get her attention to join and enjoy play.",
-      "slide_3_text": "The child gets disappointed and annoyed.",
-      "attached_single_doc": "https://docs.google.com/document/d/1H5gFW_si9jaLurJhhwrv-tVqv2akY2WR3Gsy9S5Av98"
+      "media_title": "Story"
     },
     {
       "id": "interactive_play_control",
       "topic": "child_dev",
       "slide_1_text": "A father finds his daughter Birungi playing and asks to join.",
       "slide_2_text": "In the process, the father insists that the child should play his way since he knows the game better.",
-      "slide_3_text": "The child gets frustrated and goes away."
+      "slide_3_text": "The child gets frustrated and goes away.",
+      "icon_asset": "images/icons/picture_book.svg",
+      "media_title": "Story"
     },
     {
       "id": "interactive_child_lead",
       "topic": "child_dev",
+      "media_title": "Let us watch a story",
+      "media_type": "video",
       "slide_1_text": "Doreen is interested in doing something that the mother knows is not timely as Dorren had to complete other tasks.",
       "slide_2_text": "She joins the child's playtime and tries to learn from her about the different components of the game. They end up enjoying the play as the mother keeps learning from the child.",
-      "slide_3_text": "After a few minutes, Doreen is asked to go and complete her homework exercise which was provided by the school teacher."
+      "slide_3_text": "After a few minutes, Doreen is asked to go and complete her homework exercise which was provided by the school teacher.",
+      "icon_asset": "images/icons/picture_book.svg"
     },
     {
       "id": "outstanding_abilities",
       "topic": "parent_childhood",
       "gender": "men",
       "intro_text": "Here's a story of a supportive father in child care.",
+      "media_title": "Let us listen to a story",
+      "media_type": "audio",
+      "media_asset": "ifyuk",
       "slide_1_text": "Mr. Ssemakula is married with four children. He actively plays a strong role in day-to-day child-care and his wife appreciates him for his father figure involvement.",
       "slide_2_text": "Whenever the wife delivers and the baby is about 2 - 3 weeks, he takes turns with his wife to carry the crying baby in the night.",
       "slide_3_text": "He picks up any opportunity in his busy schedule to cuddle with his children including finding play time for out and indoor games.",
-      "slide_4_text": "Within their limited resources, his family seems happy and healthy. On most weekends, the family works and eats together."
+      "slide_4_text": "Within their limited resources, his family seems happy and healthy. On most weekends, the family works and eats together.",
+      "icon_asset": "images/icons/picture_book.svg"
     },
     {
       "id": "managing_behaviour",
       "topic": "positive_parenting",
-      "slide_1_text": "Sarah was trying to get her brother to play with her.",
-      "slide_1_image_asset": "images/managing_difficult_behaviour_1.jpg",
-      "slide_2_text": "Give it to me.",
-      "slide_2_image_asset": "images/managing_difficult_behaviour_2.jpg",
-      "slide_3_text": "Sarah, please give the bricks back to your brother",
-      "slide_3_image_asset": "images/managing_difficult_behaviour_3.jpg",
-      "slide_4_text": "Waaaah, maama (baby crying).",
-      "slide_4_image_asset": "images/managing_difficult_behaviour_4.jpg",
-      "slide_5_text": "\"Sarah, if you cannot play nicely with your brother, I will tell your father.\"",
-      "slide_5_image_asset": "images/managing_difficult_behaviour_5.jpg"
+      "slide_1_image_asset": "images/new/sarah.svg",
+      "icon_asset": "images/icons/picture_book.svg",
+      "media_title": "Story"
     },
     {
-      "id": "setting_limits",
+      "id": "setting_limits_1",
       "topic": "positive_parenting",
-      "slide_1_text": "Mother: \"Sam, you have been coming home from playing with your friends after sunset.\"",
-      "slide_1_image_asset": "images/limits_for_children_1.jpg",
-      "slide_2_text": "Mother: \"It is too dangerous in the community after dark. From now on, our household rule is that you need to come home before sunset, okay?\"",
-      "slide_2_image_asset": "images/limits_for_children_2.jpg",
-      "slide_3_text": "Mother: \"Thank you, Sam, for coming before sunset. Tomorrow let's go to soccer match together.\"",
-      "slide_3_image_asset": "images/limits_for_children_3.jpg"
+      "slide_1_image_asset": "images/new/setting_limits.jpg",
+      "icon_asset": "images/icons/picture_book.svg",
+      "media_title": "Story"
+    },
+    {
+      "id": "setting_limits_2",
+      "topic": "positive_parenting",
+      "media_title": "Let us watch a story",
+      "slide_1_text": "Vincent, you will not visit your friends for two weeks because you came back home very late last night. Our rule says that we should all be home by 7:30 PM but mother........................................  \nYou will do exactly what your mother says",
+      "slide_1_image_asset": "images/new/vicent_mother.jpg",
+      "outro_text": "💡 Limits provide a sense of comfort and security in the household                \n💡 Teaches responsibility, and understanding of what is expected of them                \n💡 Encourages discipline and listening        \n💡 Protects children from harm",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "parenting_style_firm",
+      "topic": "discipline_children",
+      "image_asset_1": "images/firm_parenting_1.jpg",
+      "image_asset_2": "images/firm_parenting_2.jpg",
+      "slide_1_text": "Parents who support their children but set firm limits for them. Firm parents show high levels of warmth and control. They control the children’s behavior by explaining rules, discussing and reasoning together. They listen to the children’s viewpoints but do not always accept them.",
+      "icon_asset": "images/icons/picture_book.svg",
+      "media_title": "Story"
+    },
+    {
+      "id": "parenting_style_strict",
+      "topic": "discipline_children",
+      "image_asset_1": "images/strict_parenting_1.jpg",
+      "image_asset_2": "images/strict_parenting_2.jpg",
+      "slide_1_text": "Authoritarian and Strict parenting is characterisd by  High levels of control and demands on the child, poor relationships, and very strict commands coupled with low levels of love and care. Strict parents engage in low levels of communication with the children.",
+      "icon_asset": "images/icons/picture_book.svg",
+      "media_title": "Story"
+    },
+    {
+      "id": "parenting_style_permissive",
+      "topic": "discipline_children",
+      "image_asset_1": "images/permissive_parenting_1.jpg",
+      "image_asset_2": "images/permissive_parenting_2.jpg",
+      "slide_1_text": "Permissive is charecterised by Excess love and warmth, with low levels of control. Parents do not exert control over their children’s behavior or set limits and do not monitor their activities.",
+      "icon_asset": "images/icons/picture_book.svg",
+      "media_title": "Story"
+    },
+    {
+      "id": "parenting_style_uninvolved",
+      "topic": "discipline_children",
+      "image_asset_1": "images/non_involved_parenting_1.jpg",
+      "image_asset_2": "images/non_involved_parenting_2.jpg",
+      "slide_1_text": "Indifferent/Uninvolve is characterised by low control and poor relationships. Parents are not interested in their children and make few demands on them.",
+      "icon_asset": "images/icons/picture_book.svg",
+      "media_title": "Story"
     },
     {
       "id": "impact_conflict",
       "topic": "impact_conflict",
+      "media_title": "Let us watch a story",
+      "media_type": "audio",
       "slide_1_text": "Susan and her husband John have a troublesome son, Henry, who is 11 years old. Henry is very energetic and creative. However, he often gets into trouble at school.",
       "slide_2_text": "On weekends and even on some school days, Henry escapes from home to watch movies. Susan’s husband often blames her for Henry’s bad behaviour saying that she spends too much time at her job, when she should be home more, watching over the children.",
       "slide_3_text": "One day Susan and her husband got into a heated argument and he hit her. He often did so but this time, Susan decided that she could not take it anymore. She lashes out at Henry and beats him up, blaming him for always bringing her problems.",
-      "slide_4_text": "A male neighbour passed but did not say anything. As Susan contemplated leaving, she thought about her children and got discouraged, saying the children would suffer without her."
+      "slide_4_text": "A male neighbour passed but did not say anything. As Susan contemplated leaving, she thought about her children and got discouraged, saying the children would suffer without her.",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "impact_conflict_2",
+      "topic": "impact_conflict",
+      "intro_text": "* This activity is often implemented with men but we know that there are are families that are led by women as well. \n* Reflecting on your head, can you note down the different parts of your head and list their functions?",
+      "media_title": "Let us watch a story",
+      "media_type": "video",
+      "slide_1_text": "Animation script\nPerson 1: let's think about different parts of the head What different parts does it have? \nPerson 2: We have eyes, ears, nose , mouth , and my hair . And my brain and my face! pop up : head with the different parts of the named parts",
+      "slide_2_text": "Person 1: Can we think about the different functions of the head? What are the roles and functions of the different parts we have named?\nPerson 2: Ok, good to go! The eyes for seeing, the mouth is for talking and eating, the nose is for smelling, the ears are for hearing, the brain is the think work, and my face gives me the identity",
+      "slide_3_text": "Person 1: Wow! Can we now think about our role as heads of the family? Especially in Africa, men are referred to as the heads of the family.",
+      "slide_4_text": "Person 1: As you reflect on the different parts of the head, for example, the eye, do you use your eyes to see opportunities that benefit your family (children and spouse) or are you using them for selfish interests? Think about your mouth, do you use it to speak to your family members or to abuse and curse them? How about your ears; do you use them to listen to them? How often. We can only take pride in family headship if we choose to function in our everyday lives for the benefit of those we live with and not for our selfish intentions. What happens if any of the parts of the head fail to function the way they are supposed to? The entire body will feel the effect? This means that if you don't utilize all our capacities and heads of our family, some members of the household will negatively be affected.",
+      "outro_text": "What do you learn from this activity?",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "caregiving_1",
+      "topic": "sharing_care",
+      "media_title": "Let us listen to a story",
+      "media_type": "audio",
+      "slide_1_text": "Paul and Mary have been married for 18 years, and they have 4 children; 3 boys and 1 girl. Every morning, Mary wakes up at 5:00 am to prepare the children for school, including organizing their breakfast, school, dressing up, and finally a drive to school. She ensures to return home before dark and join the house helper to prepare dinner, play with the children, support them with homework, and teach them family values including leading prayers. On the other hand, her husband Paul, wakes up, dresses up, and drives his car to his office. After work, Paul spends time at the club with his colleagues, joins the gym for a workout, and returns home after 9:00 PM when most of the children are asleep. Paul is doing well at his job and draws attention especially at smartness, time-keeping, and intellectual balance. On the other hand, Mary, asks for offs many times to attend to sick children, school days, and family social responsibilities.",
+      "slide_2_text": "She ensures to return home before dark and join the house helper to prepare dinner, play with the children, support them with homework, and teach them family values including leading prayers. On the other hand, her husband Paul, wakes up, dresses up, and drives his car to his office. After work, Paul spends time at the club with his colleagues, joins the gym for a workout, and returns home after 9:00 PM when most of the children are asleep.",
+      "slide_3_text": "On the other hand, her husband Paul, wakes up, dresses up, and drives his car to his office. After work, Paul spends time at the club with his colleagues, joins the gym for a workout, and returns home after 9:00 PM when most of the children are asleep. Paul is doing well at his job and draws attention especially at smartness, time-keeping, and intellectual balance. On the other hand, Mary, asks for offs many times to attend to sick children, school days, and family social responsibilities.",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "caregiving_2",
+      "topic": "sharing_care",
+      "media_title": "Let us listen to a story",
+      "media_type": "audio",
+      "slide_1_text": "Bosco and Esther have been married for 18 years, and they have 4 children; 3 boys and 1 girl. Every morning, Esther wakes at 5:30 am up to prepare the children for school, including organizing their breakfast.",
+      "slide_2_text": "Her husband also Bosco wakes up at 6:00 am to support with the final stages of the arrangements and takes the children to school. After work, Bosco picks up the younger children who study at the same school near his place of work while Esther picks the other two. They all later catch up in the evening to support them with house work, fun and playtime together.",
+      "slide_3_text": "While Bosco goes for his workout time (gym) Esther and the bigger children support the house helper to prepare dinner. Bosco joins them and with his son and daughter, they organize the dining table for the meal. They spend time in catch up, value clarification moments and praying together. The couples enjoys family life and yet are very instrumental in their workplaces as, they are role models to many.",
+      "icon_asset": "images/icons/picture_book.svg"
     },
     {
       "id": "rships_communication",
       "topic": "healthy_relation",
-      "title": "Story Time",
-      "slide_1_text": "“But I did not do anything wrong, we are just friends”, Chris insisted when a family member voiced concern over the time he was spending with the girl working in the bar and restaurant. In Chris’s mind, he had not crossed any lines because there was nothing much that was happening. “I only tap her bat sometimes, just for fun, and I have no problem spending time with someone who cooks and serves us food and beer very well, daily.",
+      "media_type": "audio",
+      "slide_1_text": "\"But I did not do anything wrong, we are just friends\", Chris insisted when a family member voiced concern over the time he was spending with the girl working in the bar and restaurant. In Chris’s mind, he had not crossed any lines because there was nothing much that was happening. \"I only tap her bat sometimes, just for fun, and I have no problem spending time with someone who cooks and serves us food and beer very well, daily.",
       "slide_2_text": "Chris and his wife Kevin have been happily married for 7 years. But Kevin is argumentative and sometimes, an aggressive talker, who tries to win every argument. She cannot sustain a good discussion and often threatens to leave her husband because of his behaviour, especially physical and emotional violence including non-involvement in child care. Chris often feels lonely even when they are together. As a result of this, they have problems in their intimate relationships and each of them does not get sufficient intimate satisfaction (sex) but they do not talk about it. Both of them have challenges with their body hygiene including brushing, shaving, bathing, cutting nails among others. The couple has developed drinking habits to try to feel relaxed but this makes it worse as they end in fights and quarrels before the children.",
-      "slide_3_text": "The restaurant girl, however, is a good listener and easily reads Chris’s moods. She is quick to laugh with him and is fun to have around. As the two continued to spend time together, a friend to whom Chris had casually told about the relationship mentioned it to Kevin. When Kevin confronted Chris, he dismissed her concerns. Kevin was so disturbed and decided to fight her husband and the bar girl."
+      "slide_3_text": "The restaurant girl, however, is a good listener and easily reads Chris’s moods. She is quick to laugh with him and is fun to have around. As the two continued to spend time together, a friend to whom Chris had casually told about the relationship mentioned it to Kevin. When Kevin confronted Chris, he dismissed her concerns. Kevin was so disturbed and decided to fight her husband and the bar girl.",
+      "icon_asset": "images/icons/picture_book.svg",
+      "media_title": "Story"
     },
     {
-      "id": "spousal_relationships",
-      "topic": "session_review",
-      "title": "Story Time",
-      "slide_1_text": "A mother was bathing a child when the father returned home and asked to be served tea.",
-      "slide_2_text": "Patiently, she explained that she was still busy bathing the child, and that the other children were also waiting to be bathed.",
-      "slide_3_text": "She asked the husband to come and bathe the children as she goes to prepare tea for him. The father agreed and took over this responsibility. A few minutes later, the tea was ready.",
-      "slide_4_text": "A neighbour who was then passing by saw this and was impressed to see a father bathing his child as their mother served tea. He wondered how they were able to share the roles easily.",
-      "slide_5_text": "The couple told him that they had benefited from attending Parenting for Respectability sessions."
+      "id": "caro_story",
+      "topic": "parenting_teens",
+      "slide_1_text": "Carol is 16 years and she is form 2. Carol looks fully grown and feels very beautiful. For a couple of weeks Carol has been receiving notes and love messages from Patrick who describes her beauty and how lovely and perfect the two of them can look together.",
+      "slide_2_text": "When Carol receives these messages, she smiles and feels very proud of her beauty and looks forward to receiving more. She tells her friends the thrills she feels when Patrick’s messages.",
+      "slide_3_text": "She feels like a grown woman, feels on top of the world and even thinks she is wasting time being in school when remembers Patrick’s promises. On the other hand, her mother is very bitter about the way she walks, dresses up and her current appearance.",
+      "slide_4_text": "The school administration has up rules on forbidding boy-girl relationships including writing and receiving love letters. They often tell girls are trash as a way of discouraging such  relationships.",
+      "icon_asset": "images/icons/picture_book.svg",
+      "media_title": "Story"
     },
     {
-      "id": "conflict_children",
-      "topic": "discipline",
-      "intro_text": "While raising our children, especially adolescents, it is easy to get into a confrontation with them. For instance, this can happen when parents set limits and regulate their children’s behavior. However, confrontation or conflict can often be avoided"
+      "id": "doreen_relation",
+      "topic": "parenting_teens",
+      "media_title": "Let us watch a story",
+      "media_type": "video",
+      "slide_1_text": "Doreen and the father have a good relationship characterized with love, open communication, and interactions. They do many things together including praying for each other. Along the way, Doreen gets distracted by peers who introduce her to drinking alcohol, going to parties, and gambling which draws her away from her family relationship.",
+      "slide_2_text": "The father tries to talk to her against these habits but she would not listen, as the other things were looking so attractive. However, rather than giving up and dis-owning his daughter, the father demonstrates a remarkable commitment to save his daughter from associated dangers.",
+      "slide_3_text": "He prayed persistently, went about looking for her and embraced and accepted her without being judgmental and harsh. The father’s persistence and commitment to supporting his daughter, delivers her and she returns to their relationship.",
+      "icon_asset": "images/icons/picture_book.svg"
     },
     {
-      "id": "positive_child_interaction_1",
-      "topic": "discipline",
-      "slide_1_text": "It's so nice to see you playing with your dolls Sylia.",
-      "slide_1_image_asset": "images/sylvia_playing_with_toys_1.jpg",
-      "slide_2_text": "In five minutes, it will be time for keeping them.",
-      "slide_2_image_asset": "images/sylvia_playing_with_toys_2.jpg",
-      "slide_3_text": "It's time for keeping your dolls Sylvia. Please keep them in the box, I would like to tell you a story.",
-      "slide_3_image_asset": "images/sylvia_playing_with_toys_3.jpg",
-      "slide_4_text": "Please pack them properly.",
-      "slide_4_image_asset": "images/sylvia_playing_with_toys_4.jpg",
-      "slide_5_text": "Thank you for removing the dolls when I told you. I am so grateful because you listen to what I say. Now, let's read a story together.",
-      "slide_5_image_asset": "images/sylvia_playing_with_toys_5.jpg",
-      "slide_6_text": "Once upon a time.....",
-      "slide_6_image_asset": "images/sylvia_playing_with_toys_6.jpg"
-    },
-    {
-      "id": "positive_child_interaction_2",
-      "topic": "discipline",
-      "slide_1_text": "Radio presenter: At the end of 1st half, Arsenal and Man u",
-      "slide_2_text": "<span><i>Music playing: la la la... la la la... la la la!...<br/><br/></i></span><span>Dad: Moses, thank you for playing quietly down there, I loved it</span>",
-      "slide_3_text": "Radio presenter: 2-2 The game is over",
-      "slide_4_text": "Dad: You have played very well, you were quite while I was listening to my program, Thank you Moses."
-    },
-    {
-      "id": "patnership_parenting",
-      "topic": "gender_equal",
-      "title": "Missing story: To be added"
-    },
-    {
-      "id": "encourage_school",
+      "id": "education_1",
       "topic": "education",
-      "title": "Story",
-      "slide_1_text": "Nakato is a 13 year- old girl in Primary7 in a certain school.",
-      "slide_2_text": "She tries to work hard but received a very low mark in the mid-year examinations.",
-      "slide_3_text": "That same day, her parents found out that there is a man in the neighborhood who has been pestering Nakato to have a love relationship with him, and even promised to marry her.",
-      "slide_4_text": "Just before examinations, Nakato’s teacher had tried to contact the parents regarding her academics, but the parents were busy."
+      "media_title": "Let us watch a story",
+      "media_type": "video",
+      "slide_1_text": "Mrs. Mukasa:   Amit, your daddy and I are too busy these days and we have agreed that you and your brother will be taken to school by Moses the motorcycle rider. \nAmit: Ok, but…..",
+      "slide_2_text": "(Moses arrives and puts them on the bike)\nMoses: Amit, you are about 14 years and your brother is now 12….. Right?\nAmit: Yes, why are you asking?",
+      "slide_3_text": "Moses: I see that both of you spend time only at school and home, don’t you want to go out and have fun with other people? This is the time to enjoy life….. Especially, you Amit, I like your breasts!",
+      "slide_4_text": "Mr. Mukasa:        Amit, why are you here? Don’t you want to study today? Where is your brother? Look at you! Mrs. Mukasa, what's wrong with you and your children?\nAmit and the brother: Look on with a very sad look that show lack of support and understanding from the parents.",
+      "slide_5_text": "Announcer: \nParents and other adults influence children’s behaviour and personalities. It is therefore important for us parents to work together and to support our children. his relationship should be intentional especially on our part as parents because life skills building should start from home. As parents we should appreciate that all children can develop their Godly gifts, including in school, provided parents demonstrate their faith in them and are supported. Many times, what parents believe about the purpose of education has an impact on the schools we send our children to, what they give them while they're in school, and how they schedule time for housework, homework, and play, among others.",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "education_2",
+      "topic": "education",
+      "media_title": "Let us watch a story",
+      "media_type": "video",
+      "slide_1_text": "Carol is a 13-year-old girl in Form 1 in a certain school. She tries to work hard but received a very low mark in the mid-year examinations.",
+      "slide_2_text": "That same day, her parents found out that she was more engatfed in core curriculum actitivies rather than her main studies. The parents are disspaointed and leading to a quarrel between Caro's parents.",
+      "slide_3_text": "Just before examinations, Carol’s teacher had tried to contact the parents regarding her academics, but the parents were busy and did not seem interested.",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "gender_equal",
+      "topic": "gender_equal",
+      "slide_1_text": "Joseph and faith a parents to irene who is about to join form 1.",
+      "slide_2_text": "Faith wants Irene to join ABC Academy which is an internation school where her brothers children go.",
+      "slide_3_text": "Joseph wants irene to join a faith-based school, which he feels provides the right education and grooms children well.",
+      "slide_4_text": "The two hardly talk to each other, and Irene feels the tense relationship between her parents and now feels confused about the way forward.",
+      "icon_asset": "images/icons/picture_book.svg",
+      "media_title": "Story"
+    },
+    {
+      "id": "prevent_abuse_1",
+      "topic": "prevent_abuse",
+      "media_title": "Let us watch a story",
+      "media_type": "video",
+      "slide_1_text": "Doreen: Spending quality time with her father, doing things together including reading books, playing etc Father: Smiling and providing a supportive environment to nurture their relationship",
+      "slide_2_text": "Doreen and father:   Have moments where they understand each other, and enjoy each other’s company.\nDoreen: Sorry gets distracted from the relationship into drinking, enticed by money and other items",
+      "slide_3_text": "Doreen: Gets tied, and wants to come back but difficult because of the obstacles \nFather: Keep check and positively waiting for her daughter in prayer and hard work    \nDoreen: Later, Doreen returns to their relationship and her father supports her to re-cover!",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "prevent_abuse_2",
+      "topic": "prevent_abuse",
+      "media_title": "Let us listen to a story",
+      "media_type": "audio",
+      "slide_1_text": "I have many friends. But only a few are true. I have friends that I only say Hi and bye to. I have friends that just come around When they need answers or advise Although these are not true friends They play a big part in teaching me about life.",
+      "slide_2_text": "On the other hand I have true friends. Who encourage and support me. Sure, we have our differences. But only true relationships withstand obstacles.",
+      "slide_3_text": "They compliment me on a good job. And they send my spirit to the skies with their constant Loyal friendship. And sometimes I just wonder why.",
+      "slide_4_text": "Why God only puts a few good friends on earth I think I may have the answer. But I am unsure because many things in life hold little security.",
+      "slide_5_text": "But may be true friends are gifts Wrapped under a big Christmas tree That is disguised in a scholastic setting. It’s our job to constantly unwrap each gift To hunt for the ones. That help us learn and positively grow. Bringing us joy and happiness.",
+      "icon_asset": "images/icons/picture_book.svg"
+    },
+    {
+      "id": "reduce_conflict_activity",
+      "topic": "reduce_conflict",
+      "slide_1_text": "Trainer:   invites two people (male and female) and hands them an opaque object. He says: What do you see? \nPerson seeing (male): but….. I don’t see anything\nPerson being seen (female): Tries to do fun interesting things silently",
+      "slide_2_text": "Trainer: How do you feel to try to see someone through an object that is opaque? \nPerson seeing (male): I feel bad, annoyed, disappointed, tired, anxious….. \nTrainer: Hands him a translucent item asks him to see the lady through it. Says: What do you see?",
+      "slide_3_text": "Person seeing (male): I see her doing something but I don’t get it well\nPerson being seen (female): Tries to do fun interesting things silently \nTrainer: How do you feel to try to see someone through a translucent item?",
+      "slide_4_text": "Person seeing (male): I feel very anxious, bad, annoyed, disappointed, tired,….. \nTrainer: Hands him a transparent item asks him to see the lady through it. Says: What do you see? \nPerson seeing (male): I see her smiling, very happy, and I am pleased to see her very well!",
+      "slide_5_text": "Person being seen (female): Tries to do fun interesting things silently \nTrainer: How do you feel to try to see someone through a transparent item? \nPerson seeing (male): I feel happy, connected, peaceful, in a relationship…..",
+      "slide_6_text": "Announcer: \nJust like the animation, many of us desire to have transparent relationships with good communication but fail to communicate our 100% commitment to our partners and marriage life. Marriages where there is open communication and partners know each other very well, they function well, live healthy and enjoy th parenting role. Its important for us to be as open as possible to each other for more mutual understanding.\n\nPeople relate well with people they know well. It's not good to keep many secrets in marital relationships.",
+      "icon_asset": "images/icons/picture_book.svg",
+      "media_title": "Story"
     }
   ],
   "_xlsxPath": "global/data_lists/topics.xlsx"

@@ -18,18 +18,18 @@
       "row_id": "id_1"
     },
     {
-      "id": "impact_conflict_tbg_1",
+      "id": "impact_conflict_tbg",
       "data_list_name": [
         "topic_block_group"
       ],
-      "row_id": "impact_conflict_1"
+      "row_id": "impact_conflict"
     },
     {
-      "id": "impact_conflict_tbg_2",
+      "id": "impact_conflict_sbg",
       "data_list_name": [
-        "topic_block_group"
+        "story_block_group"
       ],
-      "row_id": "impact_conflict_2"
+      "row_id": "diff_heads"
     },
     {
       "id": "impact_conflict_set_hp",

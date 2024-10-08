@@ -22,13 +22,13 @@
       "completed": "@fields.task_gender_power_check_in_completed"
     },
     {
-      "id": "gender_power_review_hp",
+      "id": "discipline_children_review_hp",
       "data_list_name": [
         "review_hp"
       ],
       "row_id": "discipline_children",
-      "completed_field": "task_gender_power_review_hp_completed",
-      "completed": "@fields.task_gender_power_review_hp_completed"
+      "completed_field": "task_discipline_children_review_hp_completed",
+      "completed": "@fields.task_discipline_children_review_hp_completed"
     },
     {
       "id": "gender_power_tbg",
@@ -44,7 +44,7 @@
       "data_list_name": [
         "tips"
       ],
-      "row_id": "gender_power",
+      "row_id": "gender_stereotypes",
       "completed_field": "task_gender_power_tips_completed",
       "completed": "@fields.task_gender_power_tips_completed"
     },
