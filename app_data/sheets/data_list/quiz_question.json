@@ -149,31 +149,48 @@
       "id": "father_action",
       "topic": "child_dev",
       "question_type": "select_one",
-      "question_text": "What do you think of Birungi’s father’s actions?"
+      "question_text": "What do you think of Birungi’s father’s actions?",
+      "option_1_text": "Controlling",
+      "option_2_text": "Un fair",
+      "option_3_text": "Good and training",
+      "option_4_text": "Unfit for child - parent relationship"
     },
     {
       "id": "father_control",
       "topic": "child_dev",
       "question_type": "select_one",
-      "question_text": "How does Birungi feel when her father controls the game? \""
+      "question_text": "How does Birungi feel when her father controls the game? \"",
+      "option_1_text": "She feels empty",
+      "option_2_text": "She feels angered",
+      "option_3_text": "She feels helpless",
+      "option_4_text": "She feels fear"
     },
     {
       "id": "mother_attention",
       "topic": "child_dev",
       "question_type": "select_one",
-      "question_text": "How does the mother show attention to Doreen?"
+      "question_text": "How does the mother show attention to Doreen?",
+      "option_1_text": "Invites both of them to play together",
+      "option_2_text": "She joins the play",
+      "option_3_text": "Allows the child to teach them about the game in her way"
     },
     {
       "id": "mother_control",
       "topic": "child_dev",
       "question_type": "select_one",
-      "question_text": "How does the mother help Doreen to do what she wants without controlling her?"
+      "question_text": "How does the mother help Doreen to do what she wants without controlling her?",
+      "option_1_text": "Joins and enjoys the play moment",
+      "option_2_text": "Praise the child during the play",
+      "option_3_text": "Informs her that they will join the play someother time"
     },
     {
       "id": "doreen_feel",
       "topic": "child_dev",
       "question_type": "select_one",
-      "question_text": "How does this make Doreen feel?"
+      "question_text": "How does this make Doreen feel?",
+      "option_1_text": "Doreen feels loved and cared for",
+      "option_2_text": "She feels good about their relationship",
+      "option_3_text": "She feels good about the other activities that she has to do"
     },
     {
       "id": "positive_exp",

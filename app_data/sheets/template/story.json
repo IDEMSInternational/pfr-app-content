@@ -918,6 +918,40 @@
       }
     },
     {
+      "type": "text",
+      "name": "outro_text",
+      "value": "@local.row_data.outro_text",
+      "_translations": {
+        "value": {}
+      },
+      "condition": "!!(@local.row_data.outro_text)",
+      "_nested_name": "outro_text",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.row_data.outro_text",
+            "matchedExpression": "@local.row_data.outro_text",
+            "type": "local",
+            "fieldName": "row_data"
+          }
+        ],
+        "condition": [
+          {
+            "fullExpression": "!!(@local.row_data.outro_text)",
+            "matchedExpression": "@local.row_data.outro_text",
+            "type": "local",
+            "fieldName": "row_data"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.row_data.outro_text": [
+          "value",
+          "condition"
+        ]
+      }
+    },
+    {
       "type": "template",
       "name": "nav_buttons",
       "value": "nav_buttons",

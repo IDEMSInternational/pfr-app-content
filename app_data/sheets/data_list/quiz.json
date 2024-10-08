@@ -56,6 +56,7 @@
       "topic": "child_dev",
       "question_1_id": "father_action",
       "question_2_id": "father_control",
+      "outro_text": "💡 Control doesn't teach our children to enjoy the play time and benefit from it. Instead, it will lead to anxiety and feelings of inadequacy.",
       "title": "Quiz",
       "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let's do a reflection."
@@ -66,6 +67,7 @@
       "question_1_id": "mother_attention",
       "question_2_id": "mother_control",
       "question_3_id": "doreen_feel",
+      "outro_text": "💡 It is a good practice for parents to be involved in their children's play but this should be done respectfully with the full consent of the child. Play should meet the needs of the child and not the parent. Praise the child for their initiatives and follow their lead.",
       "title": "Quiz",
       "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let's do a reflection."
@@ -100,6 +102,7 @@
       "question_3_id": "mother_response",
       "question_4_id": "problem",
       "question_5_id": "respond_best",
+      "outro_text": "💡 Instead of the mother encouraging them to enjoy the play together, she made it worse by shouting at her daughter Sarah. This is common in our everyday lives. \nAs parents, we tend to favor the young ones at the expense of the older ones.\n\n💡 The mother needed to resolve the problem between the two siblings instead of referring\\the \nissue to their father.\n\n💡 She needed to help the two children to  play together\n\n💡 Improved discipline and respectability through positive parent-child interactions can be achieved if parent commit time to engage and interact with their children.",
       "title": "Quiz",
       "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let's do a reflection."
@@ -109,8 +112,7 @@
       "topic": "positive_parenting",
       "question_1_id": "communicate_rules",
       "question_2_id": "child_listen",
-      "question_3_id": "house_behavior",
-      "question_4_id": "support_rules",
+      "question_3_id": "support_rules",
       "title": "Quiz",
       "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let's do a reflection."
@@ -128,6 +130,7 @@
       "id": "firm",
       "topic": "discipline_children",
       "question_1_id": "parenting_style_firm",
+      "outro_text": "**Effects of Authoritative parenting**    \n \n* Sometimes children can be misunderstood as being proud\n* They can be vulnerable to abuse if they go to an environment where children's right to expression is not respected.\"",
       "title": "Quiz",
       "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let's do a reflection."
@@ -136,6 +139,7 @@
       "id": "strict",
       "topic": "discipline_children",
       "question_1_id": "parenting_style_strict",
+      "outro_text": "**Effects of Strict parenting**       \n\n* Unhappy and fearful\n* Low self esteem\n* Problems relating with people\n* Cannot cope with frustration",
       "title": "Quiz",
       "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let's do a reflection."
@@ -144,6 +148,7 @@
       "id": "permissive",
       "topic": "discipline_children",
       "question_1_id": "parenting_style_permissive",
+      "outro_text": "**Effects of Permissive parenting**\n        \n* Cannot control their emotions\n* Often rebellious likely to have problems with authorities\n* Tend to have problems at school",
       "title": "Quiz",
       "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let's do a reflection."
@@ -152,6 +157,7 @@
       "id": "uninvolved",
       "topic": "discipline_children",
       "question_1_id": "parenting_style_uninvolved",
+      "outro_text": "**Effects of Uninvolved caregiver**\n \n* Unhappy\n* Have problems controlling themselves\n* Have low self-esteem\n* Lack confidence\n* Have problems at school",
       "title": "Quiz",
       "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let's do a reflection."
@@ -222,7 +228,6 @@
       "question_1_id": "race_child",
       "question_2_id": "target_conflict",
       "question_3_id": "positive_race",
-      "question_4_id": "resolve_conflict",
       "title": "Quiz",
       "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let's do a reflection."
