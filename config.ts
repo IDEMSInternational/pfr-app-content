@@ -7,13 +7,13 @@ const config = generateDeploymentConfig("pfr");
  */
 
 config.google_drive = {
-  sheets_folder_id: "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
-  assets_folder_id: "1gFEuVLP4r2FVLTuPSMMul5RxhGpYy8TU",
+  sheets_folder_ids: ["1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv"],
+  assets_folder_ids: ["1gFEuVLP4r2FVLTuPSMMul5RxhGpYy8TU"],
 };
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/pfr-app-content.git",
-  content_tag_latest: "1.1.13",
+  content_tag_latest: "1.1.14",
 };
 
 config.error_logging = {
