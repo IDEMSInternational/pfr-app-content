@@ -5,13 +5,12 @@
 | --- | --- |
 | animated_slides | 1 |
 | audio | 2 |
-| begin_display_group | 2 |
 | button | 26 |
 | combo_box | 2 |
 | dashed_box | 1 |
 | debug_toggle | 1 |
-| display_group | 34 |
-| image | 6 |
+| display_group | 35 |
+| image | 4 |
 | items | 12 |
 | lottie_animation | 2 |
 | navigation_bar | 1 |
@@ -23,7 +22,7 @@
 | simple_checkbox | 2 |
 | task_card | 3 |
 | template | 136 |
-| text | 43 |
+| text | 44 |
 | text_area | 5 |
 | text_box | 6 |
 | title | 24 |
