@@ -5,13 +5,12 @@
 | --- | --- |
 | animated_slides | 1 |
 | audio | 2 |
-| begin_display_group | 2 |
 | button | 26 |
 | combo_box | 2 |
 | dashed_box | 1 |
 | debug_toggle | 1 |
-| display_group | 34 |
-| image | 6 |
+| display_group | 35 |
+| image | 4 |
 | items | 12 |
 | lottie_animation | 2 |
 | navigation_bar | 1 |
@@ -23,7 +22,7 @@
 | simple_checkbox | 2 |
 | task_card | 3 |
 | template | 136 |
-| text | 43 |
+| text | 44 |
 | text_area | 5 |
 | text_box | 6 |
 | title | 24 |
@@ -58,7 +57,7 @@
 | assets | KB | MB |
 | --- | --- | --- |
 | total | 46454 KB | 46.5 MB |
-| unused | 28967 KB | 29 MB |
+| unused | 29266 KB | 29.3 MB |
 </details>
 
 <details open>
@@ -68,6 +67,9 @@ Assets that appear in app-data but do not have references within sheets
 
 | path | size_kb |
 | --- | --- |
+| android/icon-background.png | 7 |
+| android/icon.png | 25.1 |
+| android/splash.png | 267.1 |
 | images/X/child_dev.png | 440.2 |
 | images/X/current_pract.png | 578.3 |
 | images/X/current_pract_picture_quiz_1.png | 538.1 |
