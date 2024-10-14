@@ -21,7 +21,7 @@ config.android = {
   app_name:'PfR Parenting App',
   splash_asset_path: "./app_data/assets/android/splash.png",
   icon_asset_path: "./app_data/assets/android/icon.png",
-  icon_asset_foreground_path: "./app_data/assets/android/icon-foreground.png",
+  icon_asset_foreground_path: "./app_data/assets/android/icon.png",
   icon_asset_background_path: "./app_data/assets/android/icon-background.png",
 };
 
