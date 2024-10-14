@@ -9,10 +9,6 @@
       "count": 2
     },
     {
-      "type": "begin_display_group",
-      "count": 2
-    },
-    {
       "type": "button",
       "count": 26
     },
@@ -30,11 +26,11 @@
     },
     {
       "type": "display_group",
-      "count": 34
+      "count": 35
     },
     {
       "type": "image",
-      "count": 6
+      "count": 4
     },
     {
       "type": "items",
@@ -82,7 +78,7 @@
     },
     {
       "type": "text",
-      "count": 43
+      "count": 44
     },
     {
       "type": "text_area",
@@ -171,11 +167,23 @@
     },
     {
       "assets": "unused",
-      "KB": "28967 KB",
-      "MB": "29 MB"
+      "KB": "29266 KB",
+      "MB": "29.3 MB"
     }
   ],
   "assets_unused": [
+    {
+      "path": "android/icon-background.png",
+      "size_kb": 7
+    },
+    {
+      "path": "android/icon.png",
+      "size_kb": 25.1
+    },
+    {
+      "path": "android/splash.png",
+      "size_kb": 267.1
+    },
     {
       "path": "images/X/child_dev.png",
       "size_kb": 440.2
