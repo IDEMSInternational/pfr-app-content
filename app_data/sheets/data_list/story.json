@@ -6,7 +6,7 @@
     {
       "id": "interactive_play_distracted",
       "topic": "child_dev",
-      "slide_1_text": "A mother is busy on the phone.A mother is busy on the phone. Her son David keeps talking to her trying to get her attention to join and enjoy play.The child gets disappointed and annoyed.",
+      "slide_1_text": "A mother is busy on the phone. Her son David keeps talking to her trying to get her attention to join and enjoy play.The child gets disappointed and annoyed.",
       "attached_single_doc": "https://docs.google.com/document/d/1H5gFW_si9jaLurJhhwrv-tVqv2akY2WR3Gsy9S5Av98",
       "icon_asset": "images/icons/picture_book.svg",
       "media_title": "Story"
@@ -25,6 +25,7 @@
       "topic": "child_dev",
       "media_title": "Let us watch a story",
       "media_type": "video",
+      "media_asset": "videos/doreen_2.mp4",
       "slide_1_text": "Doreen is interested in doing something that the mother knows is not timely as Dorren had to complete other tasks.",
       "slide_2_text": "She joins the child's playtime and tries to learn from her about the different components of the game. They end up enjoying the play as the mother keeps learning from the child.",
       "slide_3_text": "After a few minutes, Doreen is asked to go and complete her homework exercise which was provided by the school teacher.",
@@ -37,7 +38,7 @@
       "intro_text": "Here's a story of a supportive father in child care.",
       "media_title": "Let us listen to a story",
       "media_type": "audio",
-      "media_asset": "ifyuk",
+      "media_asset": "audio/ssemakula_one.mp3",
       "slide_1_text": "Mr. Ssemakula is married with four children. He actively plays a strong role in day-to-day child-care and his wife appreciates him for his father figure involvement.",
       "slide_2_text": "Whenever the wife delivers and the baby is about 2 - 3 weeks, he takes turns with his wife to carry the crying baby in the night.",
       "slide_3_text": "He picks up any opportunity in his busy schedule to cuddle with his children including finding play time for out and indoor games.",
@@ -62,8 +63,9 @@
       "id": "setting_limits_2",
       "topic": "positive_parenting",
       "media_title": "Let us watch a story",
+      "media_type": "video",
+      "media_asset": "videos/vincent.mp4",
       "slide_1_text": "Vincent, you will not visit your friends for two weeks because you came back home very late last night. Our rule says that we should all be home by 7:30 PM but mother........................................  \nYou will do exactly what your mother says",
-      "slide_1_image_asset": "images/new/vicent_mother.jpg",
       "outro_text": "💡 Limits provide a sense of comfort and security in the household                \n💡 Teaches responsibility, and understanding of what is expected of them                \n💡 Encourages discipline and listening        \n💡 Protects children from harm",
       "icon_asset": "images/icons/picture_book.svg"
     },
@@ -115,11 +117,12 @@
       "icon_asset": "images/icons/picture_book.svg"
     },
     {
-      "id": "impact_conflict_2",
+      "id": "fam_head",
       "topic": "impact_conflict",
       "intro_text": "* This activity is often implemented with men but we know that there are are families that are led by women as well. \n* Reflecting on your head, can you note down the different parts of your head and list their functions?",
       "media_title": "Let us watch a story",
       "media_type": "video",
+      "media_asset": "videos/head_family8.mp4",
       "slide_1_text": "Animation script\nPerson 1: let's think about different parts of the head What different parts does it have? \nPerson 2: We have eyes, ears, nose , mouth , and my hair . And my brain and my face! pop up : head with the different parts of the named parts",
       "slide_2_text": "Person 1: Can we think about the different functions of the head? What are the roles and functions of the different parts we have named?\nPerson 2: Ok, good to go! The eyes for seeing, the mouth is for talking and eating, the nose is for smelling, the ears are for hearing, the brain is the think work, and my face gives me the identity",
       "slide_3_text": "Person 1: Wow! Can we now think about our role as heads of the family? Especially in Africa, men are referred to as the heads of the family.",

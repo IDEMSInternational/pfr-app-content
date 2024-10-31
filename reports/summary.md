@@ -11,17 +11,17 @@
 | debug_toggle | 1 |
 | display_group | 35 |
 | image | 4 |
-| items | 12 |
+| items | 14 |
 | lottie_animation | 2 |
 | navigation_bar | 1 |
 | pdf | 1 |
 | radio_button_grid | 3 |
 | radio_group | 1 |
 | set_field | 4 |
-| set_variable | 243 |
+| set_variable | 256 |
 | simple_checkbox | 2 |
 | task_card | 3 |
-| template | 136 |
+| template | 140 |
 | text | 44 |
 | text_area | 5 |
 | text_box | 6 |
@@ -35,13 +35,13 @@
 | type | count |
 | --- | --- |
 | app_update | 1 |
-| emit: completed | 137 |
+| emit: completed | 141 |
 | emit: force_reload | 5 |
 | emit: force_reprocess | 4 |
 | emit: force_restart | 2 |
 | emit: server_sync | 3 |
 | emit: set_language | 1 |
-| emit: uncompleted | 135 |
+| emit: uncompleted | 139 |
 | feedback | 3 |
 | go_to | 11 |
 | pop_up | 7 |
@@ -56,8 +56,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 46454 KB | 46.5 MB |
-| unused | 29266 KB | 29.3 MB |
+| total | 59622 KB | 59.6 MB |
+| unused | 30561 KB | 30.6 MB |
 </details>
 
 <details open>
@@ -69,7 +69,8 @@ Assets that appear in app-data but do not have references within sheets
 | --- | --- |
 | android/icon-background.png | 7 |
 | android/icon.png | 25.1 |
-| android/splash.png | 267.1 |
+| android/splash.png | 596.6 |
+| audio/ssemakula_1.mp3 | 283.3 |
 | images/X/child_dev.png | 440.2 |
 | images/X/current_pract.png | 578.3 |
 | images/X/current_pract_picture_quiz_1.png | 538.1 |
@@ -121,6 +122,8 @@ Assets that appear in app-data but do not have references within sheets
 | images/from PLH Digital Assets library/selfcare.svg | 10.2 |
 | images/from PLH Digital Assets library/solve.svg | 24.8 |
 | images/from PLH Digital Assets library/stress.svg | 10 |
+| images/gender_box_1.jpg | 112.6 |
+| images/gender_box_2a.jpg | 135.2 |
 | images/grand_discipline_box.jpg | 86.6 |
 | images/head.jpg | 102.4 |
 | images/human_head.jpg | 153.3 |
@@ -158,6 +161,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/new/Art 6.jpg | 250.4 |
 | images/new/Firm Parenting 1.jpg | 43.5 |
 | images/new/Gender Box Icons Inside_Female.pdf | 34.6 |
+| images/new/Gender Box Icons Inside_Female_page-0001.jpg | 117.2 |
 | images/new/Gender Box Icons Inside_Male.pdf | 35.3 |
 | images/new/Gender Box Icons Outside_Female.pdf | 25.8 |
 | images/new/Gender Box Icons Outside_Male.pdf | 25.8 |
@@ -172,6 +176,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/new/What YourChild Wants from You.pdf | 670 |
 | images/new/Woman carrying baby and load.jpg | 126.9 |
 | images/new/setting_limits.pdf | 143.4 |
+| images/new/vicent_mother.jpg | 317.3 |
 | images/oak_foundation_logo_page-0001.jpg | 38 |
 | images/okugunjula_illustration.jpg | 726.2 |
 | images/parent_child_reading.jpg | 439.9 |
@@ -235,7 +240,10 @@ Assets that are used within sheets and also can be found in the synced asset dat
 
 | path | size_kb | count |
 | --- | --- | --- |
+| audio/option_1.m4a | 650.2 | 1 |
+| audio/option_2.m4a | 976.5 | 1 |
 | audio/relax/relax_19.mp3 | 1746.5 | 1 |
+| audio/ssemakula_one.mp3 | 243.5 | 1 |
 | emojis/happier.svg | 0.6 | 1 |
 | emojis/neutral.svg | 0.5 | 1 |
 | emojis/sad.svg | 0.6 | 1 |
@@ -253,8 +261,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/firm_parenting_1.jpg | 25 | 1 |
 | images/firm_parenting_2.jpg | 42.8 | 1 |
 | images/gb.svg | 0.5 | 2 |
-| images/gender_box_1.jpg | 112.6 | 1 |
-| images/gender_box_2a.jpg | 135.2 | 1 |
 | images/icons/ask_question.svg | 1.5 | 32 |
 | images/icons/book_white.svg | 0.7 | 2 |
 | images/icons/cup.svg | 1.2 | 34 |
@@ -262,7 +268,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/in_progress.svg | 1.1 | 3 |
 | images/icons/library_white.svg | 1.1 | 2 |
 | images/icons/light_bulb.svg | 2.6 | 170 |
-| images/icons/paper_pencil.svg | 1.1 | 73 |
+| images/icons/paper_pencil.svg | 1.1 | 90 |
 | images/icons/parent_child_heart.svg | 2.9 | 14 |
 | images/icons/picture_book.svg | 1.9 | 55 |
 | images/icons/smile.svg | 0.7 | 1 |
@@ -273,11 +279,11 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/mother_kids_with_magazine.jpg | 838.2 | 2 |
 | images/mother_reading_map_with_children.jpg | 126.8 | 1 |
 | images/new/child_dev.svg | 192.5 | 1 |
+| images/new/gender_inside_male.jpg | 251 | 1 |
 | images/new/gender_outside_female.jpg | 101.5 | 1 |
 | images/new/gender_outside_male.jpg | 67.3 | 1 |
 | images/new/sarah.svg | 578.6 | 1 |
 | images/new/setting_limits.jpg | 349.9 | 1 |
-| images/new/vicent_mother.jpg | 317.3 | 1 |
 | images/non_involved_parenting_1.jpg | 81.8 | 1 |
 | images/non_involved_parenting_2.jpg | 304.9 | 1 |
 | images/parents_adressing_children.jpg | 323.3 | 1 |
@@ -305,21 +311,24 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | logos/wellspring.png | 61.7 | 1 |
 | lottie/bulging_circles.json | 11.8 | 1 |
 | lottie/well_done.json | 38.8 | 1 |
-| pdf/facilitator_manual/11_discipline_pfr_manual_2021.pdf | 3995 | 1 |
-| pdf/facilitator_manual/12_education_pfr_manual_2021.pdf | 1857.1 | 1 |
-| pdf/facilitator_manual/13_gender_equal_pfr_manual_2021.pdf | 993.9 | 1 |
-| pdf/facilitator_manual/14_prevent_abuse_pfr_manual_2021.pdf | 1341.4 | 1 |
-| pdf/facilitator_manual/15_reduce_conflict_pfr_manual_2021.pdf | 1017.9 | 1 |
-| pdf/facilitator_manual/16_conclusion_pfr_manual_2021.pdf | 1504.7 | 1 |
-| pdf/facilitator_manual/1_family_relation_pfr_manual_2021.pdf | 1431 | 1 |
-| pdf/facilitator_manual/2_current_pract_pfr_manual_2021.pdf | 5310.4 | 1 |
-| pdf/facilitator_manual/3_child_dev_pfr_manual_2021.pdf | 1386.4 | 1 |
-| pdf/facilitator_manual/4_parent_childhood_pfr_manual_2021.pdf | 1525.5 | 1 |
-| pdf/facilitator_manual/5_positive_parenting_pfr_manual_2021.pdf | 2463.8 | 1 |
-| pdf/facilitator_manual/6_gender_power_pfr_manual_2021.pdf | 1711.5 | 1 |
-| pdf/facilitator_manual/7_impact_conflict_pfr_manual_2021.pdf | 2826.2 | 1 |
-| pdf/facilitator_manual/8_sharing_care_pfr_manual_2021.pdf | 1729.2 | 1 |
-| pdf/facilitator_manual/9_healthy_relation_pfr_manual_2021.pdf | 955.2 | 1 |
+| pdf/facilitator_manual/11_discipline_pfr_manual_2021.pdf | 3995 | 2 |
+| pdf/facilitator_manual/12_education_pfr_manual_2021.pdf | 1857.1 | 2 |
+| pdf/facilitator_manual/13_gender_equal_pfr_manual_2021.pdf | 993.9 | 2 |
+| pdf/facilitator_manual/14_prevent_abuse_pfr_manual_2021.pdf | 1341.4 | 2 |
+| pdf/facilitator_manual/15_reduce_conflict_pfr_manual_2021.pdf | 1017.9 | 2 |
+| pdf/facilitator_manual/16_conclusion_pfr_manual_2021.pdf | 1504.7 | 2 |
+| pdf/facilitator_manual/1_family_relation_pfr_manual_2021.pdf | 1431 | 2 |
+| pdf/facilitator_manual/2_current_pract_pfr_manual_2021.pdf | 5310.4 | 2 |
+| pdf/facilitator_manual/3_child_dev_pfr_manual_2021.pdf | 1386.4 | 2 |
+| pdf/facilitator_manual/4_parent_childhood_pfr_manual_2021.pdf | 1525.5 | 2 |
+| pdf/facilitator_manual/5_positive_parenting_pfr_manual_2021.pdf | 2463.8 | 2 |
+| pdf/facilitator_manual/6_gender_power_pfr_manual_2021.pdf | 1711.5 | 2 |
+| pdf/facilitator_manual/7_impact_conflict_pfr_manual_2021.pdf | 2826.2 | 2 |
+| pdf/facilitator_manual/8_sharing_care_pfr_manual_2021.pdf | 1729.2 | 2 |
+| pdf/facilitator_manual/9_healthy_relation_pfr_manual_2021.pdf | 955.2 | 2 |
+| videos/doreen_2.mp4 | 4061.8 | 1 |
+| videos/head_family8.mp4 | 4283.4 | 1 |
+| videos/vincent.mp4 | 3267 | 1 |
 </details>
 
 <details >
@@ -327,7 +336,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 
 | type | subtype | total |
 | --- | --- | --- |
-| data_list |  | 43 |
+| data_list |  | 44 |
 | data_list | app_config_language_list | 1 |
 | data_list | generated | 18 |
 | data_list | legal_terms | 2 |
@@ -335,8 +344,8 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | data_pipe |  | 2 |
 | generator |  | 17 |
 | global |  | 2 |
-| template |  | 46 |
-| template | generated | 122 |
+| template |  | 47 |
+| template | generated | 126 |
 | template | legal_terms | 2 |
 | tour |  | 1 |
 </details>

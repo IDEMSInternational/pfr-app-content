@@ -45,17 +45,17 @@
   "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
   "_output_flows": [
     {
-      "flow_name": "reduce_conflict_relax",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
       "flow_name": "reduce_conflict_check_in",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "prevent_abuse_review_hp",
+      "flow_name": "reduce_conflict_relax",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "reduce_conflict_objectives",
       "flow_subtype": "generated",
       "flow_type": "template"
     },

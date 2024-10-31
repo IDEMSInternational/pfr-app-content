@@ -4,6 +4,13 @@
   "status": "released",
   "rows": [
     {
+      "id": "family_relation_check_in",
+      "data_list_name": [
+        "check_in"
+      ],
+      "row_id": "id_1"
+    },
+    {
       "id": "family_relation_relax",
       "data_list_name": [
         "relax"
@@ -11,11 +18,11 @@
       "row_id": "id_1"
     },
     {
-      "id": "family_relation_check_in",
+      "id": "family_objectives",
       "data_list_name": [
-        "check_in"
+        "objectives"
       ],
-      "row_id": "id_1"
+      "row_id": "family_relation"
     },
     {
       "id": "family_relation_tips_1",

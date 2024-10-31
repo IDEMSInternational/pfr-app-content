@@ -34,7 +34,7 @@
     },
     {
       "type": "items",
-      "count": 12
+      "count": 14
     },
     {
       "type": "lottie_animation",
@@ -62,7 +62,7 @@
     },
     {
       "type": "set_variable",
-      "count": 243
+      "count": 256
     },
     {
       "type": "simple_checkbox",
@@ -74,7 +74,7 @@
     },
     {
       "type": "template",
-      "count": 136
+      "count": 140
     },
     {
       "type": "text",
@@ -104,7 +104,7 @@
     },
     {
       "type": "emit: completed",
-      "count": 137
+      "count": 141
     },
     {
       "type": "emit: force_reload",
@@ -128,7 +128,7 @@
     },
     {
       "type": "emit: uncompleted",
-      "count": 135
+      "count": 139
     },
     {
       "type": "feedback",
@@ -162,13 +162,13 @@
   "assets_size": [
     {
       "assets": "total",
-      "KB": "46454 KB",
-      "MB": "46.5 MB"
+      "KB": "59622 KB",
+      "MB": "59.6 MB"
     },
     {
       "assets": "unused",
-      "KB": "29266 KB",
-      "MB": "29.3 MB"
+      "KB": "30561 KB",
+      "MB": "30.6 MB"
     }
   ],
   "assets_unused": [
@@ -182,7 +182,11 @@
     },
     {
       "path": "android/splash.png",
-      "size_kb": 267.1
+      "size_kb": 596.6
+    },
+    {
+      "path": "audio/ssemakula_1.mp3",
+      "size_kb": 283.3
     },
     {
       "path": "images/X/child_dev.png",
@@ -389,6 +393,14 @@
       "size_kb": 10
     },
     {
+      "path": "images/gender_box_1.jpg",
+      "size_kb": 112.6
+    },
+    {
+      "path": "images/gender_box_2a.jpg",
+      "size_kb": 135.2
+    },
+    {
       "path": "images/grand_discipline_box.jpg",
       "size_kb": 86.6
     },
@@ -537,6 +549,10 @@
       "size_kb": 34.6
     },
     {
+      "path": "images/new/Gender Box Icons Inside_Female_page-0001.jpg",
+      "size_kb": 117.2
+    },
+    {
       "path": "images/new/Gender Box Icons Inside_Male.pdf",
       "size_kb": 35.3
     },
@@ -591,6 +607,10 @@
     {
       "path": "images/new/setting_limits.pdf",
       "size_kb": 143.4
+    },
+    {
+      "path": "images/new/vicent_mother.jpg",
+      "size_kb": 317.3
     },
     {
       "path": "images/oak_foundation_logo_page-0001.jpg",
@@ -779,9 +799,24 @@
   ],
   "asset_summary": [
     {
+      "path": "audio/option_1.m4a",
+      "count": 1,
+      "size_kb": 650.2
+    },
+    {
+      "path": "audio/option_2.m4a",
+      "count": 1,
+      "size_kb": 976.5
+    },
+    {
       "path": "audio/relax/relax_19.mp3",
       "count": 1,
       "size_kb": 1746.5
+    },
+    {
+      "path": "audio/ssemakula_one.mp3",
+      "count": 1,
+      "size_kb": 243.5
     },
     {
       "path": "emojis/happier.svg",
@@ -869,16 +904,6 @@
       "size_kb": 0.5
     },
     {
-      "path": "images/gender_box_1.jpg",
-      "count": 1,
-      "size_kb": 112.6
-    },
-    {
-      "path": "images/gender_box_2a.jpg",
-      "count": 1,
-      "size_kb": 135.2
-    },
-    {
       "path": "images/icons/ask_question.svg",
       "count": 32,
       "size_kb": 1.5
@@ -915,7 +940,7 @@
     },
     {
       "path": "images/icons/paper_pencil.svg",
-      "count": 73,
+      "count": 90,
       "size_kb": 1.1
     },
     {
@@ -969,6 +994,11 @@
       "size_kb": 192.5
     },
     {
+      "path": "images/new/gender_inside_male.jpg",
+      "count": 1,
+      "size_kb": 251
+    },
+    {
       "path": "images/new/gender_outside_female.jpg",
       "count": 1,
       "size_kb": 101.5
@@ -987,11 +1017,6 @@
       "path": "images/new/setting_limits.jpg",
       "count": 1,
       "size_kb": 349.9
-    },
-    {
-      "path": "images/new/vicent_mother.jpg",
-      "count": 1,
-      "size_kb": 317.3
     },
     {
       "path": "images/non_involved_parenting_1.jpg",
@@ -1130,85 +1155,100 @@
     },
     {
       "path": "pdf/facilitator_manual/11_discipline_pfr_manual_2021.pdf",
-      "count": 1,
+      "count": 2,
       "size_kb": 3995
     },
     {
       "path": "pdf/facilitator_manual/12_education_pfr_manual_2021.pdf",
-      "count": 1,
+      "count": 2,
       "size_kb": 1857.1
     },
     {
       "path": "pdf/facilitator_manual/13_gender_equal_pfr_manual_2021.pdf",
-      "count": 1,
+      "count": 2,
       "size_kb": 993.9
     },
     {
       "path": "pdf/facilitator_manual/14_prevent_abuse_pfr_manual_2021.pdf",
-      "count": 1,
+      "count": 2,
       "size_kb": 1341.4
     },
     {
       "path": "pdf/facilitator_manual/15_reduce_conflict_pfr_manual_2021.pdf",
-      "count": 1,
+      "count": 2,
       "size_kb": 1017.9
     },
     {
       "path": "pdf/facilitator_manual/16_conclusion_pfr_manual_2021.pdf",
-      "count": 1,
+      "count": 2,
       "size_kb": 1504.7
     },
     {
       "path": "pdf/facilitator_manual/1_family_relation_pfr_manual_2021.pdf",
-      "count": 1,
+      "count": 2,
       "size_kb": 1431
     },
     {
       "path": "pdf/facilitator_manual/2_current_pract_pfr_manual_2021.pdf",
-      "count": 1,
+      "count": 2,
       "size_kb": 5310.4
     },
     {
       "path": "pdf/facilitator_manual/3_child_dev_pfr_manual_2021.pdf",
-      "count": 1,
+      "count": 2,
       "size_kb": 1386.4
     },
     {
       "path": "pdf/facilitator_manual/4_parent_childhood_pfr_manual_2021.pdf",
-      "count": 1,
+      "count": 2,
       "size_kb": 1525.5
     },
     {
       "path": "pdf/facilitator_manual/5_positive_parenting_pfr_manual_2021.pdf",
-      "count": 1,
+      "count": 2,
       "size_kb": 2463.8
     },
     {
       "path": "pdf/facilitator_manual/6_gender_power_pfr_manual_2021.pdf",
-      "count": 1,
+      "count": 2,
       "size_kb": 1711.5
     },
     {
       "path": "pdf/facilitator_manual/7_impact_conflict_pfr_manual_2021.pdf",
-      "count": 1,
+      "count": 2,
       "size_kb": 2826.2
     },
     {
       "path": "pdf/facilitator_manual/8_sharing_care_pfr_manual_2021.pdf",
-      "count": 1,
+      "count": 2,
       "size_kb": 1729.2
     },
     {
       "path": "pdf/facilitator_manual/9_healthy_relation_pfr_manual_2021.pdf",
-      "count": 1,
+      "count": 2,
       "size_kb": 955.2
+    },
+    {
+      "path": "videos/doreen_2.mp4",
+      "count": 1,
+      "size_kb": 4061.8
+    },
+    {
+      "path": "videos/head_family8.mp4",
+      "count": 1,
+      "size_kb": 4283.4
+    },
+    {
+      "path": "videos/vincent.mp4",
+      "count": 1,
+      "size_kb": 3267
     }
   ],
   "flows_by_type": [
     {
       "type": "data_list",
       "subtype": null,
-      "total": 43
+      "total": 44
     },
     {
       "type": "data_list",
@@ -1248,12 +1288,12 @@
     {
       "type": "template",
       "subtype": null,
-      "total": 46
+      "total": 47
     },
     {
       "type": "template",
       "subtype": "generated",
-      "total": 122
+      "total": 126
     },
     {
       "type": "template",

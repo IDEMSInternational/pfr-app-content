@@ -18,11 +18,11 @@
       "row_id": "id_1"
     },
     {
-      "id": "current_pract_review_hp",
+      "id": "child_dev_objectives",
       "data_list_name": [
-        "review_hp"
+        "objectives"
       ],
-      "row_id": "current_pract"
+      "row_id": "child_dev"
     },
     {
       "id": "child_dev_stages_tbg",

@@ -20,12 +20,12 @@
       "completed_field": "task_child_dev_relax_completed"
     },
     {
-      "id": "current_pract_review_hp",
+      "id": "child_dev_objectives",
       "data_list_name": [
-        "review_hp"
+        "objectives"
       ],
-      "row_id": "current_pract",
-      "completed_field": "task_current_pract_review_hp_completed"
+      "row_id": "child_dev",
+      "completed_field": "task_child_dev_objectives_completed"
     },
     {
       "id": "child_dev_stages_tbg",

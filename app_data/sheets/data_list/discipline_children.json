@@ -4,6 +4,13 @@
   "status": "released",
   "rows": [
     {
+      "id": "discipline_children_check_in",
+      "data_list_name": [
+        "check_in"
+      ],
+      "row_id": "id_1"
+    },
+    {
       "id": "discipline_children_relax",
       "data_list_name": [
         "relax"
@@ -11,11 +18,11 @@
       "row_id": "id_1"
     },
     {
-      "id": "discipline_children_check_in",
+      "id": "discpline_child_objectives",
       "data_list_name": [
-        "check_in"
+        "objectives"
       ],
-      "row_id": "id_1"
+      "row_id": "discipline_children"
     },
     {
       "id": "discipline_children_quiz",

@@ -1,0 +1,162 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "objectives",
+  "status": "released",
+  "rows": [
+    {
+      "id": "onboarding",
+      "goal_1": "* Introduction to PfR.",
+      "goal_2": "* Explore expectations and set ground rules.",
+      "title": "Session Objectives",
+      "icon_asset": "images/icons/paper_pencil.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1Rz0NRM4CtCIlThmHF7Knw8Orn7xGe9oYVpKGZs8LrvU"
+    },
+    {
+      "id": "family_relation",
+      "goal_1": "* Appreciate the importance of family relationships especially relations with one’s children and partner.",
+      "goal_2": "* Encourage participants to recruit their partners.",
+      "manual_pdf_asset": "pdf/facilitator_manual/1_family_relation_pfr_manual_2021.pdf",
+      "title": "Session Objectives",
+      "icon_asset": "images/icons/paper_pencil.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1Rz0NRM4CtCIlThmHF7Knw8Orn7xGe9oYVpKGZs8LrvU"
+    },
+    {
+      "id": "current_pract",
+      "goal_1": "* Explore parenting goals and factors that facilitate the achievement of these goals.",
+      "goal_2": "* Explore parents’ current beliefs and practices regarding parent – child interaction.",
+      "manual_pdf_asset": "pdf/facilitator_manual/2_current_pract_pfr_manual_2021.pdf",
+      "title": "Session Objectives",
+      "icon_asset": "images/icons/paper_pencil.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1Rz0NRM4CtCIlThmHF7Knw8Orn7xGe9oYVpKGZs8LrvU"
+    },
+    {
+      "id": "child_dev",
+      "goal_1": "* Explore the basic developmental needs and behaviors of children 0 – 17 years.",
+      "goal_2": "* Discuss the importance of fathers’ supportiveness during pregnancy and childhood",
+      "goal_3": "* Importance of parenting practices for children to reach their full potential.",
+      "manual_pdf_asset": "pdf/facilitator_manual/3_child_dev_pfr_manual_2021.pdf",
+      "title": "Session Objectives",
+      "icon_asset": "images/icons/paper_pencil.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1Rz0NRM4CtCIlThmHF7Knw8Orn7xGe9oYVpKGZs8LrvU"
+    },
+    {
+      "id": "parent_childhood",
+      "goal_1": "* Reflect on the influence of parent figures on participants while they were growing up.",
+      "goal_2": "* Building on your parents’ positive influences, and avoid repeating their negative influences.",
+      "manual_pdf_asset": "pdf/facilitator_manual/4_parent_childhood_pfr_manual_2021.pdf",
+      "title": "Session Objectives",
+      "icon_asset": "images/icons/paper_pencil.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1Rz0NRM4CtCIlThmHF7Knw8Orn7xGe9oYVpKGZs8LrvU"
+    },
+    {
+      "id": "positive_parenting",
+      "goal_1": "* We will explore positive parent-child interaction and reflect upon different styles of parenting which promote positive relationships and respectability",
+      "manual_pdf_asset": "pdf/facilitator_manual/5_positive_parenting_pfr_manual_2021.pdf",
+      "title": "Session Objectives",
+      "icon_asset": "images/icons/paper_pencil.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1Rz0NRM4CtCIlThmHF7Knw8Orn7xGe9oYVpKGZs8LrvU"
+    },
+    {
+      "id": "discipline_children",
+      "goal_1": "* We will explore the different styles of parenting and select on predominant one for your family",
+      "manual_pdf_asset": "pdf/facilitator_manual/6_gender_power_pfr_manual_2021.pdf",
+      "title": "Session Objectives",
+      "icon_asset": "images/icons/paper_pencil.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1Rz0NRM4CtCIlThmHF7Knw8Orn7xGe9oYVpKGZs8LrvU"
+    },
+    {
+      "id": "gender_power",
+      "goal_1": "* We will reflect upon how gender norms can be harmful to both women and men, girls and boys and understand the impact of gendered power.",
+      "goal_2": "* Encourage men to commit to positive notions of ‘being a man’.",
+      "title": "Session Objectives",
+      "icon_asset": "images/icons/paper_pencil.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1Rz0NRM4CtCIlThmHF7Knw8Orn7xGe9oYVpKGZs8LrvU"
+    },
+    {
+      "id": "impact_conflict",
+      "goal_1": "* Reflect on own experiences and common causes of spousal conflict.",
+      "goal_2": "* Discuss the effects of spousal conflict on parenting.",
+      "goal_3": "* Envision intimate relationships based on respect.",
+      "manual_pdf_asset": "pdf/facilitator_manual/7_impact_conflict_pfr_manual_2021.pdf",
+      "title": "Session Objectives",
+      "icon_asset": "images/icons/paper_pencil.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1Rz0NRM4CtCIlThmHF7Knw8Orn7xGe9oYVpKGZs8LrvU"
+    },
+    {
+      "id": "sharing_care",
+      "goal_1": "* Reflect on the time men and women dedicate to caring for their children and shaping their future.",
+      "goal_2": "* Improve men’s self–confidence and efficacy in caregiving.",
+      "manual_pdf_asset": "pdf/facilitator_manual/8_sharing_care_pfr_manual_2021.pdf",
+      "title": "Session Objectives",
+      "icon_asset": "images/icons/paper_pencil.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1Rz0NRM4CtCIlThmHF7Knw8Orn7xGe9oYVpKGZs8LrvU"
+    },
+    {
+      "id": "healthy_relation",
+      "goal_1": "* Learn how excessive drinking affects relationships and children and how to help a partner reduce alcohol consumption and other socially unacceptable practices.",
+      "goal_2": "* Explore what constitutes a healthy marriage and sexuality.",
+      "goal_3": "* Importance of father’s supportiveness during pregnancy and after birth.",
+      "manual_pdf_asset": "pdf/facilitator_manual/9_healthy_relation_pfr_manual_2021.pdf",
+      "title": "Session Objectives",
+      "icon_asset": "images/icons/paper_pencil.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1Rz0NRM4CtCIlThmHF7Knw8Orn7xGe9oYVpKGZs8LrvU"
+    },
+    {
+      "id": "parenting_teens",
+      "goal_1": "* Identify the differences between punishment and discipline while exploring the effects of punishment on children’s development.",
+      "goal_2": "* Practising effective strategies for managing anger and disappointment.",
+      "goal_3": "* Explore how to positively and sensitively engage with children to promote respect.",
+      "manual_pdf_asset": "pdf/facilitator_manual/11_discipline_pfr_manual_2021.pdf",
+      "title": "Session Objectives",
+      "icon_asset": "images/icons/paper_pencil.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1Rz0NRM4CtCIlThmHF7Knw8Orn7xGe9oYVpKGZs8LrvU"
+    },
+    {
+      "id": "education",
+      "goal_1": "* Encourage both parent and child to be accountable for the child’s education.",
+      "goal_2": "* Explore ways to increase parents’ engagement at school and cooperation with teachers.",
+      "manual_pdf_asset": "pdf/facilitator_manual/12_education_pfr_manual_2021.pdf",
+      "title": "Session Objectives",
+      "icon_asset": "images/icons/paper_pencil.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1Rz0NRM4CtCIlThmHF7Knw8Orn7xGe9oYVpKGZs8LrvU"
+    },
+    {
+      "id": "gender_equal",
+      "goal_1": "* Understand the issues in which fathers and mothers tend to have different perspectives regarding child up-bringing",
+      "goal_2": "* To reflect on how to resolve different parenting roles for proper upbringing of children",
+      "manual_pdf_asset": "pdf/facilitator_manual/13_gender_equal_pfr_manual_2021.pdf",
+      "title": "Session Objectives",
+      "icon_asset": "images/icons/paper_pencil.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1Rz0NRM4CtCIlThmHF7Knw8Orn7xGe9oYVpKGZs8LrvU"
+    },
+    {
+      "id": "prevent_abuse",
+      "goal_1": "* Exploring long-term goals for preventing sexual abuse and early sex.",
+      "goal_2": "*Facilitating healthy communication between parents and children about sexuality.",
+      "manual_pdf_asset": "pdf/facilitator_manual/14_prevent_abuse_pfr_manual_2021.pdf",
+      "title": "Session Objectives",
+      "icon_asset": "images/icons/paper_pencil.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1Rz0NRM4CtCIlThmHF7Knw8Orn7xGe9oYVpKGZs8LrvU"
+    },
+    {
+      "id": "reduce_conflict",
+      "goal_1": "* Explore constructive ways of sharing information to avoid violent situation in relationships.",
+      "goal_2": "* Express personal needs and feelings and listen reflectively and empathically.",
+      "manual_pdf_asset": "pdf/facilitator_manual/15_reduce_conflict_pfr_manual_2021.pdf",
+      "title": "Session Objectives",
+      "icon_asset": "images/icons/paper_pencil.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1Rz0NRM4CtCIlThmHF7Knw8Orn7xGe9oYVpKGZs8LrvU"
+    },
+    {
+      "id": "conclusion",
+      "goal_1": "* Reflect on the participants’ experience of the programme",
+      "goal_2": "* To reinforce commitment to positive more equitable and respectful parenting",
+      "goal_3": "* To encourage continued meetings after the programme formally ends.",
+      "manual_pdf_asset": "pdf/facilitator_manual/16_conclusion_pfr_manual_2021.pdf",
+      "title": "Session Objectives",
+      "icon_asset": "images/icons/paper_pencil.svg",
+      "attached_single_doc": "https://docs.google.com/document/d/1Rz0NRM4CtCIlThmHF7Knw8Orn7xGe9oYVpKGZs8LrvU"
+    }
+  ],
+  "_xlsxPath": "global/data_lists/sessions.xlsx"
+}

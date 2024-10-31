@@ -4,14 +4,6 @@
   "flow_type": "data_list",
   "rows": [
     {
-      "id": "positive_parenting_relax",
-      "data_list_name": [
-        "relax"
-      ],
-      "row_id": "id_1",
-      "completed_field": "task_positive_parenting_relax_completed"
-    },
-    {
       "id": "positive_parenting_check_in",
       "data_list_name": [
         "check_in"
@@ -20,12 +12,20 @@
       "completed_field": "task_positive_parenting_check_in_completed"
     },
     {
-      "id": "parent_childhood_review_hp",
+      "id": "positive_parenting_relax",
       "data_list_name": [
-        "review_hp"
+        "relax"
       ],
-      "row_id": "parent_childhood",
-      "completed_field": "task_parent_childhood_review_hp_completed"
+      "row_id": "id_1",
+      "completed_field": "task_positive_parenting_relax_completed"
+    },
+    {
+      "id": "positive_parenting_objectives",
+      "data_list_name": [
+        "objectives"
+      ],
+      "row_id": "positive_parenting",
+      "completed_field": "task_positive_parenting_objectives_completed"
     },
     {
       "id": "positive_parenting_sbg_1",
