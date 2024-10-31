@@ -1,12 +1,12 @@
 {
-  "flow_name": "prevent_abuse_review_hp",
+  "flow_name": "discpline_child_objectives",
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
     {
       "type": "template",
-      "name": "review_hp",
-      "value": "review_hp",
+      "name": "objectives",
+      "value": "objectives",
       "action_list": [
         {
           "trigger": "completed",
@@ -30,15 +30,15 @@
       "rows": [
         {
           "name": "id",
-          "value": "prevent_abuse",
+          "value": "discipline_children",
           "_translations": {
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "review_hp.id"
+          "_nested_name": "objectives.id"
         }
       ],
-      "_nested_name": "review_hp"
+      "_nested_name": "objectives"
     }
   ]
 }

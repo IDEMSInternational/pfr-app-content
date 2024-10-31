@@ -45,17 +45,17 @@
   "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
   "_output_flows": [
     {
-      "flow_name": "conclusion_relax",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
       "flow_name": "conclusion_check_in",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "reduce_conflict_review_hp",
+      "flow_name": "conclusion_relax",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "conclusion_objectives",
       "flow_subtype": "generated",
       "flow_type": "template"
     },

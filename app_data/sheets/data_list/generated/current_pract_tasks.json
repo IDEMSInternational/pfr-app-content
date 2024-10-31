@@ -4,14 +4,6 @@
   "flow_type": "data_list",
   "rows": [
     {
-      "id": "current_pract_relax",
-      "data_list_name": [
-        "relax"
-      ],
-      "row_id": "id_1",
-      "completed_field": "task_current_pract_relax_completed"
-    },
-    {
       "id": "current_pract_check_in",
       "data_list_name": [
         "check_in"
@@ -20,12 +12,20 @@
       "completed_field": "task_current_pract_check_in_completed"
     },
     {
-      "id": "family_relation_review_hp",
+      "id": "current_pract_relax",
       "data_list_name": [
-        "review_hp"
+        "relax"
       ],
-      "row_id": "family_relation",
-      "completed_field": "task_family_relation_review_hp_completed"
+      "row_id": "id_1",
+      "completed_field": "task_current_pract_relax_completed"
+    },
+    {
+      "id": "current_pract_objectives",
+      "data_list_name": [
+        "objectives"
+      ],
+      "row_id": "current_pract",
+      "completed_field": "task_current_pract_objectives_completed"
     },
     {
       "id": "current_pract_reflect",

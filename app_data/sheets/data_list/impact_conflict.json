@@ -4,6 +4,13 @@
   "status": "released",
   "rows": [
     {
+      "id": "impact_conflict_check_in",
+      "data_list_name": [
+        "check_in"
+      ],
+      "row_id": "id_1"
+    },
+    {
       "id": "impact_conflict_relax",
       "data_list_name": [
         "relax"
@@ -11,11 +18,11 @@
       "row_id": "id_1"
     },
     {
-      "id": "impact_conflict_check_in",
+      "id": "impact_conflict_objectives",
       "data_list_name": [
-        "check_in"
+        "objectives"
       ],
-      "row_id": "id_1"
+      "row_id": "impact_conflict"
     },
     {
       "id": "impact_conflict_tbg",

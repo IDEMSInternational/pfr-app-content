@@ -4,13 +4,6 @@
   "status": "released",
   "rows": [
     {
-      "id": "reduce_conflict_relax",
-      "data_list_name": [
-        "relax"
-      ],
-      "row_id": "id_1"
-    },
-    {
       "id": "reduce_conflict_check_in",
       "data_list_name": [
         "check_in"
@@ -18,11 +11,18 @@
       "row_id": "id_1"
     },
     {
-      "id": "prevent_abuse_review_hp",
+      "id": "reduce_conflict_relax",
       "data_list_name": [
-        "review_hp"
+        "relax"
       ],
-      "row_id": "prevent_abuse"
+      "row_id": "id_1"
+    },
+    {
+      "id": "reduce_conflict_objectives",
+      "data_list_name": [
+        "objectives"
+      ],
+      "row_id": "reduce_conflict"
     },
     {
       "id": "reduce_conflict_tbg",

@@ -4,13 +4,6 @@
   "status": "released",
   "rows": [
     {
-      "id": "gender_equal_check_in",
-      "data_list_name": [
-        "check_in"
-      ],
-      "row_id": "id_1"
-    },
-    {
       "id": "gender_equal_relax",
       "data_list_name": [
         "relax"
@@ -18,11 +11,18 @@
       "row_id": "id_1"
     },
     {
-      "id": "education_review_hp",
+      "id": "gender_equal_check_in",
       "data_list_name": [
-        "review_hp"
+        "check_in"
       ],
-      "row_id": "education"
+      "row_id": "id_1"
+    },
+    {
+      "id": "gender_equal_objectives",
+      "data_list_name": [
+        "objectives"
+      ],
+      "row_id": "gender_equal"
     },
     {
       "id": "gender_equal_sbg",

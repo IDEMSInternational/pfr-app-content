@@ -6,8 +6,8 @@
     {
       "id": "child_20",
       "topic": "current_pract",
-      "question_type": "select_multiple",
-      "question_text": "What of these relationships do you foresee to have with your child on their 20th birthday (choose all that apply)?",
+      "question_type": "select_one",
+      "question_text": "What of these relationships do you foresee to have with your child on their 20th birthday?",
       "option_1_text": "Kind and helpful",
       "option_2_text": "Honest and trustworthy",
       "option_3_text": "A good decision-maker",
@@ -340,7 +340,7 @@
     {
       "id": "house_behavior",
       "topic": "positive_parenting",
-      "question_type": "select_one",
+      "question_type": "text_input",
       "question_text": "Is the house rule connected to a specific behavior?"
     },
     {
@@ -354,19 +354,19 @@
     {
       "id": "discipline_children_1",
       "topic": "discipline_children",
-      "question_type": "select_one",
+      "question_type": "text_input",
       "question_text": "What parenting style is predominant in your household?"
     },
     {
       "id": "discipline_children_2",
       "topic": "discipline_children",
-      "question_type": "select_one",
+      "question_type": "text_input",
       "question_text": "Why"
     },
     {
       "id": "parenting_style_firm",
       "topic": "discipline_children",
-      "question_type": "select_multiple",
+      "question_type": "select_one",
       "question_text": "What are the benefits on this parenting style on the children's behaviour and outcome?",
       "option_1_text": "Behave well",
       "option_2_text": "Do well in school",
@@ -378,7 +378,7 @@
     {
       "id": "parenting_style_strict",
       "topic": "discipline_children",
-      "question_type": "select_multiple",
+      "question_type": "select_one",
       "question_text": "What are the benefits on this parenting style on the children's behaviour and outcome?",
       "option_1_text": "Obedient in the presence of adults",
       "option_2_text": "Do well in school"
@@ -386,14 +386,14 @@
     {
       "id": "parenting_style_permissive",
       "topic": "discipline_children",
-      "question_type": "select_multiple",
+      "question_type": "select_one",
       "question_text": "What are the benefits on this parenting style on the children's behaviour and outcome?",
       "option_1_text": "They are more resourceful than kids raised by uninvolved or strict parents."
     },
     {
       "id": "parenting_style_uninvolved",
       "topic": "discipline_children",
-      "question_type": "select_multiple",
+      "question_type": "select_one",
       "question_text": "What are the benefits on this parenting style on the children's behaviour and outcome?",
       "option_1_text": "Survive on their own",
       "option_2_text": "Can be dangerous"
@@ -615,7 +615,8 @@
       "topic": "parenting_teens",
       "question_type": "select_one",
       "question_text": "How was your relationship with your parents/caregivers?",
-      "option_1_text": "Strict"
+      "option_1_text": "Strict",
+      "option_2_text": "Open"
     },
     {
       "id": "behaviour_influence",
@@ -690,7 +691,7 @@
     {
       "id": "resolve_conflict",
       "topic": "parenting_teens",
-      "question_type": "select_one",
+      "question_type": "text_input",
       "question_text": "Which role have played to ensure that you resolve any conflicts and support your child to overcome these challenges?"
     },
     {
@@ -780,25 +781,25 @@
     {
       "id": "prevent_abuse_3",
       "topic": "prevent_abuse",
-      "question_type": "select_one",
+      "question_type": "text_input",
       "question_text": "Think of all the friends you have. What did you consider for them to become your good friends?"
     },
     {
       "id": "prevent_abuse_4",
       "topic": "prevent_abuse",
-      "question_type": "select_one",
+      "question_type": "text_input",
       "question_text": "Was it hard/easy to choose them?  Why?"
     },
     {
       "id": "prevent_abuse_5",
       "topic": "prevent_abuse",
-      "question_type": "select_one",
+      "question_type": "text_input",
       "question_text": "What are the qualities that make one a good friend as opposed to a bad friend?"
     },
     {
       "id": "prevent_abuse_6",
       "topic": "prevent_abuse",
-      "question_type": "select_one",
+      "question_type": "text_input",
       "question_text": "You realize that this is a process. How do we then transfer the skills of selecting the right friends to your child/ren?"
     },
     {
