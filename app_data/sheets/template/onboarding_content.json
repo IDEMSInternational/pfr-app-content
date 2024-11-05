@@ -261,6 +261,40 @@
       }
     },
     {
+      "type": "video",
+      "name": "media_asset",
+      "value": "@local.row_data.media_asset",
+      "_translations": {
+        "value": {}
+      },
+      "condition": "!!(@local.row_data.media_asset)",
+      "_nested_name": "media_asset",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.row_data.media_asset",
+            "matchedExpression": "@local.row_data.media_asset",
+            "type": "local",
+            "fieldName": "row_data"
+          }
+        ],
+        "condition": [
+          {
+            "fullExpression": "!!(@local.row_data.media_asset)",
+            "matchedExpression": "@local.row_data.media_asset",
+            "type": "local",
+            "fieldName": "row_data"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.row_data.media_asset": [
+          "value",
+          "condition"
+        ]
+      }
+    },
+    {
       "type": "text",
       "name": "text",
       "value": "@local.row_data.text",

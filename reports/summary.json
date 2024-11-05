@@ -95,6 +95,10 @@
     {
       "type": "update_action_list",
       "count": 2
+    },
+    {
+      "type": "video",
+      "count": 1
     }
   ],
   "template_actions": [
@@ -162,8 +166,8 @@
   "assets_size": [
     {
       "assets": "total",
-      "KB": "59622 KB",
-      "MB": "59.6 MB"
+      "KB": "71679 KB",
+      "MB": "71.7 MB"
     },
     {
       "assets": "unused",
@@ -1229,14 +1233,34 @@
       "size_kb": 955.2
     },
     {
+      "path": "videos/aboutpfr_session1.mp4",
+      "count": 1,
+      "size_kb": 2341.8
+    },
+    {
+      "path": "videos/amit_session12.mp4",
+      "count": 1,
+      "size_kb": 2492.9
+    },
+    {
       "path": "videos/doreen_2.mp4",
       "count": 1,
       "size_kb": 4061.8
     },
     {
+      "path": "videos/doreen_session14.mp4",
+      "count": 1,
+      "size_kb": 3585.4
+    },
+    {
       "path": "videos/head_family8.mp4",
       "count": 1,
       "size_kb": 4283.4
+    },
+    {
+      "path": "videos/openness_session15.mp4",
+      "count": 1,
+      "size_kb": 3636.7
     },
     {
       "path": "videos/vincent.mp4",

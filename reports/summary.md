@@ -27,6 +27,7 @@
 | text_box | 6 |
 | title | 24 |
 | update_action_list | 2 |
+| video | 1 |
 </details>
 
 <details >
@@ -56,7 +57,7 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 59622 KB | 59.6 MB |
+| total | 71679 KB | 71.7 MB |
 | unused | 30561 KB | 30.6 MB |
 </details>
 
@@ -326,8 +327,12 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | pdf/facilitator_manual/7_impact_conflict_pfr_manual_2021.pdf | 2826.2 | 2 |
 | pdf/facilitator_manual/8_sharing_care_pfr_manual_2021.pdf | 1729.2 | 2 |
 | pdf/facilitator_manual/9_healthy_relation_pfr_manual_2021.pdf | 955.2 | 2 |
+| videos/aboutpfr_session1.mp4 | 2341.8 | 1 |
+| videos/amit_session12.mp4 | 2492.9 | 1 |
 | videos/doreen_2.mp4 | 4061.8 | 1 |
+| videos/doreen_session14.mp4 | 3585.4 | 1 |
 | videos/head_family8.mp4 | 4283.4 | 1 |
+| videos/openness_session15.mp4 | 3636.7 | 1 |
 | videos/vincent.mp4 | 3267 | 1 |
 </details>
 
