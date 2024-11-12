@@ -58,7 +58,7 @@
 | assets | KB | MB |
 | --- | --- | --- |
 | total | 71679 KB | 71.7 MB |
-| unused | 30561 KB | 30.6 MB |
+| unused | 34873 KB | 34.9 MB |
 </details>
 
 <details open>
@@ -221,6 +221,8 @@ Assets that appear in app-data but do not have references within sheets
 | lottie/cascading_stars.json | 140.5 |
 | lottie/well_done.txt | 0.2 |
 | pdf/facilitator_manual/10_review_pfr_manual.pdf | 1217.9 |
+| videos/draft/doreen.mp4 | 2265.5 |
+| videos/draft/vincent_2.mp4 | 2046.5 |
 </details>
 
 <details open>
