@@ -171,8 +171,8 @@
     },
     {
       "assets": "unused",
-      "KB": "30561 KB",
-      "MB": "30.6 MB"
+      "KB": "34873 KB",
+      "MB": "34.9 MB"
     }
   ],
   "assets_unused": [
@@ -787,6 +787,14 @@
     {
       "path": "pdf/facilitator_manual/10_review_pfr_manual.pdf",
       "size_kb": 1217.9
+    },
+    {
+      "path": "videos/draft/doreen.mp4",
+      "size_kb": 2265.5
+    },
+    {
+      "path": "videos/draft/vincent_2.mp4",
+      "size_kb": 2046.5
     }
   ],
   "assets_missing": [
