@@ -32,6 +32,9 @@ config.error_logging = {
 config.api.db_name = "pfr"
 config.app_data.output_path = "./app_data";
 
+//To reduce app size, exclude draft and uncompressed assets
+config.app_data.assets_filter_function = (fileEntry) => !fileEntry.relativePath.includes("draft") && !fileEntry.relativePath.includes("uncompressed")
+
 config.app_config.APP_THEMES.available = ["default", "pfr"];
 config.app_config.APP_THEMES.defaultThemeName = "pfr";
 config.app_config.APP_SIDEMENU_DEFAULTS.title = "PfR Parenting App";
