@@ -62,7 +62,7 @@
     },
     {
       "type": "set_variable",
-      "count": 256
+      "count": 257
     },
     {
       "type": "simple_checkbox",
@@ -152,11 +152,11 @@
     },
     {
       "type": "set_field",
-      "count": 19
+      "count": 20
     },
     {
       "type": "set_local",
-      "count": 9
+      "count": 8
     },
     {
       "type": "start_tour",
