@@ -3,31 +3,41 @@
 
 | type | count |
 | --- | --- |
+| animated_section | 2 |
 | animated_slides | 1 |
-| audio | 2 |
-| button | 26 |
+| audio | 4 |
+| button | 32 |
+| carousel | 1 |
 | combo_box | 2 |
 | dashed_box | 1 |
 | debug_toggle | 1 |
-| display_group | 35 |
-| image | 4 |
-| items | 14 |
+| display_grid | 2 |
+| display_group | 48 |
+| image | 13 |
+| items | 19 |
 | lottie_animation | 2 |
 | navigation_bar | 1 |
+| nested_properties | 1 |
 | pdf | 1 |
+| qr_code | 1 |
 | radio_button_grid | 3 |
 | radio_group | 1 |
-| set_field | 4 |
-| set_variable | 257 |
-| simple_checkbox | 2 |
+| round_button | 1 |
+| select_text | 1 |
+| set_field | 5 |
+| set_variable | 477 |
+| simple_checkbox | 3 |
+| subtitle | 2 |
 | task_card | 3 |
-| template | 140 |
-| text | 44 |
+| template | 152 |
+| text | 77 |
 | text_area | 5 |
-| text_box | 6 |
-| title | 24 |
+| text_box | 8 |
+| tile_component | 1 |
+| title | 28 |
+| toggle_bar | 1 |
 | update_action_list | 2 |
-| video | 1 |
+| video | 2 |
 </details>
 
 <details >
@@ -36,19 +46,19 @@
 | type | count |
 | --- | --- |
 | app_update | 1 |
-| emit: completed | 141 |
+| emit: completed | 144 |
 | emit: force_reload | 5 |
 | emit: force_reprocess | 4 |
 | emit: force_restart | 2 |
 | emit: server_sync | 3 |
 | emit: set_language | 1 |
-| emit: uncompleted | 139 |
-| feedback | 3 |
-| go_to | 11 |
+| emit: uncompleted | 142 |
+| feedback | 7 |
+| go_to | 13 |
 | pop_up | 7 |
 | reset_app | 2 |
-| set_field | 20 |
-| set_local | 8 |
+| set_field | 22 |
+| set_local | 12 |
 | start_tour | 1 |
 </details>
 

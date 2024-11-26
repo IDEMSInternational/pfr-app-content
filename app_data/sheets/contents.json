@@ -152,7 +152,12 @@
     "session_tasks": {
       "flow_name": "session_tasks",
       "flow_subtype": "generated",
-      "flow_type": "data_list"
+      "flow_type": "data_list",
+      "_metadata": {
+        "number": {
+          "type": "number"
+        }
+      }
     },
     "sharing_care_tasks": {
       "flow_name": "sharing_care_tasks",
@@ -187,13 +192,23 @@
       "flow_type": "data_list",
       "flow_name": "library_data",
       "data_list_name": "library",
-      "_xlsxPath": "global/data_lists/library_data.xlsx"
+      "_xlsxPath": "global/data_lists/library_data.xlsx",
+      "_metadata": {
+        "show": {
+          "type": "boolean"
+        }
+      }
     },
     "launch_actions": {
       "flow_type": "data_list",
       "flow_subtype": "lifecycle_actions",
       "flow_name": "launch_actions",
-      "_xlsxPath": "global/templates/app_launch_templates.xlsx"
+      "_xlsxPath": "global/templates/app_launch_templates.xlsx",
+      "_metadata": {
+        "priority": {
+          "type": "number"
+        }
+      }
     },
     "number": {
       "flow_type": "data_list",
@@ -285,7 +300,12 @@
     "session": {
       "flow_type": "data_list",
       "flow_name": "session",
-      "_xlsxPath": "global/data_lists/sessions.xlsx"
+      "_xlsxPath": "global/data_lists/sessions.xlsx",
+      "_metadata": {
+        "number": {
+          "type": "number"
+        }
+      }
     },
     "session_block": {
       "flow_type": "data_list",

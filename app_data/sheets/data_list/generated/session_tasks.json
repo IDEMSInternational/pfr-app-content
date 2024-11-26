@@ -122,5 +122,10 @@
       "completed_field": "task_conclusion_completed",
       "skipped_field": "task_conclusion_skipped"
     }
-  ]
+  ],
+  "_metadata": {
+    "number": {
+      "type": "number"
+    }
+  }
 }
