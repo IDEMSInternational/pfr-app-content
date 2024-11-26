@@ -18,7 +18,7 @@
 | radio_button_grid | 3 |
 | radio_group | 1 |
 | set_field | 4 |
-| set_variable | 256 |
+| set_variable | 257 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | template | 140 |
@@ -47,8 +47,8 @@
 | go_to | 11 |
 | pop_up | 7 |
 | reset_app | 2 |
-| set_field | 19 |
-| set_local | 9 |
+| set_field | 20 |
+| set_local | 8 |
 | start_tour | 1 |
 </details>
 
