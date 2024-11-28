@@ -57,8 +57,8 @@
 | go_to | 13 |
 | pop_up | 7 |
 | reset_app | 2 |
-| set_field | 22 |
-| set_local | 12 |
+| set_field | 24 |
+| set_local | 13 |
 | start_tour | 1 |
 </details>
 

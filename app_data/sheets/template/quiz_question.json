@@ -1115,6 +1115,16 @@
           ],
           "_raw": "changed | set_field:@local.store_response_field: @local.combo_box",
           "_cleaned": "changed | set_field:@local.store_response_field: @local.combo_box"
+        },
+        {
+          "trigger": "changed",
+          "action_id": "set_local",
+          "args": [
+            "show_feedback",
+            true
+          ],
+          "_raw": "changed | set_local: show_feedback: true",
+          "_cleaned": "changed | set_local: show_feedback: true"
         }
       ],
       "_nested_name": "combo_box",
@@ -1218,11 +1228,22 @@
     },
     {
       "type": "text_box",
+      "name": "text_box",
       "condition": "@local.question_type == \"text_input\"",
       "parameter_list": {
         "text_align": "left"
       },
       "action_list": [
+        {
+          "trigger": "changed",
+          "action_id": "set_field",
+          "args": [
+            "@local.store_response_field",
+            "this.value"
+          ],
+          "_raw": "changed | set_field:@local.store_response_field: @local.text_box",
+          "_cleaned": "changed | set_field:@local.store_response_field: @local.text_box"
+        },
         {
           "trigger": "changed",
           "action_id": "set_local",
@@ -1234,8 +1255,7 @@
           "_cleaned": "changed | set_local: show_feedback: true"
         }
       ],
-      "name": "text_box_27",
-      "_nested_name": "text_box_27",
+      "_nested_name": "text_box",
       "_dynamicFields": {
         "condition": [
           {
@@ -1244,21 +1264,83 @@
             "type": "local",
             "fieldName": "question_type"
           }
-        ]
+        ],
+        "action_list": {
+          "0": {
+            "args": {
+              "0": [
+                {
+                  "fullExpression": "@local.store_response_field",
+                  "matchedExpression": "@local.store_response_field",
+                  "type": "local",
+                  "fieldName": "store_response_field"
+                }
+              ]
+            },
+            "_raw": [
+              {
+                "fullExpression": "changed | set_field:@local.store_response_field: @local.text_box",
+                "matchedExpression": "@local.store_response_field",
+                "type": "local",
+                "fieldName": "store_response_field"
+              },
+              {
+                "fullExpression": "changed | set_field:@local.store_response_field: @local.text_box",
+                "matchedExpression": "@local.text_box",
+                "type": "local",
+                "fieldName": "text_box"
+              }
+            ],
+            "_cleaned": [
+              {
+                "fullExpression": "changed | set_field:@local.store_response_field: @local.text_box",
+                "matchedExpression": "@local.store_response_field",
+                "type": "local",
+                "fieldName": "store_response_field"
+              },
+              {
+                "fullExpression": "changed | set_field:@local.store_response_field: @local.text_box",
+                "matchedExpression": "@local.text_box",
+                "type": "local",
+                "fieldName": "text_box"
+              }
+            ]
+          }
+        }
       },
       "_dynamicDependencies": {
         "@local.question_type": [
           "condition"
+        ],
+        "@local.store_response_field": [
+          "action_list.0.args.0",
+          "action_list.0._raw",
+          "action_list.0._cleaned"
+        ],
+        "@local.text_box": [
+          "action_list.0._raw",
+          "action_list.0._cleaned"
         ]
       }
     },
     {
       "type": "text_area",
+      "name": "text_area",
       "condition": "@local.question_type == \"text_input_long\"",
       "parameter_list": {
         "text_align": "left"
       },
       "action_list": [
+        {
+          "trigger": "changed",
+          "action_id": "set_field",
+          "args": [
+            "@local.store_response_field",
+            "this.value"
+          ],
+          "_raw": "changed | set_field:@local.store_response_field: @local.text_area",
+          "_cleaned": "changed | set_field:@local.store_response_field: @local.text_area"
+        },
         {
           "trigger": "changed",
           "action_id": "set_local",
@@ -1270,8 +1352,7 @@
           "_cleaned": "changed | set_local: show_feedback: true"
         }
       ],
-      "name": "text_area_28",
-      "_nested_name": "text_area_28",
+      "_nested_name": "text_area",
       "_dynamicFields": {
         "condition": [
           {
@@ -1280,11 +1361,62 @@
             "type": "local",
             "fieldName": "question_type"
           }
-        ]
+        ],
+        "action_list": {
+          "0": {
+            "args": {
+              "0": [
+                {
+                  "fullExpression": "@local.store_response_field",
+                  "matchedExpression": "@local.store_response_field",
+                  "type": "local",
+                  "fieldName": "store_response_field"
+                }
+              ]
+            },
+            "_raw": [
+              {
+                "fullExpression": "changed | set_field:@local.store_response_field: @local.text_area",
+                "matchedExpression": "@local.store_response_field",
+                "type": "local",
+                "fieldName": "store_response_field"
+              },
+              {
+                "fullExpression": "changed | set_field:@local.store_response_field: @local.text_area",
+                "matchedExpression": "@local.text_area",
+                "type": "local",
+                "fieldName": "text_area"
+              }
+            ],
+            "_cleaned": [
+              {
+                "fullExpression": "changed | set_field:@local.store_response_field: @local.text_area",
+                "matchedExpression": "@local.store_response_field",
+                "type": "local",
+                "fieldName": "store_response_field"
+              },
+              {
+                "fullExpression": "changed | set_field:@local.store_response_field: @local.text_area",
+                "matchedExpression": "@local.text_area",
+                "type": "local",
+                "fieldName": "text_area"
+              }
+            ]
+          }
+        }
       },
       "_dynamicDependencies": {
         "@local.question_type": [
           "condition"
+        ],
+        "@local.store_response_field": [
+          "action_list.0.args.0",
+          "action_list.0._raw",
+          "action_list.0._cleaned"
+        ],
+        "@local.text_area": [
+          "action_list.0._raw",
+          "action_list.0._cleaned"
         ]
       }
     },
