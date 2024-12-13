@@ -4,40 +4,36 @@
   "flow_type": "data_list",
   "rows": [
     {
-      "id": "current_pract_relax",
-      "data_list_name": [
-        "relax"
-      ],
-      "row_id": "id_1",
-      "completed_field": "task_current_pract_relax_completed",
-      "completed": "@fields.task_current_pract_relax_completed"
-    },
-    {
       "id": "current_pract_check_in",
       "data_list_name": [
         "check_in"
       ],
       "row_id": "id_1",
-      "completed_field": "task_current_pract_check_in_completed",
-      "completed": "@fields.task_current_pract_check_in_completed"
+      "completed_field": "task_current_pract_check_in_completed"
     },
     {
-      "id": "family_relation_review_hp",
+      "id": "current_pract_relax",
       "data_list_name": [
-        "review_hp"
+        "relax"
       ],
-      "row_id": "family_relation",
-      "completed_field": "task_family_relation_review_hp_completed",
-      "completed": "@fields.task_family_relation_review_hp_completed"
+      "row_id": "id_1",
+      "completed_field": "task_current_pract_relax_completed"
     },
     {
-      "id": "current_pract_tips_1",
+      "id": "current_pract_objectives",
       "data_list_name": [
-        "tips"
+        "objectives"
       ],
-      "row_id": "child_perception",
-      "completed_field": "task_current_pract_tips_1_completed",
-      "completed": "@fields.task_current_pract_tips_1_completed"
+      "row_id": "current_pract",
+      "completed_field": "task_current_pract_objectives_completed"
+    },
+    {
+      "id": "current_pract_reflect",
+      "data_list_name": [
+        "reflect"
+      ],
+      "row_id": "child_who",
+      "completed_field": "task_current_pract_reflect_completed"
     },
     {
       "id": "current_pract_tbg",
@@ -45,8 +41,7 @@
         "topic_block_group"
       ],
       "row_id": "child_20",
-      "completed_field": "task_current_pract_tbg_completed",
-      "completed": "@fields.task_current_pract_tbg_completed"
+      "completed_field": "task_current_pract_tbg_completed"
     },
     {
       "id": "current_pract_quiz",
@@ -54,17 +49,15 @@
         "quiz"
       ],
       "row_id": "picture_quiz",
-      "completed_field": "task_current_pract_quiz_completed",
-      "completed": "@fields.task_current_pract_quiz_completed"
+      "completed_field": "task_current_pract_quiz_completed"
     },
     {
-      "id": "current_pract_tips_2",
+      "id": "current_pract_tips",
       "data_list_name": [
         "tips"
       ],
       "row_id": "raise_child",
-      "completed_field": "task_current_pract_tips_2_completed",
-      "completed": "@fields.task_current_pract_tips_2_completed"
+      "completed_field": "task_current_pract_tips_completed"
     },
     {
       "id": "current_pract_set_hp",
@@ -72,8 +65,7 @@
         "set_hp"
       ],
       "row_id": "current_pract",
-      "completed_field": "task_current_pract_set_hp_completed",
-      "completed": "@fields.task_current_pract_set_hp_completed"
+      "completed_field": "task_current_pract_set_hp_completed"
     },
     {
       "id": "current_pract_praise",
@@ -81,8 +73,7 @@
         "praise"
       ],
       "row_id": "current_pract",
-      "completed_field": "task_current_pract_praise_completed",
-      "completed": "@fields.task_current_pract_praise_completed"
+      "completed_field": "task_current_pract_praise_completed"
     }
   ]
 }

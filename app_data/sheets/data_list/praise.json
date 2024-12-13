@@ -81,17 +81,10 @@
       "image": "images/icons/cup.svg"
     },
     {
-      "id": "review",
+      "id": "parenting_teens",
       "title": "Well done!",
       "icon_asset": "images/icons/cup.svg",
-      "intro_text": "Congratulations for completing the @data.session.review.title session.",
-      "image": "images/icons/cup.svg"
-    },
-    {
-      "id": "discipline",
-      "title": "Well done!",
-      "icon_asset": "images/icons/cup.svg",
-      "intro_text": "Congratulations for completing the @data.session.discipline.title session.",
+      "intro_text": "Congratulations for completing the @data.session.parenting_teens.title session.",
       "image": "images/icons/cup.svg"
     },
     {

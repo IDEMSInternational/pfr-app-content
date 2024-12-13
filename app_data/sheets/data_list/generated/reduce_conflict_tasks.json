@@ -4,40 +4,36 @@
   "flow_type": "data_list",
   "rows": [
     {
-      "id": "reduce_conflict_relax",
-      "data_list_name": [
-        "relax"
-      ],
-      "row_id": "id_1",
-      "completed_field": "task_reduce_conflict_relax_completed",
-      "completed": "@fields.task_reduce_conflict_relax_completed"
-    },
-    {
       "id": "reduce_conflict_check_in",
       "data_list_name": [
         "check_in"
       ],
       "row_id": "id_1",
-      "completed_field": "task_reduce_conflict_check_in_completed",
-      "completed": "@fields.task_reduce_conflict_check_in_completed"
+      "completed_field": "task_reduce_conflict_check_in_completed"
     },
     {
-      "id": "prevent_abuse_review_hp",
+      "id": "reduce_conflict_relax",
       "data_list_name": [
-        "review_hp"
+        "relax"
       ],
-      "row_id": "prevent_abuse",
-      "completed_field": "task_prevent_abuse_review_hp_completed",
-      "completed": "@fields.task_prevent_abuse_review_hp_completed"
+      "row_id": "id_1",
+      "completed_field": "task_reduce_conflict_relax_completed"
     },
     {
-      "id": "reduce_conflict_tbg_1",
+      "id": "reduce_conflict_objectives",
+      "data_list_name": [
+        "objectives"
+      ],
+      "row_id": "reduce_conflict",
+      "completed_field": "task_reduce_conflict_objectives_completed"
+    },
+    {
+      "id": "reduce_conflict_tbg",
       "data_list_name": [
         "topic_block_group"
       ],
       "row_id": "reduce_conflict",
-      "completed_field": "task_reduce_conflict_tbg_1_completed",
-      "completed": "@fields.task_reduce_conflict_tbg_1_completed"
+      "completed_field": "task_reduce_conflict_tbg_completed"
     },
     {
       "id": "reduce_conflict_tips",
@@ -45,8 +41,7 @@
         "tips"
       ],
       "row_id": "reduce_conflict_tips",
-      "completed_field": "task_reduce_conflict_tips_completed",
-      "completed": "@fields.task_reduce_conflict_tips_completed"
+      "completed_field": "task_reduce_conflict_tips_completed"
     },
     {
       "id": "reduce_conflict_set_hp",
@@ -54,8 +49,7 @@
         "set_hp"
       ],
       "row_id": "reduce_conflict",
-      "completed_field": "task_reduce_conflict_set_hp_completed",
-      "completed": "@fields.task_reduce_conflict_set_hp_completed"
+      "completed_field": "task_reduce_conflict_set_hp_completed"
     },
     {
       "id": "reduce_conflict_praise",
@@ -63,8 +57,7 @@
         "praise"
       ],
       "row_id": "reduce_conflict",
-      "completed_field": "task_reduce_conflict_praise_completed",
-      "completed": "@fields.task_reduce_conflict_praise_completed"
+      "completed_field": "task_reduce_conflict_praise_completed"
     }
   ]
 }

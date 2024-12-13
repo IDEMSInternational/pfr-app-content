@@ -44,11 +44,6 @@
       "flow_name": "current_pract",
       "_xlsxPath": "global/data_lists/session_tasks.xlsx"
     },
-    "discipline": {
-      "flow_type": "data_list",
-      "flow_name": "discipline",
-      "_xlsxPath": "global/data_lists/session_tasks.xlsx"
-    },
     "discipline_children": {
       "flow_type": "data_list",
       "flow_name": "discipline_children",
@@ -94,11 +89,6 @@
       "flow_subtype": "generated",
       "flow_type": "data_list"
     },
-    "discipline_tasks": {
-      "flow_name": "discipline_tasks",
-      "flow_subtype": "generated",
-      "flow_type": "data_list"
-    },
     "education_tasks": {
       "flow_name": "education_tasks",
       "flow_subtype": "generated",
@@ -136,6 +126,11 @@
     },
     "parent_childhood_tasks": {
       "flow_name": "parent_childhood_tasks",
+      "flow_subtype": "generated",
+      "flow_type": "data_list"
+    },
+    "parenting_teens_tasks": {
+      "flow_name": "parenting_teens_tasks",
       "flow_subtype": "generated",
       "flow_type": "data_list"
     },
@@ -205,6 +200,11 @@
       "flow_name": "number",
       "_xlsxPath": "global/data_lists/navigation.xlsx"
     },
+    "objectives": {
+      "flow_type": "data_list",
+      "flow_name": "objectives",
+      "_xlsxPath": "global/data_lists/sessions.xlsx"
+    },
     "onboarding": {
       "flow_type": "data_list",
       "flow_name": "onboarding",
@@ -230,6 +230,11 @@
     "parent_childhood": {
       "flow_type": "data_list",
       "flow_name": "parent_childhood",
+      "_xlsxPath": "global/data_lists/session_tasks.xlsx"
+    },
+    "parenting_teens": {
+      "flow_type": "data_list",
+      "flow_name": "parenting_teens",
       "_xlsxPath": "global/data_lists/session_tasks.xlsx"
     },
     "positive_parenting": {
@@ -307,6 +312,11 @@
       "flow_name": "story",
       "_xlsxPath": "global/data_lists/topics.xlsx"
     },
+    "story_block_group": {
+      "flow_type": "data_list",
+      "flow_name": "story_block_group",
+      "_xlsxPath": "global/data_lists/topics.xlsx"
+    },
     "tips": {
       "flow_type": "data_list",
       "flow_name": "tips",
@@ -380,18 +390,6 @@
         "output_flow_subtype": "generated"
       },
       "session": "current_pract",
-      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
-    },
-    "gen_discipline_blocks": {
-      "flow_type": "generator",
-      "flow_name": "gen_discipline_blocks",
-      "parameter_list": {
-        "input_data_list": "discipline",
-        "output_flow_name": "@gen.id",
-        "output_flow_type": "template",
-        "output_flow_subtype": "generated"
-      },
-      "session": "discipline",
       "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
     },
     "gen_discipline_children_blocks": {
@@ -500,6 +498,18 @@
         "output_flow_subtype": "generated"
       },
       "session": "parent_childhood",
+      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+    },
+    "gen_parenting_teens_blocks": {
+      "flow_type": "generator",
+      "flow_name": "gen_parenting_teens_blocks",
+      "parameter_list": {
+        "input_data_list": "parenting_teens",
+        "output_flow_name": "@gen.id",
+        "output_flow_type": "template",
+        "output_flow_subtype": "generated"
+      },
+      "session": "parenting_teens",
       "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
     },
     "gen_positive_parenting_blocks": {
@@ -639,18 +649,8 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "child_dev_control_tbg": {
-      "flow_name": "child_dev_control_tbg",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "child_dev_distracted_tbg": {
-      "flow_name": "child_dev_distracted_tbg",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "child_dev_lead_tbg": {
-      "flow_name": "child_dev_lead_tbg",
+    "child_dev_objectives": {
+      "flow_name": "child_dev_objectives",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -664,8 +664,18 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "child_dev_review_hp": {
-      "flow_name": "child_dev_review_hp",
+    "child_dev_sbg_1": {
+      "flow_name": "child_dev_sbg_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "child_dev_sbg_2": {
+      "flow_name": "child_dev_sbg_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "child_dev_sbg_3": {
+      "flow_name": "child_dev_sbg_3",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -679,23 +689,18 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "child_dev_tips_1": {
-      "flow_name": "child_dev_tips_1",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "child_dev_tips_2": {
-      "flow_name": "child_dev_tips_2",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "closing_tips": {
-      "flow_name": "closing_tips",
+    "child_dev_tips": {
+      "flow_name": "child_dev_tips",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     "conclusion_check_in": {
       "flow_name": "conclusion_check_in",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "conclusion_objectives": {
+      "flow_name": "conclusion_objectives",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -709,13 +714,13 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "conclusion_tbg_1": {
-      "flow_name": "conclusion_tbg_1",
+    "current_pract_check_in": {
+      "flow_name": "current_pract_check_in",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "current_pract_check_in": {
-      "flow_name": "current_pract_check_in",
+    "current_pract_objectives": {
+      "flow_name": "current_pract_objectives",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -729,13 +734,13 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "current_pract_relax": {
-      "flow_name": "current_pract_relax",
+    "current_pract_reflect": {
+      "flow_name": "current_pract_reflect",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "current_pract_review_hp": {
-      "flow_name": "current_pract_review_hp",
+    "current_pract_relax": {
+      "flow_name": "current_pract_relax",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -749,18 +754,8 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "current_pract_tips_1": {
-      "flow_name": "current_pract_tips_1",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "current_pract_tips_2": {
-      "flow_name": "current_pract_tips_2",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "discipline_check_in": {
-      "flow_name": "discipline_check_in",
+    "current_pract_tips": {
+      "flow_name": "current_pract_tips",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -774,8 +769,8 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "discipline_children_reflect": {
-      "flow_name": "discipline_children_reflect",
+    "discipline_children_quiz": {
+      "flow_name": "discipline_children_quiz",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -784,8 +779,23 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "discipline_children_review_hp": {
-      "flow_name": "discipline_children_review_hp",
+    "discipline_children_sbg_1": {
+      "flow_name": "discipline_children_sbg_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "discipline_children_sbg_2": {
+      "flow_name": "discipline_children_sbg_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "discipline_children_sbg_3": {
+      "flow_name": "discipline_children_sbg_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "discipline_children_sbg_4": {
+      "flow_name": "discipline_children_sbg_4",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -794,63 +804,13 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "discipline_children_tips_1": {
-      "flow_name": "discipline_children_tips_1",
+    "discipline_children_tips": {
+      "flow_name": "discipline_children_tips",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "discipline_children_tips_2": {
-      "flow_name": "discipline_children_tips_2",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "discipline_children_tips_3": {
-      "flow_name": "discipline_children_tips_3",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "discipline_children_tips_4": {
-      "flow_name": "discipline_children_tips_4",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "discipline_children_tips_5": {
-      "flow_name": "discipline_children_tips_5",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "discipline_communication": {
-      "flow_name": "discipline_communication",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "discipline_conflict_children_tbg": {
-      "flow_name": "discipline_conflict_children_tbg",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "discipline_interaction_children_tbg": {
-      "flow_name": "discipline_interaction_children_tbg",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "discipline_praise": {
-      "flow_name": "discipline_praise",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "discipline_relax": {
-      "flow_name": "discipline_relax",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "discipline_review_hp": {
-      "flow_name": "discipline_review_hp",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "discipline_set_hp": {
-      "flow_name": "discipline_set_hp",
+    "discpline_child_objectives": {
+      "flow_name": "discpline_child_objectives",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -859,13 +819,13 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "education_encourage_tbg": {
-      "flow_name": "education_encourage_tbg",
+    "education_needs_tbg": {
+      "flow_name": "education_needs_tbg",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "education_needs_tbg": {
-      "flow_name": "education_needs_tbg",
+    "education_objectives": {
+      "flow_name": "education_objectives",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -879,11 +839,6 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "education_review_hp": {
-      "flow_name": "education_review_hp",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
     "education_set_hp": {
       "flow_name": "education_set_hp",
       "flow_subtype": "generated",
@@ -894,8 +849,8 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "education_tips": {
-      "flow_name": "education_tips",
+    "family_objectives": {
+      "flow_name": "family_objectives",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -909,18 +864,8 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "family_relation_reflect": {
-      "flow_name": "family_relation_reflect",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
     "family_relation_relax": {
       "flow_name": "family_relation_relax",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "family_relation_review_hp": {
-      "flow_name": "family_relation_review_hp",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -934,13 +879,18 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "future_group_tbg_3": {
-      "flow_name": "future_group_tbg_3",
+    "future_group_tbg": {
+      "flow_name": "future_group_tbg",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     "gender_equal_check_in": {
       "flow_name": "gender_equal_check_in",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "gender_equal_objectives": {
+      "flow_name": "gender_equal_objectives",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -954,8 +904,8 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "gender_equal_review_hp": {
-      "flow_name": "gender_equal_review_hp",
+    "gender_equal_sbg": {
+      "flow_name": "gender_equal_sbg",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -964,23 +914,23 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "gender_equal_tbg_1": {
-      "flow_name": "gender_equal_tbg_1",
+    "gender_equal_tbg": {
+      "flow_name": "gender_equal_tbg",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "gender_equal_tbg_2": {
-      "flow_name": "gender_equal_tbg_2",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "gender_equal_tips_2": {
-      "flow_name": "gender_equal_tips_2",
+    "gender_equal_tips": {
+      "flow_name": "gender_equal_tips",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     "gender_power_check_in": {
       "flow_name": "gender_power_check_in",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "gender_power_objectives": {
+      "flow_name": "gender_power_objectives",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -991,11 +941,6 @@
     },
     "gender_power_relax": {
       "flow_name": "gender_power_relax",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "gender_power_review_hp": {
-      "flow_name": "gender_power_review_hp",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1034,13 +979,18 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "healthy_relation_tips": {
-      "flow_name": "healthy_relation_tips",
+    "healthy_rshp_objectives": {
+      "flow_name": "healthy_rshp_objectives",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     "impact_conflict_check_in": {
       "flow_name": "impact_conflict_check_in",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "impact_conflict_objectives": {
+      "flow_name": "impact_conflict_objectives",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1054,8 +1004,8 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "impact_conflict_review_hp": {
-      "flow_name": "impact_conflict_review_hp",
+    "impact_conflict_sbg": {
+      "flow_name": "impact_conflict_sbg",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1064,13 +1014,8 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "impact_conflict_tbg_1": {
-      "flow_name": "impact_conflict_tbg_1",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "impact_conflict_tbg_2": {
-      "flow_name": "impact_conflict_tbg_2",
+    "impact_conflict_tbg": {
+      "flow_name": "impact_conflict_tbg",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1099,11 +1044,6 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "parent_childhood_abilities_tbg": {
-      "flow_name": "parent_childhood_abilities_tbg",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
     "parent_childhood_check_in": {
       "flow_name": "parent_childhood_check_in",
       "flow_subtype": "generated",
@@ -1111,6 +1051,11 @@
     },
     "parent_childhood_legacy_tbg": {
       "flow_name": "parent_childhood_legacy_tbg",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "parent_childhood_objectives": {
+      "flow_name": "parent_childhood_objectives",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1124,8 +1069,8 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "parent_childhood_review_hp": {
-      "flow_name": "parent_childhood_review_hp",
+    "parent_childhood_sbg": {
+      "flow_name": "parent_childhood_sbg",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1134,13 +1079,48 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "parents_web_tbg_2": {
-      "flow_name": "parents_web_tbg_2",
+    "parent_childhood_tips": {
+      "flow_name": "parent_childhood_tips",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "positive_parenting_behavior_tbg": {
-      "flow_name": "positive_parenting_behavior_tbg",
+    "parenting_teens_check_in": {
+      "flow_name": "parenting_teens_check_in",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "parenting_teens_objectives": {
+      "flow_name": "parenting_teens_objectives",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "parenting_teens_praise": {
+      "flow_name": "parenting_teens_praise",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "parenting_teens_quiz": {
+      "flow_name": "parenting_teens_quiz",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "parenting_teens_relax": {
+      "flow_name": "parenting_teens_relax",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "parenting_teens_set_hp": {
+      "flow_name": "parenting_teens_set_hp",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "parenting_teens_tbg": {
+      "flow_name": "parenting_teens_tbg",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "parents_web_tbg": {
+      "flow_name": "parents_web_tbg",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1149,13 +1129,8 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "positive_parenting_how_tbg": {
-      "flow_name": "positive_parenting_how_tbg",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "positive_parenting_limits_tbg": {
-      "flow_name": "positive_parenting_limits_tbg",
+    "positive_parenting_objectives": {
+      "flow_name": "positive_parenting_objectives",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1169,13 +1144,28 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "positive_parenting_set_hp": {
-      "flow_name": "positive_parenting_set_hp",
+    "positive_parenting_tbg_1": {
+      "flow_name": "positive_parenting_tbg_1",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "positive_parenting_tbg_2": {
+      "flow_name": "positive_parenting_tbg_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "positive_parenting_tips": {
+      "flow_name": "positive_parenting_tips",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     "prevent_abuse_check_in": {
       "flow_name": "prevent_abuse_check_in",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "prevent_abuse_objectives": {
+      "flow_name": "prevent_abuse_objectives",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1186,11 +1176,6 @@
     },
     "prevent_abuse_relax": {
       "flow_name": "prevent_abuse_relax",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "prevent_abuse_review_hp": {
-      "flow_name": "prevent_abuse_review_hp",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1209,13 +1194,13 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "prevent_abuse_tips": {
-      "flow_name": "prevent_abuse_tips",
+    "reduce_conflict_check_in": {
+      "flow_name": "reduce_conflict_check_in",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "reduce_conflict_check_in": {
-      "flow_name": "reduce_conflict_check_in",
+    "reduce_conflict_objectives": {
+      "flow_name": "reduce_conflict_objectives",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1234,8 +1219,8 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "reduce_conflict_tbg_1": {
-      "flow_name": "reduce_conflict_tbg_1",
+    "reduce_conflict_tbg": {
+      "flow_name": "reduce_conflict_tbg",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1249,6 +1234,11 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "sharing_care_objectives": {
+      "flow_name": "sharing_care_objectives",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "sharing_care_praise": {
       "flow_name": "sharing_care_praise",
       "flow_subtype": "generated",
@@ -1259,23 +1249,13 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "sharing_care_review_hp": {
-      "flow_name": "sharing_care_review_hp",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
     "sharing_care_set_hp": {
       "flow_name": "sharing_care_set_hp",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "sharing_care_tbg_1": {
-      "flow_name": "sharing_care_tbg_1",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "sharing_care_tbg_2": {
-      "flow_name": "sharing_care_tbg_2",
+    "sharing_care_tbg": {
+      "flow_name": "sharing_care_tbg",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1293,11 +1273,6 @@
       "override_target": "home_screen",
       "override_condition": "@fields._app_skin == \"modular\"",
       "_xlsxPath": "global/templates/navigation_templates.xlsx"
-    },
-    "intro": {
-      "flow_type": "template",
-      "flow_name": "intro",
-      "_xlsxPath": "global/templates/blocks/topic_blocks.xlsx"
     },
     "language_select": {
       "flow_type": "template",
@@ -1331,10 +1306,20 @@
       "flow_name": "nav_buttons",
       "_xlsxPath": "global/templates/session_templates.xlsx"
     },
+    "objectives": {
+      "flow_type": "template",
+      "flow_name": "objectives",
+      "_xlsxPath": "global/templates/blocks/topic_blocks.xlsx"
+    },
     "onboarding_content": {
       "flow_type": "template",
       "flow_name": "onboarding_content",
       "_xlsxPath": "global/templates/blocks/onboarding_blocks.xlsx"
+    },
+    "pop_up_text": {
+      "flow_type": "template",
+      "flow_name": "pop_up_text",
+      "_xlsxPath": "global/templates/blocks/topic_blocks.xlsx"
     },
     "praise": {
       "flow_type": "template",
@@ -1421,6 +1406,11 @@
       "flow_name": "story",
       "_xlsxPath": "global/templates/blocks/topic_blocks.xlsx"
     },
+    "story_block_group": {
+      "flow_type": "template",
+      "flow_name": "story_block_group",
+      "_xlsxPath": "global/templates/blocks/topic_blocks.xlsx"
+    },
     "task_card": {
       "flow_type": "template",
       "flow_name": "task_card",
@@ -1434,6 +1424,11 @@
     "tips": {
       "flow_type": "template",
       "flow_name": "tips",
+      "_xlsxPath": "global/templates/blocks/topic_blocks.xlsx"
+    },
+    "tips_text": {
+      "flow_type": "template",
+      "flow_name": "tips_text",
       "_xlsxPath": "global/templates/blocks/topic_blocks.xlsx"
     },
     "topic_block_group": {

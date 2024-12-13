@@ -4,31 +4,28 @@
   "flow_type": "data_list",
   "rows": [
     {
-      "id": "child_dev_relax",
-      "data_list_name": [
-        "relax"
-      ],
-      "row_id": "id_1",
-      "completed_field": "task_child_dev_relax_completed",
-      "completed": "@fields.task_child_dev_relax_completed"
-    },
-    {
       "id": "child_dev_check_in",
       "data_list_name": [
         "check_in"
       ],
       "row_id": "id_1",
-      "completed_field": "task_child_dev_check_in_completed",
-      "completed": "@fields.task_child_dev_check_in_completed"
+      "completed_field": "task_child_dev_check_in_completed"
     },
     {
-      "id": "current_pract_review_hp",
+      "id": "child_dev_relax",
       "data_list_name": [
-        "review_hp"
+        "relax"
       ],
-      "row_id": "current_pract",
-      "completed_field": "task_current_pract_review_hp_completed",
-      "completed": "@fields.task_current_pract_review_hp_completed"
+      "row_id": "id_1",
+      "completed_field": "task_child_dev_relax_completed"
+    },
+    {
+      "id": "child_dev_objectives",
+      "data_list_name": [
+        "objectives"
+      ],
+      "row_id": "child_dev",
+      "completed_field": "task_child_dev_objectives_completed"
     },
     {
       "id": "child_dev_stages_tbg",
@@ -36,53 +33,39 @@
         "topic_block_group"
       ],
       "row_id": "dev_stages",
-      "completed_field": "task_child_dev_stages_tbg_completed",
-      "completed": "@fields.task_child_dev_stages_tbg_completed"
+      "completed_field": "task_child_dev_stages_tbg_completed"
     },
     {
-      "id": "child_dev_tips_1",
+      "id": "child_dev_sbg_1",
+      "data_list_name": [
+        "story_block_group"
+      ],
+      "row_id": "interactive_play_distracted",
+      "completed_field": "task_child_dev_sbg_1_completed"
+    },
+    {
+      "id": "child_dev_sbg_2",
+      "data_list_name": [
+        "story_block_group"
+      ],
+      "row_id": "interactive_play_control",
+      "completed_field": "task_child_dev_sbg_2_completed"
+    },
+    {
+      "id": "child_dev_sbg_3",
+      "data_list_name": [
+        "story_block_group"
+      ],
+      "row_id": "interactive_child_lead",
+      "completed_field": "task_child_dev_sbg_3_completed"
+    },
+    {
+      "id": "child_dev_tips",
       "data_list_name": [
         "tips"
       ],
       "row_id": "child_needs",
-      "completed_field": "task_child_dev_tips_1_completed",
-      "completed": "@fields.task_child_dev_tips_1_completed"
-    },
-    {
-      "id": "child_dev_distracted_tbg",
-      "data_list_name": [
-        "topic_block_group"
-      ],
-      "row_id": "interactive_play_distracted",
-      "completed_field": "task_child_dev_distracted_tbg_completed",
-      "completed": "@fields.task_child_dev_distracted_tbg_completed"
-    },
-    {
-      "id": "child_dev_control_tbg",
-      "data_list_name": [
-        "topic_block_group"
-      ],
-      "row_id": "interactive_play_control",
-      "completed_field": "task_child_dev_control_tbg_completed",
-      "completed": "@fields.task_child_dev_control_tbg_completed"
-    },
-    {
-      "id": "child_dev_lead_tbg",
-      "data_list_name": [
-        "topic_block_group"
-      ],
-      "row_id": "interactive_child_lead",
-      "completed_field": "task_child_dev_lead_tbg_completed",
-      "completed": "@fields.task_child_dev_lead_tbg_completed"
-    },
-    {
-      "id": "child_dev_tips_2",
-      "data_list_name": [
-        "tips"
-      ],
-      "row_id": "parents_attitude",
-      "completed_field": "task_child_dev_tips_2_completed",
-      "completed": "@fields.task_child_dev_tips_2_completed"
+      "completed_field": "task_child_dev_tips_completed"
     },
     {
       "id": "child_dev_set_hp",
@@ -90,8 +73,7 @@
         "set_hp"
       ],
       "row_id": "child_dev",
-      "completed_field": "task_child_dev_set_hp_completed",
-      "completed": "@fields.task_child_dev_set_hp_completed"
+      "completed_field": "task_child_dev_set_hp_completed"
     },
     {
       "id": "child_dev_praise",
@@ -99,8 +81,7 @@
         "praise"
       ],
       "row_id": "child_dev",
-      "completed_field": "task_child_dev_praise_completed",
-      "completed": "@fields.task_child_dev_praise_completed"
+      "completed_field": "task_child_dev_praise_completed"
     }
   ]
 }

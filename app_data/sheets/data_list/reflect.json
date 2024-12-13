@@ -4,289 +4,54 @@
   "status": "released",
   "rows": [
     {
-      "id": "future_now",
-      "topic": "family_relation",
-      "title": "50 years and 3 months",
-      "intro_text": "Take a minute to think about what you would do if you had 50 or more years to live; full of plenty and good health. Note them down on a piece of paper. Take time to reflect on what you have written down.\n\nAnd what would you do if you had only 3 months left to live? In your current status, what would you do for your children and family? Note them down on a piece of paper. Take time to reflect on what you have written down. \n \nWhat is your comment on the two sets of responses - Look for any differences and assess which set of achievements is more important to growing relationships.",
-      "audio_transcript": "Take a minute to think about what you would do if you had 50 or more years to live; full of plenty and good health. Note them down on a piece of paper. Take time to reflect on what you have written down. \n\n\nAnd what would you do if you had only 3 months left to live? In your current status, what would you do for your children and family? Note them down on a piece of paper. Take time to reflect on what you have written down. \n\nWhat is your comment on the two sets of responses - Look for any differences and assess which set of achievements is more important to growing relationships.",
+      "id": "child_who",
+      "topic": "current_pract",
+      "title": "Who is your child",
+      "audio_transcript": "How a caregiver perceive their child shapes the type of care the child is given.\n     \nFamily is at the heart of many people, successful parenting should nurture ideals of respect, handwork and integrity in both children and parents.\n\nBeing kind and understanding to your children is a sign of confident parenting and warm family relationship, and fosters good behavior and well-being of children.",
       "icon_asset": "images/icons/thought_bubble.svg",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
+      "intro_text": "Let's imagine the following situation."
     },
     {
       "id": "child_20",
       "topic": "current_pract",
-      "audio_transcript": "Close your eyes and imagine the following: Your child or grandchild is grown up. You are about to celebrate his/her 20th birthday. Imagine what he or she will look like at that age. What kind of person do you hope he/she will be? What kind of relationship will you have with your child? Note them down on a piece of paper.",
-      "suggestion_1": "What have you consistently put in place to ensure that your child/ren attains what you desire?\nThere are two main elements of parenting i.e. love and discipline which should be provided in equal measures. When parenting it's important to think about the long-term goals and allow your child to adjust your life pattern..",
+      "audio_transcript": "Close your eyes and imagine the following: Your child or grandchild is grown up. You are about to celebrate his/her 20th birthday. Imagine what he or she will look like at that age. What kind of person do you hope he/she will be? What kind of relationship will you have with your child? \n\nWhat have you put in place to consistently ensure that your child/ren achive and thrive? Note them down on a piece of paper.\nThere are two main elements of parenting i.e. love and discipline which should be provided in equal measures. When parenting it's important to think about the long-term goals and allow your child to adjust your life pattern.",
       "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "child_need",
-      "topic": "child_dev",
-      "title": "Child's Needs",
-      "intro_text": "What does your child want from you to grow up well?",
-      "audio_transcript": "What does your child want (at different stages of life) from you to grow up well?\nWell, children do not develop in isolation but need an environment where their rights are respected.",
-      "suggestion_1": "0-5 years \n* Hugs and kisses\n* Smiles and playtime\n* Regulation of behavior & consistency\n* Rules to keep children safe\n* Answer their questions\n* Love and nurturing\n* Eye contact & attention",
-      "suggestion_2": "6-9 years \n* Talking and listening time\n* Play and have a fun time with you \n* Answers their questions\n* Participation & Involvement\n* Activities that build on self-esteem",
-      "suggestion_3": "10-12 years \n* Support and Guidance\n* Establish a routine and teach what is expected of children \n* Approval and encouragement\n* Maintain clear rules and limits\n* Teach beliefs & responsibility",
-      "suggestion_4": "13-17 years \n* Debates and discussions\n* Mentoring and direction\n* Guidelines, but no rules to\nenable decision-making & learning from their mistakes \n* Respect & parents’ support toward independence",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "interactive_play_distracted",
-      "topic": "child_dev",
-      "intro_text": "How does David feel when his mother does pay attention?\nHow does the mother feel about David?",
-      "audio_transcript": "To improve attachment and bonding, you need to pay attention to the needs of children even if it means making them aware that you care.\nThe mother has options to keep on her phone but make David aware that she cares and is available for him.\n\"If you were David’s mother, what would you do to:",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "interactive_play_control",
-      "topic": "child_dev",
-      "intro_text": "* What do you think of Birungi’s father’s actions?\n* How does Birungi feel when her father controls the game?",
-      "audio_transcript": "Control doesn't teach our children to enjoy the play time and benefit from it. Instead, it will lead to anxiety and feelings of inadequacy. Play is important for health brain development.",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "interactive_child_lead",
-      "topic": "child_dev",
-      "intro_text": "* How does the mother show attention to Doreen?\n* How does the mother help Doreen to do what she wants without controlling her?\n* How does this make Doreen feel?",
-      "audio_transcript": "It is a good practice for parents to be involved in their children's play but this should be done respectfully with the full consent of the child. Play should meet the needs of the child and not the parent. Praise the child for their initiatives and follow their lead.",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "caregiver_legacy_1",
-      "topic": "parent_childhood",
-      "audio_transcript": "What positive childhood experiences do you remember in your relationship with your mother/father/caregiver? Note them down. What negative childhood experiences do you remember in your relationship with your mother/father/caregiver? Note them down. Name one thing about your female/male caregiver that you want to take into your relationship with your children. Name one thing about your female/male caregiver that you do not want to repeat with your children?",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "caregiver_legacy_2",
-      "topic": "parent_childhood",
-      "audio_transcript": "* What is the one thing about your father/mother/caregiver that you would want to avoid or take into your relationship with your children?",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "manage_behavior",
-      "topic": "positive_parenting",
-      "audio_transcript": "* What does Sarah do to get attention from the mother? Does it work?\n* Why is it important for Sarah to get the mother’s attention?\n* What behavior is the mother rewarding by responding to the needs of Sarah’s brother?\n* Why might it be a problem to say “I will tell your father”?\n* What would be a better way to respond?",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "setting_limits_1",
-      "topic": "positive_parenting",
-      "audio_transcript": "* How does the mother communicate to the child about house rules?\n* How does the mother talk to the child to make sure that he is really listening?\n* Is the house rule connected to a specific behavior?\n* What does the mother do to support the child when he follows the house rule?",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "setting_limits_2",
-      "topic": "positive_parenting",
-      "intro_text": "Reflect on this illustration or scenario:",
-      "audio_transcript": "Vincent, you will not visit your friends for two weeks because you came back home very late last night. Our rule says that we should all be home by 7:30 PM but mother........................................  \nYou will do exactly what your mother says",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "parenting_style",
-      "topic": "discipline_children",
-      "title": "Types of Parenting Styles",
-      "intro_text": "There are four different kinds of parenting styles:",
-      "audio_transcript": "For parents to make use of principles on Love/connectedness & Setting limits and boundaries, we need to understand four parenting styles: Authoritative/Firm ParentingFirm;Strict/Authoritarian; Permissive parentingIndifferent/Uninvolved parenting;  What parenting style is predominant in your household? Why?",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
+      "intro_text": "Let's imagine the following situation."
     },
     {
       "id": "gender_stereotypes_1",
       "topic": "gender_power",
-      "intro_text": "* What comes to mind when you hear the words “being a man”, \"being a woman\"? Or act like \"a man\", act like \"a woman\"? Note these down",
-      "audio_transcript": "As seen, the two images of our gender boxes show that most attributes, and behaviors are socially constructed, with only a few being biological, like having breasts or the ability to make one pregnant. This means men and women are similar in many ways and can do many things together, which benefits their wellbeing and their children’s. Could social constructs sometimes limit us? Let’s explore attributes and practices outside these gender boxes",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
+      "intro_text": "\" What comes to mind when you hear the words “being a man”, \"being a woman\"? Or act like \"a man\", act like \"a woman\"?",
+      "image_1_asset": "images/new/gender_inside_male.jpg",
+      "audio_asset": "audio/option_1.m4a",
+      "audio_transcript": "💡 As seen, the two images of our gender boxes show that most attributes, and behaviors are socially constructed, with only a few being biological, like having breasts or the ability to make one pregnant. This means men and women are similar in many ways and can do many things together, which benefits their wellbeing and their children’s. Could social constructs sometimes limit us? Let’s explore attributes and practices outside these gender boxes",
+      "icon_asset": "images/icons/thought_bubble.svg"
     },
     {
       "id": "gender_stereotypes_2",
       "topic": "gender_power",
-      "intro_text": "* What attributes and practices can a woman take from both boxes that can make her a better mother, friend and wife?\n* What attributes and practices can a man take from both boxes that can make him a better father, friend and husband?",
-      "audio_transcript": "Often, women and young ladies desire men who possess attributes outside the box, while many a number of  men prefer women who adhere to the traits inside the box. Additionally, more women are stepping outside these roles compared to men. This is partly due to the advantages men have in sticking to traditional roles. Education, modernization, and technology have empowered many women to break out of these roles. For a healthy marriage, it's important for both men and women to adopt positive traits from in and outside the box to benefit themselves, their children, and those around them\n\n* What practices will you adapt to help you move from inside the gender box to outside the gender box as you try to become a better spouse and parent?",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
+      "intro_text": "* What attributes and practices can a woman take from both boxes that can make her a better mother, friend and wife?\n * What attributes and practices can a man take from both boxes that can make him a better father, friend and husband?",
+      "image_1_asset": "images/new/gender_outside_male.jpg",
+      "image_2_asset": "images/new/gender_outside_female.jpg",
+      "audio_asset": "audio/option_2.m4a",
+      "audio_transcript": "💡 Often, women and young ladies desire men who possess attributes outside the box, while many a number of men prefer women who adhere to the traits inside the box. Additionally, more women are stepping outside these roles compared to men. This is partly due to the advantages men have in sticking to traditional roles. Education, modernization, and technology have empowered many women to break out of these roles. For a healthy marriage, it's important for both men and women to adopt positive traits from in and outside the box to benefit themselves, their children, and those around them.  \n* What practices will you adapt to help you move from inside the gender box to outside the gender box as you try to become a better spouse and parent?",
+      "icon_asset": "images/icons/thought_bubble.svg"
     },
     {
-      "id": "impact_conflict",
-      "topic": "impact_conflict",
-      "intro_text": "Follow up reflection:",
-      "audio_transcript": "* Is such a situation familiar in your community or daily lives?\n* What is the most common type of violence practiced against women? Against men? Against children?\n* Is there a relationship between power and violence?\n* What are the consequences of conflict/violence to women? To the Children? To the Men? To the Family?\n* What are some examples of healthy spousal and family relationships?\n* How can we make your own relationships free from violence?",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "family_head",
-      "topic": "impact_conflict",
-      "intro_text": "Reflecting on your head, can you note down the different parts of your head and list their functions?",
-      "audio_transcript": "As you reflect on the different parts of the head, for example, the eye, do you use your eyes to see opportunities that benefit your family (children and spouse) or are you using them for selfish interests? Think about your mouth, do you use it to speak to your family members or to abuse and curse them? How about your ears; do you use them to listen to them? How often. We can only take pride in family headship if we choose to function in our everyday lives for the benefit of those we live with and not for our selfish intentions. What happens if any of the parts of the head fail to function the way they are supposed to? The entire body will feel the effect? This means that if you don't utilize all our capacities and heads of our family, some members of the household will negatively be affected.",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "sharing_care",
-      "topic": "sharing_care",
-      "intro_text": "Let’s reflect on the time men and women dedicate to caring for their children and shaping their future.",
-      "audio_transcript": "* Think of all typical household duties that take place on a daily basis and are usually performed by women, men and both relating to child care. \n* Write them on a piece of paper separately until they are exhausted.\n* Count the number of activities that women, men or both sexes normally do.",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "caregiving",
-      "topic": "sharing_care",
-      "intro_text": "Let's do a reflection",
-      "audio_transcript": "How do you think a man can properly care for the infant as in the illustration?  Why? Why not?\nHow do you think a woman can properly care for family items and resources like in the illustration? Why? Why not?\nWhat would you change to improve your own role in taking care of your children?",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "rships_communication",
-      "topic": "healthy_relation",
-      "audio_transcript": "Does this relate in any way to your own marital relationship. Do you spend time together",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "session_review",
-      "topic": "session_review",
-      "title": "Reflect",
-      "audio_transcript": "At this point, we invite you to reflect on why you participating in this Parenting for Respectability program.",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "conflict_child",
-      "topic": "discipline",
-      "audio_transcript": "Now that you viewed the video, what lessons do we learn from this activity?",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "positive_child_interaction_1",
-      "topic": "discipline",
-      "audio_transcript": "* How does spending special time with a child help the child and parent?\n* How does grandmother teach Sylvia to listen?\n* When does reward help support good behavior from our children?\n* Why does the Grandmother give Sylvia a 5 minute warning?",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "positive_child_interaction_2",
-      "topic": "discipline",
-      "audio_transcript": "* How does the father encourage Moses to play quietly?\n* What might have happened if he ignored Moses?",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "school_needs_1",
-      "topic": "education",
-      "title": "Reflection Activity 1",
-      "audio_transcript": "Imagine you are a child within these age brackets (6 – 10, 11 – 14, 15 – 17 years). What kind of support (not monetary) would you like your parents to provide for you in order to achieve at school?”",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "school_needs_2",
-      "topic": "education",
-      "title": "Reflection Activity 2",
-      "audio_transcript": "Imagine you are a parent with children in these age brackets (6 – 10, 11 – 14, 15 – 17 years) ”What would you want in your child so that you are motivated to support them in their education?”",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "encourage_school",
-      "topic": "education",
-      "audio_transcript": "What would you do if...\n* Your 16 year-old son went to revise books with friends and came back home after midnight drunk.\n* Your 13 year-old daughter returns from school and disrespects you in front of your neighbor.\n* You discover that your 15 year-old daughter who is in senior 3 has a boyfriend and she did not tell you.",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "gendered_rules_1",
+      "id": "gender_equal",
       "topic": "gender_equal",
-      "audio_transcript": "* How do you feel when told to act like a man/woman?\n* Why do you think they said this?\n* Which of these messages above can be potentially harmful? Why?",
-      "outro_text": "In this session, we will continue to see how society sustains very different rules for how men and women are supposed to behave. \nThese rules are called “gender norms” because they define what is supposed to be ‘normal’ for how men and women “ought to” think, feel, and act. However, these rules sometimes restrict the lives of both women and men.",
+      "audio_asset": "audio/resolve_conflictssession13.mp3",
+      "audio_transcript": "It's normal for parents to have different perspectives regarding their parenting. However, many times, each parent wants to have their point/suggestion understood and considered against the other. This later results in conflicts which can easily lead to family violence. Partners can learn to resolve parenting issues and concerns without necessarily conflicting and violence. In, parenting, partners should not focus on who wins the argument and whose point is understood but try to be considerate of each others’ suggestions. Let’s have some of the ways we can resolve conflicts, be understood and to improve relationships.\n\nAsk to hear your partner’s views and listen to them carefully without interruption.Identify any aspects of your partner’s views with which you agree.        \n\nAsk your partner to hear your own views without interruption.\n\nDon’t make threats or provocations. If you feel too emotional/overwhelmed, seek another engagement to distract oneself. Resume discussion on feelings when calmer",
       "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
+      "intro_text": "Let's imagine the following situation."
     },
     {
-      "id": "gendered_rules_2",
-      "topic": "gender_equal",
-      "audio_transcript": "* How do the messages impact on a man’s/woman’s health and the health of other family members?\n* What happens to men/women who try not to follow/ conform to the messages? How are they treated?\n* What things could be changed to make men’s/women’s lives and the family members better?\n* Which are the characteristics of a transformed man/woman (women/men that do not completely agree to the messages of acting like a man/woman?",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "needs_awareness_1",
+      "id": "prevent_abuse",
       "topic": "prevent_abuse",
-      "audio_transcript": "* Reflect quietly about your own dreams for your family and in particular things you would like to achieve or relationships you would like with your children, quality of life desired for yourself and your children, health, and education of your children.",
+      "audio_asset": "audio/staysafe_session14.mp3",
+      "audio_transcript": "* Reflect quietly about your dreams for your family and the achievements that you would wish for your child/ren in terms of education and professional life, their future families, and the kind of relationships would wish for them to have when they are married. \n\n* Think quietly and Imagine, that you have received a precious gift of a breakable glass on one of your special occasions. You love the gift (glass) so much and sometimes, it reminds you of your own beautiful life and beautiful children. You care for the glass so much and you are aware, that its delicate and can easily break if mishandled. However, you find yourself on another particular time, just moving around with this glass, you fill it with wine/alcohol and you are all over the place. It falls and breaks into several pieces.",
       "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "needs_awareness_2",
-      "topic": "prevent_abuse",
-      "audio_transcript": "* Think quietly again about the achievements you made when you were married and/or living with their children. Reflect on both the barriers and enablers for the achievements as an individual or family.",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "puberty_changes",
-      "topic": "prevent_abuse",
-      "audio_transcript": "* What changes did you experience during puberty?\n* How did your life change in puberty?\n* Where did you get accurate information about puberty and sexuality?\n* From experience, what information is important for preventing sexual abuse and delaying sexual activity for children between 10 – 17 years?\n* Which information is suitable for children below 10 years for preventing sexual abuse and discouraging early sex?",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "reduce_conflict_activity",
-      "topic": "reduce_conflict",
-      "intro_text": "For this activity, you'll be working in pairs and require the following materials:\n* Opaque paper (ordinary).\n* Transparent item (see-through e.g. empty mineral water bottle or paper).\n* Translucent item (dull/unclear e.g polythene or paper)",
-      "audio_transcript": "* Stand opposite your pair and let one person hold the paper/ item one at a time\n* Try and see your partner through the paper/item provided; one at a time and state if you can see them.",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "reduce_conflict",
-      "topic": "reduce_conflict",
-      "audio_transcript": "* Let's reflect on the emotions you experienced while attempting to see the other person through the paper/item and consider how these feelings relate to our everyday communication with our spouses.\n* How, on average, does the number of marriages for each scenario (opaque, transparent, and translucent) affect both parents and children?",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
-    },
-    {
-      "id": "conclusion",
-      "topic": "conclusion",
-      "image": "images/head.jpg",
-      "audio_transcript": "* Let’s reflect on the reasons why the features on the head perform their role. Example: (Does the mouth eat for its own purpose? The eye etc?)\n* What happens when the features on the head do not function as they are supposed to? \n* Relate the functions of the features of the head to your day-to-day role as heads of families? (Are the heads of the family functioning to benefit their family the same way the features function to benefit the body? Why? Why not).\n* How best can you learn from the functions of the features of the head to improve your leadership role in your families? (You can use biblical examples and positive cultural practices)",
-      "icon_asset": "images/icons/thought_bubble.svg",
-      "intro_text": "Let's imagine the following situation.",
-      "attached_single_doc": "https://docs.google.com/document/d/1zNu4exkPFgVGAbR_vpqNQ8sYLslVxgBDaw72e_TuAw0"
+      "intro_text": "Let's imagine the following situation."
     }
   ],
   "_xlsxPath": "global/data_lists/topics.xlsx"

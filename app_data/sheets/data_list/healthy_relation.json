@@ -4,13 +4,6 @@
   "status": "released",
   "rows": [
     {
-      "id": "healthy_relation_relax",
-      "data_list_name": [
-        "relax"
-      ],
-      "row_id": "id_1"
-    },
-    {
       "id": "healthy_relation_check_in",
       "data_list_name": [
         "check_in"
@@ -18,25 +11,25 @@
       "row_id": "id_1"
     },
     {
-      "id": "sharing_care_review_hp",
+      "id": "healthy_relation_relax",
       "data_list_name": [
-        "review_hp"
+        "relax"
       ],
-      "row_id": "sharing_care"
+      "row_id": "id_1"
+    },
+    {
+      "id": "healthy_rshp_objectives",
+      "data_list_name": [
+        "objectives"
+      ],
+      "row_id": "healthy_relation"
     },
     {
       "id": "healthy_relation_tbg",
       "data_list_name": [
         "topic_block_group"
       ],
-      "row_id": "rships_communication"
-    },
-    {
-      "id": "healthy_relation_tips",
-      "data_list_name": [
-        "tips"
-      ],
-      "row_id": "rships_communication_2"
+      "row_id": "healthy_relation"
     },
     {
       "id": "healthy_relation_set_hp",

@@ -8,7 +8,6 @@
       "number": 0,
       "session_id": "onboarding",
       "completed_field": "task_onboarding_completed",
-      "completed": "@fields.task_onboarding_completed",
       "skipped_field": "task_onboarding_skipped"
     },
     {
@@ -16,7 +15,6 @@
       "number": 1,
       "session_id": "family_relation",
       "completed_field": "task_family_relation_completed",
-      "completed": "@fields.task_family_relation_completed",
       "skipped_field": "task_family_relation_skipped"
     },
     {
@@ -24,7 +22,6 @@
       "number": 2,
       "session_id": "current_pract",
       "completed_field": "task_current_pract_completed",
-      "completed": "@fields.task_current_pract_completed",
       "skipped_field": "task_current_pract_skipped"
     },
     {
@@ -32,7 +29,6 @@
       "number": 3,
       "session_id": "child_dev",
       "completed_field": "task_child_dev_completed",
-      "completed": "@fields.task_child_dev_completed",
       "skipped_field": "task_child_dev_skipped"
     },
     {
@@ -40,7 +36,6 @@
       "number": 4,
       "session_id": "parent_childhood",
       "completed_field": "task_parent_childhood_completed",
-      "completed": "@fields.task_parent_childhood_completed",
       "skipped_field": "task_parent_childhood_skipped"
     },
     {
@@ -48,7 +43,6 @@
       "number": 5,
       "session_id": "positive_parenting",
       "completed_field": "task_positive_parenting_completed",
-      "completed": "@fields.task_positive_parenting_completed",
       "skipped_field": "task_positive_parenting_skipped"
     },
     {
@@ -56,7 +50,6 @@
       "number": 6,
       "session_id": "discipline_children",
       "completed_field": "task_discipline_children_completed",
-      "completed": "@fields.task_discipline_children_completed",
       "skipped_field": "task_discipline_children_skipped"
     },
     {
@@ -64,7 +57,6 @@
       "number": 7,
       "session_id": "gender_power",
       "completed_field": "task_gender_power_completed",
-      "completed": "@fields.task_gender_power_completed",
       "skipped_field": "task_gender_power_skipped"
     },
     {
@@ -72,7 +64,6 @@
       "number": 8,
       "session_id": "impact_conflict",
       "completed_field": "task_impact_conflict_completed",
-      "completed": "@fields.task_impact_conflict_completed",
       "skipped_field": "task_impact_conflict_skipped"
     },
     {
@@ -80,39 +71,27 @@
       "number": 9,
       "session_id": "sharing_care",
       "completed_field": "task_sharing_care_completed",
-      "completed": "@fields.task_sharing_care_completed",
       "skipped_field": "task_sharing_care_skipped"
     },
     {
       "id": "healthy_relation_tasks",
-      "number": 9,
+      "number": 10,
       "session_id": "healthy_relation",
       "completed_field": "task_healthy_relation_completed",
-      "completed": "@fields.task_healthy_relation_completed",
       "skipped_field": "task_healthy_relation_skipped"
     },
     {
-      "id": "review_tasks",
-      "number": 10,
-      "session_id": "review",
-      "completed_field": "task_review_completed",
-      "completed": "@fields.task_review_completed",
-      "skipped_field": "task_review_skipped"
-    },
-    {
-      "id": "discipline_tasks",
+      "id": "parenting_teens_tasks",
       "number": 11,
-      "session_id": "discipline",
-      "completed_field": "task_discipline_completed",
-      "completed": "@fields.task_discipline_completed",
-      "skipped_field": "task_discipline_skipped"
+      "session_id": "parenting_teens",
+      "completed_field": "task_parenting_teens_completed",
+      "skipped_field": "task_parenting_teens_skipped"
     },
     {
       "id": "education_tasks",
       "number": 12,
       "session_id": "education",
       "completed_field": "task_education_completed",
-      "completed": "@fields.task_education_completed",
       "skipped_field": "task_education_skipped"
     },
     {
@@ -120,7 +99,6 @@
       "number": 13,
       "session_id": "gender_equal",
       "completed_field": "task_gender_equal_completed",
-      "completed": "@fields.task_gender_equal_completed",
       "skipped_field": "task_gender_equal_skipped"
     },
     {
@@ -128,7 +106,6 @@
       "number": 14,
       "session_id": "prevent_abuse",
       "completed_field": "task_prevent_abuse_completed",
-      "completed": "@fields.task_prevent_abuse_completed",
       "skipped_field": "task_prevent_abuse_skipped"
     },
     {
@@ -136,7 +113,6 @@
       "number": 15,
       "session_id": "reduce_conflict",
       "completed_field": "task_reduce_conflict_completed",
-      "completed": "@fields.task_reduce_conflict_completed",
       "skipped_field": "task_reduce_conflict_skipped"
     },
     {
@@ -144,7 +120,6 @@
       "number": 16,
       "session_id": "conclusion",
       "completed_field": "task_conclusion_completed",
-      "completed": "@fields.task_conclusion_completed",
       "skipped_field": "task_conclusion_skipped"
     }
   ]

@@ -4,16 +4,16 @@
   "status": "released",
   "rows": [
     {
-      "id": "onboarding_relax",
+      "id": "onboarding_check_in",
       "data_list_name": [
-        "relax"
+        "check_in"
       ],
       "row_id": "id_1"
     },
     {
-      "id": "onboarding_check_in",
+      "id": "onboarding_relax",
       "data_list_name": [
-        "check_in"
+        "relax"
       ],
       "row_id": "id_1"
     },

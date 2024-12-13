@@ -4,13 +4,6 @@
   "status": "released",
   "rows": [
     {
-      "id": "discipline_children_relax",
-      "data_list_name": [
-        "relax"
-      ],
-      "row_id": "id_1"
-    },
-    {
       "id": "discipline_children_check_in",
       "data_list_name": [
         "check_in"
@@ -18,49 +11,56 @@
       "row_id": "id_1"
     },
     {
-      "id": "discipline_children_review_hp",
+      "id": "discipline_children_relax",
       "data_list_name": [
-        "review_hp"
+        "relax"
       ],
-      "row_id": "positive_parenting"
+      "row_id": "id_1"
     },
     {
-      "id": "discipline_children_reflect",
+      "id": "discpline_child_objectives",
       "data_list_name": [
-        "reflect"
+        "objectives"
       ],
-      "row_id": "parenting_style"
+      "row_id": "discipline_children"
     },
     {
-      "id": "discipline_children_tips_1",
+      "id": "discipline_children_quiz",
       "data_list_name": [
-        "tips"
+        "quiz"
+      ],
+      "row_id": "discipline_children"
+    },
+    {
+      "id": "discipline_children_sbg_1",
+      "data_list_name": [
+        "story_block_group"
       ],
       "row_id": "parenting_style_firm"
     },
     {
-      "id": "discipline_children_tips_2",
+      "id": "discipline_children_sbg_2",
       "data_list_name": [
-        "tips"
+        "story_block_group"
       ],
       "row_id": "parenting_style_strict"
     },
     {
-      "id": "discipline_children_tips_3",
+      "id": "discipline_children_sbg_3",
       "data_list_name": [
-        "tips"
+        "story_block_group"
       ],
       "row_id": "parenting_style_permissive"
     },
     {
-      "id": "discipline_children_tips_4",
+      "id": "discipline_children_sbg_4",
       "data_list_name": [
-        "tips"
+        "story_block_group"
       ],
       "row_id": "parenting_style_uninvolved"
     },
     {
-      "id": "discipline_children_tips_5",
+      "id": "discipline_children_tips",
       "data_list_name": [
         "tips"
       ],

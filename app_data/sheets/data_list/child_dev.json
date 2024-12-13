@@ -4,13 +4,6 @@
   "status": "released",
   "rows": [
     {
-      "id": "child_dev_relax",
-      "data_list_name": [
-        "relax"
-      ],
-      "row_id": "id_1"
-    },
-    {
       "id": "child_dev_check_in",
       "data_list_name": [
         "check_in"
@@ -18,11 +11,18 @@
       "row_id": "id_1"
     },
     {
-      "id": "current_pract_review_hp",
+      "id": "child_dev_relax",
       "data_list_name": [
-        "review_hp"
+        "relax"
       ],
-      "row_id": "current_pract"
+      "row_id": "id_1"
+    },
+    {
+      "id": "child_dev_objectives",
+      "data_list_name": [
+        "objectives"
+      ],
+      "row_id": "child_dev"
     },
     {
       "id": "child_dev_stages_tbg",
@@ -32,39 +32,32 @@
       "row_id": "dev_stages"
     },
     {
-      "id": "child_dev_tips_1",
+      "id": "child_dev_sbg_1",
       "data_list_name": [
-        "tips"
-      ],
-      "row_id": "child_needs"
-    },
-    {
-      "id": "child_dev_distracted_tbg",
-      "data_list_name": [
-        "topic_block_group"
+        "story_block_group"
       ],
       "row_id": "interactive_play_distracted"
     },
     {
-      "id": "child_dev_control_tbg",
+      "id": "child_dev_sbg_2",
       "data_list_name": [
-        "topic_block_group"
+        "story_block_group"
       ],
       "row_id": "interactive_play_control"
     },
     {
-      "id": "child_dev_lead_tbg",
+      "id": "child_dev_sbg_3",
       "data_list_name": [
-        "topic_block_group"
+        "story_block_group"
       ],
       "row_id": "interactive_child_lead"
     },
     {
-      "id": "child_dev_tips_2",
+      "id": "child_dev_tips",
       "data_list_name": [
         "tips"
       ],
-      "row_id": "parents_attitude"
+      "row_id": "child_needs"
     },
     {
       "id": "child_dev_set_hp",

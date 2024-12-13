@@ -104,12 +104,27 @@
     },
     {
       "name": "store_response_field",
-      "value": "store_response_field",
+      "value": "hp_mood_@local.id",
       "_translations": {
         "value": {}
       },
       "type": "set_variable",
-      "_nested_name": "store_response_field"
+      "_nested_name": "store_response_field",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "hp_mood_@local.id",
+            "matchedExpression": "@local.id",
+            "type": "local",
+            "fieldName": "id"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.id": [
+          "value"
+        ]
+      }
     },
     {
       "name": "answer_list_how",

@@ -4,13 +4,6 @@
   "status": "released",
   "rows": [
     {
-      "id": "conclusion_relax",
-      "data_list_name": [
-        "relax"
-      ],
-      "row_id": "id_1"
-    },
-    {
       "id": "conclusion_check_in",
       "data_list_name": [
         "check_in"
@@ -18,32 +11,32 @@
       "row_id": "id_1"
     },
     {
-      "id": "conclusion_tbg_1",
+      "id": "conclusion_relax",
       "data_list_name": [
-        "topic_block_group"
+        "relax"
+      ],
+      "row_id": "id_1"
+    },
+    {
+      "id": "conclusion_objectives",
+      "data_list_name": [
+        "objectives"
       ],
       "row_id": "conclusion"
     },
     {
-      "id": "parents_web_tbg_2",
+      "id": "parents_web_tbg",
       "data_list_name": [
         "topic_block_group"
       ],
       "row_id": "parents_web"
     },
     {
-      "id": "future_group_tbg_3",
+      "id": "future_group_tbg",
       "data_list_name": [
         "topic_block_group"
       ],
       "row_id": "future_group"
-    },
-    {
-      "id": "closing_tips",
-      "data_list_name": [
-        "tips"
-      ],
-      "row_id": "closing"
     },
     {
       "id": "conclusion_praise",
