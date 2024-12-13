@@ -36,10 +36,5 @@
       }
     }
   ],
-  "_xlsxPath": "global/data_lists/library_data.xlsx",
-  "_metadata": {
-    "show": {
-      "type": "boolean"
-    }
-  }
+  "_xlsxPath": "global/data_lists/library_data.xlsx"
 }

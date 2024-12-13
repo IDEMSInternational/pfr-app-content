@@ -191,10 +191,5 @@
       ]
     }
   ],
-  "_xlsxPath": "global/templates/app_launch_templates.xlsx",
-  "_metadata": {
-    "priority": {
-      "type": "number"
-    }
-  }
+  "_xlsxPath": "global/templates/app_launch_templates.xlsx"
 }

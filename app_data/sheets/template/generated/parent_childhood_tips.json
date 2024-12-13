@@ -1,9 +1,5 @@
 {
-<<<<<<<< HEAD:app_data/sheets/template/generated/parent_childhood_tips.json
   "flow_name": "parent_childhood_tips",
-========
-  "flow_name": "conclusion_tips",
->>>>>>>> ff7317787f2af58cade67c21a7fb9ad44a03cda4:app_data/sheets/template/generated/conclusion_tips.json
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
@@ -34,11 +30,7 @@
       "rows": [
         {
           "name": "id",
-<<<<<<<< HEAD:app_data/sheets/template/generated/parent_childhood_tips.json
           "value": "relation_pregnancy",
-========
-          "value": "conclusion_1",
->>>>>>>> ff7317787f2af58cade67c21a7fb9ad44a03cda4:app_data/sheets/template/generated/conclusion_tips.json
           "_translations": {
             "value": {}
           },

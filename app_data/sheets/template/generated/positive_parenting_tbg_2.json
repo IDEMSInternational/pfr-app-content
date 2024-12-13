@@ -1,9 +1,5 @@
 {
-<<<<<<<< HEAD:app_data/sheets/template/generated/positive_parenting_tbg_2.json
   "flow_name": "positive_parenting_tbg_2",
-========
-  "flow_name": "positive_parenting_tbg",
->>>>>>>> ff7317787f2af58cade67c21a7fb9ad44a03cda4:app_data/sheets/template/generated/positive_parenting_tbg.json
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [

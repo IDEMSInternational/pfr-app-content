@@ -1263,16 +1263,6 @@
         },
         {
           "trigger": "changed",
-          "action_id": "set_field",
-          "args": [
-            "@local.store_response_field",
-            "this.value"
-          ],
-          "_raw": "changed | set_field:@local.store_response_field: @local.text_area",
-          "_cleaned": "changed | set_field:@local.store_response_field: @local.text_area"
-        },
-        {
-          "trigger": "changed",
           "action_id": "set_local",
           "args": [
             "show_feedback",
