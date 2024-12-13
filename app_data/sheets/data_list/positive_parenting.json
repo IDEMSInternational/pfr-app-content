@@ -25,14 +25,14 @@
       "row_id": "positive_parenting"
     },
     {
-      "id": "positive_parenting_sbg_1",
+      "id": "positive_parenting_tbg_1",
       "data_list_name": [
         "story_block_group"
       ],
-      "row_id": "managing_behaviour"
+      "row_id": "positive_parenting"
     },
     {
-      "id": "positive_parenting_tbg",
+      "id": "positive_parenting_tbg_2",
       "data_list_name": [
         "topic_block_group"
       ],

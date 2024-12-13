@@ -11,17 +11,45 @@
     "md5Checksum": "f354f15bcb2ae1229b0870219cb24327",
     "size_kb": 596.6
   },
+  "audio/adolescents_session11.mp3": {
+    "md5Checksum": "ca90a6d56e3d74c73ed2cdd4424f3c46",
+    "size_kb": 150.7
+  },
+  "audio/caregiving_session9.mp3": {
+    "md5Checksum": "ac8762f7e2460853cb1e169af557ef24",
+    "size_kb": 1156
+  },
+  "audio/marital_session10.mp3": {
+    "md5Checksum": "2c92b146a0b8a28b7e4d8afd072a968a",
+    "size_kb": 1007.3
+  },
   "audio/option_1.m4a": {
     "md5Checksum": "19bd81cc4abd88b7ed62eebd43ac42c1",
     "size_kb": 650.2
   },
   "audio/option_2.m4a": {
-    "md5Checksum": "b9623595a753fe3d39d8789ae5a826bf",
-    "size_kb": 976.5
+    "md5Checksum": "9d3bb49a8132c7836d207e03f19922fb",
+    "size_kb": 415.2
+  },
+  "audio/partnership_session13.mp3": {
+    "md5Checksum": "c74631eda5af7e09cb4ca36acd480936",
+    "size_kb": 479.8
+  },
+  "audio/positiverelation_session9.mp3": {
+    "md5Checksum": "4564728e9768a8c4878de8ab3e69d4f8",
+    "size_kb": 1172.1
   },
   "audio/relax/relax_19.mp3": {
     "md5Checksum": "91b71aa328f31c46b56bf7949448ae55",
     "size_kb": 1746.5
+  },
+  "audio/resolve_conflictssession13.mp3": {
+    "md5Checksum": "b6c5926760298ea42bde370019d14426",
+    "size_kb": 479.7
+  },
+  "audio/schoolneeds_.mp3": {
+    "md5Checksum": "c1aedccd8d515004927ba27251e8a0a7",
+    "size_kb": 84.3
   },
   "audio/ssemakula_1.mp3": {
     "md5Checksum": "8429e1a53cfd77742351a0acef7eeef0",
@@ -30,6 +58,14 @@
   "audio/ssemakula_one.mp3": {
     "md5Checksum": "95eeef2a028abd8df8865641643e0d8e",
     "size_kb": 243.5
+  },
+  "audio/staysafe_session14.mp3": {
+    "md5Checksum": "1dfa199c9bdd23785512426aabd46401",
+    "size_kb": 887.3
+  },
+  "audio/violence_session8.mp3": {
+    "md5Checksum": "c4ff43a63c6d2636d957d9208a957604",
+    "size_kb": 169
   },
   "emojis/happier.svg": {
     "md5Checksum": "0950af49455cc3a0f45fdb58a7729f69",
@@ -146,6 +182,10 @@
   "images/conclusion.jpg": {
     "md5Checksum": "f5139cb9bb1744df7d29f0ec5e54eaf8",
     "size_kb": 57
+  },
+  "images/dicipline_childrensession6.png": {
+    "md5Checksum": "c48989fa1b229da2688cac33c2468b93",
+    "size_kb": 2543.2
   },
   "images/discussion_men.jpg": {
     "md5Checksum": "3972917357fc44df60f5acd7aba19e42",
@@ -623,6 +663,10 @@
     "md5Checksum": "6396bb8006738aa21c4482044e9ffaea",
     "size_kb": 304.9
   },
+  "images/notpayattention_session3.png": {
+    "md5Checksum": "e99becb84ab7a5d42e171ef5a8334ca7",
+    "size_kb": 689.1
+  },
   "images/oak_foundation_logo_page-0001.jpg": {
     "md5Checksum": "bebf43043cece3d59e821cf38f951dd7",
     "size_kb": 38
@@ -638,6 +682,10 @@
   "images/parenting_icon.jpg": {
     "md5Checksum": "28c862bcbdc7f5fa579ba762189a1d63",
     "size_kb": 52.1
+  },
+  "images/parenting_teens11.jpg": {
+    "md5Checksum": "309f73c520cc575da9bea8b47d8fe7e7",
+    "size_kb": 314.2
   },
   "images/parents_adressing_children.jpg": {
     "md5Checksum": "8009e976177931a29c13bbeccac0f929",
@@ -678,6 +726,10 @@
   "images/sexual_violence_research_initiative_logo.jpg": {
     "md5Checksum": "a850396cfae4bb31f6d5b3f703f1c26d",
     "size_kb": 75.7
+  },
+  "images/sharing_caresession9.png": {
+    "md5Checksum": "0fdcd4a9031b4552d1f0a510479bd8b2",
+    "size_kb": 1868.7
   },
   "images/shield.svg": {
     "md5Checksum": "7bef996b92b5d2cadd4e1ca2bac7c2d1",
@@ -722,6 +774,10 @@
   "images/sylvia_playing_with_toys_1.jpg": {
     "md5Checksum": "293a31b065de10b0ec6769918b2cdd8f",
     "size_kb": 60.4
+  },
+  "images/too_much_control.png": {
+    "md5Checksum": "f4122b4a3f27c5b1e1c2643b98fe81f5",
+    "size_kb": 632.8
   },
   "images/university_of_glasgow_logo.jpg": {
     "md5Checksum": "b0243bbc95fc38bc796243d51a7969d0",

@@ -4,6 +4,22 @@
   "status": "released",
   "rows": [
     {
+      "id": "onboarding",
+      "topic": "onboarding",
+      "question_1_id": "onboarding",
+      "title": "Quiz",
+      "icon_asset": "images/icons/ask_question.svg",
+      "intro_text": "Let's do a reflection."
+    },
+    {
+      "id": "guidlines",
+      "topic": "onboarding",
+      "question_1_id": "guidlines",
+      "title": "Quiz",
+      "icon_asset": "images/icons/ask_question.svg",
+      "intro_text": "Let's do a reflection."
+    },
+    {
       "id": "child_20",
       "topic": "current_pract",
       "question_1_id": "child_20",
@@ -121,7 +137,7 @@
       "id": "discipline_children",
       "topic": "discipline_children",
       "title": "Types of parenting styles",
-      "intro_text": "There are four different kinds of parenting styles: \n\nFor parents to make use of principles on Love/connectedness & Setting limits and boundaries, we need to understand four parenting styles: Authoritative/Firm Parenting; Strict/Authoritarian; Permissive parenting; Indifferent/Uninvolved parenting;",
+      "intro_text": "There are four different kinds of parenting styles: \n\nFor parents to make use of principles on Love/connectedness & Setting limits and boundaries, we need to understand four parenting styles: \n\n* Authoritative/Firm Parenting\n* Strict/Authoritarian Parenting\n* Permissive parenting\n* Indifferent/Uninvolved parenting",
       "question_1_id": "discipline_children_1",
       "question_2_id": "discipline_children_2",
       "icon_asset": "images/icons/ask_question.svg"
@@ -163,15 +179,26 @@
       "intro_text": "Let's do a reflection."
     },
     {
-      "id": "violence_around",
+      "id": "violence_around_1",
       "topic": "impact_conflict",
       "intro_text": "Follow-up refection",
       "question_1_id": "situation_familiar",
       "question_2_id": "power_violence",
-      "question_3_id": "consequence_conflict",
-      "question_4_id": "relation_violence",
+      "question_3_id": "consequence_conflict_1",
+      "question_4_id": "consequence_conflict_2",
+      "question_5_id": "consequence_conflict_3",
+      "question_6_id": "relation_violence",
       "title": "Quiz",
       "icon_asset": "images/icons/ask_question.svg"
+    },
+    {
+      "id": "violence_around_2",
+      "topic": "impact_conflict",
+      "question_1_id": "normal_1",
+      "question_2_id": "normal_2",
+      "title": "Quiz",
+      "icon_asset": "images/icons/ask_question.svg",
+      "intro_text": "Let's do a reflection."
     },
     {
       "id": "sharing_care",
@@ -207,9 +234,10 @@
       "topic": "parenting_teens",
       "title": "Adolescence and the Race",
       "question_1_id": "encourage_how",
-      "question_2_id": "parent_values",
-      "question_3_id": "religious_values",
-      "question_4_id": "behaviour_influence",
+      "question_2_id": "like_most",
+      "question_3_id": "parent_values",
+      "question_4_id": "religious_values",
+      "question_5_id": "behaviour_influence",
       "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let's do a reflection."
     },

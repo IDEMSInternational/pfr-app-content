@@ -1,12 +1,12 @@
 {
-  "flow_name": "positive_parenting_sbg_1",
+  "flow_name": "positive_parenting_tbg_2",
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
     {
       "type": "template",
-      "name": "story_block_group",
-      "value": "story_block_group",
+      "name": "topic_block_group",
+      "value": "topic_block_group",
       "action_list": [
         {
           "trigger": "completed",
@@ -30,15 +30,15 @@
       "rows": [
         {
           "name": "id",
-          "value": "managing_behaviour",
+          "value": "setting_limits",
           "_translations": {
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "story_block_group.id"
+          "_nested_name": "topic_block_group.id"
         }
       ],
-      "_nested_name": "story_block_group"
+      "_nested_name": "topic_block_group"
     }
   ]
 }

@@ -1100,6 +1100,10 @@
     {
       "type": "combo_box",
       "name": "combo_box",
+      "value": "@fields.@local.store_response_field",
+      "_translations": {
+        "value": {}
+      },
       "condition": "@local.question_type == \"select_multiple\" || @local.question_type == \"select_one\"",
       "parameter_list": {
         "answer_list": "@local.answer_list",
@@ -1129,6 +1133,14 @@
       ],
       "_nested_name": "combo_box",
       "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@fields.@local.store_response_field",
+            "matchedExpression": "@local.store_response_field",
+            "type": "local",
+            "fieldName": "store_response_field"
+          }
+        ],
         "condition": [
           {
             "fullExpression": "@local.question_type == \"select_multiple\" || @local.question_type == \"select_one\"",
@@ -1205,6 +1217,12 @@
         }
       },
       "_dynamicDependencies": {
+        "@local.store_response_field": [
+          "value",
+          "action_list.0.args.0",
+          "action_list.0._raw",
+          "action_list.0._cleaned"
+        ],
         "@local.question_type": [
           "condition",
           "condition"
@@ -1215,11 +1233,6 @@
         "@global.combo_box_placeholder": [
           "parameter_list.placeholder"
         ],
-        "@local.store_response_field": [
-          "action_list.0.args.0",
-          "action_list.0._raw",
-          "action_list.0._cleaned"
-        ],
         "@local.combo_box": [
           "action_list.0._raw",
           "action_list.0._cleaned"
@@ -1229,6 +1242,10 @@
     {
       "type": "text_box",
       "name": "text_box",
+      "value": "@fields.@local.store_response_field",
+      "_translations": {
+        "value": {}
+      },
       "condition": "@local.question_type == \"text_input\"",
       "parameter_list": {
         "text_align": "left"
@@ -1257,6 +1274,14 @@
       ],
       "_nested_name": "text_box",
       "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@fields.@local.store_response_field",
+            "matchedExpression": "@local.store_response_field",
+            "type": "local",
+            "fieldName": "store_response_field"
+          }
+        ],
         "condition": [
           {
             "fullExpression": "@local.question_type == \"text_input\"",
@@ -1309,13 +1334,14 @@
         }
       },
       "_dynamicDependencies": {
-        "@local.question_type": [
-          "condition"
-        ],
         "@local.store_response_field": [
+          "value",
           "action_list.0.args.0",
           "action_list.0._raw",
           "action_list.0._cleaned"
+        ],
+        "@local.question_type": [
+          "condition"
         ],
         "@local.text_box": [
           "action_list.0._raw",
@@ -1326,6 +1352,10 @@
     {
       "type": "text_area",
       "name": "text_area",
+      "value": "@fields.@local.store_response_field",
+      "_translations": {
+        "value": {}
+      },
       "condition": "@local.question_type == \"text_input_long\"",
       "parameter_list": {
         "text_align": "left"
@@ -1354,6 +1384,14 @@
       ],
       "_nested_name": "text_area",
       "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@fields.@local.store_response_field",
+            "matchedExpression": "@local.store_response_field",
+            "type": "local",
+            "fieldName": "store_response_field"
+          }
+        ],
         "condition": [
           {
             "fullExpression": "@local.question_type == \"text_input_long\"",
@@ -1406,13 +1444,14 @@
         }
       },
       "_dynamicDependencies": {
-        "@local.question_type": [
-          "condition"
-        ],
         "@local.store_response_field": [
+          "value",
           "action_list.0.args.0",
           "action_list.0._raw",
           "action_list.0._cleaned"
+        ],
+        "@local.question_type": [
+          "condition"
         ],
         "@local.text_area": [
           "action_list.0._raw",

@@ -7,13 +7,12 @@
       "id": "child_20",
       "topic": "current_pract",
       "question_type": "select_one",
-      "question_text": "What of these relationships do you foresee to have with your child on their 20th birthday?",
-      "option_1_text": "Kind and helpful",
-      "option_2_text": "Honest and trustworthy",
-      "option_3_text": "A good decision-maker",
-      "option_4_text": "Respectful",
-      "option_5_text": "Well behaved",
-      "option_6_text": "Loves his/her parents",
+      "question_text": "What kind of child would you want to have at their 20th birthday?",
+      "option_1_text": "Respectful",
+      "option_2_text": "Independent",
+      "option_3_text": "Has intergrity",
+      "option_4_text": "Thriving",
+      "option_5_text": "Healthy",
       "attached_single_doc": "https://docs.google.com/document/d/1a-k_tt9zY9EkzVuwjPGVRicfciedIeEMzEdNYj3jLr8"
     },
     {
@@ -22,9 +21,9 @@
       "image_asset": "images/parents_children_playing_football.jpg",
       "question_type": "select_one",
       "question_text": "What is happening in this image?",
-      "option_1_text": "The child is kicking a ball",
-      "option_2_text": "The parents are cheering the kids as they play",
-      "option_3_text": "The parents are playing with the kids"
+      "option_1_text": "Child is kicking a ball",
+      "option_2_text": "Parents are cheering the kids as they play",
+      "option_3_text": "Parents are playing with the kids"
     },
     {
       "id": "playing_ease",
@@ -99,7 +98,7 @@
       "option_1_text": "0-5 years (pre-school)",
       "option_2_text": "6-9 years (lower primary)",
       "option_3_text": "10-12 years (upper primary)",
-      "option_4_text": "13-17 years ( teenagers)"
+      "option_4_text": "13-17 years (teenagers)"
     },
     {
       "id": "dev_stage_physical",
@@ -129,27 +128,27 @@
       "id": "david_feel",
       "topic": "child_dev",
       "question_type": "select_one",
-      "question_text": "How does David feel when his mother does pay attention?",
-      "option_1_text": "He feels ignored",
-      "option_2_text": "He feels not loved",
-      "option_3_text": "He feels annoyed",
-      "option_4_text": "He feels frustrated",
-      "option_5_text": "He feels embarrassed"
+      "question_text": "How does the child feel when the parent does pay attention?",
+      "option_1_text": "Feels ignored",
+      "option_2_text": "Feels not loved",
+      "option_3_text": "Feels annoyed",
+      "option_4_text": "Feels frustrated",
+      "option_5_text": "Feels embarrassed"
     },
     {
       "id": "david_mum_feel",
       "topic": "child_dev",
       "question_type": "select_one",
-      "question_text": "How does the mother feel about David?",
-      "option_1_text": "She feels annoyed",
-      "option_2_text": "She feels guilt",
-      "option_3_text": "She feels disturbed"
+      "question_text": "How does the parent feel about the child?",
+      "option_1_text": "Feels annoyed",
+      "option_2_text": "Feels guilt",
+      "option_3_text": "Feels disturbed"
     },
     {
       "id": "father_action",
       "topic": "child_dev",
       "question_type": "select_one",
-      "question_text": "What do you think of Birungi’s father’s actions?",
+      "question_text": "What do you think of the parent's actions?",
       "option_1_text": "Controlling",
       "option_2_text": "Un fair",
       "option_3_text": "Good and training",
@@ -159,11 +158,11 @@
       "id": "father_control",
       "topic": "child_dev",
       "question_type": "select_one",
-      "question_text": "How does Birungi feel when her father controls the game? \"",
-      "option_1_text": "She feels empty",
-      "option_2_text": "She feels angered",
-      "option_3_text": "She feels helpless",
-      "option_4_text": "She feels fear"
+      "question_text": "How does the child feel when the  parent controls the game? \"",
+      "option_1_text": "Feels empty",
+      "option_2_text": "Feels angered",
+      "option_3_text": "Feels helpless",
+      "option_4_text": "Feels fear"
     },
     {
       "id": "mother_attention",
@@ -417,13 +416,34 @@
       "option_2_text": "Yes, there is a relationship between power and violence"
     },
     {
-      "id": "consequence_conflict",
+      "id": "consequence_conflict_1",
       "topic": "impact_conflict",
       "question_type": "select_one",
-      "question_text": "What are the consequences of conflict/violence to women? To the Children? To the Men?",
-      "option_1_text": "Women: Inguiries, Stress and depression, sickness and diseases, family break upmen: Stress and depression, sickness and diseases, family break up",
-      "option_2_text": "Children: Deprivation of food, protection, education and health care, sickness and disease, failure to get parental love",
-      "option_3_text": "Men: Stress and depression, sickness and diseases, family break up"
+      "question_text": "What are the consequences of conflict/violence to women?",
+      "option_1_text": "Inguiries",
+      "option_2_text": "Stress and depression",
+      "option_3_text": "Sickness and diseases",
+      "option_4_text": "Family break up"
+    },
+    {
+      "id": "consequence_conflict_2",
+      "topic": "impact_conflict",
+      "question_type": "select_one",
+      "question_text": "What are the consequences of conflict/violence to children?",
+      "option_1_text": "Deprivation of food",
+      "option_2_text": "Protection",
+      "option_3_text": "Education and health care",
+      "option_4_text": "Sickness and disease",
+      "option_5_text": "Failure to get parental love"
+    },
+    {
+      "id": "consequence_conflict_3",
+      "topic": "impact_conflict",
+      "question_type": "select_one",
+      "question_text": "What are the consequences of conflict/violence to men?",
+      "option_1_text": "Stress and depression",
+      "option_2_text": "Sickness and diseases",
+      "option_3_text": "Family break up"
     },
     {
       "id": "relation_violence",
@@ -436,6 +456,22 @@
       "option_4_text": "Having a family budget and expenditure plan",
       "option_5_text": "Loving and caring for people around us",
       "option_6_text": "Loving and caring for people around us"
+    },
+    {
+      "id": "normal_1",
+      "topic": "impact_conflict",
+      "question_type": "select_one",
+      "question_text": "Is it normal for couple to have supportive relationships like what you have here?",
+      "option_1_text": "Yes",
+      "option_2_text": "No"
+    },
+    {
+      "id": "normal_2",
+      "topic": "impact_conflict",
+      "question_type": "select_one",
+      "question_text": "Is this normal in your own relationship?",
+      "option_1_text": "Yes",
+      "option_2_text": "No"
     },
     {
       "id": "sharing_care_who",
@@ -593,22 +629,38 @@
       "topic": "parenting_teens",
       "question_type": "select_one",
       "question_text": "Reflect to the time when you were an adolescent (10 - 17).  \nHow did it feel to be an adolescent?",
-      "option_1_text": "Exciting",
-      "option_2_text": "Fun",
-      "option_3_text": "Stressful",
-      "option_4_text": "Horrible",
-      "option_5_text": "Moments to remember"
+      "option_1_text": "Stressful",
+      "option_2_text": "Horrible",
+      "option_3_text": "Moments to remember",
+      "option_4_text": "Period of Hope",
+      "option_5_text": "Period of Achieving",
+      "option_6_text": "Restricted Time"
+    },
+    {
+      "id": "like_most",
+      "topic": "parenting_teens",
+      "question_type": "select_one",
+      "question_text": "What were the things you liked doing most?",
+      "option_1_text": "Spending time with parents",
+      "option_2_text": "With friend",
+      "option_3_text": "Suppprtive enviroment",
+      "option_4_text": "Leisure wise",
+      "option_5_text": "Watching movies",
+      "option_6_text": "Going to walks around",
+      "option_7_text": "Shopping without supervision of parents"
     },
     {
       "id": "parent_values",
       "topic": "parenting_teens",
       "question_type": "select_one",
       "question_text": "What were the things you did not like?",
-      "option_1_text": "Strict parents",
+      "option_1_text": "Strict parents abusive schools, staying at school without meals",
       "option_2_text": "Corporal punishment",
       "option_3_text": "Abusive peers",
       "option_4_text": "Distant parents",
-      "option_5_text": "Living in lack"
+      "option_5_text": "Living in lack",
+      "option_6_text": "Restrictions on movement",
+      "option_7_text": "Restrictions on shopping"
     },
     {
       "id": "religious_values",
@@ -616,7 +668,11 @@
       "question_type": "select_one",
       "question_text": "How was your relationship with your parents/caregivers?",
       "option_1_text": "Strict",
-      "option_2_text": "Open"
+      "option_2_text": "Relaxed relationship",
+      "option_3_text": "Generally positive",
+      "option_4_text": "Enjoyed spending time together",
+      "option_5_text": "Conflictual with a lot of disagreements",
+      "option_6_text": "Peer like relationship"
     },
     {
       "id": "behaviour_influence",
@@ -649,7 +705,7 @@
     {
       "id": "different_values",
       "topic": "parenting_teens",
-      "question_type": "select_multiple",
+      "question_type": "select_one",
       "question_text": "What influences young people to behave in ways that are different from their values (possible answers",
       "option_1_text": "Peer pressure",
       "option_2_text": "Opportunity for personal gain",
@@ -742,20 +798,22 @@
       "topic": "gender_equal",
       "question_type": "select_one",
       "question_text": "Why do they have different perspectives?",
-      "option_1_text": "School choice",
-      "option_2_text": "Dress code",
-      "option_3_text": "Religious beliefs",
-      "option_4_text": "Visitation plans"
+      "option_1_text": "Exposure",
+      "option_2_text": "Relationship with children",
+      "option_3_text": "Relationship betwee the couple",
+      "option_4_text": "Level of income and status",
+      "option_5_text": "Morals while growing up social networks",
+      "option_6_text": "Personal dreams and ambtions"
     },
     {
       "id": "community_modify",
       "topic": "gender_equal",
       "question_type": "select_one",
       "question_text": "Identify other common issues where mothers/female caregivers and fathers/male caregivers have different perspectives on parenting issues?",
-      "option_1_text": "Exposure",
-      "option_2_text": "Relationship with children",
-      "option_3_text": "Relationship between the couple",
-      "option_4_text": "Level of income and status"
+      "option_1_text": "School choice",
+      "option_2_text": "Dress code",
+      "option_3_text": "Religious beliefs",
+      "option_4_text": "Visitation plans"
     },
     {
       "id": "prevent_abuse_1",

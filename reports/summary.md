@@ -3,41 +3,31 @@
 
 | type | count |
 | --- | --- |
-| animated_section | 2 |
 | animated_slides | 1 |
-| audio | 4 |
-| button | 32 |
-| carousel | 1 |
-| combo_box | 2 |
+| audio | 2 |
+| button | 26 |
+| combo_box | 3 |
 | dashed_box | 1 |
 | debug_toggle | 1 |
-| display_grid | 2 |
-| display_group | 48 |
-| image | 13 |
-| items | 19 |
+| display_group | 35 |
+| image | 4 |
+| items | 14 |
 | lottie_animation | 2 |
 | navigation_bar | 1 |
-| nested_properties | 1 |
 | pdf | 1 |
-| qr_code | 1 |
 | radio_button_grid | 3 |
 | radio_group | 1 |
-| round_button | 1 |
-| select_text | 1 |
-| set_field | 5 |
-| set_variable | 477 |
-| simple_checkbox | 3 |
-| subtitle | 2 |
+| set_field | 4 |
+| set_variable | 270 |
+| simple_checkbox | 2 |
 | task_card | 3 |
-| template | 152 |
-| text | 77 |
+| template | 137 |
+| text | 44 |
 | text_area | 5 |
-| text_box | 8 |
-| tile_component | 1 |
-| title | 28 |
-| toggle_bar | 1 |
+| text_box | 6 |
+| title | 24 |
 | update_action_list | 2 |
-| video | 2 |
+| video | 1 |
 </details>
 
 <details >
@@ -46,19 +36,19 @@
 | type | count |
 | --- | --- |
 | app_update | 1 |
-| emit: completed | 144 |
+| emit: completed | 138 |
 | emit: force_reload | 5 |
 | emit: force_reprocess | 4 |
 | emit: force_restart | 2 |
 | emit: server_sync | 3 |
 | emit: set_language | 1 |
-| emit: uncompleted | 142 |
-| feedback | 7 |
-| go_to | 13 |
+| emit: uncompleted | 136 |
+| feedback | 3 |
+| go_to | 11 |
 | pop_up | 7 |
 | reset_app | 2 |
-| set_field | 24 |
-| set_local | 13 |
+| set_field | 23 |
+| set_local | 12 |
 | start_tour | 1 |
 </details>
 
@@ -67,8 +57,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 71679 KB | 71.7 MB |
-| unused | 30561 KB | 30.6 MB |
+| total | 80883 KB | 80.9 MB |
+| unused | 32430 KB | 32.4 MB |
 </details>
 
 <details open>
@@ -194,6 +184,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/parenting_icon.jpg | 52.1 |
 | images/physical_safety.jpg | 18.6 |
 | images/sexual_violence_research_initiative_logo.jpg | 75.7 |
+| images/sharing_caresession9.png | 1868.7 |
 | images/south_africa_medical_research_council_logo.jpg | 68.5 |
 | images/star.jpg | 16.9 |
 | images/sylvia_playing _with_toys_2.jpg | 70.5 |
@@ -251,18 +242,28 @@ Assets that are used within sheets and also can be found in the synced asset dat
 
 | path | size_kb | count |
 | --- | --- | --- |
+| audio/adolescents_session11.mp3 | 150.7 | 1 |
+| audio/caregiving_session9.mp3 | 1156 | 1 |
+| audio/marital_session10.mp3 | 1007.3 | 1 |
 | audio/option_1.m4a | 650.2 | 1 |
-| audio/option_2.m4a | 976.5 | 1 |
+| audio/option_2.m4a | 415.2 | 1 |
+| audio/partnership_session13.mp3 | 479.8 | 1 |
+| audio/positiverelation_session9.mp3 | 1172.1 | 1 |
 | audio/relax/relax_19.mp3 | 1746.5 | 1 |
+| audio/resolve_conflictssession13.mp3 | 479.7 | 1 |
+| audio/schoolneeds_.mp3 | 84.3 | 1 |
 | audio/ssemakula_one.mp3 | 243.5 | 1 |
+| audio/staysafe_session14.mp3 | 887.3 | 1 |
+| audio/violence_session8.mp3 | 169 | 1 |
 | emojis/happier.svg | 0.6 | 1 |
 | emojis/neutral.svg | 0.5 | 1 |
 | emojis/sad.svg | 0.6 | 1 |
 | images/cdhc_poster.jpg | 998.5 | 1 |
+| images/dicipline_childrensession6.png | 2543.2 | 1 |
 | images/family.jpg | 840.7 | 1 |
 | images/family_cooking_1.jpg | 439.5 | 1 |
 | images/family_cooking_2.jpg | 389.1 | 1 |
-| images/family_preparing_cereal.jpg | 222.1 | 2 |
+| images/family_preparing_cereal.jpg | 222.1 | 1 |
 | images/family_seated.jpg | 1218.6 | 1 |
 | images/father_children_washing_utensils.jpg | 340.3 | 1 |
 | images/father_dressing_child.jpg | 819.9 | 1 |
@@ -272,16 +273,16 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/firm_parenting_1.jpg | 25 | 1 |
 | images/firm_parenting_2.jpg | 42.8 | 1 |
 | images/gb.svg | 0.5 | 2 |
-| images/icons/ask_question.svg | 1.5 | 32 |
+| images/icons/ask_question.svg | 1.5 | 35 |
 | images/icons/book_white.svg | 0.7 | 2 |
 | images/icons/cup.svg | 1.2 | 34 |
 | images/icons/home_white.svg | 0.9 | 2 |
 | images/icons/in_progress.svg | 1.1 | 3 |
 | images/icons/library_white.svg | 1.1 | 2 |
-| images/icons/light_bulb.svg | 2.6 | 170 |
+| images/icons/light_bulb.svg | 2.6 | 177 |
 | images/icons/paper_pencil.svg | 1.1 | 90 |
 | images/icons/parent_child_heart.svg | 2.9 | 14 |
-| images/icons/picture_book.svg | 1.9 | 55 |
+| images/icons/picture_book.svg | 1.9 | 58 |
 | images/icons/smile.svg | 0.7 | 1 |
 | images/icons/smile_eyes_down.svg | 0.9 | 2 |
 | images/icons/star.svg | 0.6 | 2 |
@@ -297,10 +298,12 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/new/setting_limits.jpg | 349.9 | 1 |
 | images/non_involved_parenting_1.jpg | 81.8 | 1 |
 | images/non_involved_parenting_2.jpg | 304.9 | 1 |
+| images/notpayattention_session3.png | 689.1 | 1 |
+| images/parenting_teens11.jpg | 314.2 | 1 |
 | images/parents_adressing_children.jpg | 323.3 | 1 |
 | images/parents_child_reading.jpg | 1111 | 2 |
 | images/parents_children_playing_football.jpg | 1299.4 | 1 |
-| images/parents_kids_reading_magazine.jpg | 753.7 | 2 |
+| images/parents_kids_reading_magazine.jpg | 753.7 | 1 |
 | images/permissive_parenting_1.jpg | 31.6 | 1 |
 | images/permissive_parenting_2.jpg | 40.1 | 1 |
 | images/pfr_latest_logo.jpg | 7.6 | 4 |
@@ -308,6 +311,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/shield.svg | 2.8 | 1 |
 | images/strict_parenting_1.jpg | 33 | 1 |
 | images/strict_parenting_2.jpg | 17.8 | 1 |
+| images/too_much_control.png | 632.8 | 1 |
 | logos/Evaluation_fund_logo.png | 9.3 | 1 |
 | logos/GPI_logo.png | 14.8 | 1 |
 | logos/SVRI_logo.png | 21.2 | 1 |
@@ -360,7 +364,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | generator |  | 17 |
 | global |  | 2 |
 | template |  | 47 |
-| template | generated | 126 |
+| template | generated | 123 |
 | template | legal_terms | 2 |
 | tour |  | 1 |
 </details>

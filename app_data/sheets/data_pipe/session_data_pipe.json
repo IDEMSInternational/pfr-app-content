@@ -21,12 +21,5 @@
       "output_target": "session_tasks"
     }
   ],
-  "_xlsxPath": "global/data_lists/sessions.xlsx",
-  "_output_flows": [
-    {
-      "flow_name": "session_tasks",
-      "flow_subtype": "generated",
-      "flow_type": "data_list"
-    }
-  ]
+  "_xlsxPath": "global/data_lists/sessions.xlsx"
 }

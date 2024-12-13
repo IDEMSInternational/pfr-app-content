@@ -127,7 +127,7 @@
     {
       "id": "sharing_care",
       "topic": "sharing_care",
-      "question_done": "Did you get a chance to discuss with your partner/children about the benefits and challenges of family time together , and the domestic chores or childcare activity you did with your partner?",
+      "question_done": "Did you get time to discuss with your partner/children about the benefits of family time and ways family members can support one another?",
       "question_how": "How did you find it?",
       "feedback_happy": "Good job on getting you and your family to talk about benefits and challenges of spending family time and the domestic chores or childcare activity you did with them.",
       "outro_text": "You can always find this home practise activity in our session 8 on Sharing Child Care Responsibility",
@@ -207,7 +207,7 @@
     {
       "id": "gender_equal",
       "topic": "gender_equal",
-      "question_done": "Were able to discuss the effects of the gender norms and practices that influenced your adult behaviour and parenting styles today with your children and spouse; and together decide on what you should change?",
+      "question_done": "Were you able to discuss the effects of the gender norms and practices that influenced your adult behaviour and parenting styles today with your children and spouse; and together decide on what you should change?",
       "title": "Review and Objectives",
       "icon_asset": "images/icons/paper_pencil.svg",
       "intro_text": "Your practice for this week was to:\n@data.set_hp.gender_equal.text",

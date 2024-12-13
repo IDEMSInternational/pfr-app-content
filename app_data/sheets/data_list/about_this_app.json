@@ -6,14 +6,14 @@
   "rows": [
     {
       "id": "text_1",
-      "attached_single_doc": "https://docs.google.com/document/d/1kpuc7LsKUv5SHkicFzfazD6dRpWyr41-uAxEEwe4Gmo",
-      "text": "@global.app_name is an app designed by IDEMS International and Parenting for Lifelong Health to support the scale up of Naungan Kasih in Malaysia. The content herein is available under an open source Creative Commons International 4.0 license. It was developed in collaboration with key partners:",
+      "attached_single_doc": "https://docs.google.com/document/d/1aoV2OREU_viEiDlgRM1i5IRHSOlaYcoVsYMRgkjJc2I",
+      "text": "@global.app_name is a free app designed to help parents and caregivers strengthen parental bonding, promote love, and foster positive discipline to improve child upbringing.\n\nIn the Ugandan context, the app supports parents participating in the Parenting for Respectability (PfR) Programme. This program equips fathers and mothers with skills to raise their children in a way that fosters mutual respect between parents and children. PfR also focuses on improving family relationships to prevent violence and create a harmonious home environment.\n\nThe content herein is available under an open source Creative Commons International 4.0 license. It was developed in collaboration with key partners:",
       "_translations": {
         "text": {}
       },
       "_translatedFields": {
         "text": {
-          "eng": "@global.app_name is an app designed by IDEMS International and Parenting for Lifelong Health to support the scale up of Naungan Kasih in Malaysia. The content herein is available under an open source Creative Commons International 4.0 license. It was developed in collaboration with key partners:"
+          "eng": "@global.app_name is a free app designed to help parents and caregivers strengthen parental bonding, promote love, and foster positive discipline to improve child upbringing.\n\nIn the Ugandan context, the app supports parents participating in the Parenting for Respectability (PfR) Programme. This program equips fathers and mothers with skills to raise their children in a way that fosters mutual respect between parents and children. PfR also focuses on improving family relationships to prevent violence and create a harmonious home environment.\n\nThe content herein is available under an open source Creative Commons International 4.0 license. It was developed in collaboration with key partners:"
         }
       }
     }

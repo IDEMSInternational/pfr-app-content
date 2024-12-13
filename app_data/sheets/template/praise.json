@@ -119,6 +119,9 @@
       "_translations": {
         "value": {}
       },
+      "style_list": [
+        "margin: -100px 0"
+      ],
       "condition": "!!(lottie/well_done.json)",
       "_nested_name": "lottie_welldone"
     },

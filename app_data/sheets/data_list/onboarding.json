@@ -18,13 +18,6 @@
       "row_id": "id_1"
     },
     {
-      "id": "onboarding_objectives",
-      "data_list_name": [
-        "objectives"
-      ],
-      "row_id": "onboarding"
-    },
-    {
       "id": "onboarding_pfr_goals",
       "data_list_name": [
         "onboarding_content"

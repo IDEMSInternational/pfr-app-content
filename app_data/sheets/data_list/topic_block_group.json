@@ -37,6 +37,16 @@
       "task_2_id": "caregiver_legacy"
     },
     {
+      "id": "positive_parenting",
+      "topic": "positive_parenting",
+      "title": "Managing difficult behaviour",
+      "icon_asset": "images/icons/picture_book.svg",
+      "task_1_data": "story_block_group",
+      "task_1_id": "managing_behaviour",
+      "task_2_data": "tips",
+      "task_2_id": "positive_parenting"
+    },
+    {
       "id": "setting_limits",
       "topic": "positive_parenting",
       "title": "Setting limits for our children",
@@ -63,11 +73,12 @@
       "topic": "impact_conflict",
       "title": "The violence around me",
       "icon_asset": "images/icons/picture_book.svg",
-      "intro_text": "Here are a story and an activity that will help us explore common causes of conflicts and discuss the consequences of violence on parents and children:",
       "task_1_data": "story_block_group",
-      "task_1_id": "violence_me",
-      "task_2_data": "tips",
-      "task_2_id": "impact_conflict"
+      "task_1_id": "violence_me_1",
+      "task_2_data": "story_block_group",
+      "task_2_id": "violence_me_2",
+      "task_3_data": "tips",
+      "task_3_id": "impact_conflict"
     },
     {
       "id": "sharing_care",

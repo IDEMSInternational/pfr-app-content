@@ -6,23 +6,12 @@ const config = generateDeploymentConfig("pfr");
  * to allow for easier post-processing
  */
 
-config.google_drive = {
-  sheets_folder_ids: ["1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv"],
-  assets_folder_ids: ["1gFEuVLP4r2FVLTuPSMMul5RxhGpYy8TU"],
-};
+config.google_drive.sheets_folder_ids = [ "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv" ]
+config.google_drive.assets_folder_ids = [ "1gFEuVLP4r2FVLTuPSMMul5RxhGpYy8TU" ]
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/pfr-app-content.git",
-  content_tag_latest: "1.1.23",
-};
-
-config.android = {
-  app_id:'international.idems.parenting_for_respectability',
-  app_name:'PfR Parenting App',
-  splash_asset_path: "./app_data/assets/android/splash.png",
-  icon_asset_path: "./app_data/assets/android/icon.png",
-  icon_asset_foreground_path: "./app_data/assets/android/icon.png",
-  icon_asset_background_path: "./app_data/assets/android/icon-background.png",
+  content_tag_latest: "1.1.12",
 };
 
 config.error_logging = {
@@ -30,7 +19,10 @@ config.error_logging = {
 };
 
 config.api.db_name = "pfr"
-config.app_data.output_path = "./app_data";
+config.app_data.output_path = "./app_data"; 
+
+//To reduce app size, exclude draft and uncompressed assets
+config.app_data.assets_filter_function = (fileEntry) => !fileEntry.relativePath.includes("draft") && !fileEntry.relativePath.includes("uncompressed")
 
 //To reduce app size, exclude draft and uncompressed assets
 config.app_data.assets_filter_function = (fileEntry) => !fileEntry.relativePath.includes("draft") && !fileEntry.relativePath.includes("uncompressed")

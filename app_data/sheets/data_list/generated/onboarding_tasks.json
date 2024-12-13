@@ -20,14 +20,6 @@
       "completed_field": "task_onboarding_relax_completed"
     },
     {
-      "id": "onboarding_objectives",
-      "data_list_name": [
-        "objectives"
-      ],
-      "row_id": "onboarding",
-      "completed_field": "task_onboarding_objectives_completed"
-    },
-    {
       "id": "onboarding_pfr_goals",
       "data_list_name": [
         "onboarding_content"
