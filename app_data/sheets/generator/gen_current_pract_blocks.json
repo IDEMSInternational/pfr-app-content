@@ -42,5 +42,52 @@
       ]
     }
   ],
-  "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+  "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+  "_output_flows": [
+    {
+      "flow_name": "current_pract_check_in",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "current_pract_relax",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "current_pract_objectives",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "current_pract_reflect",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "current_pract_tbg",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "current_pract_quiz",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "current_pract_tips",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "current_pract_set_hp",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "current_pract_praise",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    }
+  ]
 }

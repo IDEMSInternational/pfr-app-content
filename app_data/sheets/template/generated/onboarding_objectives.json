@@ -1,16 +1,12 @@
 {
-<<<<<<<< HEAD:app_data/sheets/template/generated/parenting_teens_set_hp.json
-  "flow_name": "parenting_teens_set_hp",
-========
-  "flow_name": "conclusion_set_hp",
->>>>>>>> ff7317787f2af58cade67c21a7fb9ad44a03cda4:app_data/sheets/template/generated/conclusion_set_hp.json
+  "flow_name": "onboarding_objectives",
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
     {
       "type": "template",
-      "name": "set_hp",
-      "value": "set_hp",
+      "name": "objectives",
+      "value": "objectives",
       "action_list": [
         {
           "trigger": "completed",
@@ -34,19 +30,15 @@
       "rows": [
         {
           "name": "id",
-<<<<<<<< HEAD:app_data/sheets/template/generated/parenting_teens_set_hp.json
-          "value": "parenting_teens",
-========
-          "value": "conclusion",
->>>>>>>> ff7317787f2af58cade67c21a7fb9ad44a03cda4:app_data/sheets/template/generated/conclusion_set_hp.json
+          "value": "onboarding",
           "_translations": {
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "set_hp.id"
+          "_nested_name": "objectives.id"
         }
       ],
-      "_nested_name": "set_hp"
+      "_nested_name": "objectives"
     }
   ]
 }

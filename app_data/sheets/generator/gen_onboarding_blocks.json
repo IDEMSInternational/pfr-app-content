@@ -42,5 +42,37 @@
       ]
     }
   ],
-  "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+  "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+  "_output_flows": [
+    {
+      "flow_name": "onboarding_check_in",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "onboarding_relax",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "onboarding_objectives",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "onboarding_pfr_goals",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "onboarding_ground_rules",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "onboarding_praise",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    }
+  ]
 }

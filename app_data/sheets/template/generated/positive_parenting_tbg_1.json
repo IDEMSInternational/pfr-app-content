@@ -1,5 +1,9 @@
 {
+<<<<<<<< HEAD:app_data/sheets/template/generated/positive_parenting_tbg_1.json
   "flow_name": "positive_parenting_tbg_1",
+========
+  "flow_name": "parenting_teens_set_hp",
+>>>>>>>> ff7317787f2af58cade67c21a7fb9ad44a03cda4:app_data/sheets/template/generated/parenting_teens_set_hp.json
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
@@ -30,7 +34,7 @@
       "rows": [
         {
           "name": "id",
-          "value": "positive_parenting",
+          "value": "parenting_teens",
           "_translations": {
             "value": {}
           },

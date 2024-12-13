@@ -42,5 +42,42 @@
       ]
     }
   ],
-  "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+  "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+  "_output_flows": [
+    {
+      "flow_name": "impact_conflict_check_in",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "impact_conflict_relax",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "impact_conflict_objectives",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "impact_conflict_tbg",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "impact_conflict_sbg",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "impact_conflict_set_hp",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "impact_conflict_praise",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    }
+  ]
 }

@@ -24,12 +24,15 @@ config.app_data.output_path = "./app_data";
 //To reduce app size, exclude draft and uncompressed assets
 config.app_data.assets_filter_function = (fileEntry) => !fileEntry.relativePath.includes("draft") && !fileEntry.relativePath.includes("uncompressed")
 
+//To reduce app size, exclude draft and uncompressed assets
+config.app_data.assets_filter_function = (fileEntry) => !fileEntry.relativePath.includes("draft") && !fileEntry.relativePath.includes("uncompressed")
+
 config.app_config.APP_THEMES.available = ["default", "pfr"];
 config.app_config.APP_THEMES.defaultThemeName = "pfr";
-config.app_config.APP_SIDEMENU_DEFAULTS.title = "Parenting for Respectability";
-config.app_config.APP_HEADER_DEFAULTS.title = "Parenting for Respectability";
-config.app_config.NOTIFICATION_DEFAULTS.title = "New message from Parenting for Respectability";
-config.app_config.NOTIFICATION_DEFAULTS.text = "You have a new message from Parenting for Respectability";
+config.app_config.APP_SIDEMENU_DEFAULTS.title = "PfR Parenting App";
+config.app_config.APP_HEADER_DEFAULTS.title = "PfR Parenting App";
+config.app_config.NOTIFICATION_DEFAULTS.title = "New message from PfR Parenting App";
+config.app_config.NOTIFICATION_DEFAULTS.text = "You have a new message from PfR Parenting App";
 config.app_config.TASKS.enabled = true;
 config.app_config.TASKS.taskGroupsListName = "session_tasks"
 

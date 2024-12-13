@@ -152,7 +152,12 @@
     "session_tasks": {
       "flow_name": "session_tasks",
       "flow_subtype": "generated",
-      "flow_type": "data_list"
+      "flow_type": "data_list",
+      "_metadata": {
+        "number": {
+          "type": "number"
+        }
+      }
     },
     "sharing_care_tasks": {
       "flow_name": "sharing_care_tasks",
@@ -187,13 +192,23 @@
       "flow_type": "data_list",
       "flow_name": "library_data",
       "data_list_name": "library",
-      "_xlsxPath": "global/data_lists/library_data.xlsx"
+      "_xlsxPath": "global/data_lists/library_data.xlsx",
+      "_metadata": {
+        "show": {
+          "type": "boolean"
+        }
+      }
     },
     "launch_actions": {
       "flow_type": "data_list",
       "flow_subtype": "lifecycle_actions",
       "flow_name": "launch_actions",
-      "_xlsxPath": "global/templates/app_launch_templates.xlsx"
+      "_xlsxPath": "global/templates/app_launch_templates.xlsx",
+      "_metadata": {
+        "priority": {
+          "type": "number"
+        }
+      }
     },
     "number": {
       "flow_type": "data_list",
@@ -285,7 +300,12 @@
     "session": {
       "flow_type": "data_list",
       "flow_name": "session",
-      "_xlsxPath": "global/data_lists/sessions.xlsx"
+      "_xlsxPath": "global/data_lists/sessions.xlsx",
+      "_metadata": {
+        "number": {
+          "type": "number"
+        }
+      }
     },
     "session_block": {
       "flow_type": "data_list",
@@ -347,12 +367,106 @@
     "session_data_pipe": {
       "flow_type": "data_pipe",
       "flow_name": "session_data_pipe",
-      "_xlsxPath": "global/data_lists/sessions.xlsx"
+      "_xlsxPath": "global/data_lists/sessions.xlsx",
+      "_output_flows": [
+        {
+          "flow_name": "session_tasks",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        }
+      ]
     },
     "session_tasks_data_pipe": {
       "flow_type": "data_pipe",
       "flow_name": "session_tasks_data_pipe",
-      "_xlsxPath": "global/data_lists/session_tasks.xlsx"
+      "_xlsxPath": "global/data_lists/session_tasks.xlsx",
+      "_output_flows": [
+        {
+          "flow_name": "onboarding_tasks",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "family_relation_tasks",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "current_pract_tasks",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "child_dev_tasks",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "parent_childhood_tasks",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "positive_parenting_tasks",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "discipline_children_tasks",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "gender_power_tasks",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "impact_conflict_tasks",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "sharing_care_tasks",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "healthy_relation_tasks",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "parenting_teens_tasks",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "education_tasks",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "gender_equal_tasks",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "prevent_abuse_tasks",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "reduce_conflict_tasks",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "conclusion_tasks",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        }
+      ]
     }
   },
   "generator": {
@@ -366,7 +480,59 @@
         "output_flow_subtype": "generated"
       },
       "session": "child_dev",
-      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+      "_output_flows": [
+        {
+          "flow_name": "child_dev_check_in",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "child_dev_relax",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "child_dev_objectives",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "child_dev_stages_tbg",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "child_dev_sbg_1",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "child_dev_sbg_2",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "child_dev_sbg_3",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "child_dev_tips",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "child_dev_set_hp",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "child_dev_praise",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
     },
     "gen_conclusion_blocks": {
       "flow_type": "generator",
@@ -378,7 +544,49 @@
         "output_flow_subtype": "generated"
       },
       "session": "conclusion",
-      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+      "_output_flows": [
+        {
+          "flow_name": "conclusion_check_in",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "conclusion_relax",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "conclusion_objectives",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "conclusion_tips",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "parents_web_tbg",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "future_group_tbg",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "conclusion_set_hp",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "conclusion_praise",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
     },
     "gen_current_pract_blocks": {
       "flow_type": "generator",
@@ -402,7 +610,64 @@
         "output_flow_subtype": "generated"
       },
       "session": "discipline_children",
-      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+      "_output_flows": [
+        {
+          "flow_name": "discipline_children_check_in",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "discipline_children_relax",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "discpline_child_objectives",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "discipline_children_quiz",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "discipline_children_sbg_1",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "discipline_children_sbg_2",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "discipline_children_sbg_3",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "discipline_children_sbg_4",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "discipline_children_tips",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "discipline_children_set_hp",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "discipline_children_praise",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
     },
     "gen_education_blocks": {
       "flow_type": "generator",
@@ -414,7 +679,44 @@
         "output_flow_subtype": "generated"
       },
       "session": "education",
-      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+      "_output_flows": [
+        {
+          "flow_name": "education_check_in",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "education_relax",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "education_objectives",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "education_tbg",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "education_needs_tbg",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "education_set_hp",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "education_praise",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
     },
     "gen_family_relation_blocks": {
       "flow_type": "generator",
@@ -426,7 +728,39 @@
         "output_flow_subtype": "generated"
       },
       "session": "family_relation",
-      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+      "_output_flows": [
+        {
+          "flow_name": "family_relation_check_in",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "family_relation_relax",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "family_objectives",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "family_relation_tips_1",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "family_relation_set_hp",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "family_relation_praise",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
     },
     "gen_gender_equal_blocks": {
       "flow_type": "generator",
@@ -438,7 +772,49 @@
         "output_flow_subtype": "generated"
       },
       "session": "gender_equal",
-      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+      "_output_flows": [
+        {
+          "flow_name": "gender_equal_relax",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "gender_equal_check_in",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "gender_equal_objectives",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "gender_equal_sbg",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "gender_equal_tbg",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "gender_equal_tips",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "gender_equal_set_hp",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "gender_equal_praise",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
     },
     "gen_gender_power_blocks": {
       "flow_type": "generator",
@@ -450,7 +826,39 @@
         "output_flow_subtype": "generated"
       },
       "session": "gender_power",
-      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+      "_output_flows": [
+        {
+          "flow_name": "gender_power_check_in",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "gender_power_relax",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "gender_power_objectives",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "gender_power_tbg",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "gender_power_tips",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "gender_power_praise",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
     },
     "gen_healthy_relation_blocks": {
       "flow_type": "generator",
@@ -462,7 +870,39 @@
         "output_flow_subtype": "generated"
       },
       "session": "healthy_relation",
-      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+      "_output_flows": [
+        {
+          "flow_name": "healthy_relation_check_in",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "healthy_relation_relax",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "healthy_rshp_objectives",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "healthy_relation_tbg",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "healthy_relation_set_hp",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "healthy_relation_praise",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
     },
     "gen_impact_conflict_blocks": {
       "flow_type": "generator",
@@ -474,7 +914,44 @@
         "output_flow_subtype": "generated"
       },
       "session": "impact_conflict",
-      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+      "_output_flows": [
+        {
+          "flow_name": "impact_conflict_check_in",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "impact_conflict_relax",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "impact_conflict_objectives",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "impact_conflict_tbg",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "impact_conflict_sbg",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "impact_conflict_set_hp",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "impact_conflict_praise",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
     },
     "gen_onboarding_blocks": {
       "flow_type": "generator",
@@ -486,7 +963,39 @@
         "output_flow_subtype": "generated"
       },
       "session": "onboarding",
-      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+      "_output_flows": [
+        {
+          "flow_name": "onboarding_check_in",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "onboarding_relax",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "onboarding_objectives",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "onboarding_pfr_goals",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "onboarding_ground_rules",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "onboarding_praise",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
     },
     "gen_parent_childhood_blocks": {
       "flow_type": "generator",
@@ -498,7 +1007,98 @@
         "output_flow_subtype": "generated"
       },
       "session": "parent_childhood",
-      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+      "_output_flows": [
+        {
+          "flow_name": "parent_childhood_check_in",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "parent_childhood_relax",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "parent_childhood_objectives",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "parent_childhood_legacy_tbg",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "parent_childhood_sbg",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "parent_childhood_tips",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "parent_childhood_set_hp",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "parent_childhood_praise",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
+    },
+    "gen_parenting_teens_blocks": {
+      "flow_type": "generator",
+      "flow_name": "gen_parenting_teens_blocks",
+      "parameter_list": {
+        "input_data_list": "parenting_teens",
+        "output_flow_name": "@gen.id",
+        "output_flow_type": "template",
+        "output_flow_subtype": "generated"
+      },
+      "session": "parenting_teens",
+      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+      "_output_flows": [
+        {
+          "flow_name": "parenting_teens_check_in",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "parenting_teens_relax",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "parenting_teens_objectives",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "parenting_teens_quiz",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "parenting_teens_tbg",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "parenting_teens_set_hp",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "parenting_teens_praise",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
     },
     "gen_parenting_teens_blocks": {
       "flow_type": "generator",
@@ -522,7 +1122,44 @@
         "output_flow_subtype": "generated"
       },
       "session": "positive_parenting",
-      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+      "_output_flows": [
+        {
+          "flow_name": "positive_parenting_check_in",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "positive_parenting_relax",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "positive_parenting_objectives",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "positive_parenting_sbg_1",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "positive_parenting_tbg",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "positive_parenting_tips",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "positive_parenting_praise",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
     },
     "gen_prevent_abuse_blocks": {
       "flow_type": "generator",
@@ -534,7 +1171,44 @@
         "output_flow_subtype": "generated"
       },
       "session": "prevent_abuse",
-      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+      "_output_flows": [
+        {
+          "flow_name": "prevent_abuse_check_in",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "prevent_abuse_relax",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "prevent_abuse_objectives",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "prevent_abuse_tbg_1",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "prevent_abuse_tbg_2",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "prevent_abuse_set_hp",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "prevent_abuse_praise",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
     },
     "gen_reduce_conflict_blocks": {
       "flow_type": "generator",
@@ -546,7 +1220,44 @@
         "output_flow_subtype": "generated"
       },
       "session": "reduce_conflict",
-      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+      "_output_flows": [
+        {
+          "flow_name": "reduce_conflict_check_in",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "reduce_conflict_relax",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "reduce_conflict_objectives",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "reduce_conflict_tbg",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "reduce_conflict_tips",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "reduce_conflict_set_hp",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "reduce_conflict_praise",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
     },
     "gen_sharing_care_blocks": {
       "flow_type": "generator",
@@ -558,7 +1269,39 @@
         "output_flow_subtype": "generated"
       },
       "session": "sharing_care",
-      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx"
+      "_xlsxPath": "global/templates/blocks/generate_blocks.xlsx",
+      "_output_flows": [
+        {
+          "flow_name": "sharing_care_check_in",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sharing_care_relax",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sharing_care_objectives",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sharing_care_tbg",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sharing_care_set_hp",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "sharing_care_praise",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        }
+      ]
     }
   },
   "global": {
@@ -716,6 +1459,11 @@
     },
     "current_pract_check_in": {
       "flow_name": "current_pract_check_in",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "current_pract_objectives": {
+      "flow_name": "current_pract_objectives",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -1026,6 +1774,11 @@
     },
     "onboarding_ground_rules": {
       "flow_name": "onboarding_ground_rules",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "onboarding_objectives": {
+      "flow_name": "onboarding_objectives",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
