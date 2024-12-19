@@ -11,7 +11,7 @@ config.google_drive.assets_folder_ids = [ "1gFEuVLP4r2FVLTuPSMMul5RxhGpYy8TU" ]
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/pfr-app-content.git",
-  content_tag_latest: "1.1.24",
+  content_tag_latest: "1.1.25",
 };
 
 config.error_logging = {
