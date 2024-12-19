@@ -351,6 +351,28 @@
       "option_2_text": "Appreciates the child for returning early"
     },
     {
+      "id": "stereotypes_1",
+      "topic": "gender_power",
+      "question_type": "select_one",
+      "question_text": "What practices should men adapt to help them move from inside the gender box to outside the gender box as they try to become a better spouses and parents?",
+      "option_1_text": "Play with children",
+      "option_2_text": "Spend time with family",
+      "option_3_text": "Support with household chores",
+      "option_4_text": "Have open disussions with their family and actively listen to them",
+      "option_5_text": "Have safe space for as a person to relax and reflect"
+    },
+    {
+      "id": "stereotypes_2",
+      "topic": "gender_power",
+      "question_type": "select_one",
+      "question_text": "What practices should women adapt to help them move from inside the gender box to outside the gender box as they try to become a better spouses and parents?",
+      "option_1_text": "Support their family financially by providing for household expenses",
+      "option_2_text": "Spend more time with their spouse",
+      "option_3_text": "Engage more in formal meetings and engagments",
+      "option_4_text": "Have safe space for as a person to relax and reflect",
+      "option_5_text": "Spend more time with children and family"
+    },
+    {
       "id": "discipline_children_1",
       "topic": "discipline_children",
       "question_type": "text_input",
@@ -781,7 +803,7 @@
       "id": "you_relate",
       "topic": "education",
       "question_type": "select_one",
-      "question_text": "Does this story relate to you?\n\n\n\n<this is a drop down list>\nThe parent should save some time to talk to Carol's teachers\nThe parent should encourage Carol to be accountable.",
+      "question_text": "Does this story relate to you?",
       "option_1_text": "Yes",
       "option_2_text": "No"
     },

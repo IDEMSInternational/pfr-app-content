@@ -4,6 +4,23 @@
   "status": "released",
   "rows": [
     {
+      "type": "update_action_list",
+      "name": "custom_actions_1",
+      "action_list": [
+        {
+          "trigger": "nav_resume",
+          "action_id": "emit",
+          "args": [
+            "force_reload"
+          ],
+          "_raw": "nav_resume | emit: force_reload",
+          "_cleaned": "nav_resume | emit: force_reload"
+        }
+      ],
+      "exclude_from_translation": true,
+      "_nested_name": "custom_actions_1"
+    },
+    {
       "name": "session_id",
       "value": "@fields.current_session",
       "_translations": {
@@ -628,7 +645,7 @@
           },
           "style_list": true,
           "type": "set_variable",
-          "_nested_name": "items_15.now",
+          "_nested_name": "items_16.now",
           "_dynamicFields": {
             "value": [
               {
@@ -652,7 +669,7 @@
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "items_15.join"
+          "_nested_name": "items_16.join"
         },
         {
           "name": "card_click_history",
@@ -662,7 +679,7 @@
           },
           "style_list": true,
           "type": "set_variable",
-          "_nested_name": "items_15.card_click_history"
+          "_nested_name": "items_16.card_click_history"
         },
         {
           "name": "click_history_field_name",
@@ -672,7 +689,7 @@
           },
           "style_list": true,
           "type": "set_variable",
-          "_nested_name": "items_15.click_history_field_name",
+          "_nested_name": "items_16.click_history_field_name",
           "_dynamicFields": {
             "value": [
               {
@@ -725,7 +742,7 @@
           "condition": "!!(@fields.@local.click_history_field_name)",
           "style_list": true,
           "type": "set_variable",
-          "_nested_name": "items_15.item_card_click_history",
+          "_nested_name": "items_16.item_card_click_history",
           "_dynamicFields": {
             "value": [
               {
@@ -769,7 +786,7 @@
           "condition": "!(@fields.@local.click_history_field_name)",
           "style_list": true,
           "type": "set_variable",
-          "_nested_name": "items_15.item_card_click_history",
+          "_nested_name": "items_16.item_card_click_history",
           "_dynamicFields": {
             "value": [
               {
@@ -811,7 +828,7 @@
               },
               "exclude_from_translation": true,
               "type": "set_variable",
-              "_nested_name": "items_15.card_@item.id.session_id",
+              "_nested_name": "items_16.card_@item.id.session_id",
               "_dynamicFields": {
                 "value": [
                   {
@@ -823,7 +840,7 @@
                 ],
                 "_nested_name": [
                   {
-                    "fullExpression": "items_15.card_@item.id.session_id",
+                    "fullExpression": "items_16.card_@item.id.session_id",
                     "matchedExpression": "@item.id.session_id",
                     "type": "item",
                     "fieldName": "id"
@@ -847,7 +864,7 @@
               },
               "exclude_from_translation": true,
               "type": "set_variable",
-              "_nested_name": "items_15.card_@item.id.task_id",
+              "_nested_name": "items_16.card_@item.id.task_id",
               "_dynamicFields": {
                 "value": [
                   {
@@ -859,7 +876,7 @@
                 ],
                 "_nested_name": [
                   {
-                    "fullExpression": "items_15.card_@item.id.task_id",
+                    "fullExpression": "items_16.card_@item.id.task_id",
                     "matchedExpression": "@item.id.task_id",
                     "type": "item",
                     "fieldName": "id"
@@ -876,7 +893,7 @@
               }
             }
           ],
-          "_nested_name": "items_15.card_@item.id",
+          "_nested_name": "items_16.card_@item.id",
           "_dynamicFields": {
             "name": [
               {
@@ -888,7 +905,7 @@
             ],
             "_nested_name": [
               {
-                "fullExpression": "items_15.card_@item.id",
+                "fullExpression": "items_16.card_@item.id",
                 "matchedExpression": "@item.id",
                 "type": "item",
                 "fieldName": "id"
@@ -903,8 +920,8 @@
           }
         }
       ],
-      "name": "items_15",
-      "_nested_name": "items_15",
+      "name": "items_16",
+      "_nested_name": "items_16",
       "_dynamicFields": {
         "value": [
           {

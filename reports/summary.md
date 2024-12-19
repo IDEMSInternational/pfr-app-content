@@ -3,31 +3,41 @@
 
 | type | count |
 | --- | --- |
+| animated_section | 2 |
 | animated_slides | 1 |
-| audio | 2 |
-| button | 26 |
+| audio | 6 |
+| button | 32 |
+| carousel | 1 |
 | combo_box | 3 |
 | dashed_box | 1 |
 | debug_toggle | 1 |
-| display_group | 35 |
-| image | 4 |
-| items | 14 |
+| display_grid | 2 |
+| display_group | 50 |
+| image | 13 |
+| items | 19 |
 | lottie_animation | 2 |
 | navigation_bar | 1 |
+| nested_properties | 1 |
 | pdf | 1 |
+| qr_code | 1 |
 | radio_button_grid | 3 |
 | radio_group | 1 |
-| set_field | 4 |
-| set_variable | 270 |
-| simple_checkbox | 2 |
+| round_button | 1 |
+| select_text | 1 |
+| set_field | 5 |
+| set_variable | 488 |
+| simple_checkbox | 3 |
+| subtitle | 2 |
 | task_card | 3 |
-| template | 137 |
-| text | 44 |
+| template | 149 |
+| text | 77 |
 | text_area | 5 |
-| text_box | 6 |
-| title | 24 |
-| update_action_list | 2 |
-| video | 1 |
+| text_box | 8 |
+| tile_component | 1 |
+| title | 29 |
+| toggle_bar | 1 |
+| update_action_list | 3 |
+| video | 3 |
 </details>
 
 <details >
@@ -36,19 +46,19 @@
 | type | count |
 | --- | --- |
 | app_update | 1 |
-| emit: completed | 138 |
-| emit: force_reload | 5 |
+| emit: completed | 141 |
+| emit: force_reload | 6 |
 | emit: force_reprocess | 4 |
 | emit: force_restart | 2 |
 | emit: server_sync | 3 |
 | emit: set_language | 1 |
-| emit: uncompleted | 136 |
-| feedback | 3 |
-| go_to | 11 |
+| emit: uncompleted | 139 |
+| feedback | 7 |
+| go_to | 13 |
 | pop_up | 7 |
 | reset_app | 2 |
-| set_field | 23 |
-| set_local | 12 |
+| set_field | 25 |
+| set_local | 16 |
 | start_tour | 1 |
 </details>
 
@@ -57,8 +67,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 80883 KB | 80.9 MB |
-| unused | 32430 KB | 32.4 MB |
+| total | 104040 KB | 104 MB |
+| unused | 32844 KB | 32.8 MB |
 </details>
 
 <details open>
@@ -102,6 +112,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/earth.jpg | 29.5 |
 | images/facililtator_diagram.jpg | 154.6 |
 | images/family_praying.jpg | 722.8 |
+| images/family_preparing_cereal.jpg | 222.1 |
 | images/family_time_playing_reading.jpg | 869.7 |
 | images/father_and_moses_1.jpg | 115.6 |
 | images/father_and_moses_2.jpg | 111.7 |
@@ -176,6 +187,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/new/Vicent and Mother.pdf | 165.3 |
 | images/new/What YourChild Wants from You.pdf | 670 |
 | images/new/Woman carrying baby and load.jpg | 126.9 |
+| images/new/child_dev.svg | 192.5 |
 | images/new/setting_limits.pdf | 143.4 |
 | images/new/vicent_mother.jpg | 317.3 |
 | images/oak_foundation_logo_page-0001.jpg | 38 |
@@ -244,6 +256,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | --- | --- | --- |
 | audio/adolescents_session11.mp3 | 150.7 | 1 |
 | audio/caregiving_session9.mp3 | 1156 | 1 |
+| audio/circle_friends.mp3 | 543.2 | 1 |
 | audio/marital_session10.mp3 | 1007.3 | 1 |
 | audio/option_1.m4a | 650.2 | 1 |
 | audio/option_2.m4a | 415.2 | 1 |
@@ -263,7 +276,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/family.jpg | 840.7 | 1 |
 | images/family_cooking_1.jpg | 439.5 | 1 |
 | images/family_cooking_2.jpg | 389.1 | 1 |
-| images/family_preparing_cereal.jpg | 222.1 | 1 |
 | images/family_seated.jpg | 1218.6 | 1 |
 | images/father_children_washing_utensils.jpg | 340.3 | 1 |
 | images/father_dressing_child.jpg | 819.9 | 1 |
@@ -273,7 +285,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/firm_parenting_1.jpg | 25 | 1 |
 | images/firm_parenting_2.jpg | 42.8 | 1 |
 | images/gb.svg | 0.5 | 2 |
-| images/icons/ask_question.svg | 1.5 | 35 |
+| images/icons/ask_question.svg | 1.5 | 36 |
 | images/icons/book_white.svg | 0.7 | 2 |
 | images/icons/cup.svg | 1.2 | 34 |
 | images/icons/home_white.svg | 0.9 | 2 |
@@ -290,7 +302,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/tick.svg | 0.4 | 3 |
 | images/mother_kids_with_magazine.jpg | 838.2 | 2 |
 | images/mother_reading_map_with_children.jpg | 126.8 | 1 |
-| images/new/child_dev.svg | 192.5 | 1 |
 | images/new/gender_inside_male.jpg | 251 | 1 |
 | images/new/gender_outside_female.jpg | 101.5 | 1 |
 | images/new/gender_outside_male.jpg | 67.3 | 1 |
@@ -307,6 +318,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/permissive_parenting_1.jpg | 31.6 | 1 |
 | images/permissive_parenting_2.jpg | 40.1 | 1 |
 | images/pfr_latest_logo.jpg | 7.6 | 4 |
+| images/session_7.png | 471 | 1 |
 | images/sexual_abuse_prevention.jpg | 52.6 | 1 |
 | images/shield.svg | 2.8 | 1 |
 | images/strict_parenting_1.jpg | 33 | 1 |
@@ -343,10 +355,13 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | pdf/facilitator_manual/9_healthy_relation_pfr_manual_2021.pdf | 955.2 | 2 |
 | videos/aboutpfr_session1.mp4 | 2341.8 | 1 |
 | videos/amit_session12.mp4 | 2492.9 | 1 |
+| videos/child_dev.mp4 | 5500.1 | 1 |
 | videos/doreen_2.mp4 | 4061.8 | 1 |
 | videos/doreen_session14.mp4 | 3585.4 | 1 |
 | videos/head_family8.mp4 | 4283.4 | 1 |
 | videos/openness_session15.mp4 | 3636.7 | 1 |
+| videos/positive_rshps.mp4 | 6909.6 | 1 |
+| videos/rshp_vacuum.mp4 | 10147.8 | 1 |
 | videos/vincent.mp4 | 3267 | 1 |
 </details>
 

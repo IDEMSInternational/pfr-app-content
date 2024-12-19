@@ -352,8 +352,7 @@
           "parameter_list": {
             "style": "column"
           },
-          "condition": "@item.id <= @local.no_of_parts",
-          "hidden": "@item.id != @local.show_part_no",
+          "condition": "(@item.id <= @local.no_of_parts) && (@item.id == @local.show_part_no)",
           "rows": [
             {
               "name": "join_id",
@@ -1337,27 +1336,25 @@
             ],
             "condition": [
               {
-                "fullExpression": "@item.id <= @local.no_of_parts",
+                "fullExpression": "(@item.id <= @local.no_of_parts) && (@item.id == @local.show_part_no)",
                 "matchedExpression": "@item.id",
                 "type": "item",
                 "fieldName": "id"
               },
               {
-                "fullExpression": "@item.id <= @local.no_of_parts",
+                "fullExpression": "(@item.id <= @local.no_of_parts) && (@item.id == @local.show_part_no)",
                 "matchedExpression": "@local.no_of_parts",
                 "type": "local",
                 "fieldName": "no_of_parts"
-              }
-            ],
-            "hidden": [
+              },
               {
-                "fullExpression": "@item.id != @local.show_part_no",
+                "fullExpression": "(@item.id <= @local.no_of_parts) && (@item.id == @local.show_part_no)",
                 "matchedExpression": "@item.id",
                 "type": "item",
                 "fieldName": "id"
               },
               {
-                "fullExpression": "@item.id != @local.show_part_no",
+                "fullExpression": "(@item.id <= @local.no_of_parts) && (@item.id == @local.show_part_no)",
                 "matchedExpression": "@local.show_part_no",
                 "type": "local",
                 "fieldName": "show_part_no"
@@ -1376,14 +1373,14 @@
             "@item.id": [
               "name",
               "condition",
-              "hidden",
+              "condition",
               "_nested_name"
             ],
             "@local.no_of_parts": [
               "condition"
             ],
             "@local.show_part_no": [
-              "hidden"
+              "condition"
             ]
           }
         }

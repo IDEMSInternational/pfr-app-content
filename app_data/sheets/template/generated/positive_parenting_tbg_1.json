@@ -5,8 +5,8 @@
   "rows": [
     {
       "type": "template",
-      "name": "story_block_group",
-      "value": "story_block_group",
+      "name": "topic_block_group",
+      "value": "topic_block_group",
       "action_list": [
         {
           "trigger": "completed",
@@ -35,10 +35,10 @@
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "story_block_group.id"
+          "_nested_name": "topic_block_group.id"
         }
       ],
-      "_nested_name": "story_block_group"
+      "_nested_name": "topic_block_group"
     }
   ]
 }

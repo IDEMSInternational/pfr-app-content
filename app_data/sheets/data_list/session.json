@@ -190,5 +190,10 @@
       "attached_single_doc": "https://docs.google.com/document/d/1Rz0NRM4CtCIlThmHF7Knw8Orn7xGe9oYVpKGZs8LrvU"
     }
   ],
-  "_xlsxPath": "global/data_lists/sessions.xlsx"
+  "_xlsxPath": "global/data_lists/sessions.xlsx",
+  "_metadata": {
+    "number": {
+      "type": "number"
+    }
+  }
 }

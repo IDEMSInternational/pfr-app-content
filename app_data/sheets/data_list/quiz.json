@@ -134,6 +134,15 @@
       "intro_text": "Let's do a reflection."
     },
     {
+      "id": "gender_stereotypes_3",
+      "topic": "gender_power",
+      "question_1_id": "stereotypes_1",
+      "question_2_id": "stereotypes_2",
+      "title": "Quiz",
+      "icon_asset": "images/icons/ask_question.svg",
+      "intro_text": "Let's do a reflection."
+    },
+    {
       "id": "discipline_children",
       "topic": "discipline_children",
       "title": "Types of parenting styles",

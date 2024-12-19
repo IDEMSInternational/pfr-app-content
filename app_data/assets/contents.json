@@ -19,6 +19,10 @@
     "md5Checksum": "ac8762f7e2460853cb1e169af557ef24",
     "size_kb": 1156
   },
+  "audio/circle_friends.mp3": {
+    "md5Checksum": "b1bc61835ecfd14640b7df299c7a4812",
+    "size_kb": 543.2
+  },
   "audio/marital_session10.mp3": {
     "md5Checksum": "2c92b146a0b8a28b7e4d8afd072a968a",
     "size_kb": 1007.3
@@ -719,6 +723,10 @@
     "md5Checksum": "a0e7a8a88845f972591e15a1d837188c",
     "size_kb": 18.6
   },
+  "images/session_7.png": {
+    "md5Checksum": "38990f1e4e022c3d3d6016f350bf1489",
+    "size_kb": 471
+  },
   "images/sexual_abuse_prevention.jpg": {
     "md5Checksum": "1e07e18d714a2a8d6268b89bd512d20b",
     "size_kb": 52.6
@@ -1019,6 +1027,10 @@
     "md5Checksum": "befc868a47764427711c00fcd0590983",
     "size_kb": 2492.9
   },
+  "videos/child_dev.mp4": {
+    "md5Checksum": "2f296a67b43b3e0930297f9214d74495",
+    "size_kb": 5500.1
+  },
   "videos/doreen_2.mp4": {
     "md5Checksum": "dbe2fb6789308d7c465a5dab79396b02",
     "size_kb": 4061.8
@@ -1034,6 +1046,14 @@
   "videos/openness_session15.mp4": {
     "md5Checksum": "a5292d8885187f6a1af55b12f3fa0021",
     "size_kb": 3636.7
+  },
+  "videos/positive_rshps.mp4": {
+    "md5Checksum": "cee2e2b4c43eac1480a76def40beb04e",
+    "size_kb": 6909.6
+  },
+  "videos/rshp_vacuum.mp4": {
+    "md5Checksum": "eea4107a07aca8e9a7db1ab8445ce59b",
+    "size_kb": 10147.8
   },
   "videos/vincent.mp4": {
     "md5Checksum": "32ca1a2bc56be0086bd5feebbc48315c",
