@@ -83,6 +83,10 @@
     "md5Checksum": "1020fc8785a8f8aeeadfa74de88c73d3",
     "size_kb": 0.6
   },
+  "images/IMG-20241217-WA0003.jpg": {
+    "md5Checksum": "a92ab4129c626ea90f52511b4469024f",
+    "size_kb": 133.3
+  },
   "images/X/child_dev.png": {
     "md5Checksum": "555458425a8251a6baa6ac770b59d642",
     "size_kb": 440.2
@@ -723,6 +727,10 @@
     "md5Checksum": "a0e7a8a88845f972591e15a1d837188c",
     "size_kb": 18.6
   },
+  "images/session_15.jpg": {
+    "md5Checksum": "618a0802ec849e0eb669138133305d2a",
+    "size_kb": 130.6
+  },
   "images/session_7.png": {
     "md5Checksum": "38990f1e4e022c3d3d6016f350bf1489",
     "size_kb": 471
@@ -798,6 +806,14 @@
   "images/woman_carrying_baby_and_load.jpg": {
     "md5Checksum": "615436c60988fbf23f09391280ae4822",
     "size_kb": 126.9
+  },
+  "logos/CHDC High Res Named Logo.jpg": {
+    "md5Checksum": "86bb259f6cc3838f2f58a1442268e038",
+    "size_kb": 61.6
+  },
+  "logos/CHDC_logo.png": {
+    "md5Checksum": "7a67a77dd882573b6137cee4e6468184",
+    "size_kb": 52
   },
   "logos/Evaluation_fund_logo.png": {
     "md5Checksum": "d28a83d81ed4d0de18f06e551c123703",
