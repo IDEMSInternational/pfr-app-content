@@ -211,13 +211,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "104040 KB",
-        "MB": "104 MB"
+        "KB": "103783 KB",
+        "MB": "103.8 MB"
       },
       {
         "assets": "unused",
-        "KB": "32844 KB",
-        "MB": "32.8 MB"
+        "KB": "33479 KB",
+        "MB": "33.5 MB"
       }
     ]
   },
@@ -238,6 +238,10 @@
       {
         "path": "audio/ssemakula_1.mp3",
         "size_kb": 283.3
+      },
+      {
+        "path": "images/IMG-20241217-WA0003.jpg",
+        "size_kb": 133.3
       },
       {
         "path": "images/X/child_dev.png",
@@ -354,6 +358,10 @@
       {
         "path": "images/facililtator_diagram.jpg",
         "size_kb": 154.6
+      },
+      {
+        "path": "images/family_cooking_1.jpg",
+        "size_kb": 439.5
       },
       {
         "path": "images/family_praying.jpg",
@@ -744,6 +752,10 @@
         "size_kb": 126.9
       },
       {
+        "path": "logos/CHDC High Res Named Logo.jpg",
+        "size_kb": 61.6
+      },
+      {
         "path": "logos/erc.png",
         "size_kb": 105.3
       },
@@ -966,11 +978,6 @@
         "size_kb": 840.7
       },
       {
-        "path": "images/family_cooking_1.jpg",
-        "count": 1,
-        "size_kb": 439.5
-      },
-      {
         "path": "images/family_cooking_2.jpg",
         "count": 1,
         "size_kb": 389.1
@@ -1186,6 +1193,11 @@
         "size_kb": 7.6
       },
       {
+        "path": "images/session_15.jpg",
+        "count": 1,
+        "size_kb": 130.6
+      },
+      {
         "path": "images/session_7.png",
         "count": 1,
         "size_kb": 471
@@ -1214,6 +1226,11 @@
         "path": "images/too_much_control.png",
         "count": 1,
         "size_kb": 632.8
+      },
+      {
+        "path": "logos/CHDC_logo.png",
+        "count": 1,
+        "size_kb": 52
       },
       {
         "path": "logos/Evaluation_fund_logo.png",

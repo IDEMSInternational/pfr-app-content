@@ -67,8 +67,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 104040 KB | 104 MB |
-| unused | 32844 KB | 32.8 MB |
+| total | 103783 KB | 103.8 MB |
+| unused | 33479 KB | 33.5 MB |
 </details>
 
 <details open>
@@ -82,6 +82,7 @@ Assets that appear in app-data but do not have references within sheets
 | android/icon.png | 25.1 |
 | android/splash.png | 596.6 |
 | audio/ssemakula_1.mp3 | 283.3 |
+| images/IMG-20241217-WA0003.jpg | 133.3 |
 | images/X/child_dev.png | 440.2 |
 | images/X/current_pract.png | 578.3 |
 | images/X/current_pract_picture_quiz_1.png | 538.1 |
@@ -111,6 +112,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/discussion_women.jpg | 729.1 |
 | images/earth.jpg | 29.5 |
 | images/facililtator_diagram.jpg | 154.6 |
+| images/family_cooking_1.jpg | 439.5 |
 | images/family_praying.jpg | 722.8 |
 | images/family_preparing_cereal.jpg | 222.1 |
 | images/family_time_playing_reading.jpg | 869.7 |
@@ -208,6 +210,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/university_of_glasgow_logo.jpg | 79 |
 | images/violence_against_children.jpg | 62.5 |
 | images/woman_carrying_baby_and_load.jpg | 126.9 |
+| logos/CHDC High Res Named Logo.jpg | 61.6 |
 | logos/erc.png | 105.3 |
 | logos/erc_blue.png | 96.4 |
 | logos/gcrf.png | 111.7 |
@@ -274,7 +277,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/cdhc_poster.jpg | 998.5 | 1 |
 | images/dicipline_childrensession6.png | 2543.2 | 1 |
 | images/family.jpg | 840.7 | 1 |
-| images/family_cooking_1.jpg | 439.5 | 1 |
 | images/family_cooking_2.jpg | 389.1 | 1 |
 | images/family_seated.jpg | 1218.6 | 1 |
 | images/father_children_washing_utensils.jpg | 340.3 | 1 |
@@ -318,12 +320,14 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/permissive_parenting_1.jpg | 31.6 | 1 |
 | images/permissive_parenting_2.jpg | 40.1 | 1 |
 | images/pfr_latest_logo.jpg | 7.6 | 4 |
+| images/session_15.jpg | 130.6 | 1 |
 | images/session_7.png | 471 | 1 |
 | images/sexual_abuse_prevention.jpg | 52.6 | 1 |
 | images/shield.svg | 2.8 | 1 |
 | images/strict_parenting_1.jpg | 33 | 1 |
 | images/strict_parenting_2.jpg | 17.8 | 1 |
 | images/too_much_control.png | 632.8 | 1 |
+| logos/CHDC_logo.png | 52 | 1 |
 | logos/Evaluation_fund_logo.png | 9.3 | 1 |
 | logos/GPI_logo.png | 14.8 | 1 |
 | logos/SVRI_logo.png | 21.2 | 1 |

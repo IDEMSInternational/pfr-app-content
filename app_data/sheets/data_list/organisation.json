@@ -7,6 +7,7 @@
     {
       "id": "organisation_1",
       "name": "Child Health and Development Centre (CDHC)",
+      "image_asset": "logos/CHDC_logo.png",
       "group": "partners",
       "attached_single_doc": "https://docs.google.com/document/d/1aUMQXgDpGCRkhDW0ywTws3xMtMiQTnSnw1klzB8LT4A"
     },
