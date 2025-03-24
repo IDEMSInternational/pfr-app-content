@@ -6,7 +6,7 @@
 | animated_section | 2 |
 | animated_slides | 1 |
 | audio | 6 |
-| button | 32 |
+| button | 33 |
 | carousel | 1 |
 | combo_box | 3 |
 | dashed_box | 1 |
@@ -54,7 +54,7 @@
 | emit: set_language | 1 |
 | emit: uncompleted | 139 |
 | feedback | 7 |
-| go_to | 13 |
+| go_to | 14 |
 | pop_up | 7 |
 | reset_app | 2 |
 | set_field | 25 |

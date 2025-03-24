@@ -87,26 +87,11 @@
     {
       "type": "title",
       "name": "title",
-      "value": "@global.uuid_title",
+      "value": "User Id",
       "_translations": {
         "value": {}
       },
-      "_nested_name": "title",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@global.uuid_title",
-            "matchedExpression": "@global.uuid_title",
-            "type": "global",
-            "fieldName": "uuid_title"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@global.uuid_title": [
-          "value"
-        ]
-      }
+      "_nested_name": "title"
     },
     {
       "type": "display_group",
