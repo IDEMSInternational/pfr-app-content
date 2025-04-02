@@ -65,10 +65,6 @@
             {
               "type": "text",
               "name": "slogan",
-              "value": "Safe Water, Sanitation and Hygiene (WASH) is beneficial for you and your community",
-              "_translations": {
-                "value": {}
-              },
               "parameter_list": {
                 "text_align": "center"
               },
