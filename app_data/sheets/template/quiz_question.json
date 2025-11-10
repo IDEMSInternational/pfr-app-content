@@ -1117,8 +1117,7 @@
             "@local.store_response_field",
             "this.value"
           ],
-          "_raw": "changed | set_field:@local.store_response_field: @local.combo_box",
-          "_cleaned": "changed | set_field:@local.store_response_field: @local.combo_box"
+          "_raw": "changed | set_field:@local.store_response_field: @local.combo_box"
         },
         {
           "trigger": "changed",
@@ -1127,8 +1126,7 @@
             "show_feedback",
             true
           ],
-          "_raw": "changed | set_local: show_feedback: true",
-          "_cleaned": "changed | set_local: show_feedback: true"
+          "_raw": "changed | set_local: show_feedback: true"
         }
       ],
       "_nested_name": "combo_box",
@@ -1198,20 +1196,6 @@
                 "type": "local",
                 "fieldName": "combo_box"
               }
-            ],
-            "_cleaned": [
-              {
-                "fullExpression": "changed | set_field:@local.store_response_field: @local.combo_box",
-                "matchedExpression": "@local.store_response_field",
-                "type": "local",
-                "fieldName": "store_response_field"
-              },
-              {
-                "fullExpression": "changed | set_field:@local.store_response_field: @local.combo_box",
-                "matchedExpression": "@local.combo_box",
-                "type": "local",
-                "fieldName": "combo_box"
-              }
             ]
           }
         }
@@ -1220,8 +1204,7 @@
         "@local.store_response_field": [
           "value",
           "action_list.0.args.0",
-          "action_list.0._raw",
-          "action_list.0._cleaned"
+          "action_list.0._raw"
         ],
         "@local.question_type": [
           "condition",
@@ -1234,8 +1217,7 @@
           "parameter_list.placeholder"
         ],
         "@local.combo_box": [
-          "action_list.0._raw",
-          "action_list.0._cleaned"
+          "action_list.0._raw"
         ]
       }
     },
@@ -1258,8 +1240,7 @@
             "@local.store_response_field",
             "this.value"
           ],
-          "_raw": "changed | set_field:@local.store_response_field: @local.text_box",
-          "_cleaned": "changed | set_field:@local.store_response_field: @local.text_box"
+          "_raw": "changed | set_field:@local.store_response_field: @local.text_box"
         },
         {
           "trigger": "changed",
@@ -1268,8 +1249,7 @@
             "show_feedback",
             true
           ],
-          "_raw": "changed | set_local: show_feedback: true",
-          "_cleaned": "changed | set_local: show_feedback: true"
+          "_raw": "changed | set_local: show_feedback: true"
         }
       ],
       "_nested_name": "text_box",
@@ -1315,20 +1295,6 @@
                 "type": "local",
                 "fieldName": "text_box"
               }
-            ],
-            "_cleaned": [
-              {
-                "fullExpression": "changed | set_field:@local.store_response_field: @local.text_box",
-                "matchedExpression": "@local.store_response_field",
-                "type": "local",
-                "fieldName": "store_response_field"
-              },
-              {
-                "fullExpression": "changed | set_field:@local.store_response_field: @local.text_box",
-                "matchedExpression": "@local.text_box",
-                "type": "local",
-                "fieldName": "text_box"
-              }
             ]
           }
         }
@@ -1337,15 +1303,13 @@
         "@local.store_response_field": [
           "value",
           "action_list.0.args.0",
-          "action_list.0._raw",
-          "action_list.0._cleaned"
+          "action_list.0._raw"
         ],
         "@local.question_type": [
           "condition"
         ],
         "@local.text_box": [
-          "action_list.0._raw",
-          "action_list.0._cleaned"
+          "action_list.0._raw"
         ]
       }
     },
@@ -1368,8 +1332,7 @@
             "@local.store_response_field",
             "this.value"
           ],
-          "_raw": "changed | set_field:@local.store_response_field: @local.text_area",
-          "_cleaned": "changed | set_field:@local.store_response_field: @local.text_area"
+          "_raw": "changed | set_field:@local.store_response_field: @local.text_area"
         },
         {
           "trigger": "changed",
@@ -1378,8 +1341,7 @@
             "show_feedback",
             true
           ],
-          "_raw": "changed | set_local: show_feedback: true",
-          "_cleaned": "changed | set_local: show_feedback: true"
+          "_raw": "changed | set_local: show_feedback: true"
         }
       ],
       "_nested_name": "text_area",
@@ -1425,20 +1387,6 @@
                 "type": "local",
                 "fieldName": "text_area"
               }
-            ],
-            "_cleaned": [
-              {
-                "fullExpression": "changed | set_field:@local.store_response_field: @local.text_area",
-                "matchedExpression": "@local.store_response_field",
-                "type": "local",
-                "fieldName": "store_response_field"
-              },
-              {
-                "fullExpression": "changed | set_field:@local.store_response_field: @local.text_area",
-                "matchedExpression": "@local.text_area",
-                "type": "local",
-                "fieldName": "text_area"
-              }
             ]
           }
         }
@@ -1447,15 +1395,13 @@
         "@local.store_response_field": [
           "value",
           "action_list.0.args.0",
-          "action_list.0._raw",
-          "action_list.0._cleaned"
+          "action_list.0._raw"
         ],
         "@local.question_type": [
           "condition"
         ],
         "@local.text_area": [
-          "action_list.0._raw",
-          "action_list.0._cleaned"
+          "action_list.0._raw"
         ]
       }
     },
@@ -1506,5 +1452,9 @@
       }
     }
   ],
-  "_xlsxPath": "global/templates/blocks/topic_blocks.xlsx"
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/templates/blocks/topic_blocks.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1Slpd6zd9ChTowqG_m9iFcukg2iz48ASiuaqS5h2DIMk"
+  }
 }

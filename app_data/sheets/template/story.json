@@ -492,8 +492,7 @@
             "current_story_id",
             "@local.id"
           ],
-          "_raw": "click | set_field: current_story_id: @local.id",
-          "_cleaned": "click | set_field: current_story_id: @local.id"
+          "_raw": "click | set_field: current_story_id: @local.id"
         },
         {
           "trigger": "click",
@@ -501,8 +500,7 @@
           "args": [
             "pop_up_text"
           ],
-          "_raw": "click | pop_up: pop_up_text",
-          "_cleaned": "click | pop_up: pop_up_text"
+          "_raw": "click | pop_up: pop_up_text"
         }
       ],
       "_nested_name": "media_transcript",
@@ -534,14 +532,6 @@
                 "type": "local",
                 "fieldName": "id"
               }
-            ],
-            "_cleaned": [
-              {
-                "fullExpression": "click | set_field: current_story_id: @local.id",
-                "matchedExpression": "@local.id",
-                "type": "local",
-                "fieldName": "id"
-              }
             ]
           }
         }
@@ -552,8 +542,7 @@
         ],
         "@local.id": [
           "action_list.0.args.1",
-          "action_list.0._raw",
-          "action_list.0._cleaned"
+          "action_list.0._raw"
         ]
       }
     },
@@ -969,8 +958,7 @@
           "args": [
             "completed"
           ],
-          "_raw": "completed | emit: completed",
-          "_cleaned": "completed | emit: completed"
+          "_raw": "completed | emit: completed"
         },
         {
           "trigger": "uncompleted",
@@ -978,8 +966,7 @@
           "args": [
             "uncompleted"
           ],
-          "_raw": "uncompleted | emit: uncompleted",
-          "_cleaned": "uncompleted | emit: uncompleted"
+          "_raw": "uncompleted | emit: uncompleted"
         }
       ],
       "rows": [],
@@ -1001,5 +988,9 @@
       }
     }
   ],
-  "_xlsxPath": "global/templates/blocks/topic_blocks.xlsx"
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/templates/blocks/topic_blocks.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1Slpd6zd9ChTowqG_m9iFcukg2iz48ASiuaqS5h2DIMk"
+  }
 }

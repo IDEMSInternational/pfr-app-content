@@ -21,7 +21,11 @@
       "output_target": "session_tasks"
     }
   ],
-  "_xlsxPath": "global/data_lists/sessions.xlsx",
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/data_lists/sessions.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/13gypKdpCo_HIVPDmFxZXwwNq8SIjcZQ5LYawGaF21UI"
+  },
   "_output_flows": [
     {
       "flow_name": "session_tasks",

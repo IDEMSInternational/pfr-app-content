@@ -17,10 +17,10 @@
           "args": [
             "language_select"
           ],
-          "_raw": "click | go_to: language_select",
-          "_cleaned": "click | go_to: language_select"
+          "_raw": "click | go_to: language_select"
         }
       ],
+      "condition": false,
       "_nested_name": "button_lang",
       "_dynamicFields": {
         "value": [
@@ -52,8 +52,7 @@
           "args": [
             "user_info"
           ],
-          "_raw": "click | go_to: user_info",
-          "_cleaned": "click | go_to: user_info"
+          "_raw": "click | go_to: user_info"
         }
       ],
       "_nested_name": "button_profile",
@@ -87,8 +86,7 @@
           "args": [
             "user_code"
           ],
-          "_raw": "click | go_to: user_code",
-          "_cleaned": "click | go_to: user_code"
+          "_raw": "click | go_to: user_code"
         }
       ],
       "_nested_name": "button_id"
@@ -107,8 +105,7 @@
           "args": [
             "dev_mode_enter"
           ],
-          "_raw": "click | go_to: dev_mode_enter",
-          "_cleaned": "click | go_to: dev_mode_enter"
+          "_raw": "click | go_to: dev_mode_enter"
         }
       ],
       "condition": "@fields.user_mode",
@@ -143,8 +140,7 @@
           "args": [
             "dev_mode_exit"
           ],
-          "_raw": "click | go_to: dev_mode_exit",
-          "_cleaned": "click | go_to: dev_mode_exit"
+          "_raw": "click | go_to: dev_mode_exit"
         }
       ],
       "condition": "!@fields.user_mode",
@@ -166,5 +162,9 @@
       }
     }
   ],
-  "_xlsxPath": "global/templates/app_settings.xlsx"
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/templates/app_settings.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1Ny82lBYHAG_EHS7qMH3QVvnDBE2IQTQkUnR6MlAStPs"
+  }
 }

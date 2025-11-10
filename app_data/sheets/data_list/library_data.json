@@ -36,7 +36,11 @@
       }
     }
   ],
-  "_xlsxPath": "global/data_lists/library_data.xlsx",
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/data_lists/library_data.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/12mIgiuUYnw-cVwKlLBXFpYzpuJXL6u7J"
+  },
   "_metadata": {
     "show": {
       "type": "boolean"

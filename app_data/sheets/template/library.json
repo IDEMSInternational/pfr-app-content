@@ -91,8 +91,7 @@
                       "args": [
                         "@item.template"
                       ],
-                      "_raw": "click | go_to:@item.template",
-                      "_cleaned": "click | go_to:@item.template"
+                      "_raw": "click | go_to:@item.template"
                     }
                   ],
                   "exclude_from_translation": true,
@@ -124,14 +123,6 @@
                           ]
                         },
                         "_raw": [
-                          {
-                            "fullExpression": "click | go_to:@item.template",
-                            "matchedExpression": "@item.template",
-                            "type": "item",
-                            "fieldName": "template"
-                          }
-                        ],
-                        "_cleaned": [
                           {
                             "fullExpression": "click | go_to:@item.template",
                             "matchedExpression": "@item.template",
@@ -189,8 +180,7 @@
                     ],
                     "@item.template": [
                       "action_list.0.args.0",
-                      "action_list.0._raw",
-                      "action_list.0._cleaned"
+                      "action_list.0._raw"
                     ],
                     "@item.tile_style": [
                       "parameter_list.style"
@@ -267,5 +257,9 @@
       "_nested_name": "tiles"
     }
   ],
-  "_xlsxPath": "global/templates/library.xlsx"
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/templates/library.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1RLDxcLXL_43gtHxAj60SoouOaze644pkj5uilNkRGxg"
+  }
 }

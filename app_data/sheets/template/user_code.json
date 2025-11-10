@@ -293,8 +293,7 @@
             "sync_status",
             "\"syncing...\""
           ],
-          "_raw": "click | set_local: sync_status: \"syncing...\"",
-          "_cleaned": "click | set_local: sync_status: \"syncing...\""
+          "_raw": "click | set_local: sync_status: \"syncing...\""
         },
         {
           "trigger": "click",
@@ -303,8 +302,7 @@
             "sync_status",
             "\"syncing...\""
           ],
-          "_raw": "click | set_local: sync_status: \"syncing...\"",
-          "_cleaned": "click | set_local: sync_status: \"syncing...\""
+          "_raw": "click | set_local: sync_status: \"syncing...\""
         },
         {
           "trigger": "click",
@@ -312,8 +310,7 @@
           "args": [
             "force_reprocess"
           ],
-          "_raw": "click | emit: force_reprocess",
-          "_cleaned": "click | emit: force_reprocess"
+          "_raw": "click | emit: force_reprocess"
         },
         {
           "trigger": "click",
@@ -321,8 +318,7 @@
           "args": [
             "server_sync"
           ],
-          "_raw": "click | emit: server_sync",
-          "_cleaned": "click | emit: server_sync"
+          "_raw": "click | emit: server_sync"
         },
         {
           "trigger": "click",
@@ -331,8 +327,7 @@
             "sync_status",
             ""
           ],
-          "_raw": "click | set_local: sync_status:",
-          "_cleaned": "click | set_local: sync_status:"
+          "_raw": "click | set_local: sync_status:"
         },
         {
           "trigger": "click",
@@ -341,8 +336,7 @@
             "sync_button_clicked",
             true
           ],
-          "_raw": "click | set_local: sync_button_clicked: true",
-          "_cleaned": "click | set_local: sync_button_clicked: true"
+          "_raw": "click | set_local: sync_button_clicked: true"
         },
         {
           "trigger": "click",
@@ -350,8 +344,7 @@
           "args": [
             "force_reprocess"
           ],
-          "_raw": "click | emit: force_reprocess",
-          "_cleaned": "click | emit: force_reprocess"
+          "_raw": "click | emit: force_reprocess"
         }
       ],
       "condition": "!@local.sync_status",
@@ -401,5 +394,9 @@
       }
     }
   ],
-  "_xlsxPath": "global/templates/app_settings.xlsx"
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/templates/app_settings.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1Ny82lBYHAG_EHS7qMH3QVvnDBE2IQTQkUnR6MlAStPs"
+  }
 }

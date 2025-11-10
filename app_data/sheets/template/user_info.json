@@ -214,8 +214,7 @@
             "user_gender",
             "this.value"
           ],
-          "_raw": "changed | set_field: user_gender: @local.combo_box",
-          "_cleaned": "changed | set_field: user_gender: @local.combo_box"
+          "_raw": "changed | set_field: user_gender: @local.combo_box"
         }
       ],
       "parameter_list": {
@@ -236,14 +235,6 @@
         "action_list": {
           "0": {
             "_raw": [
-              {
-                "fullExpression": "changed | set_field: user_gender: @local.combo_box",
-                "matchedExpression": "@local.combo_box",
-                "type": "local",
-                "fieldName": "combo_box"
-              }
-            ],
-            "_cleaned": [
               {
                 "fullExpression": "changed | set_field: user_gender: @local.combo_box",
                 "matchedExpression": "@local.combo_box",
@@ -277,8 +268,7 @@
           "value"
         ],
         "@local.combo_box": [
-          "action_list.0._raw",
-          "action_list.0._cleaned"
+          "action_list.0._raw"
         ],
         "@local.answer_list": [
           "parameter_list.answer_list"
@@ -300,8 +290,7 @@
             "user_name",
             "`@global.user_name_default`"
           ],
-          "_raw": "completed | set_field: user_name:`@global.user_name_default`",
-          "_cleaned": "completed | set_field: user_name:`@global.user_name_default`"
+          "_raw": "completed | set_field: user_name:`@global.user_name_default`"
         },
         {
           "trigger": "uncompleted",
@@ -310,8 +299,7 @@
             "user_name",
             "`@global.user_name_default`"
           ],
-          "_raw": "uncompleted | set_field: user_name:`@global.user_name_default`",
-          "_cleaned": "uncompleted | set_field: user_name:`@global.user_name_default`"
+          "_raw": "uncompleted | set_field: user_name:`@global.user_name_default`"
         },
         {
           "trigger": "completed",
@@ -319,8 +307,7 @@
           "args": [
             "completed"
           ],
-          "_raw": "completed | emit:completed",
-          "_cleaned": "completed | emit:completed"
+          "_raw": "completed | emit:completed"
         },
         {
           "trigger": "uncompleted",
@@ -328,8 +315,7 @@
           "args": [
             "uncompleted"
           ],
-          "_raw": "uncompleted | emit:uncompleted",
-          "_cleaned": "uncompleted | emit:uncompleted"
+          "_raw": "uncompleted | emit:uncompleted"
         }
       ],
       "condition": "!@local.text_box",
@@ -388,14 +374,6 @@
                 "type": "raw",
                 "fieldName": "user_name_default"
               }
-            ],
-            "_cleaned": [
-              {
-                "fullExpression": "completed | set_field: user_name:`@global.user_name_default`",
-                "matchedExpression": "`@global.user_name_default",
-                "type": "raw",
-                "fieldName": "user_name_default"
-              }
             ]
           },
           "1": {
@@ -410,14 +388,6 @@
               ]
             },
             "_raw": [
-              {
-                "fullExpression": "uncompleted | set_field: user_name:`@global.user_name_default`",
-                "matchedExpression": "`@global.user_name_default",
-                "type": "raw",
-                "fieldName": "user_name_default"
-              }
-            ],
-            "_cleaned": [
               {
                 "fullExpression": "uncompleted | set_field: user_name:`@global.user_name_default`",
                 "matchedExpression": "`@global.user_name_default",
@@ -440,10 +410,8 @@
         "`@global.user_name_default": [
           "action_list.0.args.1",
           "action_list.0._raw",
-          "action_list.0._cleaned",
           "action_list.1.args.1",
-          "action_list.1._raw",
-          "action_list.1._cleaned"
+          "action_list.1._raw"
         ],
         "!@local.text_box": [
           "condition"
@@ -462,8 +430,7 @@
             "user_name",
             "@local.text_box"
           ],
-          "_raw": "completed | set_field: user_name: @local.text_box",
-          "_cleaned": "completed | set_field: user_name: @local.text_box"
+          "_raw": "completed | set_field: user_name: @local.text_box"
         },
         {
           "trigger": "uncompleted",
@@ -472,8 +439,7 @@
             "user_name",
             "@local.text_box"
           ],
-          "_raw": "uncompleted | set_field: user_name: @local.text_box",
-          "_cleaned": "uncompleted | set_field: user_name: @local.text_box"
+          "_raw": "uncompleted | set_field: user_name: @local.text_box"
         },
         {
           "trigger": "completed",
@@ -481,8 +447,7 @@
           "args": [
             "completed"
           ],
-          "_raw": "completed | emit:completed",
-          "_cleaned": "completed | emit:completed"
+          "_raw": "completed | emit:completed"
         },
         {
           "trigger": "uncompleted",
@@ -490,8 +455,7 @@
           "args": [
             "uncompleted"
           ],
-          "_raw": "uncompleted | emit:uncompleted",
-          "_cleaned": "uncompleted | emit:uncompleted"
+          "_raw": "uncompleted | emit:uncompleted"
         }
       ],
       "condition": "@local.text_box",
@@ -550,14 +514,6 @@
                 "type": "local",
                 "fieldName": "text_box"
               }
-            ],
-            "_cleaned": [
-              {
-                "fullExpression": "completed | set_field: user_name: @local.text_box",
-                "matchedExpression": "@local.text_box",
-                "type": "local",
-                "fieldName": "text_box"
-              }
             ]
           },
           "1": {
@@ -572,14 +528,6 @@
               ]
             },
             "_raw": [
-              {
-                "fullExpression": "uncompleted | set_field: user_name: @local.text_box",
-                "matchedExpression": "@local.text_box",
-                "type": "local",
-                "fieldName": "text_box"
-              }
-            ],
-            "_cleaned": [
               {
                 "fullExpression": "uncompleted | set_field: user_name: @local.text_box",
                 "matchedExpression": "@local.text_box",
@@ -602,14 +550,16 @@
         "@local.text_box": [
           "action_list.0.args.1",
           "action_list.0._raw",
-          "action_list.0._cleaned",
           "action_list.1.args.1",
           "action_list.1._raw",
-          "action_list.1._cleaned",
           "condition"
         ]
       }
     }
   ],
-  "_xlsxPath": "global/templates/app_settings.xlsx"
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/templates/app_settings.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1Ny82lBYHAG_EHS7qMH3QVvnDBE2IQTQkUnR6MlAStPs"
+  }
 }

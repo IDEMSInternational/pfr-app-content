@@ -189,8 +189,7 @@
           "args": [
             "relax_text"
           ],
-          "_raw": "click | pop_up:relax_text",
-          "_cleaned": "click | pop_up:relax_text"
+          "_raw": "click | pop_up:relax_text"
         }
       ],
       "exclude_from_translation": true,
@@ -221,5 +220,9 @@
       }
     }
   ],
-  "_xlsxPath": "global/templates/blocks/session_blocks.xlsx"
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/templates/blocks/session_blocks.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1M6Ja0xi1_F27-wpGFgzD6qm55_oOclv-FXjlJxlnYtQ"
+  }
 }

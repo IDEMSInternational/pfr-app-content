@@ -67,5 +67,9 @@
       "row_id": "current_pract"
     }
   ],
-  "_xlsxPath": "global/data_lists/session_tasks.xlsx"
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/data_lists/session_tasks.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1-uADZzwvlTNY3z-DAidJI9sfKINJSquHn8XXM3m_RK4"
+  }
 }

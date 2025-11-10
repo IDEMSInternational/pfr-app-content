@@ -28,8 +28,7 @@
           "args": [
             "completed"
           ],
-          "_raw": "completed | emit:completed",
-          "_cleaned": "completed | emit:completed"
+          "_raw": "completed | emit:completed"
         },
         {
           "trigger": "uncompleted",
@@ -37,8 +36,7 @@
           "args": [
             "uncompleted"
           ],
-          "_raw": "uncompleted | emit:uncompleted",
-          "_cleaned": "uncompleted | emit:uncompleted"
+          "_raw": "uncompleted | emit:uncompleted"
         }
       ],
       "parameter_list": {
@@ -113,5 +111,9 @@
       }
     }
   ],
-  "_xlsxPath": "global/templates/app_launch_templates.xlsx"
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/templates/app_launch_templates.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1nJGx0orL46-dTVqYfB8WmZUZlV3tlR9Mbtg3bGWHfsc"
+  }
 }
