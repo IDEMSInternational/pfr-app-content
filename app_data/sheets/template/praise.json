@@ -170,8 +170,7 @@
           "args": [
             "completed"
           ],
-          "_raw": "completed | emit: completed",
-          "_cleaned": "completed | emit: completed"
+          "_raw": "completed | emit: completed"
         },
         {
           "trigger": "uncompleted",
@@ -179,8 +178,7 @@
           "args": [
             "uncompleted"
           ],
-          "_raw": "uncompleted | emit: uncompleted",
-          "_cleaned": "uncompleted | emit: uncompleted"
+          "_raw": "uncompleted | emit: uncompleted"
         }
       ],
       "condition": "@fields.show_nav_buttons",
@@ -212,5 +210,9 @@
       "_nested_name": "set_variable_11"
     }
   ],
-  "_xlsxPath": "global/templates/blocks/session_blocks.xlsx"
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/templates/blocks/session_blocks.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1M6Ja0xi1_F27-wpGFgzD6qm55_oOclv-FXjlJxlnYtQ"
+  }
 }

@@ -529,8 +529,7 @@
             "@local.completed_field",
             true
           ],
-          "_raw": "click | set_field: @local.completed_field: true",
-          "_cleaned": "click | set_field: @local.completed_field: true"
+          "_raw": "click | set_field: @local.completed_field: true"
         },
         {
           "trigger": "click",
@@ -538,8 +537,7 @@
           "args": [
             "force_reload"
           ],
-          "_raw": "click | emit: force_reload",
-          "_cleaned": "click | emit: force_reload"
+          "_raw": "click | emit: force_reload"
         },
         {
           "trigger": "click",
@@ -547,8 +545,7 @@
           "args": [
             "@local.template"
           ],
-          "_raw": "click | go_to: @local.template",
-          "_cleaned": "click | go_to: @local.template"
+          "_raw": "click | go_to: @local.template"
         },
         {
           "trigger": "click",
@@ -557,8 +554,7 @@
             "@local.click_history_field_name",
             "@local.session_card_click_history"
           ],
-          "_raw": "click | set_field:@local.click_history_field_name: @local.session_card_click_history",
-          "_cleaned": "click | set_field:@local.click_history_field_name: @local.session_card_click_history"
+          "_raw": "click | set_field:@local.click_history_field_name: @local.session_card_click_history"
         }
       ],
       "parameter_list": {
@@ -592,14 +588,6 @@
                 "type": "local",
                 "fieldName": "completed_field"
               }
-            ],
-            "_cleaned": [
-              {
-                "fullExpression": "click | set_field: @local.completed_field: true",
-                "matchedExpression": "@local.completed_field",
-                "type": "local",
-                "fieldName": "completed_field"
-              }
             ]
           },
           "2": {
@@ -614,14 +602,6 @@
               ]
             },
             "_raw": [
-              {
-                "fullExpression": "click | go_to: @local.template",
-                "matchedExpression": "@local.template",
-                "type": "local",
-                "fieldName": "template"
-              }
-            ],
-            "_cleaned": [
               {
                 "fullExpression": "click | go_to: @local.template",
                 "matchedExpression": "@local.template",
@@ -650,20 +630,6 @@
               ]
             },
             "_raw": [
-              {
-                "fullExpression": "click | set_field:@local.click_history_field_name: @local.session_card_click_history",
-                "matchedExpression": "@local.click_history_field_name",
-                "type": "local",
-                "fieldName": "click_history_field_name"
-              },
-              {
-                "fullExpression": "click | set_field:@local.click_history_field_name: @local.session_card_click_history",
-                "matchedExpression": "@local.session_card_click_history",
-                "type": "local",
-                "fieldName": "session_card_click_history"
-              }
-            ],
-            "_cleaned": [
               {
                 "fullExpression": "click | set_field:@local.click_history_field_name: @local.session_card_click_history",
                 "matchedExpression": "@local.click_history_field_name",
@@ -718,23 +684,19 @@
         "@local.completed_field": [
           "action_list.0.args.0",
           "action_list.0._raw",
-          "action_list.0._cleaned",
           "parameter_list.completed_field"
         ],
         "@local.template": [
           "action_list.2.args.0",
-          "action_list.2._raw",
-          "action_list.2._cleaned"
+          "action_list.2._raw"
         ],
         "@local.click_history_field_name": [
           "action_list.3.args.0",
-          "action_list.3._raw",
-          "action_list.3._cleaned"
+          "action_list.3._raw"
         ],
         "@local.session_card_click_history": [
           "action_list.3.args.1",
-          "action_list.3._raw",
-          "action_list.3._cleaned"
+          "action_list.3._raw"
         ],
         "@local.task_id": [
           "parameter_list.task_id"
@@ -748,5 +710,9 @@
       }
     }
   ],
-  "_xlsxPath": "global/templates/session_templates.xlsx"
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/templates/session_templates.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1NpR3TmwPxxHqLIfULD33DmXcka4dLlDlINMpn8A_Xto"
+  }
 }

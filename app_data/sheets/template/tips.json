@@ -893,8 +893,7 @@
           "args": [
             "completed"
           ],
-          "_raw": "completed | emit: completed",
-          "_cleaned": "completed | emit: completed"
+          "_raw": "completed | emit: completed"
         },
         {
           "trigger": "uncompleted",
@@ -902,8 +901,7 @@
           "args": [
             "uncompleted"
           ],
-          "_raw": "uncompleted | emit: uncompleted",
-          "_cleaned": "uncompleted | emit: uncompleted"
+          "_raw": "uncompleted | emit: uncompleted"
         }
       ],
       "condition": "@fields.show_nav_buttons",
@@ -926,5 +924,9 @@
       }
     }
   ],
-  "_xlsxPath": "global/templates/blocks/topic_blocks.xlsx"
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/templates/blocks/topic_blocks.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1Slpd6zd9ChTowqG_m9iFcukg2iz48ASiuaqS5h2DIMk"
+  }
 }

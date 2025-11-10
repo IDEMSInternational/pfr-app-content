@@ -21,20 +21,19 @@
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 3 |
-| radio_group | 1 |
 | round_button | 1 |
 | select_text | 1 |
 | set_field | 5 |
-| set_variable | 488 |
+| set_variable | 480 |
 | simple_checkbox | 3 |
 | subtitle | 2 |
 | task_card | 3 |
-| template | 149 |
+| template | 148 |
 | text | 77 |
 | text_area | 5 |
 | text_box | 8 |
 | tile_component | 1 |
-| title | 29 |
+| title | 28 |
 | toggle_bar | 1 |
 | update_action_list | 3 |
 | video | 3 |
@@ -46,12 +45,11 @@
 | type | count |
 | --- | --- |
 | app_update | 1 |
-| emit: completed | 141 |
-| emit: force_reload | 6 |
+| emit: completed | 140 |
+| emit: force_reload | 5 |
 | emit: force_reprocess | 4 |
 | emit: force_restart | 2 |
 | emit: server_sync | 3 |
-| emit: set_language | 1 |
 | emit: uncompleted | 139 |
 | feedback | 7 |
 | go_to | 14 |
@@ -142,6 +140,8 @@ Assets that appear in app-data but do not have references within sheets
 | images/head.jpg | 102.4 |
 | images/human_head.jpg | 153.3 |
 | images/icon_medal.jpg | 5 |
+| images/icons/arrow_back.svg | 0.2 |
+| images/icons/arrow_forward.svg | 0.2 |
 | images/icons/book.svg | 0.8 |
 | images/icons/faces/happy.svg | 1.3 |
 | images/icons/faces/neutral.svg | 0.5 |
@@ -382,8 +382,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | data_pipe |  | 2 |
 | generator |  | 17 |
 | global |  | 2 |
-| template |  | 47 |
+| template |  | 46 |
 | template | generated | 123 |
 | template | legal_terms | 2 |
-| tour |  | 1 |
 </details>

@@ -71,8 +71,7 @@
           "args": [
             "app_menu_terms"
           ],
-          "_raw": "click | pop_up: app_menu_terms",
-          "_cleaned": "click | pop_up: app_menu_terms"
+          "_raw": "click | pop_up: app_menu_terms"
         }
       ],
       "_nested_name": "button_1",
@@ -106,8 +105,7 @@
           "args": [
             "app_menu_privacy_policy"
           ],
-          "_raw": "click | pop_up: app_menu_privacy_policy",
-          "_cleaned": "click | pop_up: app_menu_privacy_policy"
+          "_raw": "click | pop_up: app_menu_privacy_policy"
         }
       ],
       "_nested_name": "button_2",
@@ -201,8 +199,7 @@
           "args": [
             "accept_terms_warning"
           ],
-          "_raw": "completed | pop_up: accept_terms_warning",
-          "_cleaned": "completed | pop_up: accept_terms_warning"
+          "_raw": "completed | pop_up: accept_terms_warning"
         }
       ],
       "condition": "!@local.checkbox",
@@ -266,8 +263,7 @@
           "args": [
             "completed"
           ],
-          "_raw": "completed | emit:completed",
-          "_cleaned": "completed | emit:completed"
+          "_raw": "completed | emit:completed"
         },
         {
           "trigger": "completed",
@@ -276,8 +272,7 @@
             "terms_v20230301_accepted",
             true
           ],
-          "_raw": "completed | set_field: terms_v20230301_accepted: true",
-          "_cleaned": "completed | set_field: terms_v20230301_accepted: true"
+          "_raw": "completed | set_field: terms_v20230301_accepted: true"
         },
         {
           "trigger": "uncompleted",
@@ -285,8 +280,7 @@
           "args": [
             "uncompleted"
           ],
-          "_raw": "uncompleted | emit:uncompleted",
-          "_cleaned": "uncompleted | emit:uncompleted"
+          "_raw": "uncompleted | emit:uncompleted"
         }
       ],
       "condition": "@local.checkbox",
@@ -340,5 +334,9 @@
       }
     }
   ],
-  "_xlsxPath": "global/templates/app_launch_templates.xlsx"
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/templates/app_launch_templates.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1nJGx0orL46-dTVqYfB8WmZUZlV3tlR9Mbtg3bGWHfsc"
+  }
 }

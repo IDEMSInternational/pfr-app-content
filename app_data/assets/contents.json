@@ -375,6 +375,14 @@
     "md5Checksum": "794a6cb601af82d57d1f4cebc2a416ef",
     "size_kb": 5
   },
+  "images/icons/arrow_back.svg": {
+    "md5Checksum": "0249b57ccd71d1e9cb89b819276421d6",
+    "size_kb": 0.2
+  },
+  "images/icons/arrow_forward.svg": {
+    "md5Checksum": "9360b7e487b65f44b56b4eebb182e0cb",
+    "size_kb": 0.2
+  },
   "images/icons/ask_question.svg": {
     "md5Checksum": "f49c01cd661f8586c3dfc4b31c559d4d",
     "size_kb": 1.5

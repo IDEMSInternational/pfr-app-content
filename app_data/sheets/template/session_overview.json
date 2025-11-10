@@ -13,8 +13,7 @@
           "args": [
             "force_reload"
           ],
-          "_raw": "nav_resume | emit: force_reload",
-          "_cleaned": "nav_resume | emit: force_reload"
+          "_raw": "nav_resume | emit: force_reload"
         }
       ],
       "exclude_from_translation": true,
@@ -459,8 +458,7 @@
                     "current_session",
                     "@local.session_id"
                   ],
-                  "_raw": "click | set_field: current_session: @local.session_id",
-                  "_cleaned": "click | set_field: current_session: @local.session_id"
+                  "_raw": "click | set_field: current_session: @local.session_id"
                 },
                 {
                   "trigger": "click",
@@ -468,8 +466,7 @@
                   "args": [
                     "manual_pdf"
                   ],
-                  "_raw": "click | go_to: manual_pdf",
-                  "_cleaned": "click | go_to: manual_pdf"
+                  "_raw": "click | go_to: manual_pdf"
                 }
               ],
               "parameter_list": {
@@ -497,14 +494,6 @@
                         "type": "local",
                         "fieldName": "session_id"
                       }
-                    ],
-                    "_cleaned": [
-                      {
-                        "fullExpression": "click | set_field: current_session: @local.session_id",
-                        "matchedExpression": "@local.session_id",
-                        "type": "local",
-                        "fieldName": "session_id"
-                      }
                     ]
                   }
                 },
@@ -521,7 +510,6 @@
                 "@local.session_id": [
                   "action_list.0.args.1",
                   "action_list.0._raw",
-                  "action_list.0._cleaned",
                   "condition"
                 ]
               }
@@ -939,5 +927,9 @@
       }
     }
   ],
-  "_xlsxPath": "global/templates/session_templates.xlsx"
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/templates/session_templates.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1NpR3TmwPxxHqLIfULD33DmXcka4dLlDlINMpn8A_Xto"
+  }
 }

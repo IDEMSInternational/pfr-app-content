@@ -24,8 +24,7 @@
               "args": [
                 "uncompleted"
               ],
-              "_raw": "click | emit:uncompleted",
-              "_cleaned": "click | emit:uncompleted"
+              "_raw": "click | emit:uncompleted"
             }
           ],
           "parameter_list": {
@@ -48,8 +47,7 @@
               "args": [
                 "completed"
               ],
-              "_raw": "click | emit:completed",
-              "_cleaned": "click | emit:completed"
+              "_raw": "click | emit:completed"
             }
           ],
           "parameter_list": {
@@ -62,5 +60,9 @@
       "_nested_name": "buttons"
     }
   ],
-  "_xlsxPath": "global/templates/session_templates.xlsx"
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/templates/session_templates.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1NpR3TmwPxxHqLIfULD33DmXcka4dLlDlINMpn8A_Xto"
+  }
 }

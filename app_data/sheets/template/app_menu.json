@@ -17,8 +17,7 @@
           "args": [
             "app_about"
           ],
-          "_raw": "click | go_to: app_about",
-          "_cleaned": "click | go_to: app_about"
+          "_raw": "click | go_to: app_about"
         }
       ],
       "_nested_name": "button_about"
@@ -37,8 +36,7 @@
           "args": [
             "app_menu_terms"
           ],
-          "_raw": "click | go_to: app_menu_terms",
-          "_cleaned": "click | go_to: app_menu_terms"
+          "_raw": "click | go_to: app_menu_terms"
         }
       ],
       "_nested_name": "button_terms",
@@ -72,8 +70,7 @@
           "args": [
             "app_menu_privacy_policy"
           ],
-          "_raw": "click | go_to: app_menu_privacy_policy",
-          "_cleaned": "click | go_to: app_menu_privacy_policy"
+          "_raw": "click | go_to: app_menu_privacy_policy"
         }
       ],
       "_nested_name": "button_privacy",
@@ -107,8 +104,7 @@
           "args": [
             "user_code"
           ],
-          "_raw": "click | go_to: user_code",
-          "_cleaned": "click | go_to: user_code"
+          "_raw": "click | go_to: user_code"
         }
       ],
       "_nested_name": "button_id"
@@ -127,8 +123,7 @@
           "args": [
             "open"
           ],
-          "_raw": "click | feedback:open",
-          "_cleaned": "click | feedback:open"
+          "_raw": "click | feedback:open"
         },
         {
           "trigger": "click",
@@ -136,8 +131,7 @@
           "args": [
             "force_reprocess"
           ],
-          "_raw": "click | emit: force_reprocess",
-          "_cleaned": "click | emit: force_reprocess"
+          "_raw": "click | emit: force_reprocess"
         }
       ],
       "condition": "!@fields._feedback_sidebar_open",
@@ -172,8 +166,7 @@
           "args": [
             "close"
           ],
-          "_raw": "click | feedback:close",
-          "_cleaned": "click | feedback:close"
+          "_raw": "click | feedback:close"
         },
         {
           "trigger": "click",
@@ -181,8 +174,7 @@
           "args": [
             "force_reprocess"
           ],
-          "_raw": "click | emit: force_reprocess",
-          "_cleaned": "click | emit: force_reprocess"
+          "_raw": "click | emit: force_reprocess"
         }
       ],
       "condition": "@fields._feedback_sidebar_open",
@@ -217,8 +209,7 @@
           "args": [
             "/template"
           ],
-          "_raw": "click | go_to:/template",
-          "_cleaned": "click | go_to:/template"
+          "_raw": "click | go_to:/template"
         }
       ],
       "_nested_name": "button_templates"
@@ -237,10 +228,10 @@
           "args": [
             "home_screen_tour"
           ],
-          "_raw": "click | start_tour: home_screen_tour",
-          "_cleaned": "click | start_tour: home_screen_tour"
+          "_raw": "click | start_tour: home_screen_tour"
         }
       ],
+      "condition": false,
       "_nested_name": "button_tour",
       "_dynamicFields": {
         "value": [
@@ -270,8 +261,7 @@
           "trigger": "click",
           "action_id": "reset_app",
           "args": [],
-          "_raw": "click | reset_app",
-          "_cleaned": "click | reset_app"
+          "_raw": "click | reset_app"
         }
       ],
       "_nested_name": "button_reset"
@@ -300,8 +290,7 @@
                 "show_nav_buttons",
                 "this.value"
               ],
-              "_raw": "changed | set_field: show_nav_buttons: this.value",
-              "_cleaned": "changed | set_field: show_nav_buttons: this.value"
+              "_raw": "changed | set_field: show_nav_buttons: this.value"
             }
           ],
           "_nested_name": "dg_navigation.toggle_navigation",
@@ -337,5 +326,9 @@
       "_nested_name": "dg_navigation"
     }
   ],
-  "_xlsxPath": "global/templates/navigation_templates.xlsx"
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/templates/navigation_templates.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1-WrPl1r3S_KKfJl4S-Uv5zMX12BvjHXXckk37BtA0Z8"
+  }
 }

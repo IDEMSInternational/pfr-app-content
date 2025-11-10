@@ -42,8 +42,7 @@
               "args": [
                 "cancel"
               ],
-              "_raw": "click | feedback:cancel",
-              "_cleaned": "click | feedback:cancel"
+              "_raw": "click | feedback:cancel"
             }
           ],
           "exclude_from_translation": true,
@@ -64,8 +63,7 @@
                 "submit",
                 "@local.feedback **by @fields.user_name**"
               ],
-              "_raw": "click | feedback:submit:@local.feedback **by @fields.user_name**",
-              "_cleaned": "click | feedback:submit:@local.feedback **by @fields.user_name**"
+              "_raw": "click | feedback:submit:@local.feedback **by @fields.user_name**"
             }
           ],
           "exclude_from_translation": true,
@@ -102,20 +100,6 @@
                     "type": "fields",
                     "fieldName": "user_name"
                   }
-                ],
-                "_cleaned": [
-                  {
-                    "fullExpression": "click | feedback:submit:@local.feedback **by @fields.user_name**",
-                    "matchedExpression": "@local.feedback",
-                    "type": "local",
-                    "fieldName": "feedback"
-                  },
-                  {
-                    "fullExpression": "click | feedback:submit:@local.feedback **by @fields.user_name**",
-                    "matchedExpression": "@fields.user_name",
-                    "type": "fields",
-                    "fieldName": "user_name"
-                  }
                 ]
               }
             }
@@ -123,13 +107,11 @@
           "_dynamicDependencies": {
             "@local.feedback": [
               "action_list.0.args.1",
-              "action_list.0._raw",
-              "action_list.0._cleaned"
+              "action_list.0._raw"
             ],
             "@fields.user_name": [
               "action_list.0.args.1",
-              "action_list.0._raw",
-              "action_list.0._cleaned"
+              "action_list.0._raw"
             ]
           }
         }
@@ -137,5 +119,9 @@
       "_nested_name": "dg_buttons"
     }
   ],
-  "_xlsxPath": "global/templates/feedback_templates.xlsx"
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/templates/feedback_templates.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1LqKyMfC6o5xEE8sHp-Q-cTr2saTSu-Em_BzY_eoXhWQ"
+  }
 }

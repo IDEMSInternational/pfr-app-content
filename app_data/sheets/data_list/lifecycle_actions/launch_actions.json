@@ -18,8 +18,7 @@
           "args": [
             "complete"
           ],
-          "_raw": "app_update: complete",
-          "_cleaned": "click | app_update: complete"
+          "_raw": "app_update: complete"
         }
       ]
     },
@@ -38,7 +37,6 @@
             "splash_screens"
           ],
           "_raw": "pop_up: splash_screens | fullscreen: true, showCloseButton: false",
-          "_cleaned": "click | pop_up: splash_screens | fullscreen: true, showCloseButton: false",
           "params": {
             "fullscreen": true,
             "showCloseButton": false
@@ -51,48 +49,14 @@
             "splash_screens_viewed",
             true
           ],
-          "_raw": "set_field: splash_screens_viewed: true",
-          "_cleaned": "click | set_field: splash_screens_viewed: true"
-        }
-      ]
-    },
-    {
-      "lifecycle_event": "app_start",
-      "id": "app_start_language_select",
-      "priority": 3,
-      "condition_list": [
-        "!@fields.language_selected && @fields.user_mode"
-      ],
-      "action_list": [
-        {
-          "trigger": "click",
-          "action_id": "pop_up",
-          "args": [
-            "language_select"
-          ],
-          "_raw": "pop_up: language_select | fullscreen: true, showCloseButton: false",
-          "_cleaned": "click | pop_up: language_select | fullscreen: true, showCloseButton: false",
-          "params": {
-            "fullscreen": true,
-            "showCloseButton": false
-          }
-        },
-        {
-          "trigger": "click",
-          "action_id": "set_field",
-          "args": [
-            "language_selected",
-            true
-          ],
-          "_raw": "set_field: language_selected: true",
-          "_cleaned": "click | set_field: language_selected: true"
+          "_raw": "set_field: splash_screens_viewed: true"
         }
       ]
     },
     {
       "lifecycle_event": "app_start",
       "id": "app_start_accept_terms",
-      "priority": 4,
+      "priority": 3,
       "condition_list": [
         "!@fields.terms_v20230301_accepted && @fields.user_mode"
       ],
@@ -104,7 +68,6 @@
             "accept_terms"
           ],
           "_raw": "pop_up: accept_terms | fullscreen: true, showCloseButton: false",
-          "_cleaned": "click | pop_up: accept_terms | fullscreen: true, showCloseButton: false",
           "params": {
             "fullscreen": true,
             "showCloseButton": false
@@ -115,7 +78,7 @@
     {
       "lifecycle_event": "app_start",
       "id": "app_start_user_info",
-      "priority": 5,
+      "priority": 4,
       "condition_list": [
         "!@fields.user_info_submitted && @fields.user_mode"
       ],
@@ -127,7 +90,6 @@
             "user_info"
           ],
           "_raw": "pop_up: user_info | fullscreen: true, showCloseButton: false",
-          "_cleaned": "click | pop_up: user_info | fullscreen: true, showCloseButton: false",
           "params": {
             "fullscreen": true,
             "showCloseButton": false
@@ -140,44 +102,14 @@
             "user_info_submitted",
             true
           ],
-          "_raw": "set_field: user_info_submitted: true",
-          "_cleaned": "click | set_field: user_info_submitted: true"
-        }
-      ]
-    },
-    {
-      "lifecycle_event": "app_start",
-      "id": "app_start_home_screen_tour",
-      "priority": 6,
-      "condition_list": [
-        "!@fields.home_screen_tour_viewed && @fields.user_mode"
-      ],
-      "action_list": [
-        {
-          "trigger": "click",
-          "action_id": "start_tour",
-          "args": [
-            "home_screen_tour"
-          ],
-          "_raw": "start_tour: home_screen_tour",
-          "_cleaned": "click | start_tour: home_screen_tour"
-        },
-        {
-          "trigger": "click",
-          "action_id": "set_field",
-          "args": [
-            "home_screen_tour_viewed",
-            true
-          ],
-          "_raw": "set_field: home_screen_tour_viewed: true",
-          "_cleaned": "click | set_field: home_screen_tour_viewed: true"
+          "_raw": "set_field: user_info_submitted: true"
         }
       ]
     },
     {
       "lifecycle_event": "app_start",
       "id": "app_start_update_prompt",
-      "priority": 7,
+      "priority": 5,
       "action_list": [
         {
           "trigger": "click",
@@ -185,13 +117,16 @@
           "args": [
             "prompt"
           ],
-          "_raw": "app_update: prompt",
-          "_cleaned": "click | app_update: prompt"
+          "_raw": "app_update: prompt"
         }
       ]
     }
   ],
-  "_xlsxPath": "global/templates/app_launch_templates.xlsx",
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/templates/app_launch_templates.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1nJGx0orL46-dTVqYfB8WmZUZlV3tlR9Mbtg3bGWHfsc"
+  },
   "_metadata": {
     "priority": {
       "type": "number"
