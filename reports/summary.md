@@ -8,7 +8,7 @@
 | audio | 6 |
 | button | 33 |
 | carousel | 1 |
-| combo_box | 3 |
+| combo_box | 5 |
 | dashed_box | 1 |
 | debug_toggle | 1 |
 | display_grid | 2 |
@@ -24,14 +24,14 @@
 | round_button | 1 |
 | select_text | 1 |
 | set_field | 5 |
-| set_variable | 480 |
+| set_variable | 489 |
 | simple_checkbox | 3 |
 | subtitle | 2 |
 | task_card | 3 |
 | template | 148 |
-| text | 77 |
+| text | 81 |
 | text_area | 5 |
-| text_box | 8 |
+| text_box | 10 |
 | tile_component | 1 |
 | title | 28 |
 | toggle_bar | 1 |
@@ -55,7 +55,7 @@
 | go_to | 14 |
 | pop_up | 7 |
 | reset_app | 2 |
-| set_field | 25 |
+| set_field | 27 |
 | set_local | 16 |
 | start_tour | 1 |
 </details>
