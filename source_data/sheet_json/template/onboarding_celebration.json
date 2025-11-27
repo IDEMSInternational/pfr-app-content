@@ -1,0 +1,43 @@
+{
+  "flow_type": "template",
+  "flow_name": "onboarding_celebration",
+  "status": "released",
+  "rows": [
+    {
+      "type": "lottie_animation",
+      "name": "lottie",
+      "value": "lottie/checkmark.json",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "title",
+      "name": "finish_profile_title",
+      "value": "You're all set",
+      "parameter_list": "variant: header"
+    },
+    {
+      "type": "text",
+      "name": "finish_profile_text",
+      "value": "Your profile is complete, and you're ready to begin!",
+      "parameter_list": "text_align: center"
+    },
+    {
+      "type": "begin_template",
+      "name": "nav_buttons",
+      "value": "nav_buttons",
+      "action_list": "completed | emit: completed",
+      "parameter_list": "style: navigation;"
+    },
+    {
+      "name": "display_back",
+      "value": false
+    },
+    {
+      "name": "button_completed",
+      "value": "@global.next_button"
+    },
+    {
+      "type": "end_template"
+    }
+  ]
+}

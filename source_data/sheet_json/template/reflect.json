@@ -1,0 +1,89 @@
+{
+  "flow_type": "template",
+  "flow_name": "reflect",
+  "status": "released",
+  "rows": [
+    {
+      "name": "data_list_name",
+      "value": "reflect"
+    },
+    {
+      "name": "id",
+      "value": "child_dev"
+    },
+    {
+      "name": "data_list_name_id",
+      "value": "@local.data_list_name.@local.id"
+    },
+    {
+      "name": "row_data",
+      "value": "@data.@local.data_list_name_id"
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "@local.row_data.title",
+      "condition": "!!(@local.row_data.title)"
+    },
+    {
+      "type": "text",
+      "name": "intro_text",
+      "value": "@local.row_data.intro_text",
+      "condition": "!!(@local.row_data.intro_text)"
+    },
+    {
+      "type": "image",
+      "name": "image_1_asset",
+      "value": "@local.row_data.image_1_asset",
+      "condition": "!!(@local.row_data.image_1_asset)"
+    },
+    {
+      "type": "image",
+      "name": "image_2_asset",
+      "value": "@local.row_data.image_2_asset",
+      "condition": "!!(@local.row_data.image_2_asset)"
+    },
+    {
+      "name": "audio_transcript",
+      "value": "@local.row_data.audio_transcript"
+    },
+    {
+      "name": "audio_asset",
+      "value": "@local.row_data.audio_asset"
+    },
+    {
+      "name": "audio_title",
+      "value": "Listen and reflect"
+    },
+    {
+      "type": "audio",
+      "name": "audio",
+      "value": "@local.audio_asset",
+      "condition": "!!(@local.audio_asset)",
+      "parameter_list": "title: @local.audio_title"
+    },
+    {
+      "type": "button",
+      "name": "button",
+      "value": "Read and reflect",
+      "action_list": "click | set_field: current_reflect_id: @local.id; \nclick | pop_up: reflect_text",
+      "condition": "!!(@local.audio_transcript)"
+    },
+    {
+      "type": "text",
+      "name": "outro_text",
+      "value": "@local.row_data.outro_text",
+      "condition": "!!(@local.row_data.outro_text)"
+    },
+    {
+      "type": "begin_template",
+      "name": "nav_buttons",
+      "value": "nav_buttons",
+      "action_list": "completed | emit: completed; uncompleted | emit: uncompleted;",
+      "condition": "@fields.show_nav_buttons"
+    },
+    {
+      "type": "end_template"
+    }
+  ]
+}

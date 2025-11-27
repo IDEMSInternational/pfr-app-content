@@ -4,41 +4,59 @@
   "status": "released",
   "rows": [
     {
-      "name": "relax_id",
-      "value": "id_1",
+      "name": "data_list_name",
+      "value": "relax",
       "_translations": {
         "value": {}
       },
       "type": "set_variable",
-      "_nested_name": "relax_id"
+      "_nested_name": "data_list_name"
     },
     {
-      "name": "relax_relax_id",
-      "value": "relax.@local.relax_id",
+      "name": "id",
+      "value": "relax_1",
       "_translations": {
         "value": {}
       },
       "type": "set_variable",
-      "_nested_name": "relax_relax_id",
+      "_nested_name": "id"
+    },
+    {
+      "name": "data_list_name_id",
+      "value": "@local.data_list_name.@local.id",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "data_list_name_id",
       "_dynamicFields": {
         "value": [
           {
-            "fullExpression": "relax.@local.relax_id",
-            "matchedExpression": "@local.relax_id",
+            "fullExpression": "@local.data_list_name.@local.id",
+            "matchedExpression": "@local.data_list_name",
             "type": "local",
-            "fieldName": "relax_id"
+            "fieldName": "data_list_name"
+          },
+          {
+            "fullExpression": "@local.data_list_name.@local.id",
+            "matchedExpression": "@local.id",
+            "type": "local",
+            "fieldName": "id"
           }
         ]
       },
       "_dynamicDependencies": {
-        "@local.relax_id": [
+        "@local.data_list_name": [
+          "value"
+        ],
+        "@local.id": [
           "value"
         ]
       }
     },
     {
       "name": "row_data",
-      "value": "@data.@local.relax_relax_id",
+      "value": "@data.@local.data_list_name_id",
       "_translations": {
         "value": {}
       },
@@ -47,27 +65,27 @@
       "_dynamicFields": {
         "value": [
           {
-            "fullExpression": "@data.@local.relax_relax_id",
-            "matchedExpression": "@local.relax_relax_id",
+            "fullExpression": "@data.@local.data_list_name_id",
+            "matchedExpression": "@local.data_list_name_id",
             "type": "local",
-            "fieldName": "relax_relax_id"
+            "fieldName": "data_list_name_id"
           }
         ]
       },
       "_dynamicDependencies": {
-        "@local.relax_relax_id": [
+        "@local.data_list_name_id": [
           "value"
         ]
       }
     },
     {
       "type": "text",
-      "name": "text",
+      "name": "audio_transcript",
       "value": "@local.row_data.audio_transcript",
       "_translations": {
         "value": {}
       },
-      "_nested_name": "text",
+      "_nested_name": "audio_transcript",
       "_dynamicFields": {
         "value": [
           {

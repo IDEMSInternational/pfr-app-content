@@ -328,11 +328,11 @@
     {
       "id": "future_group",
       "topic": "conclusion",
+      "title": "Feedback",
       "question_1_id": "conclusion_1",
       "question_2_id": "conclusion_2",
       "question_3_id": "conclusion_3",
       "question_4_id": "conclusion_4",
-      "title": "Quiz",
       "icon_asset": "images/icons/ask_question.svg",
       "intro_text": "Let's do a reflection."
     }

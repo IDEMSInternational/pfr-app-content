@@ -1,0 +1,34 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "onboarding_content",
+  "status": "released",
+  "rows": [
+    {
+      "id": "pfr_goals",
+      "title": "About Parenting for Respectability",
+      "icon_asset": "images/icons/picture_book.svg",
+      "intro_text": "Parenting for Respectability (PfR) develops fathers’ and mothers’ skills to bring up their children well so that they respect their parents and also earn respect from their parents. PfR helps to improve relationships in families in order to prevent violence ",
+      "media_asset": "videos/aboutpfr_session1.mp4",
+      "text": "The long-term goals of this programme are:\n\n* Promote parental bonding and love.\n* Improve upbringing of children through positive discipline.\n* Improve how boys and girls are socialized and reduce negative gender norms.\n* Reduce conflict between parents especially violence, which has negative health consequences.",
+      "question_type": "select_one",
+      "question_text": "What do you want to learn about?",
+      "option_1_text": "Family and relationship",
+      "option_2_text": "Parental bonding and love",
+      "option_3_text": "Disciplining of children",
+      "option_4_text": "Partner relationships and conflict resolution"
+    },
+    {
+      "id": "ground_rules",
+      "title": "Guidelines",
+      "icon_asset": "images/icons/light_bulb.svg",
+      "intro_text": "We encourage you to set some ground rules.",
+      "text": "These may include:\n* Complete all sessions and activities\n* If you have a spouse, encourage them to take these sessions as well\n* Do home practice when given\n* Commit yourself to becoming a role model and a champion  \n* Maintaining confidentiality.",
+      "question_type": "select_one",
+      "question_text": "What will enable you to participate freely in the programme?",
+      "option_1_text": "Time availability",
+      "option_2_text": "Internet bundle",
+      "option_3_text": "Availability of children so that I complete home practice",
+      "option_4_text": "Availability of the smart phone"
+    }
+  ]
+}

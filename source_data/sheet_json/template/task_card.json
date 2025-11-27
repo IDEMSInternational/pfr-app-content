@@ -1,0 +1,116 @@
+{
+  "flow_type": "template",
+  "flow_name": "task_card",
+  "status": "released",
+  "rows": [
+    {
+      "name": "session_id",
+      "value": "onboarding"
+    },
+    {
+      "name": "task_id",
+      "value": "onboarding_check_in",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "tasks",
+      "value": "_tasks",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "task_data_list_name",
+      "value": "@local.session_id@local.tasks",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "join",
+      "value": "_",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "task_data",
+      "value": "@local.task_data_list_name.@local.task_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "task_row",
+      "value": "@data.@local.task_data",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "completed",
+      "value": "_completed",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "completed_field",
+      "value": "@local.task_row.completed_field",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "content_data_list_name",
+      "value": "@local.task_row.data_list_name",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "content_id",
+      "value": "@local.task_row.row_id"
+    },
+    {
+      "name": "content_data",
+      "value": "@local.content_data_list_name.@local.content_id"
+    },
+    {
+      "name": "content_row",
+      "value": "@data.@local.content_data"
+    },
+    {
+      "name": "card_title",
+      "value": "@local.content_row.title"
+    },
+    {
+      "name": "card_image",
+      "value": "@local.content_row.icon_asset",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "template",
+      "value": "@local.task_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "now",
+      "value": "@calc(timestamp())",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "card_click_history",
+      "value": "_card_click_history",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "click_history_field_name",
+      "value": "@local.session_id@local.join@local.task_id@local.card_click_history",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "session_card_click_history",
+      "value": "@fields.@local.click_history_field_name ;  @local.now",
+      "condition": "!!(@fields.@local.click_history_field_name)",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "session_card_click_history",
+      "value": "@local.now",
+      "condition": "!(@fields.@local.click_history_field_name)",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "task_card",
+      "name": "task_card",
+      "action_list": "click | set_field: @local.completed_field: true;\nclick | emit: force_reload;\nclick | go_to: @local.template;\nclick | set_field:@local.click_history_field_name: @local.session_card_click_history",
+      "parameter_list": "task_id: @local.task_id;\ncompleted_field: @local.completed_field;\ntitle: @local.card_title;\nstyle: button;\nin_progress_icon: images/icons/in_progress.svg;\ncompleted_icon: images/icons/tick.svg;\nimage: @local.card_image;",
+      "exclude_from_translation": true
+    }
+  ]
+}

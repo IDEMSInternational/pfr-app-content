@@ -1,0 +1,52 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "reflect",
+  "status": "released",
+  "rows": [
+    {
+      "id": "@default",
+      "icon_asset": "images/icons/thought_bubble.svg",
+      "intro_text": "Let's imagine the following situation. "
+    },
+    {
+      "id": "child_who",
+      "topic": "current_pract",
+      "title": "Who is your child",
+      "audio_transcript": "How a caregiver perceive their child shapes the type of care the child is given.\n     \nFamily is at the heart of many people, successful parenting should nurture ideals of respect, handwork and integrity in both children and parents.\n\nBeing kind and understanding to your children is a sign of confident parenting and warm family relationship, and fosters good behavior and well-being of children."
+    },
+    {
+      "id": "child_20",
+      "topic": "current_pract",
+      "audio_transcript": "Close your eyes and imagine the following: Your child or grandchild is grown up. You are about to celebrate his/her 20th birthday. Imagine what he or she will look like at that age. What kind of person do you hope he/she will be? What kind of relationship will you have with your child? \n\nWhat have you put in place to consistently ensure that your child/ren achive and thrive? Note them down on a piece of paper.\nThere are two main elements of parenting i.e. love and discipline which should be provided in equal measures. When parenting it's important to think about the long-term goals and allow your child to adjust your life pattern. \n"
+    },
+    {
+      "id": "gender_stereotypes_1",
+      "topic": "gender_power",
+      "intro_text": "\" What comes to mind when you hear the words “being a man”, \"being a woman\"? Or act like \"a man\", act like \"a woman\"?",
+      "image_1_asset": "images/new/gender_inside_male.jpg",
+      "audio_asset": "audio/option_1.m4a",
+      "audio_transcript": "💡 As seen, the two images of our gender boxes show that most attributes, and behaviors are socially constructed, with only a few being biological, like having breasts or the ability to make one pregnant. This means men and women are similar in many ways and can do many things together, which benefits their wellbeing and their children’s. Could social constructs sometimes limit us? Let’s explore attributes and practices outside these gender boxes."
+    },
+    {
+      "id": "gender_stereotypes_2",
+      "topic": "gender_power",
+      "intro_text": "* What attributes and practices can a woman take from both boxes that can make her a better mother, friend and wife?\n * What attributes and practices can a man take from both boxes that can make him a better father, friend and husband?",
+      "image_1_asset": "images/new/gender_outside_male.jpg",
+      "image_2_asset": "images/new/gender_outside_female.jpg",
+      "audio_asset": "audio/option_2.m4a",
+      "audio_transcript": "💡 Often, women and young ladies desire men who possess attributes outside the box, while many a number of men prefer women who adhere to the traits inside the box. Additionally, more women are stepping outside these roles compared to men. This is partly due to the advantages men have in sticking to traditional roles. Education, modernization, and technology have empowered many women to break out of these roles. For a healthy marriage, it's important for both men and women to adopt positive traits from in and outside the box to benefit themselves, their children, and those around them.  \n* What practices will you adapt to help you move from inside the gender box to outside the gender box as you try to become a better spouse and parent?"
+    },
+    {
+      "id": "gender_equal",
+      "topic": "gender_equal",
+      "audio_asset": "audio/resolve_conflictssession13.mp3",
+      "audio_transcript": "It's normal for parents to have different perspectives regarding their parenting. However, many times, each parent wants to have their point/suggestion understood and considered against the other. This later results in conflicts which can easily lead to family violence. Partners can learn to resolve parenting issues and concerns without necessarily conflicting and violence. In, parenting, partners should not focus on who wins the argument and whose point is understood but try to be considerate of each others’ suggestions. Let’s have some of the ways we can resolve conflicts, be understood and to improve relationships.\n\nAsk to hear your partner’s views and listen to them carefully without interruption.Identify any aspects of your partner’s views with which you agree.        \n\nAsk your partner to hear your own views without interruption.\n\nDon’t make threats or provocations. If you feel too emotional/overwhelmed, seek another engagement to distract oneself. Resume discussion on feelings when calmer"
+    },
+    {
+      "id": "prevent_abuse",
+      "topic": "prevent_abuse",
+      "audio_asset": "audio/staysafe_session14.mp3",
+      "audio_transcript": "* Reflect quietly about your dreams for your family and the achievements that you would wish for your child/ren in terms of education and professional life, their future families, and the kind of relationships would wish for them to have when they are married. \n\n* Think quietly and Imagine, that you have received a precious gift of a breakable glass on one of your special occasions. You love the gift (glass) so much and sometimes, it reminds you of your own beautiful life and beautiful children. You care for the glass so much and you are aware, that its delicate and can easily break if mishandled. However, you find yourself on another particular time, just moving around with this glass, you fill it with wine/alcohol and you are all over the place. It falls and breaks into several pieces. "
+    }
+  ]
+}

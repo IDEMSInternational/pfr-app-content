@@ -14,7 +14,7 @@
     },
     {
       "name": "id",
-      "value": "id_1",
+      "value": "relax_1",
       "_translations": {
         "value": {}
       },
@@ -80,12 +80,27 @@
     },
     {
       "type": "lottie_animation",
-      "name": "lottie_circles",
-      "value": "lottie/bulging_circles.json",
+      "name": "icon_asset_1",
+      "value": "@local.row_data.icon_asset_1",
       "_translations": {
         "value": {}
       },
-      "_nested_name": "lottie_circles"
+      "_nested_name": "icon_asset_1",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.row_data.icon_asset_1",
+            "matchedExpression": "@local.row_data.icon_asset_1",
+            "type": "local",
+            "fieldName": "row_data"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.row_data.icon_asset_1": [
+          "value"
+        ]
+      }
     },
     {
       "name": "audio_transcript",
@@ -185,11 +200,20 @@
       "action_list": [
         {
           "trigger": "click",
+          "action_id": "set_field",
+          "args": [
+            "current_relax_id",
+            "@local.id"
+          ],
+          "_raw": "click | set_field: current_relax_id: @local.id"
+        },
+        {
+          "trigger": "click",
           "action_id": "pop_up",
           "args": [
-            "relax_text"
+            "relax_text_@local.id"
           ],
-          "_raw": "click | pop_up:relax_text"
+          "_raw": "click | pop_up:relax_text_@local.id"
         }
       ],
       "exclude_from_translation": true,
@@ -203,6 +227,48 @@
             "fieldName": "id"
           }
         ],
+        "action_list": {
+          "0": {
+            "args": {
+              "1": [
+                {
+                  "fullExpression": "@local.id",
+                  "matchedExpression": "@local.id",
+                  "type": "local",
+                  "fieldName": "id"
+                }
+              ]
+            },
+            "_raw": [
+              {
+                "fullExpression": "click | set_field: current_relax_id: @local.id",
+                "matchedExpression": "@local.id",
+                "type": "local",
+                "fieldName": "id"
+              }
+            ]
+          },
+          "1": {
+            "args": {
+              "0": [
+                {
+                  "fullExpression": "relax_text_@local.id",
+                  "matchedExpression": "@local.id",
+                  "type": "local",
+                  "fieldName": "id"
+                }
+              ]
+            },
+            "_raw": [
+              {
+                "fullExpression": "click | pop_up:relax_text_@local.id",
+                "matchedExpression": "@local.id",
+                "type": "local",
+                "fieldName": "id"
+              }
+            ]
+          }
+        },
         "_nested_name": [
           {
             "fullExpression": "button_@item.id",
@@ -216,8 +282,42 @@
         "@item.id": [
           "name",
           "_nested_name"
+        ],
+        "@local.id": [
+          "action_list.0.args.1",
+          "action_list.0._raw",
+          "action_list.1.args.0",
+          "action_list.1._raw"
         ]
       }
+    },
+    {
+      "type": "template",
+      "name": "nav_buttons",
+      "value": "nav_buttons",
+      "action_list": [
+        {
+          "trigger": "completed",
+          "action_id": "emit",
+          "args": [
+            "completed"
+          ],
+          "_raw": "completed | emit: completed"
+        },
+        {
+          "trigger": "uncompleted",
+          "action_id": "emit",
+          "args": [
+            "uncompleted"
+          ],
+          "_raw": "uncompleted | emit: uncompleted"
+        }
+      ],
+      "parameter_list": {
+        "@fields.show_nav_buttons": "true"
+      },
+      "rows": [],
+      "_nested_name": "nav_buttons"
     }
   ],
   "_source": {

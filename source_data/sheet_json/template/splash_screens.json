@@ -1,0 +1,57 @@
+{
+  "flow_type": "template",
+  "flow_name": "splash_screens",
+  "status": "released",
+  "rows": [
+    {
+      "name": "number",
+      "value": 210,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "skip_text",
+      "value": "Skip intro"
+    },
+    {
+      "type": "begin_animated_slides",
+      "action_list": "completed | emit:completed;\nuncompleted | emit:uncompleted",
+      "parameter_list": "skip_text: @local.skip_text; style:light"
+    },
+    {
+      "type": "begin_animated_section",
+      "parameter_list": "duration: 3.5"
+    },
+    {
+      "type": "image",
+      "name": "image",
+      "value": "images/pfr_latest_logo.jpg",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "slogan",
+      "parameter_list": "text_align: center"
+    },
+    {
+      "type": "end_animated_section"
+    },
+    {
+      "type": "begin_animated_section",
+      "parameter_list": "duration: 4"
+    },
+    {
+      "type": "begin_template",
+      "name": "splash_partners",
+      "value": "splash_partners"
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "type": "end_animated_section"
+    },
+    {
+      "type": "end_animated_slides"
+    }
+  ]
+}

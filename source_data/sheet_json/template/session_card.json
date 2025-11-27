@@ -1,0 +1,161 @@
+{
+  "flow_type": "template",
+  "flow_name": "session_card",
+  "status": "released",
+  "rows": [
+    {
+      "name": "card_style",
+      "value": "portrait",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "session_id",
+      "value": "child_dev",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "tasks",
+      "value": "_tasks",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "session_tasks",
+      "value": "@local.session_id@local.tasks"
+    },
+    {
+      "name": "session_id",
+      "value": "@calc(@local.session_tasks.replace(@local.tasks,\"\"))"
+    },
+    {
+      "name": "completed",
+      "value": "_completed",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "completed_field",
+      "value": "@local.session_id@local.completed",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "ww_id",
+      "value": "session.@local.session_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "wt_id",
+      "value": "session_tasks.@local.session_tasks"
+    },
+    {
+      "name": "session_data",
+      "value": "@data.@local.ww_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "session_tasks_data",
+      "value": "@data.@local.wt_id"
+    },
+    {
+      "name": "card_title",
+      "value": "@local.session_data.title",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "card_subtitle",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "now",
+      "value": "@calc(timestamp())",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "card_click_history",
+      "value": "_card_click_history",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "click_history_field_name",
+      "value": "@local.session_id@local.card_click_history",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "session_card_click_history",
+      "value": "@fields.@local.click_history_field_name ;  @local.now",
+      "condition": "!!(@fields.@local.click_history_field_name)",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "session_card_click_history",
+      "value": "@local.now",
+      "condition": "!(@fields.@local.click_history_field_name)",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "name": "create_subtitle",
+      "condition": "@local.session_data.session_type == \"topic\"",
+      "exclude_from_translation": true,
+      "comments": "This starts a display group"
+    },
+    {
+      "name": "topic_row",
+      "value": "topic.@local.session_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_data",
+      "value": "@data.@local.topic_row",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_group",
+      "value": "@local.topic_data.topic_group",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_group_row",
+      "value": "topic_group.@local.topic_group",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_group_data",
+      "value": "@data.@local.topic_group_row",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "card_subtitle",
+      "value": "@local.topic_group_data.title",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "card_image",
+      "value": "@local.session_data.image_asset",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "click_template",
+      "value": "session_overview",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "highlighted_text",
+      "value": "Active"
+    },
+    {
+      "name": "completed_field",
+      "value": "@local.session_tasks_data.completed_field"
+    },
+    {
+      "type": "task_card",
+      "name": "task_card",
+      "action_list": "click | set_field: current_session: @local.session_id; \nclick | go_to: @local.click_template;\ncompleted | emit: server_sync;\ncompleted | emit: force_reload;\nclick | set_field:@local.click_history_field_name: @local.session_card_click_history;",
+      "parameter_list": "task_group_id: @local.session_id@local.tasks;\ntask_group_data: @local.session_id@local.tasks;\ncompleted_field: @local.session_tasks_data.completed_field;\ntitle: @local.card_title;\nimage: @local.card_image;\nstyle: @local.card_style;\nin_progress_icon: images/icons/in_progress.svg;\ncompleted_icon: images/icons/tick.svg;\nhighlighted_text: @local.highlighted_text;",
+      "exclude_from_translation": true,
+      "comments": "task_group_id: @local.session_id@local.tasks;\ntask_group_data: @local.session_id@local.tasks;\ncompleted_field: @local.session_tasks_data.completed_field;\ntitle: @local.card_title;\nsubtitle: @local.card_subtitle;\nimage: @local.card_image;\nstyle: @local.card_style;\nin_progress_icon: images/icons/in_progress.svg;\ncompleted_icon: images/icons/tick.svg;\nhighlighted_text: @local.highlighted_text;"
+    }
+  ]
+}

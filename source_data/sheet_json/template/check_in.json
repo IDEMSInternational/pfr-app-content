@@ -1,0 +1,155 @@
+{
+  "flow_type": "template",
+  "flow_name": "check_in",
+  "status": "released",
+  "rows": [
+    {
+      "name": "speaker_position",
+      "value": "right"
+    },
+    {
+      "name": "speaker_position",
+      "value": "left"
+    },
+    {
+      "name": "variant",
+      "value": "primary"
+    },
+    {
+      "name": "variant",
+      "value": "secondary"
+    },
+    {
+      "name": "variant",
+      "value": "gray"
+    },
+    {
+      "name": "data_list_name",
+      "value": "check_in"
+    },
+    {
+      "name": "id",
+      "value": "check_in_1"
+    },
+    {
+      "name": "data_list_name_id",
+      "value": "@local.data_list_name.@local.id"
+    },
+    {
+      "name": "row_data",
+      "value": "@data.@local.data_list_name_id"
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "@local.row_data.title",
+      "condition": "!!(@local.row_data.title)"
+    },
+    {
+      "type": "text",
+      "name": "intro_text",
+      "value": "@local.row_data.intro_text",
+      "condition": "!!(@local.row_data.intro_text)"
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "value": "@local.row_data.text",
+      "condition": "!!(@local.row_data.text)"
+    },
+    {
+      "type": "text",
+      "name": "question_text",
+      "value": "@local.row_data.question_text",
+      "parameter_list": "style:emphasised",
+      "condition": "!!(@local.row_data.question_text)"
+    },
+    {
+      "name": "store_response_field",
+      "value": "store_response_field"
+    },
+    {
+      "name": "answer_list",
+      "value": "name: happy | image: @local.row_data.option_happy_image_asset | text: @local.row_data.option_happy_text;\nname: ok | image: @local.row_data.option_ok_image_asset | text: @local.row_data.option_ok_text;\nname: sad | image: @local.row_data.option_sad_image_asset | text: @local.row_data.option_sad_text"
+    },
+    {
+      "type": "radio_button_grid",
+      "name": "radio_button_grid",
+      "action_list": "changed | set_field:@local.store_response_field: @local.radio_button_grid",
+      "parameter_list": "answer_list: @local.answer_list;\nitem_width: 70px;\ngrid_width: 350px;"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "feedback_happy_dg",
+      "hidden": "@local.radio_button_grid!=\"happy\"",
+      "parameter_list": "style:column"
+    },
+    {
+      "type": "text_bubble",
+      "name": "feedback_happy",
+      "value": "@local.row_data.feedback_happy",
+      "parameter_list": "speaker_position: @local.speaker_position;\nvariant: @local.variant;"
+    },
+    {
+      "type": "text",
+      "name": "feedback_happy",
+      "value": "@local.row_data.feedback_happy",
+      "condition": false
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "feedback_ok_dg",
+      "hidden": "@local.radio_button_grid!=\"ok\"",
+      "parameter_list": "style:column"
+    },
+    {
+      "type": "text",
+      "name": "feedback_ok",
+      "value": "@local.row_data.feedback_ok",
+      "condition": false
+    },
+    {
+      "type": "text_bubble",
+      "name": "feedback_ok",
+      "value": "@local.row_data.feedback_ok",
+      "parameter_list": "speaker_position: @local.speaker_position;\nvariant: @local.variant;"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "feedback_sad_dg",
+      "hidden": "@local.radio_button_grid!=\"sad\"",
+      "parameter_list": "style:column"
+    },
+    {
+      "type": "text_bubble",
+      "name": "feedback_sad",
+      "value": "@local.row_data.feedback_sad",
+      "parameter_list": "speaker_position: @local.speaker_position;\nvariant: @local.variant;"
+    },
+    {
+      "type": "text",
+      "name": "feedback_sad",
+      "value": "@local.row_data.feedback_sad",
+      "condition": false
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_template",
+      "name": "nav_buttons",
+      "value": "nav_buttons",
+      "action_list": "completed | emit: completed; uncompleted | emit: uncompleted;",
+      "condition": "@fields.show_nav_buttons"
+    },
+    {
+      "type": "end_template"
+    }
+  ]
+}

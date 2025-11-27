@@ -1,0 +1,66 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "praise",
+  "status": "released",
+  "rows": [
+    {
+      "id": "@default",
+      "title": "Well done!",
+      "icon_asset": "images/icons/cup.svg",
+      "intro_text": "Congratulations on completing the session @data.session.{@row.id}.title !",
+      "image": "images/icons/cup.svg",
+      "__EMPTY": "Congratulations for completing the @data.session.{@row.id}.title session. "
+    },
+    {
+      "id": "onboarding"
+    },
+    {
+      "id": "family_relation"
+    },
+    {
+      "id": "current_pract"
+    },
+    {
+      "id": "child_dev"
+    },
+    {
+      "id": "parent_childhood"
+    },
+    {
+      "id": "positive_parenting"
+    },
+    {
+      "id": "discipline_children"
+    },
+    {
+      "id": "gender_power"
+    },
+    {
+      "id": "impact_conflict"
+    },
+    {
+      "id": "sharing_care"
+    },
+    {
+      "id": "healthy_relation"
+    },
+    {
+      "id": "parenting_teens"
+    },
+    {
+      "id": "education"
+    },
+    {
+      "id": "gender_equal"
+    },
+    {
+      "id": "prevent_abuse"
+    },
+    {
+      "id": "reduce_conflict"
+    },
+    {
+      "id": "conclusion"
+    }
+  ]
+}

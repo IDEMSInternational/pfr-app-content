@@ -1,0 +1,37 @@
+{
+  "flow_type": "template",
+  "flow_name": "manual_pdf",
+  "status": "released",
+  "rows": [
+    {
+      "name": "session_id",
+      "ateamate_comments": "child_dev",
+      "value": "@fields.current_session",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "ww_id",
+      "ateamate_comments": "session.child_dev",
+      "value": "session.@local.session_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "session_data",
+      "ateamate_comments": "@data.session.child_dev",
+      "value": "@data.@local.ww_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "pdf_asset",
+      "ateamate_comments": "@data.session.child_dev.manual_pdf_asset",
+      "value": "@local.session_data.manual_pdf_asset",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "pdf",
+      "name": "pdf",
+      "value": "@local.pdf_asset",
+      "exclude_from_translation": true
+    }
+  ]
+}

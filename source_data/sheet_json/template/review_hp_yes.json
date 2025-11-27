@@ -1,0 +1,108 @@
+{
+  "flow_type": "template",
+  "flow_name": "review_hp_yes",
+  "status": "released",
+  "rows": [
+    {
+      "name": "data_list_name",
+      "value": "review_hp"
+    },
+    {
+      "name": "id",
+      "value": "child_dev"
+    },
+    {
+      "name": "data_list_name_id",
+      "value": "@local.data_list_name.@local.id"
+    },
+    {
+      "name": "row_data",
+      "value": "@data.@local.data_list_name_id"
+    },
+    {
+      "type": "text",
+      "name": "question_how",
+      "value": "@local.row_data.question_how"
+    },
+    {
+      "name": "store_response_field",
+      "value": "hp_mood_@local.id"
+    },
+    {
+      "name": "answer_list_how",
+      "value": "name: happy | text: @local.row_data.how_happy;\nname: okay | text: @local.row_data.how_okay;\nname: sad | text: @local.row_data.how_sad;"
+    },
+    {
+      "type": "radio_button_grid",
+      "name": "radio_button_grid",
+      "action_list": "changed | set_field:@local.store_response_field: @local.radio_button_grid",
+      "parameter_list": "answer_list: @local.answer_list_how;\nitem_width: 70px;\ngrid_width: 350px;"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "feedback_happy",
+      "parameter_list": "style:column",
+      "hidden": "@local.radio_button_grid!=\"happy\""
+    },
+    {
+      "type": "text_bubble",
+      "name": "feedback_happy",
+      "value": "@local.row_data.feedback_happy",
+      "parameter_list": "speaker_position: @local.speaker_position;\nvariant: @local.variant;"
+    },
+    {
+      "type": "text",
+      "name": "feedback_happy",
+      "value": "@local.row_data.feedback_happy",
+      "condition": false
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "feedback_okay",
+      "parameter_list": "style:column",
+      "hidden": "@local.radio_button_grid!=\"okay\""
+    },
+    {
+      "type": "text_bubble",
+      "name": "feedback_okay",
+      "value": "@local.row_data.feedback_okay",
+      "parameter_list": "speaker_position: @local.speaker_position;\nvariant: @local.variant;"
+    },
+    {
+      "type": "text",
+      "name": "feedback_okay",
+      "value": "@local.row_data.feedback_okay",
+      "condition": false
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "feedback_sad",
+      "parameter_list": "style:column",
+      "hidden": "@local.radio_button_grid!=\"sad\""
+    },
+    {
+      "type": "text_bubble",
+      "name": "feedback_sad",
+      "value": "@local.row_data.feedback_sad",
+      "parameter_list": "speaker_position: @local.speaker_position;\nvariant: @local.variant;"
+    },
+    {
+      "type": "text",
+      "name": "feedback_sad",
+      "value": "@local.row_data.feedback_sad",
+      "condition": false
+    },
+    {
+      "type": "end_display_group"
+    }
+  ]
+}

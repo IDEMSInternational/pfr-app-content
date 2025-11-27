@@ -1,0 +1,145 @@
+{
+  "flow_type": "template",
+  "flow_name": "objectives",
+  "status": "released",
+  "rows": [
+    {
+      "name": "session_id",
+      "value": "@fields.current_session"
+    },
+    {
+      "name": "topic_id",
+      "value": "@local.session_id"
+    },
+    {
+      "name": "topic_concat",
+      "value": "topic.@local.topic_id"
+    },
+    {
+      "name": "topic_data",
+      "value": "@data.@local.topic_concat"
+    },
+    {
+      "name": "topic_title",
+      "value": "@local.topic_data.title"
+    },
+    {
+      "name": "tasks",
+      "value": "_tasks"
+    },
+    {
+      "name": "task_data",
+      "value": "@local.session_id@local.tasks"
+    },
+    {
+      "name": "completed",
+      "value": "_completed"
+    },
+    {
+      "name": "completed_field",
+      "value": "task_@local.session_id@local.completed"
+    },
+    {
+      "name": "ww_id",
+      "value": "session.@local.session_id"
+    },
+    {
+      "name": "session_data",
+      "value": "@data.@local.ww_id"
+    },
+    {
+      "name": "this_session_no",
+      "value": "@local.session_data.number"
+    },
+    {
+      "name": "previous_session_no",
+      "value": "+@local.this_session_no - 1"
+    },
+    {
+      "type": "begin_items",
+      "name": "find_previous_session_id",
+      "value": "@data.session",
+      "parameter_list": "filter: @item.number == @local.previous_session_no",
+      "condition": "@local.this_session_no != 0"
+    },
+    {
+      "name": "previous_session_id",
+      "value": "@item.id"
+    },
+    {
+      "type": "end_items"
+    },
+    {
+      "type": "begin_items",
+      "name": "show_review_hp",
+      "value": "@data.review_hp",
+      "parameter_list": "filter: @item.id == @local.previous_session_id",
+      "condition": "@local.this_session_no != 0"
+    },
+    {
+      "type": "begin_template",
+      "name": "review_hp",
+      "value": "review_hp"
+    },
+    {
+      "name": "id",
+      "value": "@local.previous_session_id"
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "type": "end_items"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "goals",
+      "parameter_list": "style: dashed_box"
+    },
+    {
+      "type": "text",
+      "name": "goals_title",
+      "value": "Objectives of @local.topic_title",
+      "parameter_list": "style: emphasised",
+      "condition": "!!(@local.session_data.goal_2)"
+    },
+    {
+      "type": "text",
+      "name": "goals_title",
+      "value": "Objective of @local.topic_title",
+      "parameter_list": "style: emphasised",
+      "condition": "!(@local.session_data.goal_2)"
+    },
+    {
+      "type": "text",
+      "name": "goal_1",
+      "value": "@local.session_data.goal_1",
+      "condition": "!!(@local.session_data.goal_1)"
+    },
+    {
+      "type": "text",
+      "name": "goal_2",
+      "value": "@local.session_data.goal_2",
+      "condition": "!!(@local.session_data.goal_2)"
+    },
+    {
+      "type": "text",
+      "name": "goal_3",
+      "value": "@local.session_data.goal_3",
+      "condition": "!!(@local.session_data.goal_3)"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_template",
+      "name": "nav_buttons",
+      "value": "nav_buttons",
+      "action_list": "completed | emit: completed; uncompleted | emit: uncompleted;",
+      "condition": "@fields.show_nav_buttons"
+    },
+    {
+      "type": "end_template"
+    }
+  ]
+}

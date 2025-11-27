@@ -1,0 +1,60 @@
+{
+  "flow_type": "template",
+  "flow_name": "reflect_text",
+  "status": "released",
+  "rows": [
+    {
+      "name": "reflect_id",
+      "value": "@fields.current_reflect_id"
+    },
+    {
+      "name": "reflect_reflect_id",
+      "value": "reflect.@local.reflect_id"
+    },
+    {
+      "name": "row_data",
+      "value": "@data.@local.reflect_reflect_id"
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "value": "@local.row_data.audio_transcript"
+    },
+    {
+      "type": "text",
+      "name": "suggestion_1",
+      "value": "* @local.row_data.suggestion_1",
+      "condition": "!!(@local.row_data.suggestion_1)"
+    },
+    {
+      "type": "text",
+      "name": "suggestion_2",
+      "value": "* @local.row_data.suggestion_2",
+      "condition": "!!(@local.row_data.suggestion_2)"
+    },
+    {
+      "type": "text",
+      "name": "suggestion_3",
+      "value": "* @local.row_data.suggestion_3",
+      "condition": "!!(@local.row_data.suggestion_3)"
+    },
+    {
+      "type": "text",
+      "name": "suggestion_4",
+      "value": "* @local.row_data.suggestion_4",
+      "condition": "!!(@local.row_data.suggestion_4)"
+    },
+    {
+      "type": "text",
+      "name": "suggestion_5",
+      "value": "* @local.row_data.suggestion_5",
+      "condition": "!!(@local.row_data.suggestion_5)"
+    },
+    {
+      "type": "text",
+      "name": "suggestion_6",
+      "value": "* @local.row_data.suggestion_6",
+      "condition": "!!(@local.row_data.suggestion_6)"
+    }
+  ]
+}

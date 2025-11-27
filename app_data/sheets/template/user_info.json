@@ -106,10 +106,10 @@
       "_translations": {
         "value": {}
       },
-      "condition": "@local.user_name != @global.user_name_default",
       "parameter_list": {
         "placeholder": "@local.placeholder_name"
       },
+      "condition": "@local.user_name != @global.user_name_default",
       "_nested_name": "text_box",
       "_dynamicFields": {
         "value": [
@@ -120,6 +120,16 @@
             "fieldName": "user_name"
           }
         ],
+        "parameter_list": {
+          "placeholder": [
+            {
+              "fullExpression": "@local.placeholder_name",
+              "matchedExpression": "@local.placeholder_name",
+              "type": "local",
+              "fieldName": "placeholder_name"
+            }
+          ]
+        },
         "condition": [
           {
             "fullExpression": "@local.user_name != @global.user_name_default",
@@ -133,40 +143,40 @@
             "type": "global",
             "fieldName": "user_name_default"
           }
-        ],
-        "parameter_list": {
-          "placeholder": [
-            {
-              "fullExpression": "@local.placeholder_name",
-              "matchedExpression": "@local.placeholder_name",
-              "type": "local",
-              "fieldName": "placeholder_name"
-            }
-          ]
-        }
+        ]
       },
       "_dynamicDependencies": {
         "@local.user_name": [
           "value",
           "condition"
         ],
-        "@global.user_name_default": [
-          "condition"
-        ],
         "@local.placeholder_name": [
           "parameter_list.placeholder"
+        ],
+        "@global.user_name_default": [
+          "condition"
         ]
       }
     },
     {
       "type": "text_box",
       "name": "text_box",
-      "condition": "@local.user_name == @global.user_name_default",
       "parameter_list": {
         "placeholder": "@local.placeholder_name"
       },
+      "condition": "@local.user_name == @global.user_name_default",
       "_nested_name": "text_box",
       "_dynamicFields": {
+        "parameter_list": {
+          "placeholder": [
+            {
+              "fullExpression": "@local.placeholder_name",
+              "matchedExpression": "@local.placeholder_name",
+              "type": "local",
+              "fieldName": "placeholder_name"
+            }
+          ]
+        },
         "condition": [
           {
             "fullExpression": "@local.user_name == @global.user_name_default",
@@ -180,27 +190,17 @@
             "type": "global",
             "fieldName": "user_name_default"
           }
-        ],
-        "parameter_list": {
-          "placeholder": [
-            {
-              "fullExpression": "@local.placeholder_name",
-              "matchedExpression": "@local.placeholder_name",
-              "type": "local",
-              "fieldName": "placeholder_name"
-            }
-          ]
-        }
+        ]
       },
       "_dynamicDependencies": {
+        "@local.placeholder_name": [
+          "parameter_list.placeholder"
+        ],
         "@local.user_name": [
           "condition"
         ],
         "@global.user_name_default": [
           "condition"
-        ],
-        "@local.placeholder_name": [
-          "parameter_list.placeholder"
         ]
       }
     },
@@ -429,6 +429,24 @@
       }
     },
     {
+      "name": "placeholder_household_children",
+      "value": "Enter number of children",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "placeholder_household_children"
+    },
+    {
+      "name": "household_children_input_restriction",
+      "value": "Please enter a number between 1 and 20",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "household_children_input_restriction"
+    },
+    {
       "type": "text",
       "name": "question_household_children",
       "value": "How many children do you have?",
@@ -441,26 +459,37 @@
       "_nested_name": "question_household_children"
     },
     {
-      "name": "placeholder_household_children",
-      "value": "Enter number of children",
-      "_translations": {
-        "value": {}
-      },
-      "type": "set_variable",
-      "_nested_name": "placeholder_household_children"
-    },
-    {
       "type": "text_box",
       "name": "household_children_input",
       "value": "@fields.household_children",
       "_translations": {
         "value": {}
       },
-      "condition": "!!@fields.household_children",
+      "action_list": [
+        {
+          "trigger": "changed",
+          "action_id": "set_field",
+          "args": [
+            "household_children",
+            "this.value"
+          ],
+          "_raw": "changed | set_field:household_children: @local.household_children_input"
+        },
+        {
+          "trigger": "changed",
+          "action_id": "set_local",
+          "args": [
+            "show_feedback",
+            true
+          ],
+          "_raw": "changed | set_local: show_feedback: true"
+        }
+      ],
       "parameter_list": {
         "placeholder": "@local.placeholder_household_children",
         "number_input": "true"
       },
+      "condition": "!!@fields.household_children",
       "_nested_name": "household_children_input",
       "_dynamicFields": {
         "value": [
@@ -471,6 +500,28 @@
             "fieldName": "household_children"
           }
         ],
+        "action_list": {
+          "0": {
+            "_raw": [
+              {
+                "fullExpression": "changed | set_field:household_children: @local.household_children_input",
+                "matchedExpression": "@local.household_children_input",
+                "type": "local",
+                "fieldName": "household_children_input"
+              }
+            ]
+          }
+        },
+        "parameter_list": {
+          "placeholder": [
+            {
+              "fullExpression": "@local.placeholder_household_children",
+              "matchedExpression": "@local.placeholder_household_children",
+              "type": "local",
+              "fieldName": "placeholder_household_children"
+            }
+          ]
+        },
         "condition": [
           {
             "fullExpression": "!!@fields.household_children",
@@ -478,7 +529,65 @@
             "type": "fields",
             "fieldName": "household_children"
           }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@fields.household_children": [
+          "value"
         ],
+        "@local.household_children_input": [
+          "action_list.0._raw"
+        ],
+        "@local.placeholder_household_children": [
+          "parameter_list.placeholder"
+        ],
+        "!@fields.household_children": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "type": "text_box",
+      "name": "household_children_input",
+      "action_list": [
+        {
+          "trigger": "changed",
+          "action_id": "set_field",
+          "args": [
+            "household_children",
+            "this.value"
+          ],
+          "_raw": "changed | set_field:household_children: @local.household_children_input"
+        },
+        {
+          "trigger": "changed",
+          "action_id": "set_local",
+          "args": [
+            "show_feedback",
+            true
+          ],
+          "_raw": "changed | set_local: show_feedback: true"
+        }
+      ],
+      "parameter_list": {
+        "placeholder": "@local.placeholder_household_children",
+        "number_input": "true"
+      },
+      "condition": "!@fields.household_children",
+      "_nested_name": "household_children_input",
+      "_dynamicFields": {
+        "action_list": {
+          "0": {
+            "_raw": [
+              {
+                "fullExpression": "changed | set_field:household_children: @local.household_children_input",
+                "matchedExpression": "@local.household_children_input",
+                "type": "local",
+                "fieldName": "household_children_input"
+              }
+            ]
+          }
+        },
         "parameter_list": {
           "placeholder": [
             {
@@ -488,30 +597,7 @@
               "fieldName": "placeholder_household_children"
             }
           ]
-        }
-      },
-      "_dynamicDependencies": {
-        "@fields.household_children": [
-          "value"
-        ],
-        "!@fields.household_children": [
-          "condition"
-        ],
-        "@local.placeholder_household_children": [
-          "parameter_list.placeholder"
-        ]
-      }
-    },
-    {
-      "type": "text_box",
-      "name": "household_children_input",
-      "condition": "!@fields.household_children",
-      "parameter_list": {
-        "placeholder": "@local.placeholder_household_children",
-        "number_input": "true"
-      },
-      "_nested_name": "household_children_input",
-      "_dynamicFields": {
+        },
         "condition": [
           {
             "fullExpression": "!@fields.household_children",
@@ -519,35 +605,19 @@
             "type": "fields",
             "fieldName": "household_children"
           }
-        ],
-        "parameter_list": {
-          "placeholder": [
-            {
-              "fullExpression": "@local.placeholder_household_children",
-              "matchedExpression": "@local.placeholder_household_children",
-              "type": "local",
-              "fieldName": "placeholder_household_children"
-            }
-          ]
-        }
+        ]
       },
       "_dynamicDependencies": {
-        "!@fields.household_children": [
-          "condition"
+        "@local.household_children_input": [
+          "action_list.0._raw"
         ],
         "@local.placeholder_household_children": [
           "parameter_list.placeholder"
+        ],
+        "!@fields.household_children": [
+          "condition"
         ]
       }
-    },
-    {
-      "name": "household_children_input_restriction",
-      "value": "Please enter a number between 1 and 20",
-      "_translations": {
-        "value": {}
-      },
-      "type": "set_variable",
-      "_nested_name": "household_children_input_restriction"
     },
     {
       "name": "valid_household_children_input",
@@ -682,6 +752,10 @@
         {
           "name": "northern",
           "text": "Northern"
+        },
+        {
+          "name": "outside",
+          "text": "Outside Uganda"
         }
       ],
       "type": "set_variable",

@@ -1,0 +1,165 @@
+{
+  "flow_type": "template",
+  "flow_name": "topic_block_group",
+  "status": "released",
+  "rows": [
+    {
+      "name": "data_list_name",
+      "value": "topic_block_group"
+    },
+    {
+      "name": "id",
+      "value": "interactive_play_distracted"
+    },
+    {
+      "name": "tbg_concat",
+      "value": "@local.data_list_name.@local.id"
+    },
+    {
+      "name": "tbg_data",
+      "value": "@data.@local.tbg_concat"
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "@local.tbg_data.title",
+      "condition": "!!(@local.tbg_data.title)"
+    },
+    {
+      "type": "text",
+      "name": "intro_text",
+      "value": "@local.tbg_data.intro_text",
+      "condition": "!!(@local.tbg_data.intro_text)"
+    },
+    {
+      "name": "task_1_id",
+      "value": "@local.tbg_data.task_1_id"
+    },
+    {
+      "name": "task_2_id",
+      "value": "@local.tbg_data.task_2_id"
+    },
+    {
+      "name": "task_3_id",
+      "value": "@local.tbg_data.task_3_id"
+    },
+    {
+      "name": "task_4_id",
+      "value": "@local.tbg_data.task_4_id"
+    },
+    {
+      "name": "no_of_parts_list",
+      "value": "!!@local.task_1_id; !!@local.task_2_id; !!@local.task_3_id; !!@local.task_4_id; "
+    },
+    {
+      "name": "no_of_parts",
+      "value": "@calc(@local.no_of_parts_list.filter(Boolean).length)"
+    },
+    {
+      "name": "show_part_no",
+      "value": 1
+    },
+    {
+      "type": "begin_items",
+      "value": "@data.number"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_@item.id",
+      "parameter_list": "style: column",
+      "condition": "(@item.id <= @local.no_of_parts) && (@item.id == @local.show_part_no)"
+    },
+    {
+      "name": "join_id",
+      "value": "_id"
+    },
+    {
+      "name": "join_data",
+      "value": "_data"
+    },
+    {
+      "name": "task_id_temp_1",
+      "value": "task_@item.id@local.join_id"
+    },
+    {
+      "name": "task_id_temp_2",
+      "value": "@local.tbg_concat.@local.task_id_temp_1"
+    },
+    {
+      "name": "task_id",
+      "value": "@data.@local.task_id_temp_2"
+    },
+    {
+      "name": "task_data_temp_1",
+      "value": "task_@item.id@local.join_data"
+    },
+    {
+      "name": "task_data_temp_2",
+      "value": "@local.tbg_concat.@local.task_data_temp_1"
+    },
+    {
+      "name": "task_data",
+      "value": "@data.@local.task_data_temp_2"
+    },
+    {
+      "type": "begin_template",
+      "name": "template_@item.id",
+      "value": "@local.task_data",
+      "condition": "@item.id == 1",
+      "action_list": "completed | set_local: show_part_no: @local.show_part_no + 1; uncompleted | emit: uncompleted;"
+    },
+    {
+      "name": "data_list_name",
+      "value": "@local.task_data"
+    },
+    {
+      "name": "id",
+      "value": "@local.task_id"
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "type": "begin_template",
+      "name": "template_@item.id",
+      "value": "@local.task_data",
+      "condition": "@item.id > 1 && @item.id < @local.no_of_parts",
+      "action_list": "completed | set_local: show_part_no: @local.show_part_no + 1; uncompleted | set_local: show_part_no: @local.show_part_no - 1 ;"
+    },
+    {
+      "name": "data_list_name",
+      "value": "@local.task_data"
+    },
+    {
+      "name": "id",
+      "value": "@local.task_id"
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "type": "begin_template",
+      "name": "template_@item.id",
+      "value": "@local.task_data",
+      "condition": "@item.id == @local.no_of_parts",
+      "action_list": "completed | emit: completed; uncompleted | set_local: show_part_no: @local.show_part_no - 1 ;"
+    },
+    {
+      "name": "data_list_name",
+      "value": "@local.task_data"
+    },
+    {
+      "name": "id",
+      "value": "@local.task_id"
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "end_items"
+    }
+  ]
+}

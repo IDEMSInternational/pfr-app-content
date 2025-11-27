@@ -1,0 +1,219 @@
+{
+  "flow_type": "template",
+  "flow_name": "session_overview",
+  "status": "released",
+  "rows": [
+    {
+      "type": "update_action_list",
+      "name": "custom_actions_1",
+      "action_list": "nav_resume | emit: force_reload",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "session_id",
+      "value": "@fields.current_session",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "tasks",
+      "value": "_tasks",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "task_data",
+      "value": "@local.session_id@local.tasks",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "completed",
+      "value": "_completed",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "completed_field",
+      "value": "task_@local.session_id@local.completed",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "ww_id",
+      "value": "session.@local.session_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "session_data",
+      "value": "@data.@local.ww_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "card_title",
+      "value": "@local.session_data.title",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "card_image",
+      "value": "@local.session_data.image_asset",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "name": "top",
+      "parameter_list": "style: column",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_top",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "subtitle",
+      "name": "subtitle_placeholder",
+      "condition": "@local.session_data.session_type != \"topic\"",
+      "exclude_from_translation": true,
+      "style_list": "flex:1"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "create_subtitle",
+      "condition": "@local.session_data.session_type == \"topic\"",
+      "exclude_from_translation": true,
+      "style_list": "flex:1"
+    },
+    {
+      "name": "topic_row",
+      "value": "topic.@local.session_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_data",
+      "value": "@data.@local.topic_row",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_group",
+      "value": "@local.topic_data.topic_group",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_group_row",
+      "value": "topic_group.@local.topic_group",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "topic_group_data",
+      "value": "@data.@local.topic_group_row",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "subtitle",
+      "name": "subtitle",
+      "value": "@local.topic_group_data.title",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "round_button",
+      "name": "round_button",
+      "action_list": "click | set_field: current_session: @local.session_id; \nclick | go_to: manual_pdf",
+      "parameter_list": "icon_src: images/icons/book_white.svg",
+      "condition": "@local.session_id != \"onboarding\""
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group"
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "@local.card_title",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "image",
+      "name": "image",
+      "value": "@local.session_data.image_asset"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "tasks",
+      "value": "_tasks",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "task_data",
+      "value": "@local.session_id@local.tasks",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_items",
+      "value": "@data.@local.task_data",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "now",
+      "value": "@calc(timestamp())",
+      "style_list": true
+    },
+    {
+      "name": "join",
+      "value": "_"
+    },
+    {
+      "name": "card_click_history",
+      "value": "_card_click_history",
+      "style_list": true
+    },
+    {
+      "name": "click_history_field_name",
+      "value": "@local.session_id@local.join@item.id@local.card_click_history",
+      "style_list": true
+    },
+    {
+      "name": "item_card_click_history",
+      "value": "@fields.@local.click_history_field_name ;  @local.now",
+      "condition": "!!(@fields.@local.click_history_field_name)",
+      "style_list": true
+    },
+    {
+      "name": "item_card_click_history",
+      "value": "@local.now",
+      "condition": "!(@fields.@local.click_history_field_name)",
+      "style_list": true
+    },
+    {
+      "type": "begin_template",
+      "name": "card_@item.id",
+      "value": "task_card",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "session_id",
+      "value": "@local.session_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "task_id",
+      "value": "@item.id",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_items",
+      "exclude_from_translation": true
+    }
+  ]
+}

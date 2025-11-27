@@ -1,0 +1,49 @@
+{
+  "flow_type": "data_list",
+  "flow_subtype": "lifecycle_actions",
+  "flow_name": "launch_actions",
+  "status": "released",
+  "rows": [
+    {
+      "lifecycle_event": "app_start",
+      "id": "app_start_update_complete",
+      "priority": 1,
+      "condition_list": "@fields._app_update_downloaded",
+      "action_list": "app_update: complete"
+    },
+    {
+      "lifecycle_event": "app_start",
+      "id": "app_start_splash_screens",
+      "priority": 2,
+      "condition_list": "!@fields.splash_screens_viewed && @fields.user_mode",
+      "action_list": "pop_up: splash_screens | fullscreen: true, showCloseButton: false;\nset_field: splash_screens_viewed: true"
+    },
+    {
+      "lifecycle_event": "app_start",
+      "id": "app_start_accept_terms",
+      "priority": 3,
+      "condition_list": "!@fields.terms_v20230301_accepted && @fields.user_mode",
+      "action_list": "pop_up: accept_terms | fullscreen: true, showCloseButton: false"
+    },
+    {
+      "lifecycle_event": "app_start",
+      "id": "app_start_user_info",
+      "priority": 4,
+      "condition_list": "!@fields.user_info_submitted && @fields.user_mode",
+      "action_list": "pop_up: user_info | fullscreen: true, showCloseButton: false;\nset_field: user_info_submitted: true"
+    },
+    {
+      "lifecycle_event": "app_start",
+      "id": "app_start_onboarding_celebration",
+      "priority": 5,
+      "condition_list": "!@fields.onboarding_celebration_submitted && @fields.onboarding_celebration",
+      "action_list": "pop_up: onboarding_celebration | fullscreen: true, showCloseButton: false;\nset_field: onboarding_celebration_submitted: true"
+    },
+    {
+      "lifecycle_event": "app_start",
+      "id": "app_start_update_prompt",
+      "priority": 6,
+      "action_list": "app_update: prompt"
+    }
+  ]
+}

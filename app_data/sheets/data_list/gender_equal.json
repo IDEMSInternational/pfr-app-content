@@ -8,14 +8,14 @@
       "data_list_name": [
         "relax"
       ],
-      "row_id": "id_1"
+      "row_id": "check_in_14"
     },
     {
       "id": "gender_equal_check_in",
       "data_list_name": [
         "check_in"
       ],
-      "row_id": "id_1"
+      "row_id": "relax_14"
     },
     {
       "id": "gender_equal_objectives",

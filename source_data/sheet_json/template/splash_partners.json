@@ -1,0 +1,64 @@
+{
+  "flow_type": "template",
+  "flow_name": "splash_partners",
+  "status": "released",
+  "rows": [
+    {
+      "type": "text",
+      "value": "@global.app_name is brought to you by",
+      "parameter_list": "style:large center"
+    },
+    {
+      "type": "begin_items",
+      "value": "@data.organisation_group"
+    },
+    {
+      "type": "text",
+      "name": "title_@item.id",
+      "value": "@item.name",
+      "parameter_list": "style: emphasised"
+    },
+    {
+      "name": "this_group",
+      "value": "@item.id"
+    },
+    {
+      "type": "begin_display_grid",
+      "parameter_list": "item_width: 100px; grid_width: 80%; grid_gap: 70px; item_border: none"
+    },
+    {
+      "type": "begin_items",
+      "value": "@data.organisation"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_@item.id",
+      "condition": "@local.this_group == @item.group",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "image",
+      "name": "image_asset",
+      "value": "@item.image_asset"
+    },
+    {
+      "type": "text",
+      "name": "name",
+      "value": "@item.name",
+      "condition": "!@item.image_asset",
+      "comments": "Show name only if no image is provided"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "end_items"
+    },
+    {
+      "type": "end_display_grid"
+    },
+    {
+      "type": "end_items"
+    }
+  ]
+}

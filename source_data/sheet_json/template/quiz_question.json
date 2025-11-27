@@ -1,0 +1,151 @@
+{
+  "flow_type": "template",
+  "flow_name": "quiz_question",
+  "status": "released",
+  "rows": [
+    {
+      "name": "data_list_name",
+      "value": "quiz_question"
+    },
+    {
+      "name": "id",
+      "value": "playing_what"
+    },
+    {
+      "name": "question_data_row",
+      "value": "@local.data_list_name.@local.id"
+    },
+    {
+      "name": "question_data",
+      "value": "@data.@local.question_data_row"
+    },
+    {
+      "type": "text",
+      "name": "question_text",
+      "value": "@local.question_data.question_text"
+    },
+    {
+      "type": "image",
+      "name": "image_asset",
+      "value": "@local.question_data.image_asset",
+      "condition": "!!(@local.question_data.image_asset)"
+    },
+    {
+      "name": "question_type",
+      "value": "@local.question_data.question_type"
+    },
+    {
+      "name": "option_1_text",
+      "value": "@local.question_data.option_1_text"
+    },
+    {
+      "name": "option_2_text",
+      "value": "@local.question_data.option_2_text"
+    },
+    {
+      "name": "option_3_text",
+      "value": "@local.question_data.option_3_text"
+    },
+    {
+      "name": "option_4_text",
+      "value": "@local.question_data.option_4_text"
+    },
+    {
+      "name": "option_5_text",
+      "value": "@local.question_data.option_5_text"
+    },
+    {
+      "name": "option_6_text",
+      "value": "@local.question_data.option_6_text"
+    },
+    {
+      "name": "option_7_text",
+      "value": "@local.question_data.option_7_text"
+    },
+    {
+      "name": "no_of_options_list",
+      "value": "!!@local.option_1_text; !!@local.option_2_text; !!@local.option_3_text; !!@local.option_4_text; !!@local.option_5_text; !!@local.option_6_text; !!@local.option_7_text;"
+    },
+    {
+      "name": "no_of_options",
+      "value": "@calc(@local.no_of_options_list.filter(Boolean).length)"
+    },
+    {
+      "name": "answer_list",
+      "value": "name: option_1 | text: @local.option_1_text; name: option_2 | text: @local.option_2_text;",
+      "condition": "@local.no_of_options <= 2"
+    },
+    {
+      "name": "answer_list",
+      "value": "name: option_1 | text: @local.option_1_text; name: option_2 | text: @local.option_2_text; name: option_3 | text: @local.option_3_text;",
+      "condition": "@local.no_of_options == 3"
+    },
+    {
+      "name": "answer_list",
+      "value": "name: option_1 | text: @local.option_1_text; name: option_2 | text: @local.option_2_text; name: option_3 | text: @local.option_3_text; name: option_4 | text: @local.option_4_text;",
+      "condition": "@local.no_of_options == 4"
+    },
+    {
+      "name": "answer_list",
+      "value": "name: option_1 | text: @local.option_1_text; name: option_2 | text: @local.option_2_text; name: option_3 | text: @local.option_3_text; name: option_4 | text: @local.option_4_text; name: option_5 | text: @local.option_5_text;",
+      "condition": "@local.no_of_options == 5"
+    },
+    {
+      "name": "answer_list",
+      "value": "name: option_1 | text: @local.option_1_text; name: option_2 | text: @local.option_2_text; name: option_3 | text: @local.option_3_text; name: option_4 | text: @local.option_4_text; name: option_5 | text: @local.option_5_text; name: option_6 | text: @local.option_6_text; ",
+      "condition": "@local.no_of_options == 6"
+    },
+    {
+      "name": "answer_list",
+      "value": "name: option_1 | text: @local.option_1_text; name: option_2 | text: @local.option_2_text; name: option_3 | text: @local.option_3_text; name: option_4 | text: @local.option_4_text; name: option_5 | text: @local.option_5_text; name: option_6 | text: @local.option_6_text; name: option_7 | text: @local.option_7_text; ",
+      "condition": "@local.no_of_options >= 7"
+    },
+    {
+      "name": "store_response_field",
+      "value": "quiz_question_@local.id"
+    },
+    {
+      "name": "show_feedback",
+      "value": false
+    },
+    {
+      "type": "combo_box",
+      "name": "combo_box",
+      "value": "@fields.@local.store_response_field",
+      "condition": "@local.question_type == \"select_multiple\" || @local.question_type == \"select_one\"",
+      "parameter_list": "answer_list: @local.answer_list; placeholder: @global.combo_box_placeholder",
+      "action_list": "changed | set_field:@local.store_response_field: @local.combo_box  ; changed | set_local: show_feedback: true"
+    },
+    {
+      "type": "text_box",
+      "name": "text_box",
+      "value": "@fields.@local.store_response_field",
+      "condition": "@local.question_type == \"text_input\"",
+      "parameter_list": "text_align: left",
+      "action_list": "changed | set_field:@local.store_response_field: @local.text_box ;\nchanged | set_local: show_feedback: true"
+    },
+    {
+      "type": "text_area",
+      "name": "text_area",
+      "value": "@fields.@local.store_response_field",
+      "condition": "@local.question_type == \"text_input_long\"",
+      "parameter_list": "text_align: left",
+      "action_list": "changed | set_field:@local.store_response_field: @local.text_area ; \nchanged | set_local: show_feedback: true"
+    },
+    {
+      "type": "text_bubble",
+      "name": "feedback_all_text",
+      "value": "@local.question_data.feedback_all_text",
+      "condition": "!!(@local.question_data.feedback_all_text)",
+      "action_list": "speaker_position: @local.speaker_position;\nvariant: @local.variant;",
+      "hidden": "!@local.show_feedback"
+    },
+    {
+      "type": "text",
+      "name": "feedback_all_text",
+      "value": "@local.question_data.feedback_all_text",
+      "condition": false,
+      "hidden": "!@local.show_feedback"
+    }
+  ]
+}

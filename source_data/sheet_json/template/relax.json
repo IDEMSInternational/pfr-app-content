@@ -1,0 +1,59 @@
+{
+  "flow_type": "template",
+  "flow_name": "relax",
+  "status": "released",
+  "rows": [
+    {
+      "name": "data_list_name",
+      "value": "relax"
+    },
+    {
+      "name": "id",
+      "value": "relax_1"
+    },
+    {
+      "name": "data_list_name_id",
+      "value": "@local.data_list_name.@local.id"
+    },
+    {
+      "name": "row_data",
+      "value": "@data.@local.data_list_name_id"
+    },
+    {
+      "type": "lottie_animation",
+      "name": "icon_asset_1",
+      "value": "@local.row_data.icon_asset_1"
+    },
+    {
+      "name": "audio_transcript",
+      "value": "@local.row_data.audio_transcript"
+    },
+    {
+      "name": "audio_asset",
+      "value": "@local.row_data.audio_asset"
+    },
+    {
+      "type": "audio",
+      "name": "audio",
+      "value": "@local.audio_asset",
+      "parameter_list": "title: @local.row_data.title"
+    },
+    {
+      "type": "button",
+      "name": "button_@item.id",
+      "value": "Transcript",
+      "action_list": "click | set_field: current_relax_id: @local.id; \nclick | pop_up:relax_text_@local.id",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_template",
+      "name": "nav_buttons",
+      "value": "nav_buttons",
+      "action_list": "completed | emit: completed; uncompleted | emit: uncompleted;",
+      "parameter_list": "@fields.show_nav_buttons"
+    },
+    {
+      "type": "end_template"
+    }
+  ]
+}

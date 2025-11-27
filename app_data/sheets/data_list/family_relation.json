@@ -8,14 +8,14 @@
       "data_list_name": [
         "check_in"
       ],
-      "row_id": "id_1"
+      "row_id": "check_in_2"
     },
     {
       "id": "family_relation_relax",
       "data_list_name": [
         "relax"
       ],
-      "row_id": "id_1"
+      "row_id": "relax_2"
     },
     {
       "id": "family_objectives",
