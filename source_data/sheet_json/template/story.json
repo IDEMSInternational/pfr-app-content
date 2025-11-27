@@ -1,0 +1,178 @@
+{
+  "flow_type": "template",
+  "flow_name": "story",
+  "status": "released",
+  "rows": [
+    {
+      "name": "data_list_name",
+      "value": "story"
+    },
+    {
+      "name": "id",
+      "value": "interactive_play_distracted"
+    },
+    {
+      "name": "join_image",
+      "value": "_image_asset"
+    },
+    {
+      "name": "join_text",
+      "value": "_text"
+    },
+    {
+      "name": "story_data_row",
+      "value": "@local.data_list_name.@local.id"
+    },
+    {
+      "name": "story_data",
+      "value": "@data.@local.story_data_row"
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "@local.story_data.title",
+      "condition": "!!(@local.story_data.title)"
+    },
+    {
+      "type": "text",
+      "name": "intro_text",
+      "value": "@local.story_data.intro_text",
+      "condition": "!!(@local.story_data.intro_text)"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "story_image"
+    },
+    {
+      "type": "image",
+      "name": "image_asset_1",
+      "value": "@local.story_data.image_asset_1",
+      "style_list": "flex: 1",
+      "condition": "!!(@local.story_data.image_asset_1)"
+    },
+    {
+      "type": "image",
+      "name": "image_asset_2",
+      "value": "@local.story_data.image_asset_2",
+      "style_list": "flex: 1",
+      "condition": "!!(@local.story_data.image_asset_2)"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "name": "media_title",
+      "value": "@local.story_data.media_title",
+      "condition": "!!(@local.story_data.media_title)"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "video",
+      "parameter_list": "style: column",
+      "condition": "@local.story_data.media_type == \"video\""
+    },
+    {
+      "type": "title",
+      "name": "print_media_title",
+      "value": "@local.media_title",
+      "condition": "!!(@local.story_data.media_title)"
+    },
+    {
+      "type": "video",
+      "name": "media_asset ",
+      "value": "@local.story_data.media_asset "
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "audio",
+      "condition": "@local.story_data.media_type == \"audio\""
+    },
+    {
+      "type": "audio",
+      "name": "media_asset ",
+      "value": "@local.story_data.media_asset ",
+      "parameter_list": "title: @local.media_title",
+      "condition": "!!(@local.story_data.media_title)"
+    },
+    {
+      "type": "audio",
+      "name": "media_asset ",
+      "value": "@local.story_data.media_asset ",
+      "condition": "!(@local.story_data.media_title)"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "button",
+      "name": "media_transcript",
+      "value": "Read the transcript",
+      "condition": "!!(@local.story_data.media_asset)",
+      "action_list": "click | set_field: current_story_id: @local.id; \nclick | pop_up: pop_up_text;"
+    },
+    {
+      "type": "begin_items",
+      "value": "@data.number",
+      "condition": "!(@local.story_data.media_asset)"
+    },
+    {
+      "name": "image_src_temp",
+      "value": "slide_@item.id@local.join_image"
+    },
+    {
+      "name": "image_src",
+      "value": "@local.data_list_name.@local.id.@local.image_src_temp"
+    },
+    {
+      "name": "text_temp",
+      "value": "slide_@item.id@local.join_text"
+    },
+    {
+      "name": "text",
+      "value": "@local.data_list_name.@local.id.@local.text_temp"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dashed_box_@item.id",
+      "parameter_list": "style: dashed_box",
+      "condition": "!!(@data.@local.image_src) || !!(@data.@local.text)"
+    },
+    {
+      "type": "image",
+      "name": "image_@item.id",
+      "value": "@data.@local.image_src",
+      "condition": "!!(@data.@local.image_src)"
+    },
+    {
+      "type": "text",
+      "name": "text_@item.id",
+      "value": "@data.@local.text",
+      "condition": "!!(@data.@local.text)"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "end_items"
+    },
+    {
+      "type": "text",
+      "name": "outro_text",
+      "value": "@local.row_data.outro_text",
+      "condition": "!!(@local.row_data.outro_text)"
+    },
+    {
+      "type": "begin_template",
+      "name": "nav_buttons",
+      "value": "nav_buttons",
+      "condition": "@fields.show_nav_buttons",
+      "action_list": "completed | emit: completed; uncompleted | emit: uncompleted;"
+    },
+    {
+      "type": "end_template"
+    }
+  ]
+}

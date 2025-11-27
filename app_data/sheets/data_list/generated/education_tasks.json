@@ -8,7 +8,7 @@
       "data_list_name": [
         "check_in"
       ],
-      "row_id": "id_1",
+      "row_id": "check_in_13",
       "completed_field": "task_education_check_in_completed"
     },
     {
@@ -16,7 +16,7 @@
       "data_list_name": [
         "relax"
       ],
-      "row_id": "id_1",
+      "row_id": "relax_13",
       "completed_field": "task_education_relax_completed"
     },
     {

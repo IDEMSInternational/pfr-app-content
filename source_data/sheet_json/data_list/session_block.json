@@ -1,0 +1,16 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "session_block",
+  "status": "released",
+  "rows": [
+    {
+      "id": "relax"
+    },
+    {
+      "id": "check_in"
+    },
+    {
+      "id": "praise"
+    }
+  ]
+}

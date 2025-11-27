@@ -8,7 +8,7 @@
       "data_list_name": [
         "check_in"
       ],
-      "row_id": "id_1",
+      "row_id": "check_in_3",
       "completed_field": "task_current_pract_check_in_completed"
     },
     {
@@ -16,7 +16,7 @@
       "data_list_name": [
         "relax"
       ],
-      "row_id": "id_1",
+      "row_id": "relax_3",
       "completed_field": "task_current_pract_relax_completed"
     },
     {

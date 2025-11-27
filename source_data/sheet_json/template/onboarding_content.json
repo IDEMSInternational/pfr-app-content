@@ -1,0 +1,164 @@
+{
+  "flow_type": "template",
+  "flow_name": "onboarding_content",
+  "status": "released",
+  "rows": [
+    {
+      "name": "session_data_list_name",
+      "value": "onboarding"
+    },
+    {
+      "name": "session_task_id",
+      "value": "onboarding_pfr_goals"
+    },
+    {
+      "name": "field_name",
+      "value": "user_name"
+    },
+    {
+      "name": "session_task_row",
+      "value": "@local.session_data_list_name.@local.session_task_id"
+    },
+    {
+      "name": "session_task_row_data",
+      "value": "@data.@local.session_task_row"
+    },
+    {
+      "name": "data_list_name",
+      "value": "@local.session_task_row_data.data_list_name"
+    },
+    {
+      "name": "id",
+      "value": "@local.session_task_row_data.row_id"
+    },
+    {
+      "name": "data_list_name_id",
+      "value": "@local.data_list_name.@local.id"
+    },
+    {
+      "name": "row_data",
+      "value": "@data.@local.data_list_name_id"
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "@local.row_data.title",
+      "condition": "!!(@local.row_data.title)"
+    },
+    {
+      "type": "text",
+      "name": "intro_text",
+      "value": "@local.row_data.intro_text",
+      "condition": "!!(@local.row_data.intro_text)"
+    },
+    {
+      "type": "video",
+      "name": "media_asset",
+      "value": "@local.row_data.media_asset",
+      "condition": "!!(@local.row_data.media_asset)"
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "value": "@local.row_data.text",
+      "condition": "!!(@local.row_data.text)"
+    },
+    {
+      "type": "text",
+      "name": "question_text",
+      "value": "@local.row_data.question_text",
+      "condition": "!!(@local.row_data.question_text)"
+    },
+    {
+      "name": "question_type",
+      "value": "@local.row_data.question_type"
+    },
+    {
+      "name": "option_1_text",
+      "value": "@local.row_data.option_1_text"
+    },
+    {
+      "name": "option_2_text",
+      "value": "@local.row_data.option_2_text"
+    },
+    {
+      "name": "option_3_text",
+      "value": "@local.row_data.option_3_text"
+    },
+    {
+      "name": "option_4_text",
+      "value": "@local.row_data.option_4_text"
+    },
+    {
+      "name": "option_5_text",
+      "value": "@local.row_data.option_5_text"
+    },
+    {
+      "name": "no_of_options_list",
+      "value": "!!@local.option_1_text; !!@local.option_2_text; !!@local.option_3_text; !!@local.option_4_text; !!@local.option_5_text;"
+    },
+    {
+      "name": "no_of_options",
+      "value": "@calc(@local.no_of_options_list.filter(Boolean).length)"
+    },
+    {
+      "name": "answer_list",
+      "value": "name: option_1 | text: @local.option_1_text; name: option_2 | text: @local.option_2_text;",
+      "condition": "@local.no_of_options <= 2"
+    },
+    {
+      "name": "answer_list",
+      "value": "name: option_1 | text: @local.option_1_text; name: option_2 | text: @local.option_2_text; name: option_3 | text: @local.option_3_text;",
+      "condition": "@local.no_of_options == 3"
+    },
+    {
+      "name": "answer_list",
+      "value": "name: option_1 | text: @local.option_1_text; name: option_2 | text: @local.option_2_text; name: option_3 | text: @local.option_3_text; name: option_4 | text: @local.option_4_text;",
+      "condition": "@local.no_of_options == 4"
+    },
+    {
+      "name": "answer_list",
+      "value": "name: option_1 | text: @local.option_1_text; name: option_2 | text: @local.option_2_text; name: option_3 | text: @local.option_3_text; name: option_4 | text: @local.option_4_text; name: option_5 | text: @local.option_5_text;",
+      "condition": "@local.no_of_options == 5"
+    },
+    {
+      "name": "store_response_field",
+      "value": "onboarding_@local.id"
+    },
+    {
+      "name": "show_feedback",
+      "value": false
+    },
+    {
+      "type": "combo_box",
+      "name": "combo_box",
+      "action_list": "changed | set_field:@local.store_response_field: @local.combo_box  ; changed | set_local: show_feedback: true",
+      "parameter_list": "answer_list: @local.answer_list; placeholder: @global.combo_box_placeholder",
+      "condition": "@local.row_data.question_type == \"select_multiple\" || @local.row_data.question_type == \"select_one\""
+    },
+    {
+      "type": "text_box",
+      "name": "text_box",
+      "action_list": "changed | set_field:@local.store_response_field: @local.text_box ;\nchanged | set_local: show_feedback: true",
+      "parameter_list": "text_align: left",
+      "condition": "@local.row_data.question_type == \"text_input\""
+    },
+    {
+      "type": "text_area",
+      "name": "text_area",
+      "action_list": "changed | set_field:@local.store_response_field: @local.text_area ; \nchanged | set_local: show_feedback: true",
+      "parameter_list": "text_align: left",
+      "condition": "@local.row_data.question_type == \"text_input_long\""
+    },
+    {
+      "type": "begin_template",
+      "name": "nav_buttons",
+      "value": "nav_buttons",
+      "action_list": "completed | emit: completed; uncompleted | emit: uncompleted;",
+      "condition": "@fields.show_nav_buttons"
+    },
+    {
+      "type": "end_template"
+    }
+  ]
+}

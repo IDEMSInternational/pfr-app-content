@@ -231,7 +231,6 @@
           "_raw": "click | start_tour: home_screen_tour"
         }
       ],
-      "condition": false,
       "_nested_name": "button_tour",
       "_dynamicFields": {
         "value": [

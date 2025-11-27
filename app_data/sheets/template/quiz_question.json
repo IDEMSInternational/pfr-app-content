@@ -1406,13 +1406,31 @@
       }
     },
     {
-      "type": "text",
+      "type": "text_bubble",
       "name": "feedback_all_text",
       "value": "@local.question_data.feedback_all_text",
       "_translations": {
         "value": {}
       },
       "condition": "!!(@local.question_data.feedback_all_text)",
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "speaker_position",
+          "args": [
+            "@local.speaker_position"
+          ],
+          "_raw": "speaker_position: @local.speaker_position"
+        },
+        {
+          "trigger": "click",
+          "action_id": "variant",
+          "args": [
+            "@local.variant"
+          ],
+          "_raw": "variant: @local.variant"
+        }
+      ],
       "hidden": "!@local.show_feedback",
       "_nested_name": "feedback_all_text",
       "_dynamicFields": {
@@ -1432,6 +1450,48 @@
             "fieldName": "question_data"
           }
         ],
+        "action_list": {
+          "0": {
+            "args": {
+              "0": [
+                {
+                  "fullExpression": "@local.speaker_position",
+                  "matchedExpression": "@local.speaker_position",
+                  "type": "local",
+                  "fieldName": "speaker_position"
+                }
+              ]
+            },
+            "_raw": [
+              {
+                "fullExpression": "speaker_position: @local.speaker_position",
+                "matchedExpression": "@local.speaker_position",
+                "type": "local",
+                "fieldName": "speaker_position"
+              }
+            ]
+          },
+          "1": {
+            "args": {
+              "0": [
+                {
+                  "fullExpression": "@local.variant",
+                  "matchedExpression": "@local.variant",
+                  "type": "local",
+                  "fieldName": "variant"
+                }
+              ]
+            },
+            "_raw": [
+              {
+                "fullExpression": "variant: @local.variant",
+                "matchedExpression": "@local.variant",
+                "type": "local",
+                "fieldName": "variant"
+              }
+            ]
+          }
+        },
         "hidden": [
           {
             "fullExpression": "!@local.show_feedback",
@@ -1445,6 +1505,51 @@
         "@local.question_data.feedback_all_text": [
           "value",
           "condition"
+        ],
+        "@local.speaker_position": [
+          "action_list.0.args.0",
+          "action_list.0._raw"
+        ],
+        "@local.variant": [
+          "action_list.1.args.0",
+          "action_list.1._raw"
+        ],
+        "!@local.show_feedback": [
+          "hidden"
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "name": "feedback_all_text",
+      "value": "@local.question_data.feedback_all_text",
+      "_translations": {
+        "value": {}
+      },
+      "condition": false,
+      "hidden": "!@local.show_feedback",
+      "_nested_name": "feedback_all_text",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.question_data.feedback_all_text",
+            "matchedExpression": "@local.question_data.feedback_all_text",
+            "type": "local",
+            "fieldName": "question_data"
+          }
+        ],
+        "hidden": [
+          {
+            "fullExpression": "!@local.show_feedback",
+            "matchedExpression": "!@local.show_feedback",
+            "type": "local",
+            "fieldName": "show_feedback"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.question_data.feedback_all_text": [
+          "value"
         ],
         "!@local.show_feedback": [
           "hidden"

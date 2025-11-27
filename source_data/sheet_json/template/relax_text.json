@@ -1,0 +1,28 @@
+{
+  "flow_type": "template",
+  "flow_name": "relax_text",
+  "status": "released",
+  "rows": [
+    {
+      "name": "data_list_name",
+      "value": "relax"
+    },
+    {
+      "name": "id",
+      "value": "relax_1"
+    },
+    {
+      "name": "data_list_name_id",
+      "value": "@local.data_list_name.@local.id"
+    },
+    {
+      "name": "row_data",
+      "value": "@data.@local.data_list_name_id"
+    },
+    {
+      "type": "text",
+      "name": "audio_transcript",
+      "value": "@local.row_data.audio_transcript"
+    }
+  ]
+}

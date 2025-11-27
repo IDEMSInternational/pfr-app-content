@@ -1,0 +1,32 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "app_section_data",
+  "status": "released",
+  "rows": [
+    {
+      "id": "@default",
+      "title_modular": "@row.title",
+      "image_asset": "@row.icon_asset",
+      "template_modular": "@row.template"
+    },
+    {
+      "id": "topics",
+      "title": "Sessions",
+      "icon_asset": "images/icons/home_white.svg",
+      "template": "sessions",
+      "template_modular": "home_screen"
+    },
+    {
+      "id": "habits",
+      "title": "@global.habits_capital",
+      "icon_asset": "images/icons/star.svg",
+      "template": "habits"
+    },
+    {
+      "id": "library",
+      "title": "Library",
+      "icon_asset": "images/icons/library_white.svg",
+      "template": "library"
+    }
+  ]
+}

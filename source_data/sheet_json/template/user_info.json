@@ -1,0 +1,182 @@
+{
+  "flow_type": "template",
+  "flow_name": "user_info",
+  "status": "released",
+  "rows": [
+    {
+      "name": "placeholder_name",
+      "value": "Enter name"
+    },
+    {
+      "name": "placeholder_gender",
+      "value": "Select gender"
+    },
+    {
+      "name": "placeholder_role",
+      "value": "Select role"
+    },
+    {
+      "name": "placeholder_region",
+      "value": "Select region"
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "@global.user_info"
+    },
+    {
+      "type": "text",
+      "name": "name",
+      "value": "What is your name or nickname?",
+      "parameter_list": "style: emphasised"
+    },
+    {
+      "name": "user_name",
+      "value": "@fields.user_name"
+    },
+    {
+      "type": "text_box",
+      "name": "text_box",
+      "value": "@local.user_name",
+      "parameter_list": "placeholder: @local.placeholder_name;",
+      "condition": "@local.user_name != @global.user_name_default"
+    },
+    {
+      "type": "text_box",
+      "name": "text_box",
+      "parameter_list": "placeholder: @local.placeholder_name;",
+      "condition": "@local.user_name == @global.user_name_default"
+    },
+    {
+      "type": "text",
+      "name": "gender",
+      "value": "What is your gender?",
+      "parameter_list": "style: emphasised"
+    },
+    {
+      "name": "answer_list_gen",
+      "value": "name:male | text: Man;\nname:female | text: Woman;\nname:prefer_not_to_say | text: Prefer not to say;"
+    },
+    {
+      "type": "combo_box",
+      "name": "combo_box_gen",
+      "value": "@fields.user_gender",
+      "action_list": "changed | set_field: user_gender: @local.combo_box_gen; ",
+      "parameter_list": "answer_list: @local.answer_list_gen; placeholder: @local.placeholder_gender; input_allowed: false;"
+    },
+    {
+      "type": "text",
+      "name": "role",
+      "value": "What is your role?",
+      "parameter_list": "style: emphasised"
+    },
+    {
+      "name": "answer_list_role",
+      "value": "name:parent | text: Parent;\nname:caregiver | text: Caregiver;\nname:facilitator | text: Facilitator;\nname:tester | text: System Tester;"
+    },
+    {
+      "type": "combo_box",
+      "name": "combo_box_role",
+      "value": "@fields.user_role",
+      "action_list": "changed | set_field: user_role: @local.combo_box_role; ",
+      "parameter_list": "answer_list: @local.answer_list_role; placeholder: @local.placeholder_role; input_allowed: false;"
+    },
+    {
+      "name": "placeholder_household_children",
+      "value": "Enter number of children"
+    },
+    {
+      "name": "household_children_input_restriction",
+      "value": "Please enter a number between 1 and 20"
+    },
+    {
+      "type": "text",
+      "name": "question_household_children",
+      "value": "How many children do you have?",
+      "parameter_list": "style: emphasised"
+    },
+    {
+      "type": "text_box",
+      "name": "household_children_input",
+      "value": "@fields.household_children",
+      "action_list": "changed | set_field:household_children: @local.household_children_input ; \nchanged | set_local: show_feedback: true",
+      "parameter_list": "placeholder: @local.placeholder_household_children;\nnumber_input: true;",
+      "condition": "!!@fields.household_children"
+    },
+    {
+      "type": "text_box",
+      "name": "household_children_input",
+      "action_list": "changed | set_field:household_children: @local.household_children_input ; \nchanged | set_local: show_feedback: true",
+      "parameter_list": "placeholder: @local.placeholder_household_children;\nnumber_input: true;",
+      "condition": "!@fields.household_children"
+    },
+    {
+      "name": "valid_household_children_input",
+      "value": "@calc((/^\\d+$/.test(@local.household_children_input) && @local.household_children_input>= 1 && @local.household_children_input<= 20) || @local.household_children_input == '' || !@local.household_children_input)"
+    },
+    {
+      "type": "text",
+      "name": "warning_household_children_input",
+      "value": "@local.household_children_input_restriction",
+      "condition": "!@local.valid_household_children_input",
+      "style_list": "color: #FF0000;\nfont-size: 14px"
+    },
+    {
+      "type": "text",
+      "name": "region",
+      "value": "Which region are you in?",
+      "parameter_list": "style: emphasised"
+    },
+    {
+      "name": "answer_list_region",
+      "value": "name:central | text: Central;\nname:western | text: Western;\nname:eastern | text: Eastern;\nname:northern | text: Northern;\nname:outside | text: Outside Uganda;"
+    },
+    {
+      "type": "combo_box",
+      "name": "combo_box_region",
+      "value": "@fields.user_region",
+      "action_list": "changed | set_field: user_region: @local.combo_box_region; ",
+      "parameter_list": "answer_list: @local.answer_list_region; placeholder: @local.placeholder_region; input_allowed: false;"
+    },
+    {
+      "type": "begin_template",
+      "name": "nav_buttons",
+      "value": "nav_buttons",
+      "action_list": "completed | set_field: user_name:`@global.user_name_default`;\nuncompleted | set_field: user_name:`@global.user_name_default`;\ncompleted | emit:completed;\nuncompleted | emit:uncompleted;",
+      "condition": "!@local.text_box"
+    },
+    {
+      "name": "display_back",
+      "value": false,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "button_completed",
+      "value": "@global.save_button",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "type": "begin_template",
+      "name": "nav_buttons",
+      "value": "nav_buttons",
+      "action_list": "completed | set_field: user_name: @local.text_box;\nuncompleted | set_field: user_name: @local.text_box;\ncompleted | emit:completed;\nuncompleted | emit:uncompleted;",
+      "condition": "@local.text_box"
+    },
+    {
+      "name": "display_back",
+      "value": false,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "button_completed",
+      "value": "@global.save_button",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template"
+    }
+  ]
+}

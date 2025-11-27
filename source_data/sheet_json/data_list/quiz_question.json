@@ -1,0 +1,917 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "quiz_question",
+  "status": "released",
+  "rows": [
+    {
+      "id": "child_20",
+      "topic": "current_pract",
+      "question_type": "select_one",
+      "question_text": "What kind of child would you want to have at their 20th birthday?",
+      "option_1_text": "Respectful",
+      "option_2_text": "Independent",
+      "option_3_text": "Has intergrity",
+      "option_4_text": "Thriving",
+      "option_5_text": "Healthy",
+      "attached_single_doc": "https://docs.google.com/document/d/1a-k_tt9zY9EkzVuwjPGVRicfciedIeEMzEdNYj3jLr8"
+    },
+    {
+      "id": "playing_what",
+      "topic": "current_pract",
+      "image_asset": "images/parents_children_playing_football.jpg",
+      "question_type": "select_one",
+      "question_text": "What is happening in this image?",
+      "option_1_text": "Child is kicking a ball",
+      "option_2_text": "Parents are cheering the kids as they play",
+      "option_3_text": "Parents are playing with the kids"
+    },
+    {
+      "id": "playing_ease",
+      "topic": "current_pract",
+      "question_type": "select_one",
+      "question_text": "For me this practice is...",
+      "option_1_text": "Easy to do",
+      "option_2_text": "Difficult to do",
+      "option_3_text": "Not done"
+    },
+    {
+      "id": "playing_why",
+      "topic": "current_pract",
+      "question_type": "text_input",
+      "question_text": "Why?"
+    },
+    {
+      "id": "feeding_what",
+      "topic": "current_pract",
+      "image_asset": "images/mother_reading_map_with_children.jpg",
+      "question_type": "select_one",
+      "question_text": "What is happening in this image?",
+      "option_1_text": "A child sitting on the table",
+      "option_2_text": "Parent and child interpreting a map",
+      "option_3_text": "The parent engages with the kids in their comfort"
+    },
+    {
+      "id": "feeding_ease",
+      "topic": "current_pract",
+      "question_type": "select_one",
+      "question_text": "For me this practice is...",
+      "option_1_text": "Easy to do",
+      "option_2_text": "Difficult to do",
+      "option_3_text": "Not done"
+    },
+    {
+      "id": "feeding_why",
+      "topic": "current_pract",
+      "question_type": "text_input",
+      "question_text": "Why?"
+    },
+    {
+      "id": "reading_what",
+      "topic": "current_pract",
+      "image_asset": "images/parents_child_reading.jpg",
+      "question_type": "select_one",
+      "question_text": "What is happening in this image?",
+      "option_1_text": "Parent and child are reading together",
+      "option_2_text": "The child is sitting on the caregiver's lap",
+      "option_3_text": "The caregiver is pointing at an image"
+    },
+    {
+      "id": "reading_ease",
+      "topic": "current_pract",
+      "question_type": "select_one",
+      "question_text": "For me this practice is...",
+      "option_1_text": "Easy to do",
+      "option_2_text": "Difficult to do",
+      "option_3_text": "Not done"
+    },
+    {
+      "id": "reading_why",
+      "topic": "current_pract",
+      "question_type": "text_input",
+      "question_text": "Why?"
+    },
+    {
+      "id": "dev_stage_which",
+      "topic": "child_dev",
+      "question_type": "select_one",
+      "question_text": "Which of the four main developmental stages does your child belong to?",
+      "option_1_text": "0-5 years (pre-school)",
+      "option_2_text": "6-9 years (lower primary)",
+      "option_3_text": "10-12 years (upper primary)",
+      "option_4_text": "13-17 years (teenagers)"
+    },
+    {
+      "id": "dev_stage_physical",
+      "topic": "child_dev",
+      "question_type": "text_input_long",
+      "question_text": "What will you do to ensure that this child will grow well physically (growth)?"
+    },
+    {
+      "id": "dev_stage_think",
+      "topic": "child_dev",
+      "question_type": "text_input_long",
+      "question_text": "What will you do to ensure that this child will grow well cognitively (thinking)?"
+    },
+    {
+      "id": "dev_stage_feel",
+      "topic": "child_dev",
+      "question_type": "text_input_long",
+      "question_text": "What will you do to ensure that this child will grow well emotionally (feelings)?"
+    },
+    {
+      "id": "dev_stage_social",
+      "topic": "child_dev",
+      "question_type": "text_input_long",
+      "question_text": "What will you do to ensure that this child will grow well socially (social awareness)?"
+    },
+    {
+      "id": "david_feel",
+      "topic": "child_dev",
+      "question_type": "select_one",
+      "question_text": "How does the child feel when the parent does pay attention?",
+      "option_1_text": "Feels ignored",
+      "option_2_text": "Feels not loved",
+      "option_3_text": "Feels annoyed",
+      "option_4_text": "Feels frustrated",
+      "option_5_text": "Feels embarrassed"
+    },
+    {
+      "id": "david_mum_feel",
+      "topic": "child_dev",
+      "question_type": "select_one",
+      "question_text": " How does the parent feel about the child?",
+      "option_1_text": "\nFeels annoyed",
+      "option_2_text": "Feels guilt",
+      "option_3_text": "Feels disturbed"
+    },
+    {
+      "id": "father_action",
+      "topic": "child_dev",
+      "question_type": "select_one",
+      "question_text": "What do you think of the parent's actions?",
+      "option_1_text": "Controlling",
+      "option_2_text": "Un fair",
+      "option_3_text": "Good and training",
+      "option_4_text": "\nUnfit for child - parent relationship"
+    },
+    {
+      "id": "father_control",
+      "topic": "child_dev",
+      "question_type": "select_one",
+      "question_text": "How does the child feel when the  parent controls the game? \"",
+      "option_1_text": "Feels empty",
+      "option_2_text": "Feels angered",
+      "option_3_text": "Feels helpless\n",
+      "option_4_text": "Feels fear"
+    },
+    {
+      "id": "mother_attention",
+      "topic": "child_dev",
+      "question_type": "select_one",
+      "question_text": "How does the mother show attention to Doreen?",
+      "option_1_text": "Invites both of them to play together",
+      "option_2_text": "She joins the play",
+      "option_3_text": "Allows the child to teach them about the game in her way"
+    },
+    {
+      "id": "mother_control",
+      "topic": "child_dev",
+      "question_type": "select_one",
+      "question_text": "How does the mother help Doreen to do what she wants without controlling her?",
+      "option_1_text": "Joins and enjoys the play moment",
+      "option_2_text": "Praise the child during the play",
+      "option_3_text": "Informs her that they will join the play someother time"
+    },
+    {
+      "id": "doreen_feel",
+      "topic": "child_dev",
+      "question_type": "select_one",
+      "question_text": "How does this make Doreen feel? ",
+      "option_1_text": "Doreen feels loved and cared for",
+      "option_2_text": "She feels good about their relationship",
+      "option_3_text": "She feels good about the other activities that she has to do"
+    },
+    {
+      "id": "positive_exp",
+      "topic": "parent_childhood",
+      "question_type": "select_one",
+      "question_text": "What positive childhood experiences do you remember in your relationship with your mother/father/caregiver? ",
+      "option_1_text": "Play time together ",
+      "option_2_text": "Storytime together",
+      "option_3_text": "Walked and visited places together",
+      "option_4_text": "Allowed me to play with friends",
+      "option_5_text": "Visited my school",
+      "option_6_text": "Worked with me at home",
+      "option_7_text": "Had opportunities to positively teach a new skill"
+    },
+    {
+      "id": "negative_exp",
+      "topic": "parent_childhood",
+      "question_type": "select_one",
+      "question_text": "What negative childhood experiences do you remember in your relationship with your mother/father/caregiver? ",
+      "option_1_text": "Coorperal punishment ",
+      "option_2_text": "Use of abusive words",
+      "option_3_text": "Not being allowed to play",
+      "option_4_text": "Not being allowed to play with my friends",
+      "option_5_text": "Refusal to provide basic needs",
+      "option_6_text": "Parent use of alcohol",
+      "option_7_text": "Observing parents fighting"
+    },
+    {
+      "id": "will_repeat",
+      "topic": "parent_childhood",
+      "question_type": "select_one",
+      "question_text": "Name one thing about your female/male caregiver that you want to take into your relationship with your children. ",
+      "option_1_text": "Play time together",
+      "option_2_text": "Storytime together",
+      "option_3_text": "Walked and visited places together",
+      "option_4_text": "Allowed me to play with friends",
+      "option_5_text": "Visited my school",
+      "option_6_text": "Worked with me at home",
+      "option_7_text": "Had opportunities to positively teach a new skilll"
+    },
+    {
+      "id": "wont_repeat",
+      "topic": "parent_childhood",
+      "question_type": "select_one",
+      "question_text": "Name one thing about your female/male caregiver that you do not want to repeat with your children?",
+      "option_1_text": "Coorperal punishment",
+      "option_2_text": "Use of abusive words",
+      "option_3_text": "Not being allowed to play with friends",
+      "option_4_text": "Refusal to provide basic needs",
+      "option_5_text": "Parent use of alcohol",
+      "option_6_text": "Observing parents fighting"
+    },
+    {
+      "id": "similar_experience",
+      "topic": "parent_childhood",
+      "question_type": "select_one",
+      "question_text": "Do you have a similar experience and practices like Mr. Semakula and his family?",
+      "option_1_text": "Yes",
+      "option_2_text": "No"
+    },
+    {
+      "id": "cuddle_time",
+      "topic": "parent_childhood",
+      "question_type": "select_one",
+      "question_text": "Do you find time to cuddle your little kids at least once a week?",
+      "option_1_text": "Yes",
+      "option_2_text": "No"
+    },
+    {
+      "id": "purpose_games",
+      "topic": "parent_childhood",
+      "question_type": "select_one",
+      "question_text": "Do you purpose to have out and indoor games with your children at least once a week?",
+      "option_1_text": "Yes",
+      "option_2_text": "No"
+    },
+    {
+      "id": "learn_new",
+      "topic": "parent_childhood",
+      "question_type": "select_one",
+      "question_text": "Did you learn anything new?",
+      "option_1_text": "Yes",
+      "option_2_text": "No"
+    },
+    {
+      "id": "get_attention",
+      "topic": "positive_parenting",
+      "question_type": "select_one",
+      "question_text": "What does Sarah do to get attention from the mother? ",
+      "option_1_text": "She tries to join the brother so that they play together,",
+      "option_2_text": "She takes away for brother's blocks",
+      "option_3_text": "She disturbs the brother"
+    },
+    {
+      "id": "important_attention",
+      "topic": "positive_parenting",
+      "question_type": "select_one",
+      "question_text": "Why is it important for Sarah to get the mother’s attention?",
+      "option_1_text": "Just like all children she wants to be attended to",
+      "option_2_text": "She does not appreciate the fact that the mother is busy",
+      "option_3_text": "She wants to disturb the brother"
+    },
+    {
+      "id": "mother_response",
+      "topic": "positive_parenting",
+      "question_type": "select_one",
+      "question_text": "What behavior is the mother rewarding by responding to the needs of Sarah’s brother? ",
+      "option_1_text": "Selfishness,  and dividing own children",
+      "option_2_text": "Care for individual children",
+      "option_3_text": "Dividing own children"
+    },
+    {
+      "id": "problem",
+      "topic": "positive_parenting",
+      "question_type": "select_one",
+      "question_text": "Why might it be a problem to say “I will tell your father”?",
+      "option_1_text": "The child might think that parent has no authority",
+      "option_2_text": "Child might take parent for granted",
+      "option_3_text": "Delay to discipline is sometimes not discipline",
+      "option_4_text": "Child might start to dislike the father"
+    },
+    {
+      "id": "respond_best",
+      "topic": "positive_parenting",
+      "question_type": "select_one",
+      "question_text": "What would be a better way to respond?",
+      "option_1_text": "Finding ways to having the 2 children play together",
+      "option_2_text": "Solving the situation and not refering to the father"
+    },
+    {
+      "id": "communicate_rules",
+      "topic": "positive_parenting",
+      "question_type": "select_one",
+      "question_text": "How does the mother communicate to the child about house rules?",
+      "option_1_text": "She speaks calmly to the child",
+      "option_2_text": "She sits at the same level with the child",
+      "option_3_text": "She has a watch to help the child understand well the timelines"
+    },
+    {
+      "id": "child_listen",
+      "topic": "positive_parenting",
+      "question_type": "select_one",
+      "question_text": "How does the mother talk to the child to make sure that he is really listening?",
+      "option_1_text": "She speaks calmly to the child",
+      "option_2_text": "She sits at the same level with the child"
+    },
+    {
+      "id": "house_behavior",
+      "topic": "positive_parenting",
+      "question_type": "text_input",
+      "question_text": "Is the house rule connected to a specific behavior?"
+    },
+    {
+      "id": "support_rules",
+      "topic": "positive_parenting",
+      "question_type": "select_one",
+      "question_text": "What does the mother do to support the child when he follows the house rule?",
+      "option_1_text": "She has a watch to help the child understand well the timelines",
+      "option_2_text": "Appreciates the child for returning early"
+    },
+    {
+      "id": "stereotypes_1",
+      "topic": "gender_power",
+      "question_type": "select_one",
+      "question_text": "What practices should men adapt to help them move from inside the gender box to outside the gender box as they try to become a better spouses and parents?",
+      "option_1_text": " Play with children",
+      "option_2_text": "Spend time with family",
+      "option_3_text": "Support with household chores",
+      "option_4_text": "Have open disussions with their family and actively listen to them",
+      "option_5_text": "Have safe space for as a person to relax and reflect"
+    },
+    {
+      "id": "stereotypes_2",
+      "topic": "gender_power",
+      "question_type": "select_one",
+      "question_text": "What practices should women adapt to help them move from inside the gender box to outside the gender box as they try to become a better spouses and parents?",
+      "option_1_text": "Support their family financially by providing for household expenses",
+      "option_2_text": "Spend more time with their spouse",
+      "option_3_text": "Engage more in formal meetings and engagments",
+      "option_4_text": "Have safe space for as a person to relax and reflect",
+      "option_5_text": "Spend more time with children and family"
+    },
+    {
+      "id": "discipline_children_1",
+      "topic": "discipline_children",
+      "question_type": "text_input",
+      "question_text": "What parenting style is predominant in your household? "
+    },
+    {
+      "id": "discipline_children_2",
+      "topic": "discipline_children",
+      "question_type": "text_input",
+      "question_text": "Why"
+    },
+    {
+      "id": "parenting_style_firm",
+      "topic": "discipline_children",
+      "question_type": "select_one",
+      "question_text": "What are the benefits on this parenting style on the children's behaviour and outcome?",
+      "option_1_text": "Behave well",
+      "option_2_text": "Do well in school",
+      "option_3_text": "Lively and feel secure",
+      "option_4_text": "Self-confident",
+      "option_5_text": "Able to control their emotions",
+      "option_6_text": "Can relate with other people in the home and outside children's right to expression is not respected"
+    },
+    {
+      "id": "parenting_style_strict",
+      "topic": "discipline_children",
+      "question_type": "select_one",
+      "question_text": "What are the benefits on this parenting style on the children's behaviour and outcome?",
+      "option_1_text": "Obedient in the presence of adults",
+      "option_2_text": "Do well in school"
+    },
+    {
+      "id": "parenting_style_permissive",
+      "topic": "discipline_children",
+      "question_type": "select_one",
+      "question_text": "What are the benefits on this parenting style on the children's behaviour and outcome?",
+      "option_1_text": "They are more resourceful than kids raised by uninvolved or strict parents."
+    },
+    {
+      "id": "parenting_style_uninvolved",
+      "topic": "discipline_children",
+      "question_type": "select_one",
+      "question_text": "What are the benefits on this parenting style on the children's behaviour and outcome?",
+      "option_1_text": "Survive on their own ",
+      "option_2_text": "Can be dangerous",
+      "__EMPTY_1": " Survive on their own but can be dangerous"
+    },
+    {
+      "id": "situation_familiar",
+      "topic": "impact_conflict",
+      "question_type": "select_one",
+      "question_text": "Is such a situation familiar in your life or community?  ",
+      "option_1_text": "No, this is new to me",
+      "option_2_text": "Yes, I have observed related scenarios in my community",
+      "option_3_text": "Yes, a bit related to my own life",
+      "option_4_text": "Not in my community but in other communities around"
+    },
+    {
+      "id": "power_violence",
+      "topic": "impact_conflict",
+      "question_type": "select_one",
+      "question_text": "Is there a relationship between power and violence?",
+      "option_1_text": "No, there is no relationship between power and violence",
+      "option_2_text": " Yes, there is a relationship between power and violence"
+    },
+    {
+      "id": "consequence_conflict_1",
+      "topic": "impact_conflict",
+      "question_type": "select_one",
+      "question_text": "What are the consequences of conflict/violence to women?",
+      "option_1_text": "Inguiries",
+      "option_2_text": "Stress and depression",
+      "option_3_text": "Sickness and diseases",
+      "option_4_text": "Family break up"
+    },
+    {
+      "id": "consequence_conflict_2",
+      "topic": "impact_conflict",
+      "question_type": "select_one",
+      "question_text": "What are the consequences of conflict/violence to children?",
+      "option_1_text": "Deprivation of food",
+      "option_2_text": "Protection",
+      "option_3_text": "Education and health care",
+      "option_4_text": "Sickness and disease",
+      "option_5_text": "Failure to get parental love"
+    },
+    {
+      "id": "consequence_conflict_3",
+      "topic": "impact_conflict",
+      "question_type": "select_one",
+      "question_text": "What are the consequences of conflict/violence to men?",
+      "option_1_text": "Stress and depression",
+      "option_2_text": "Sickness and diseases",
+      "option_3_text": "Family break up"
+    },
+    {
+      "id": "relation_violence",
+      "topic": "impact_conflict",
+      "question_type": "select_one",
+      "question_text": "How can you make your own relationships free from violence?",
+      "option_1_text": "Improving communication",
+      "option_2_text": "Respect of partner and children",
+      "option_3_text": "Time to relax and rest from hard work and big events",
+      "option_4_text": "Having a family budget and expenditure plan",
+      "option_5_text": "Loving and caring for people around us",
+      "option_6_text": "Loving and caring for people around us"
+    },
+    {
+      "id": "normal_1",
+      "topic": "impact_conflict",
+      "question_type": "select_one",
+      "question_text": "Is it normal for couple to have supportive relationships like what you have here?",
+      "option_1_text": "Yes",
+      "option_2_text": "No"
+    },
+    {
+      "id": "normal_2",
+      "topic": "impact_conflict",
+      "question_type": "select_one",
+      "question_text": "Is this normal in your own relationship?",
+      "option_1_text": "Yes",
+      "option_2_text": "No"
+    },
+    {
+      "id": "sharing_care_who",
+      "topic": "sharing_care",
+      "question_type": "select_one",
+      "question_text": "In story one, how does the wife of this family feel?",
+      "option_1_text": "Tired",
+      "option_2_text": "Annoyed",
+      "option_3_text": "Stressed",
+      "option_4_text": "Overwhelmed",
+      "option_5_text": "Disappointed with the husband"
+    },
+    {
+      "id": "sharing_care_time",
+      "topic": "sharing_care",
+      "question_type": "select_one",
+      "question_text": "In story one, how does the husband of this family feel?",
+      "option_1_text": "Happy",
+      "option_2_text": "Cared for",
+      "option_3_text": "Respected",
+      "option_4_text": "In control"
+    },
+    {
+      "id": "sharing_care_relations",
+      "topic": "sharing_care",
+      "question_type": "select_one",
+      "question_text": "In story one, how does the children of this family feel?",
+      "option_1_text": "Unhappy",
+      "option_2_text": "Happy",
+      "option_3_text": "Tired of the mother situation"
+    },
+    {
+      "id": "sharing_care_obstacles_1",
+      "topic": "sharing_care",
+      "question_type": "select_one",
+      "question_text": "In story two, how does the wife of this family feel?",
+      "option_1_text": "Valued",
+      "option_2_text": "Supported",
+      "option_3_text": "Happy",
+      "option_4_text": "Connected"
+    },
+    {
+      "id": "sharing_care_obstacles_2",
+      "topic": "sharing_care",
+      "question_type": "select_one",
+      "question_text": "In story two, how does the husband of this family feel?",
+      "option_1_text": "Respected",
+      "option_2_text": " Valued",
+      "option_3_text": "Supportive",
+      "option_4_text": "Involved",
+      "option_5_text": "Pleased to be part of the family"
+    },
+    {
+      "id": "sharing_care_benefits_1",
+      "topic": "sharing_care",
+      "question_type": "select_one",
+      "question_text": "In story two, how does the children of this family feel?",
+      "option_1_text": "Happy",
+      "option_2_text": "Loved",
+      "option_3_text": "Supported",
+      "option_4_text": "Comfortable"
+    },
+    {
+      "id": "sharing_care_how",
+      "topic": "sharing_care",
+      "question_type": "select_one",
+      "question_text": "How does participation in child care and upbringing affect parent-child relationships?",
+      "option_1_text": "It build trust and a sense of worthy",
+      "option_2_text": "Improves communication",
+      "option_3_text": "Provides opportunities for role modeling",
+      "option_4_text": "Provides an environment for value teaching",
+      "option_5_text": "Improves the emotional and general well-being of both the child and parent"
+    },
+    {
+      "id": "caregiving_man",
+      "topic": "sharing_care",
+      "question_type": "select_one",
+      "question_text": "How do couple in story two benefit from the supportive child-care roles?",
+      "option_1_text": "Strong bond between husband and wife",
+      "option_2_text": "Good mental well-being of husband and wife",
+      "option_3_text": "Strong relationship"
+    },
+    {
+      "id": "caregiving_woman",
+      "topic": "sharing_care",
+      "question_type": "select_one",
+      "question_text": "What can be done to promote a more equitable distribution of labour in the households?",
+      "option_1_text": "Open discussion of role sharing",
+      "option_2_text": "Feedback and expectation clarification",
+      "option_3_text": "Rotation of tasks",
+      "option_4_text": "Proper planning"
+    },
+    {
+      "id": "story_relate",
+      "topic": "healthy_relation",
+      "question_type": "select_one",
+      "question_text": "Are there components of the story that relate to your intimate relationship?",
+      "option_1_text": "Yes",
+      "option_2_text": "No"
+    },
+    {
+      "id": "marriage_like",
+      "topic": "healthy_relation",
+      "question_type": "select_one",
+      "question_text": "What do you like about marriage?",
+      "option_1_text": "The companionship\n\n",
+      "option_2_text": "The gifts of children and the privilege to parent them",
+      "option_3_text": "The respect I earn as a married woman/ a married man"
+    },
+    {
+      "id": "marriage_dont_like",
+      "topic": "healthy_relation",
+      "question_type": "select_one",
+      "question_text": "What don’t you like about marriage?",
+      "option_1_text": "Blame game which many times affects the woman most for every failure be it with the children, finances, health of the children, bad food etc. The man is ever right.",
+      "option_2_text": "Partner conflict and poor communication",
+      "option_3_text": "Incase of any conflict between the couple the children suffer innocently because the man will transfer the anger to the children more over his children and the reverse is true."
+    },
+    {
+      "id": "couple_relate",
+      "topic": "healthy_relation",
+      "question_type": "select_one",
+      "question_text": "Why is it good or bad for married couples to relate like those\nin the story?\n",
+      "option_1_text": "Unfaithfulness\n\n",
+      "option_2_text": "Poor communication",
+      "option_3_text": "\nPoor hygiene",
+      "option_4_text": "Aggressiveness",
+      "option_5_text": "They have a formal relationship\n",
+      "option_6_text": "The husband is patient",
+      "option_7_text": "\nThey have children"
+    },
+    {
+      "id": "lose_interest",
+      "topic": "healthy_relation",
+      "question_type": "select_one",
+      "question_text": "What would you do to make your marital relationship and intimacy enjoyable?",
+      "option_1_text": "Being patient, kind and supportive in a marriage relationship\n\n\n\n\n",
+      "option_2_text": "Ensuring communication is not cut off between us.",
+      "option_3_text": "Accepting feedback and work towards improving it.",
+      "option_4_text": "Not sexually starving each other to promote faithfulness.",
+      "option_5_text": "Where we are failing to resolve the conflict between us, involving a trusted third party.",
+      "option_6_text": "Being fair and respectful in a marriage relationship"
+    },
+    {
+      "id": "barrelate_differently",
+      "topic": "healthy_relation",
+      "question_type": "select_one",
+      "question_text": "Does this relate in any way to your own marital relationship. Do you spend time together?",
+      "option_1_text": "Yes",
+      "option_2_text": "No",
+      "option_3_text": "Sometimes"
+    },
+    {
+      "id": "encourage_how",
+      "topic": "parenting_teens",
+      "question_type": "select_one",
+      "question_text": "Reflect to the time when you were an adolescent (10 - 17).  \nHow did it feel to be an adolescent? ",
+      "option_1_text": "Stressful",
+      "option_2_text": "Horrible",
+      "option_3_text": "Moments to remember",
+      "option_4_text": "Period of Hope",
+      "option_5_text": "Period of Achieving",
+      "option_6_text": "Restricted Time"
+    },
+    {
+      "id": "like_most",
+      "topic": "parenting_teens",
+      "question_type": "select_one",
+      "question_text": "What were the things you liked doing most?",
+      "option_1_text": "Spending time with parents",
+      "option_2_text": "With friend",
+      "option_3_text": "Suppprtive enviroment",
+      "option_4_text": "Leisure wise",
+      "option_5_text": "Watching movies",
+      "option_6_text": "Going to walks around",
+      "option_7_text": "Shopping without supervision of parents"
+    },
+    {
+      "id": "parent_values",
+      "topic": "parenting_teens",
+      "question_type": "select_one",
+      "question_text": "What were the things you did not like? \n",
+      "option_1_text": "Strict parents abusive schools, staying at school without meals",
+      "option_2_text": "Corporal punishment",
+      "option_3_text": "Abusive peers",
+      "option_4_text": "Distant parents",
+      "option_5_text": "Living in lack",
+      "option_6_text": "Restrictions on movement",
+      "option_7_text": "Restrictions on shopping"
+    },
+    {
+      "id": "religious_values",
+      "topic": "parenting_teens",
+      "question_type": "select_one",
+      "question_text": "How was your relationship with your parents/caregivers? ",
+      "option_1_text": "Strict",
+      "option_2_text": "Relaxed relationship",
+      "option_3_text": "Generally positive",
+      "option_4_text": "Enjoyed spending time together",
+      "option_5_text": "Conflictual with a lot of disagreements",
+      "option_6_text": "Peer like relationship"
+    },
+    {
+      "id": "behaviour_influence",
+      "topic": "parenting_teens",
+      "question_type": "select_one",
+      "question_text": "Do you think it is normal for adolescents to act like the ones in the pictures above? ",
+      "option_1_text": "Yes",
+      "option_2_text": "No"
+    },
+    {
+      "id": "discipline_1",
+      "topic": "parenting_teens",
+      "question_type": "select_one",
+      "question_text": "Is it common for young people to behave like these in the story?",
+      "option_1_text": "Yes",
+      "option_2_text": "No",
+      "option_3_text": "Sometimes"
+    },
+    {
+      "id": "discipline_2",
+      "topic": "parenting_teens",
+      "question_type": "select_one",
+      "question_text": "What would be some of the best ways to get these adolescents to appreciate the value to committing to their education now? ",
+      "option_1_text": "By praising and appreciating who they are\n\n\n\n\n",
+      "option_2_text": "Discussing to them always to find out the issues in their lives that may affect their education\n\n",
+      "option_3_text": "Being empathetic and guiding accordingly",
+      "option_4_text": "\nProviding their needs",
+      "option_5_text": "Improving parent - child relationship by getting involved in activities they like"
+    },
+    {
+      "id": "different_values",
+      "topic": "parenting_teens",
+      "question_type": "select_one",
+      "question_text": "What influences young people to behave in ways that are different from their values (possible answers",
+      "option_1_text": "Peer pressure",
+      "option_2_text": "Opportunity for personal gain",
+      "option_3_text": "To get attention",
+      "option_4_text": "To rebel"
+    },
+    {
+      "id": "race_child",
+      "topic": "parenting_teens",
+      "question_type": "select_one",
+      "question_text": "Which agents/materials do you think are racing with your child/ren at the moment and possibly taking over your child/ren?",
+      "option_1_text": "Technology\n\n",
+      "option_2_text": "Drinking alcohol and use of drugs",
+      "option_3_text": "Going to parties and gambling",
+      "option_4_text": "Peers",
+      "option_5_text": "Social media",
+      "option_6_text": "Effects of modernity"
+    },
+    {
+      "id": "target_conflict",
+      "topic": "parenting_teens",
+      "question_type": "select_one",
+      "question_text": "Why do you think your child/ren is the target of this moral conflict?",
+      "option_1_text": "Because they are easily tamed or influenced\n",
+      "option_2_text": "Vulnerable stage for all children and young people",
+      "option_3_text": "Many children are not attended to and left in the hand of strangers"
+    },
+    {
+      "id": "positive_race",
+      "topic": "parenting_teens",
+      "question_type": "select_one",
+      "question_text": "What positive things can you do to get there to your child/ren before all the others in the race?",
+      "option_1_text": "Improving parent – child relationship and communication\n",
+      "option_2_text": "Ensuring that am their first educator in their lives",
+      "option_3_text": "Introducing God in their lives early enough and encouraging them to have a personal relationship with Him",
+      "option_4_text": "Being intentional in the kind of schools they attend",
+      "option_5_text": "Being interested in their friends so that we guide on the kind of friends they should have"
+    },
+    {
+      "id": "resolve_conflict",
+      "topic": "parenting_teens",
+      "question_type": "text_input",
+      "question_text": "Which role have played to ensure that you resolve any conflicts and support your child to overcome these challenges?"
+    },
+    {
+      "id": "opportunities",
+      "topic": "education",
+      "question_type": "select_one",
+      "question_text": "As a parent, what opportunities do you provide for your child/ren to inspire their learning to achieve and thrive in education?\n",
+      "option_1_text": "Providing all their education needs\n",
+      "option_2_text": "Monitoring them in school and checking how best to support them.",
+      "option_3_text": "Having a good relationship with their teachers/school administrators.",
+      "option_4_text": "Supporting their dreams/talents.",
+      "option_5_text": "Showing them love and discipline them positively."
+    },
+    {
+      "id": "mentor_supoort",
+      "topic": "education",
+      "question_type": "select_one",
+      "question_text": "Does your child/ren have a mentor who can regularly support him/her in their drive to thrive in their education?",
+      "option_1_text": "Yes",
+      "option_2_text": "No"
+    },
+    {
+      "id": "moral_support",
+      "topic": "education",
+      "question_type": "select_one",
+      "question_text": "Have you been present for moral support, behavior regulation and mentorship to support your child/ren achieve in school",
+      "option_1_text": "Yes",
+      "option_2_text": "No"
+    },
+    {
+      "id": "you_relate",
+      "topic": "education",
+      "question_type": "select_one",
+      "question_text": "Does this story relate to you?",
+      "option_1_text": "Yes",
+      "option_2_text": "No"
+    },
+    {
+      "id": "react_story",
+      "topic": "education",
+      "question_type": "select_one",
+      "question_text": "How would a supportive parent react based on the story above?",
+      "option_1_text": "The parent should save some time to talk to Carol's teachers",
+      "option_2_text": "The parent should encourage Carol to be accountable."
+    },
+    {
+      "id": "help_modify",
+      "topic": "gender_equal",
+      "question_type": "select_one",
+      "question_text": "Why do they have different perspectives? ",
+      "option_1_text": "Exposure     ",
+      "option_2_text": "Relationship with children",
+      "option_3_text": "Relationship betwee the couple",
+      "option_4_text": "Level of income and status",
+      "option_5_text": "Morals while growing up social networks",
+      "option_6_text": "Personal dreams and ambtions"
+    },
+    {
+      "id": "community_modify",
+      "topic": "gender_equal",
+      "question_type": "select_one",
+      "question_text": "Identify other common issues where mothers/female caregivers and fathers/male caregivers have different perspectives on parenting issues?",
+      "option_1_text": "School choice \n",
+      "option_2_text": "Dress code",
+      "option_3_text": "Religious beliefs",
+      "option_4_text": "Visitation plans"
+    },
+    {
+      "id": "prevent_abuse_1",
+      "topic": "prevent_abuse",
+      "question_type": "select_one",
+      "question_text": "How did you feel when you received this glass as a gift in the first place? ",
+      "option_1_text": "Good",
+      "option_2_text": "Pleased",
+      "option_3_text": "Happy",
+      "option_4_text": "Blessed",
+      "option_5_text": "Loved"
+    },
+    {
+      "id": "prevent_abuse_2",
+      "topic": "prevent_abuse",
+      "question_type": "select_one",
+      "question_text": "How do you feel now when the glass is broken and in pieces?",
+      "option_1_text": "Sad",
+      "option_2_text": "Unhappy",
+      "option_3_text": "Annoyed",
+      "option_4_text": "Disappointed"
+    },
+    {
+      "id": "prevent_abuse_3",
+      "topic": "prevent_abuse",
+      "question_type": "text_input",
+      "question_text": "Think of all the friends you have. What did you consider for them to become your good friends?"
+    },
+    {
+      "id": "prevent_abuse_4",
+      "topic": "prevent_abuse",
+      "question_type": "text_input",
+      "question_text": "Was it hard/easy to choose them?  Why? "
+    },
+    {
+      "id": "prevent_abuse_5",
+      "topic": "prevent_abuse",
+      "question_type": "text_input",
+      "question_text": "What are the qualities that make one a good friend as opposed to a bad friend?"
+    },
+    {
+      "id": "prevent_abuse_6",
+      "topic": "prevent_abuse",
+      "question_type": "text_input",
+      "question_text": "You realize that this is a process. How do we then transfer the skills of selecting the right friends to your child/ren?"
+    },
+    {
+      "id": "web",
+      "topic": "conclusion",
+      "question_type": "text_input",
+      "question_text": "Mention one lesson from this parenting programme that we will take with you into your future parenting journey."
+    },
+    {
+      "id": "conclusion_1",
+      "topic": "conclusion",
+      "question_type": "text_input",
+      "question_text": "How do you wish to support each other after the programme?"
+    },
+    {
+      "id": "conclusion_2",
+      "topic": "conclusion",
+      "question_type": "text_input",
+      "question_text": "How do you plan to reach others who did not participate in the programme?"
+    },
+    {
+      "id": "conclusion_3",
+      "topic": "conclusion",
+      "question_type": "text_input",
+      "question_text": "What one important thing, other than money, do you wish to receive from the implementers of the programme in future?"
+    },
+    {
+      "id": "conclusion_4",
+      "topic": "conclusion",
+      "question_type": "text_input",
+      "question_text": "What kind of support do you need from the sub county/ district?"
+    }
+  ]
+}

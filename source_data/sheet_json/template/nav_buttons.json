@@ -1,0 +1,80 @@
+{
+  "flow_type": "template",
+  "flow_name": "nav_buttons",
+  "status": "released",
+  "rows": [
+    {
+      "type": "begin_display_group",
+      "name": "buttons",
+      "parameter_list": "style: navigation",
+      "condition": false
+    },
+    {
+      "type": "button",
+      "name": "button_uncompleted",
+      "value": "Previous",
+      "action_list": "click | emit:uncompleted",
+      "parameter_list": "style:navigation; text_align: center"
+    },
+    {
+      "type": "button",
+      "name": "button_completed",
+      "value": "Next",
+      "action_list": "click | emit:completed",
+      "parameter_list": "style:navigation; text_align: center"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "buttons",
+      "exclude_from_translation": true,
+      "parameter_list": "style: navigation",
+      "condition": false
+    },
+    {
+      "type": "round_button",
+      "name": "button_uncompleted_chevron",
+      "action_list": "click | emit:uncompleted",
+      "exclude_from_translation": true,
+      "parameter_list": "icon_src: chevron-back;\nstyle: information"
+    },
+    {
+      "type": "round_button",
+      "name": "button_completed_chevron",
+      "action_list": "click | emit:completed",
+      "exclude_from_translation": true,
+      "parameter_list": "icon_src: chevron-forward;\nstyle: information"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "buttons",
+      "exclude_from_translation": true,
+      "parameter_list": "style: navigation"
+    },
+    {
+      "type": "round_button",
+      "name": "button_previous",
+      "action_list": "click | emit:uncompleted",
+      "exclude_from_translation": true,
+      "parameter_list": "icon_src: arrow-back;\nvariant: module; \nstyle: information",
+      "style_list": "flex: 1"
+    },
+    {
+      "type": "round_button",
+      "name": "button_next",
+      "action_list": "click | emit:completed",
+      "exclude_from_translation": true,
+      "parameter_list": "icon_src: arrow-forward;\nvariant: module; \nstyle: information",
+      "style_list": "flex: 1"
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    }
+  ]
+}

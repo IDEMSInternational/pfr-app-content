@@ -1,0 +1,40 @@
+{
+  "flow_type": "template",
+  "flow_name": "app_settings",
+  "status": "released",
+  "rows": [
+    {
+      "type": "button",
+      "name": "button_lang",
+      "value": "@global.language",
+      "action_list": "click | go_to: language_select",
+      "condition": false
+    },
+    {
+      "type": "button",
+      "name": "button_profile",
+      "value": "@global.user_info",
+      "action_list": "click | go_to: user_info"
+    },
+    {
+      "type": "button",
+      "name": "button_id",
+      "value": "User Id",
+      "action_list": "click | go_to: user_code"
+    },
+    {
+      "type": "button",
+      "name": "button_dev_enter",
+      "value": "Developer Mode",
+      "action_list": "click | go_to: dev_mode_enter",
+      "condition": "@fields.user_mode"
+    },
+    {
+      "type": "button",
+      "name": "button_dev_exit",
+      "value": "Developer Mode",
+      "action_list": "click | go_to: dev_mode_exit",
+      "condition": "!@fields.user_mode"
+    }
+  ]
+}

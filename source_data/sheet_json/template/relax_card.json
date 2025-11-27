@@ -1,0 +1,47 @@
+{
+  "flow_type": "template",
+  "flow_name": "relax_card",
+  "status": "released",
+  "rows": [
+    {
+      "name": "data_list_name",
+      "value": "relax"
+    },
+    {
+      "name": "id",
+      "value": "relax_1"
+    },
+    {
+      "name": "data_list_name_id",
+      "value": "@local.data_list_name.@local.id"
+    },
+    {
+      "name": "row_data",
+      "value": "@data.@local.data_list_name_id"
+    },
+    {
+      "name": "card_title",
+      "value": "@local.row_data.title"
+    },
+    {
+      "name": "card_icon",
+      "value": "images/icons/smile_eyes_down.svg"
+    },
+    {
+      "name": "target_template",
+      "value": "@local.id"
+    },
+    {
+      "name": "task_id"
+    },
+    {
+      "name": "completed_field"
+    },
+    {
+      "type": "task_card",
+      "name": "task_card",
+      "action_list": "click | pop_up: @local.target_template | fullscreen: true",
+      "parameter_list": "task_id: @local.task_id;\ncompleted_field: @local.completed_field;\ntitle: @local.card_title;\nimage: @local.card_icon;\nstyle: button;\nin_progress_icon: images/icons/in_progress.svg;\ncompleted_icon: images/icons/tick.svg;"
+    }
+  ]
+}

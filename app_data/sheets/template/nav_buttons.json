@@ -9,6 +9,7 @@
       "parameter_list": {
         "style": "navigation"
       },
+      "condition": false,
       "rows": [
         {
           "type": "button",
@@ -55,6 +56,117 @@
             "text_align": "center"
           },
           "_nested_name": "buttons.button_completed"
+        }
+      ],
+      "_nested_name": "buttons"
+    },
+    {
+      "type": "display_group",
+      "name": "buttons",
+      "exclude_from_translation": true,
+      "parameter_list": {
+        "style": "navigation"
+      },
+      "condition": false,
+      "rows": [
+        {
+          "type": "round_button",
+          "name": "button_uncompleted_chevron",
+          "action_list": [
+            {
+              "trigger": "click",
+              "action_id": "emit",
+              "args": [
+                "uncompleted"
+              ],
+              "_raw": "click | emit:uncompleted"
+            }
+          ],
+          "exclude_from_translation": true,
+          "parameter_list": {
+            "icon_src": "chevron-back",
+            "style": "information"
+          },
+          "_nested_name": "buttons.button_uncompleted_chevron"
+        },
+        {
+          "type": "round_button",
+          "name": "button_completed_chevron",
+          "action_list": [
+            {
+              "trigger": "click",
+              "action_id": "emit",
+              "args": [
+                "completed"
+              ],
+              "_raw": "click | emit:completed"
+            }
+          ],
+          "exclude_from_translation": true,
+          "parameter_list": {
+            "icon_src": "chevron-forward",
+            "style": "information"
+          },
+          "_nested_name": "buttons.button_completed_chevron"
+        }
+      ],
+      "_nested_name": "buttons"
+    },
+    {
+      "type": "display_group",
+      "name": "buttons",
+      "exclude_from_translation": true,
+      "parameter_list": {
+        "style": "navigation"
+      },
+      "rows": [
+        {
+          "type": "round_button",
+          "name": "button_previous",
+          "action_list": [
+            {
+              "trigger": "click",
+              "action_id": "emit",
+              "args": [
+                "uncompleted"
+              ],
+              "_raw": "click | emit:uncompleted"
+            }
+          ],
+          "exclude_from_translation": true,
+          "parameter_list": {
+            "icon_src": "arrow-back",
+            "variant": "module",
+            "style": "information"
+          },
+          "style_list": [
+            "flex: 1"
+          ],
+          "_nested_name": "buttons.button_previous"
+        },
+        {
+          "type": "round_button",
+          "name": "button_next",
+          "action_list": [
+            {
+              "trigger": "click",
+              "action_id": "emit",
+              "args": [
+                "completed"
+              ],
+              "_raw": "click | emit:completed"
+            }
+          ],
+          "exclude_from_translation": true,
+          "parameter_list": {
+            "icon_src": "arrow-forward",
+            "variant": "module",
+            "style": "information"
+          },
+          "style_list": [
+            "flex: 1"
+          ],
+          "_nested_name": "buttons.button_next"
         }
       ],
       "_nested_name": "buttons"

@@ -272,12 +272,65 @@
       "hidden": "@local.radio_button_grid!=\"happy\"",
       "rows": [
         {
+          "type": "text_bubble",
+          "name": "feedback_happy",
+          "value": "@local.row_data.feedback_happy",
+          "_translations": {
+            "value": {}
+          },
+          "parameter_list": {
+            "speaker_position": "@local.speaker_position",
+            "variant": "@local.variant"
+          },
+          "_nested_name": "feedback_happy.feedback_happy",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.row_data.feedback_happy",
+                "matchedExpression": "@local.row_data.feedback_happy",
+                "type": "local",
+                "fieldName": "row_data"
+              }
+            ],
+            "parameter_list": {
+              "speaker_position": [
+                {
+                  "fullExpression": "@local.speaker_position",
+                  "matchedExpression": "@local.speaker_position",
+                  "type": "local",
+                  "fieldName": "speaker_position"
+                }
+              ],
+              "variant": [
+                {
+                  "fullExpression": "@local.variant",
+                  "matchedExpression": "@local.variant",
+                  "type": "local",
+                  "fieldName": "variant"
+                }
+              ]
+            }
+          },
+          "_dynamicDependencies": {
+            "@local.row_data.feedback_happy": [
+              "value"
+            ],
+            "@local.speaker_position": [
+              "parameter_list.speaker_position"
+            ],
+            "@local.variant": [
+              "parameter_list.variant"
+            ]
+          }
+        },
+        {
           "type": "text",
           "name": "feedback_happy",
           "value": "@local.row_data.feedback_happy",
           "_translations": {
             "value": {}
           },
+          "condition": false,
           "_nested_name": "feedback_happy.feedback_happy",
           "_dynamicFields": {
             "value": [
@@ -322,12 +375,65 @@
       "hidden": "@local.radio_button_grid!=\"okay\"",
       "rows": [
         {
+          "type": "text_bubble",
+          "name": "feedback_okay",
+          "value": "@local.row_data.feedback_okay",
+          "_translations": {
+            "value": {}
+          },
+          "parameter_list": {
+            "speaker_position": "@local.speaker_position",
+            "variant": "@local.variant"
+          },
+          "_nested_name": "feedback_okay.feedback_okay",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.row_data.feedback_okay",
+                "matchedExpression": "@local.row_data.feedback_okay",
+                "type": "local",
+                "fieldName": "row_data"
+              }
+            ],
+            "parameter_list": {
+              "speaker_position": [
+                {
+                  "fullExpression": "@local.speaker_position",
+                  "matchedExpression": "@local.speaker_position",
+                  "type": "local",
+                  "fieldName": "speaker_position"
+                }
+              ],
+              "variant": [
+                {
+                  "fullExpression": "@local.variant",
+                  "matchedExpression": "@local.variant",
+                  "type": "local",
+                  "fieldName": "variant"
+                }
+              ]
+            }
+          },
+          "_dynamicDependencies": {
+            "@local.row_data.feedback_okay": [
+              "value"
+            ],
+            "@local.speaker_position": [
+              "parameter_list.speaker_position"
+            ],
+            "@local.variant": [
+              "parameter_list.variant"
+            ]
+          }
+        },
+        {
           "type": "text",
           "name": "feedback_okay",
           "value": "@local.row_data.feedback_okay",
           "_translations": {
             "value": {}
           },
+          "condition": false,
           "_nested_name": "feedback_okay.feedback_okay",
           "_dynamicFields": {
             "value": [
@@ -372,12 +478,65 @@
       "hidden": "@local.radio_button_grid!=\"sad\"",
       "rows": [
         {
+          "type": "text_bubble",
+          "name": "feedback_sad",
+          "value": "@local.row_data.feedback_sad",
+          "_translations": {
+            "value": {}
+          },
+          "parameter_list": {
+            "speaker_position": "@local.speaker_position",
+            "variant": "@local.variant"
+          },
+          "_nested_name": "feedback_sad.feedback_sad",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.row_data.feedback_sad",
+                "matchedExpression": "@local.row_data.feedback_sad",
+                "type": "local",
+                "fieldName": "row_data"
+              }
+            ],
+            "parameter_list": {
+              "speaker_position": [
+                {
+                  "fullExpression": "@local.speaker_position",
+                  "matchedExpression": "@local.speaker_position",
+                  "type": "local",
+                  "fieldName": "speaker_position"
+                }
+              ],
+              "variant": [
+                {
+                  "fullExpression": "@local.variant",
+                  "matchedExpression": "@local.variant",
+                  "type": "local",
+                  "fieldName": "variant"
+                }
+              ]
+            }
+          },
+          "_dynamicDependencies": {
+            "@local.row_data.feedback_sad": [
+              "value"
+            ],
+            "@local.speaker_position": [
+              "parameter_list.speaker_position"
+            ],
+            "@local.variant": [
+              "parameter_list.variant"
+            ]
+          }
+        },
+        {
           "type": "text",
           "name": "feedback_sad",
           "value": "@local.row_data.feedback_sad",
           "_translations": {
             "value": {}
           },
+          "condition": false,
           "_nested_name": "feedback_sad.feedback_sad",
           "_dynamicFields": {
             "value": [

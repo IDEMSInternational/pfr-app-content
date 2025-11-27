@@ -1,0 +1,37 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "conclusion",
+  "status": "released",
+  "rows": [
+    {
+      "id": "conclusion_check_in",
+      "data_list_name": "check_in",
+      "row_id": "check_in_1"
+    },
+    {
+      "id": "conclusion_relax",
+      "data_list_name": "relax",
+      "row_id": "relax_17"
+    },
+    {
+      "id": "conclusion_objectives",
+      "data_list_name": "objectives",
+      "row_id": "conclusion"
+    },
+    {
+      "id": "parents_web_tbg",
+      "data_list_name": "topic_block_group",
+      "row_id": "parents_web"
+    },
+    {
+      "id": "future_group_tbg",
+      "data_list_name": "topic_block_group",
+      "row_id": "future_group"
+    },
+    {
+      "id": "conclusion_praise",
+      "data_list_name": "praise",
+      "row_id": "conclusion"
+    }
+  ]
+}

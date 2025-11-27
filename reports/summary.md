@@ -12,28 +12,29 @@
 | dashed_box | 1 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 50 |
+| display_group | 52 |
 | image | 13 |
 | items | 19 |
-| lottie_animation | 2 |
+| lottie_animation | 3 |
 | navigation_bar | 1 |
 | nested_properties | 1 |
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 3 |
-| round_button | 1 |
+| round_button | 5 |
 | select_text | 1 |
 | set_field | 5 |
-| set_variable | 489 |
+| set_variable | 521 |
 | simple_checkbox | 3 |
 | subtitle | 2 |
 | task_card | 3 |
-| template | 148 |
-| text | 81 |
+| template | 175 |
+| text | 82 |
 | text_area | 5 |
 | text_box | 10 |
+| text_bubble | 8 |
 | tile_component | 1 |
-| title | 28 |
+| title | 29 |
 | toggle_bar | 1 |
 | update_action_list | 3 |
 | video | 3 |
@@ -45,19 +46,21 @@
 | type | count |
 | --- | --- |
 | app_update | 1 |
-| emit: completed | 140 |
+| emit: completed | 169 |
 | emit: force_reload | 5 |
 | emit: force_reprocess | 4 |
 | emit: force_restart | 2 |
 | emit: server_sync | 3 |
-| emit: uncompleted | 139 |
+| emit: uncompleted | 167 |
 | feedback | 7 |
 | go_to | 14 |
 | pop_up | 7 |
 | reset_app | 2 |
-| set_field | 27 |
-| set_local | 16 |
+| set_field | 30 |
+| set_local | 18 |
+| speaker_position | 1 |
 | start_tour | 1 |
+| variant | 1 |
 </details>
 
 <details open>
@@ -65,7 +68,7 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 103783 KB | 103.8 MB |
+| total | 109295 KB | 109.3 MB |
 | unused | 33479 KB | 33.5 MB |
 </details>
 
@@ -233,9 +236,7 @@ Assets that appear in app-data but do not have references within sheets
 | logos/who_blue.png | 108 |
 | logos/za_dsd.png | 154.5 |
 | logos/za_dsd_blue.png | 112.5 |
-| lottie/bulging_circles.txt | 0.2 |
 | lottie/cascading_stars.json | 140.5 |
-| lottie/well_done.txt | 0.2 |
 | pdf/facilitator_manual/10_review_pfr_manual.pdf | 1217.9 |
 </details>
 
@@ -246,6 +247,13 @@ Assets that have references within sheets but do not appear in app-data
 
 | path | count |
 | --- | --- |
+| audio/relax/relax_18.mp3 | 1 |
+| audio/relax/relax_20.mp3 | 1 |
+| audio/relax/relax_21.mp3 | 1 |
+| audio/relax/relax_22.mp3 | 1 |
+| audio/relax/relax_23.mp3 | 1 |
+| audio/relax/relax_24.mp3 | 1 |
+| audio/relax/relax_25.mp4 | 1 |
 | images/icons/buoy_white.svg | 1 |
 | plh_images/icons/globe_circle.svg | 1 |
 </details>
@@ -265,15 +273,32 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | audio/option_2.m4a | 415.2 | 1 |
 | audio/partnership_session13.mp3 | 479.8 | 1 |
 | audio/positiverelation_session9.mp3 | 1172.1 | 1 |
+| audio/relax/relax_1.mp3 | 265.1 | 1 |
+| audio/relax/relax_10.mp3 | 404.9 | 1 |
+| audio/relax/relax_11.mp3 | 445.6 | 1 |
+| audio/relax/relax_12.mp3 | 539.7 | 1 |
+| audio/relax/relax_13.mp3 | 398.4 | 1 |
+| audio/relax/relax_14.mp3 | 256.9 | 1 |
+| audio/relax/relax_15.mp3 | 125 | 1 |
+| audio/relax/relax_16.mp3 | 274 | 1 |
+| audio/relax/relax_17.mp3 | 148 | 1 |
 | audio/relax/relax_19.mp3 | 1746.5 | 1 |
+| audio/relax/relax_2.mp3 | 404.4 | 1 |
+| audio/relax/relax_3.mp3 | 152.5 | 1 |
+| audio/relax/relax_4.mp3 | 347.9 | 1 |
+| audio/relax/relax_5.mp3 | 195.7 | 1 |
+| audio/relax/relax_6.mp3 | 280.7 | 1 |
+| audio/relax/relax_7.mp3 | 285.3 | 1 |
+| audio/relax/relax_8.mp3 | 302 | 1 |
+| audio/relax/relax_9.mp3 | 576.6 | 1 |
 | audio/resolve_conflictssession13.mp3 | 479.7 | 1 |
 | audio/schoolneeds_.mp3 | 84.3 | 1 |
 | audio/ssemakula_one.mp3 | 243.5 | 1 |
 | audio/staysafe_session14.mp3 | 887.3 | 1 |
 | audio/violence_session8.mp3 | 169 | 1 |
-| emojis/happier.svg | 0.6 | 1 |
-| emojis/neutral.svg | 0.5 | 1 |
-| emojis/sad.svg | 0.6 | 1 |
+| emojis/happier.svg | 0.6 | 16 |
+| emojis/neutral.svg | 0.5 | 16 |
+| emojis/sad.svg | 0.6 | 16 |
 | images/cdhc_poster.jpg | 998.5 | 1 |
 | images/dicipline_childrensession6.png | 2543.2 | 1 |
 | images/family.jpg | 840.7 | 1 |
@@ -297,8 +322,8 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/paper_pencil.svg | 1.1 | 90 |
 | images/icons/parent_child_heart.svg | 2.9 | 14 |
 | images/icons/picture_book.svg | 1.9 | 58 |
-| images/icons/smile.svg | 0.7 | 1 |
-| images/icons/smile_eyes_down.svg | 0.9 | 2 |
+| images/icons/smile.svg | 0.7 | 16 |
+| images/icons/smile_eyes_down.svg | 0.9 | 26 |
 | images/icons/star.svg | 0.6 | 2 |
 | images/icons/thought_bubble.svg | 2 | 9 |
 | images/icons/tick.svg | 0.4 | 3 |
@@ -340,7 +365,13 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | logos/sos_logo.png | 11 | 1 |
 | logos/university_of_oxford.png | 92.7 | 1 |
 | logos/wellspring.png | 61.7 | 1 |
-| lottie/bulging_circles.json | 11.8 | 1 |
+| lottie/blue_dots.json | 14.7 | 4 |
+| lottie/breathing_heart.json | 46.7 | 4 |
+| lottie/bulging_circles.json | 11.8 | 3 |
+| lottie/checkmark.json | 23.6 | 1 |
+| lottie/looping_rings.json | 10.4 | 4 |
+| lottie/soothing_waves.json | 7.6 | 5 |
+| lottie/square_flow.json | 5.9 | 5 |
 | lottie/well_done.json | 38.8 | 1 |
 | pdf/facilitator_manual/11_discipline_pfr_manual_2021.pdf | 3995 | 2 |
 | pdf/facilitator_manual/12_education_pfr_manual_2021.pdf | 1857.1 | 2 |
@@ -380,9 +411,9 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | data_list | legal_terms | 2 |
 | data_list | lifecycle_actions | 1 |
 | data_pipe |  | 2 |
-| generator |  | 17 |
+| generator |  | 18 |
 | global |  | 2 |
-| template |  | 46 |
-| template | generated | 123 |
+| template |  | 47 |
+| template | generated | 148 |
 | template | legal_terms | 2 |
 </details>

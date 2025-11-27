@@ -1,0 +1,283 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "review_hp",
+  "status": "released",
+  "rows": [
+    {
+      "id": "@default",
+      "title": "Review and Objectives",
+      "icon_asset": "images/icons/paper_pencil.svg",
+      "intro_text": "Your practice for this week was to:\n@data.set_hp.{@row.id}.text",
+      "question_done": "Did you get a chance to practice the previous activity?",
+      "option_no": "No",
+      "feedback_no": "That is okay, do not be too hard on yourself. We encourage you to try and do it when you can.",
+      "option_yes": "Yes",
+      "question_how": "How did it go? ",
+      "how_happy": "Great",
+      "how_okay": "Okay",
+      "how_sad": "Sad",
+      "feedback_happy": "Great to hear it went well. You are a star!",
+      "feedback_okay": "Every small step counts. Keep up the good work!",
+      "feedback_sad": "Sorry to hear it was difficult for you. Well done for trying!",
+      "outro_text": "Encouragement to continue doing the home practice.",
+      "attached_single_doc": "https://docs.google.com/document/d/1SYeYMdmLyK2BtejPv-UfbD3dFEYRM8e-7LyapdHJGb0"
+    },
+    {
+      "id": "family_relation",
+      "topic": "family_relation",
+      "question_done": "Were you able to invite your partner/ other family members to reflect with you on the importance of close family relationships?"
+    },
+    {
+      "id": "current_pract",
+      "topic": "current_pract",
+      "question_done": "Did you have any time to practice any activities that help you achieve the child you desire?",
+      "feedback_no": "You can always find this  activity in our session on @data.topic.{@row.id}.title",
+      "feedback_happy": "Good job on getting you and your family to talk about parenting family goals and objectives.",
+      "outro_text": "To achieve your dream child in 20 years, there is need for every parent to be deliberate in their parenting and to invest time and care from the start."
+    },
+    {
+      "id": "child_dev",
+      "topic": "child_dev",
+      "question_done": "Were you able to have an interactive play with your child while following their lead in the game they chose?"
+    },
+    {
+      "id": "parent_childhood",
+      "topic": "parent_childhood",
+      "question_done": "Did you get a chance to practice one play or fun moment from your childhood that improves your relationship with your children? ",
+      "feedback_no": "Regularly taking initiative to do a positive practice to your child will help build a positive relationship with him/her. You can always refer back to this practise activity in our session 4 on Attachment and Bonding - Influence of one’s own parents and positive discipline techniques",
+      "feedback_happy": "Good job on integrating a positive practice from your childhood to improve the relationship with your child. We have a deep and long-lasting impact on our children’s lives. These legacies may be positive or negative and are passed on intentionally or unintentionally.",
+      "outro_text": "Continue practicing positive things from your childhood with your child. This will strengthen the relationship you have with your child."
+    },
+    {
+      "id": "discipline_children",
+      "topic": "discipline_children"
+    },
+    {
+      "id": "impact_conflict",
+      "topic": "impact_conflict",
+      "question_done": "Were you able to practice the new techniques of resolving conflict?",
+      "question_other": "What were the benefits and challenges about the promise of having a non- violent home?"
+    },
+    {
+      "id": "sharing_care",
+      "topic": "sharing_care",
+      "question_done": "Did you get time to discuss with your partner/children about the benefits of family time and ways family members can support one another?",
+      "question_how": "How did you find it?",
+      "feedback_happy": "Good job on getting you and your family to talk about benefits and challenges of spending family time and the domestic chores or childcare activity you did with them.",
+      "outro_text": "You can always find this home practise activity in our session 8 on Sharing Child Care Responsibility"
+    },
+    {
+      "id": "healthy_relation",
+      "topic": "healthy_relation"
+    },
+    {
+      "id": "parenting_teens",
+      "topic": "parenting_teens",
+      "question_done": "Did you get time to do something interesting with your adolescent childlren during the week and hold the feedback session. ",
+      "feedback_no": "Regularly taking initiative to do a positive practice to your child will help build a positive relationship with him/her. You can always refer back to this home practise activity in our session 11"
+    },
+    {
+      "id": "education",
+      "topic": "education",
+      "question_done": "Have you managed to practice positive ways to discipline the children? ",
+      "question_how": "How is this improving your child’s discipline?",
+      "feedback_happy": "Good job! Disciplining your child in positive ways will encourage good behavior and discourage bad behaviors hence promoting respect.",
+      "outro_text": "Achieving good behavior takes practicing positive ways to discipline your child. You can always find this home practice activity in our session on Achieving Respectability and Discipline"
+    },
+    {
+      "id": "gender_equal",
+      "topic": "gender_equal",
+      "question_done": "Were you able to discuss the effects of the gender norms and practices that influenced your adult behaviour and parenting styles today with your children and spouse; and together decide on what you should change?"
+    },
+    {
+      "id": "prevent_abuse",
+      "topic": "prevent_abuse",
+      "question_how": "How was your experience?",
+      "question_other": "What benefits and challenges of gender norms did you reflect on and what plans have you come up with to modify some of these on families?"
+    },
+    {
+      "id": "reduce_conflict",
+      "topic": "reduce_conflict"
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    },
+    {
+      "id": ""
+    }
+  ]
+}

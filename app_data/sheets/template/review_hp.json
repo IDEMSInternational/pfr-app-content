@@ -632,12 +632,65 @@
       "hidden": "@local.radio_button_grid!=\"no\"",
       "rows": [
         {
+          "type": "text_bubble",
+          "name": "feedback_no",
+          "value": "@local.row_data.feedback_no",
+          "_translations": {
+            "value": {}
+          },
+          "parameter_list": {
+            "speaker_position": "@local.speaker_position",
+            "variant": "@local.variant"
+          },
+          "_nested_name": "feedback_no.feedback_no",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.row_data.feedback_no",
+                "matchedExpression": "@local.row_data.feedback_no",
+                "type": "local",
+                "fieldName": "row_data"
+              }
+            ],
+            "parameter_list": {
+              "speaker_position": [
+                {
+                  "fullExpression": "@local.speaker_position",
+                  "matchedExpression": "@local.speaker_position",
+                  "type": "local",
+                  "fieldName": "speaker_position"
+                }
+              ],
+              "variant": [
+                {
+                  "fullExpression": "@local.variant",
+                  "matchedExpression": "@local.variant",
+                  "type": "local",
+                  "fieldName": "variant"
+                }
+              ]
+            }
+          },
+          "_dynamicDependencies": {
+            "@local.row_data.feedback_no": [
+              "value"
+            ],
+            "@local.speaker_position": [
+              "parameter_list.speaker_position"
+            ],
+            "@local.variant": [
+              "parameter_list.variant"
+            ]
+          }
+        },
+        {
           "type": "text",
           "name": "feedback_no",
           "value": "@local.row_data.feedback_no",
           "_translations": {
             "value": {}
           },
+          "condition": false,
           "_nested_name": "feedback_no.feedback_no",
           "_dynamicFields": {
             "value": [

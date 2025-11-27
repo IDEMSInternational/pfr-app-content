@@ -108,8 +108,39 @@
     },
     {
       "lifecycle_event": "app_start",
-      "id": "app_start_update_prompt",
+      "id": "app_start_onboarding_celebration",
       "priority": 5,
+      "condition_list": [
+        "!@fields.onboarding_celebration_submitted && @fields.onboarding_celebration"
+      ],
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "pop_up",
+          "args": [
+            "onboarding_celebration"
+          ],
+          "_raw": "pop_up: onboarding_celebration | fullscreen: true, showCloseButton: false",
+          "params": {
+            "fullscreen": true,
+            "showCloseButton": false
+          }
+        },
+        {
+          "trigger": "click",
+          "action_id": "set_field",
+          "args": [
+            "onboarding_celebration_submitted",
+            true
+          ],
+          "_raw": "set_field: onboarding_celebration_submitted: true"
+        }
+      ]
+    },
+    {
+      "lifecycle_event": "app_start",
+      "id": "app_start_update_prompt",
+      "priority": 6,
       "action_list": [
         {
           "trigger": "click",

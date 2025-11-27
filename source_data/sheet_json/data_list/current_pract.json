@@ -1,0 +1,52 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "current_pract",
+  "status": "released",
+  "rows": [
+    {
+      "id": "current_pract_check_in",
+      "data_list_name": "check_in",
+      "row_id": "check_in_3"
+    },
+    {
+      "id": "current_pract_relax",
+      "data_list_name": "relax",
+      "row_id": "relax_3"
+    },
+    {
+      "id": "current_pract_objectives",
+      "data_list_name": "objectives",
+      "row_id": "current_pract"
+    },
+    {
+      "id": "current_pract_reflect",
+      "data_list_name": "reflect",
+      "row_id": "child_who"
+    },
+    {
+      "id": "current_pract_tbg",
+      "data_list_name": "topic_block_group",
+      "row_id": "child_20"
+    },
+    {
+      "id": "current_pract_quiz",
+      "data_list_name": "quiz",
+      "row_id": "picture_quiz"
+    },
+    {
+      "id": "current_pract_tips",
+      "data_list_name": "tips",
+      "row_id": "raise_child"
+    },
+    {
+      "id": "current_pract_set_hp",
+      "data_list_name": "set_hp",
+      "row_id": "current_pract"
+    },
+    {
+      "id": "current_pract_praise",
+      "data_list_name": "praise",
+      "row_id": "current_pract"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "flow_type": "template",
+  "flow_name": "onboarding_celebration",
+  "status": "released",
+  "rows": [
+    {
+      "type": "lottie_animation",
+      "name": "lottie",
+      "value": "lottie/checkmark.json",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "_nested_name": "lottie"
+    },
+    {
+      "type": "title",
+      "name": "finish_profile_title",
+      "value": "You're all set",
+      "_translations": {
+        "value": {}
+      },
+      "parameter_list": {
+        "variant": "header"
+      },
+      "_nested_name": "finish_profile_title"
+    },
+    {
+      "type": "text",
+      "name": "finish_profile_text",
+      "value": "Your profile is complete, and you're ready to begin!",
+      "_translations": {
+        "value": {}
+      },
+      "parameter_list": {
+        "text_align": "center"
+      },
+      "_nested_name": "finish_profile_text"
+    },
+    {
+      "type": "template",
+      "name": "nav_buttons",
+      "value": "nav_buttons",
+      "action_list": [
+        {
+          "trigger": "completed",
+          "action_id": "emit",
+          "args": [
+            "completed"
+          ],
+          "_raw": "completed | emit: completed"
+        }
+      ],
+      "parameter_list": {
+        "style": "navigation"
+      },
+      "rows": [
+        {
+          "name": "display_back",
+          "value": false,
+          "type": "set_variable",
+          "_nested_name": "nav_buttons.display_back"
+        },
+        {
+          "name": "button_completed",
+          "value": "@global.next_button",
+          "_translations": {
+            "value": {}
+          },
+          "type": "set_variable",
+          "_nested_name": "nav_buttons.button_completed",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@global.next_button",
+                "matchedExpression": "@global.next_button",
+                "type": "global",
+                "fieldName": "next_button"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@global.next_button": [
+              "value"
+            ]
+          }
+        }
+      ],
+      "_nested_name": "nav_buttons"
+    }
+  ],
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/templates/app_settings.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1Ny82lBYHAG_EHS7qMH3QVvnDBE2IQTQkUnR6MlAStPs"
+  }
+}

@@ -43,9 +43,77 @@
     "md5Checksum": "4564728e9768a8c4878de8ab3e69d4f8",
     "size_kb": 1172.1
   },
+  "audio/relax/relax_1.mp3": {
+    "md5Checksum": "0f92ea6022f35eec1d3f6c891ffdadb1",
+    "size_kb": 265.1
+  },
+  "audio/relax/relax_10.mp3": {
+    "md5Checksum": "319a38f2ebc35e66c91740166f35b9ec",
+    "size_kb": 404.9
+  },
+  "audio/relax/relax_11.mp3": {
+    "md5Checksum": "afa01eb4bb93913db1b920c3303fbcba",
+    "size_kb": 445.6
+  },
+  "audio/relax/relax_12.mp3": {
+    "md5Checksum": "1d249c101d65ca13d0968cda45cc5a30",
+    "size_kb": 539.7
+  },
+  "audio/relax/relax_13.mp3": {
+    "md5Checksum": "269b08c84425b17108787ab494d318a5",
+    "size_kb": 398.4
+  },
+  "audio/relax/relax_14.mp3": {
+    "md5Checksum": "932f53982455f20f3fb4ac67e81a8289",
+    "size_kb": 256.9
+  },
+  "audio/relax/relax_15.mp3": {
+    "md5Checksum": "be8ee25971c485d750022bde185fdbee",
+    "size_kb": 125
+  },
+  "audio/relax/relax_16.mp3": {
+    "md5Checksum": "0bf6bf3d93fdd3188278e3a9bd4e701c",
+    "size_kb": 274
+  },
+  "audio/relax/relax_17.mp3": {
+    "md5Checksum": "3641b81586acc34cbce05a2cbceb19b0",
+    "size_kb": 148
+  },
   "audio/relax/relax_19.mp3": {
     "md5Checksum": "91b71aa328f31c46b56bf7949448ae55",
     "size_kb": 1746.5
+  },
+  "audio/relax/relax_2.mp3": {
+    "md5Checksum": "bfd8f584111063f1409cae955a2b5f66",
+    "size_kb": 404.4
+  },
+  "audio/relax/relax_3.mp3": {
+    "md5Checksum": "f561d9cfced91bfd4c12c9fd355688e7",
+    "size_kb": 152.5
+  },
+  "audio/relax/relax_4.mp3": {
+    "md5Checksum": "2c8ea894abba7bf91b467f38dfc558b8",
+    "size_kb": 347.9
+  },
+  "audio/relax/relax_5.mp3": {
+    "md5Checksum": "9dd1b264fe33cda345c179d93e33eb37",
+    "size_kb": 195.7
+  },
+  "audio/relax/relax_6.mp3": {
+    "md5Checksum": "fbd5169b3d0b2e8f45578e07912e2349",
+    "size_kb": 280.7
+  },
+  "audio/relax/relax_7.mp3": {
+    "md5Checksum": "c4e97034da9bcb7b9685ad89ef7a88ff",
+    "size_kb": 285.3
+  },
+  "audio/relax/relax_8.mp3": {
+    "md5Checksum": "1daf656594520b674aabf5f8685dec1e",
+    "size_kb": 302
+  },
+  "audio/relax/relax_9.mp3": {
+    "md5Checksum": "9ac4f035b9aced33f8fe8e117029d787",
+    "size_kb": 576.6
   },
   "audio/resolve_conflictssession13.mp3": {
     "md5Checksum": "b6c5926760298ea42bde370019d14426",
@@ -959,25 +1027,41 @@
     "md5Checksum": "186e0729316e0bad64ede2908da972d4",
     "size_kb": 112.5
   },
+  "lottie/blue_dots.json": {
+    "md5Checksum": "b3786e45c415c9f00e47bccf824f90bc",
+    "size_kb": 14.7
+  },
+  "lottie/breathing_heart.json": {
+    "md5Checksum": "28aa0b5c65bf540fe91c2f7da7863955",
+    "size_kb": 46.7
+  },
   "lottie/bulging_circles.json": {
     "md5Checksum": "e4a21bd55b999a816ee59d5b244c145b",
     "size_kb": 11.8
-  },
-  "lottie/bulging_circles.txt": {
-    "md5Checksum": "3f9872e93f54ea15816c877db86a76ff",
-    "size_kb": 0.2
   },
   "lottie/cascading_stars.json": {
     "md5Checksum": "131145b165cd19613a9e277a514eec2f",
     "size_kb": 140.5
   },
+  "lottie/checkmark.json": {
+    "md5Checksum": "2790a4c02434de5484cc904ae8ff3080",
+    "size_kb": 23.6
+  },
+  "lottie/looping_rings.json": {
+    "md5Checksum": "82ec657f79d258e9301bf17a9a575043",
+    "size_kb": 10.4
+  },
+  "lottie/soothing_waves.json": {
+    "md5Checksum": "18ba038728f17dcde1b7d5a0cb2c4f93",
+    "size_kb": 7.6
+  },
+  "lottie/square_flow.json": {
+    "md5Checksum": "99af0f0b04114998ba20a2c2c7b7e7d6",
+    "size_kb": 5.9
+  },
   "lottie/well_done.json": {
     "md5Checksum": "5f0187a1d1961ec152bf19a1f7a59660",
     "size_kb": 38.8
-  },
-  "lottie/well_done.txt": {
-    "md5Checksum": "47443abc05d66955ae94643f73adfb67",
-    "size_kb": 0.2
   },
   "pdf/facilitator_manual/10_review_pfr_manual.pdf": {
     "md5Checksum": "dede387f6b7070109f5d472b00427be9",

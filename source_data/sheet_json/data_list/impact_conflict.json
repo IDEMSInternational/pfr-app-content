@@ -1,0 +1,42 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "impact_conflict",
+  "status": "released",
+  "rows": [
+    {
+      "id": "impact_conflict_check_in",
+      "data_list_name": "check_in",
+      "row_id": "check_in_9"
+    },
+    {
+      "id": "impact_conflict_relax",
+      "data_list_name": "relax",
+      "row_id": "relax_9"
+    },
+    {
+      "id": "impact_conflict_objectives",
+      "data_list_name": "objectives",
+      "row_id": "impact_conflict"
+    },
+    {
+      "id": "impact_conflict_tbg",
+      "data_list_name": "topic_block_group",
+      "row_id": "impact_conflict"
+    },
+    {
+      "id": "impact_conflict_sbg",
+      "data_list_name": "story_block_group",
+      "row_id": "diff_heads"
+    },
+    {
+      "id": "impact_conflict_set_hp",
+      "data_list_name": "set_hp",
+      "row_id": "impact_conflict"
+    },
+    {
+      "id": "impact_conflict_praise",
+      "data_list_name": "praise",
+      "row_id": "impact_conflict"
+    }
+  ]
+}

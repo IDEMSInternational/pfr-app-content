@@ -1,0 +1,89 @@
+{
+  "flow_type": "template",
+  "flow_name": "home_screen_modular",
+  "status": "released",
+  "override_target": "home_screen",
+  "override_condition": "@fields._app_skin == \"modular\"",
+  "rows": [
+    {
+      "type": "update_action_list",
+      "name": "custom_actions_1",
+      "action_list": "nav_resume | emit: force_reload"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_highlighted_session",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "begin_template",
+      "name": "highlighted_session_card",
+      "value": "session_card",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "session_tasks",
+      "value": "@fields._task_highlighted_group_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "card_style",
+      "value": "landscape",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "All Sessions"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_all_session",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "begin_carousel",
+      "name": "carousel",
+      "parameter_list": "space_between: 8;\ntask_group_data:session_tasks",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_items",
+      "value": "@data.session",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_template",
+      "name": "session_card_@item.id",
+      "value": "session_card",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "session_id",
+      "value": "@item.id",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_items",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_carousel",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group"
+    }
+  ]
+}

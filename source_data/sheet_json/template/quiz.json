@@ -1,0 +1,147 @@
+{
+  "flow_type": "template",
+  "flow_name": "quiz",
+  "status": "released",
+  "rows": [
+    {
+      "name": "data_list_name",
+      "value": "quiz"
+    },
+    {
+      "name": "id",
+      "value": "picture_quiz"
+    },
+    {
+      "name": "quiz_concat",
+      "value": "@local.data_list_name.@local.id"
+    },
+    {
+      "name": "quiz_data",
+      "value": "@data.@local.quiz_concat"
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "@local.quiz_data.title",
+      "condition": "!!(@local.quiz_data.title)"
+    },
+    {
+      "type": "text",
+      "name": "intro_text",
+      "value": "@local.quiz_data.intro_text",
+      "condition": "!!(@local.quiz_data.intro_text)"
+    },
+    {
+      "name": "question_1_id",
+      "value": "@local.quiz_data.question_1_id"
+    },
+    {
+      "name": "question_2_id",
+      "value": "@local.quiz_data.question_2_id"
+    },
+    {
+      "name": "question_3_id",
+      "value": "@local.quiz_data.question_3_id"
+    },
+    {
+      "name": "question_4_id",
+      "value": "@local.quiz_data.question_4_id"
+    },
+    {
+      "name": "question_5_id",
+      "value": "@local.quiz_data.question_5_id"
+    },
+    {
+      "name": "question_6_id",
+      "value": "@local.quiz_data.question_6_id"
+    },
+    {
+      "name": "question_7_id",
+      "value": "@local.quiz_data.question_7_id"
+    },
+    {
+      "name": "question_8_id",
+      "value": "@local.quiz_data.question_8_id"
+    },
+    {
+      "name": "question_9_id",
+      "value": "@local.quiz_data.question_9_id"
+    },
+    {
+      "name": "no_of_parts_list",
+      "value": "!!@local.question_1_id; !!@local.question_2_id; !!@local.question_3_id; !!@local.question_4_id; !!@local.question_5_id; !!@local.question_6_id; !!@local.question_7_id; !!@local.question_8_id; !!@local.question_9_id; "
+    },
+    {
+      "name": "no_of_parts",
+      "value": "@calc(@local.no_of_parts_list.filter(Boolean).length)"
+    },
+    {
+      "name": "show_part_no",
+      "value": 1
+    },
+    {
+      "type": "begin_items",
+      "value": "@data.number"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_@item.id",
+      "parameter_list": "style: column",
+      "condition": "@item.id <= @local.no_of_parts"
+    },
+    {
+      "name": "join_id",
+      "value": "_id"
+    },
+    {
+      "name": "join_data",
+      "value": "_data"
+    },
+    {
+      "name": "question_id_temp_1",
+      "value": "question_@item.id@local.join_id"
+    },
+    {
+      "name": "question_id_temp_2",
+      "value": "@local.quiz_concat.@local.question_id_temp_1"
+    },
+    {
+      "name": "question_id",
+      "value": "@data.@local.question_id_temp_2"
+    },
+    {
+      "type": "begin_template",
+      "name": "template_@item.id",
+      "value": "quiz_question"
+    },
+    {
+      "name": "id",
+      "value": "@local.question_id"
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "end_items"
+    },
+    {
+      "type": "text",
+      "name": "outro_text",
+      "value": "@local.quiz_data.outro_text",
+      "condition": "!!(@local.quiz_data.outro_text)"
+    },
+    {
+      "type": "begin_template",
+      "name": "nav_buttons",
+      "value": "nav_buttons",
+      "condition": "@fields.show_nav_buttons",
+      "action_list": "completed | emit: completed; uncompleted | emit: uncompleted;"
+    },
+    {
+      "type": "end_template"
+    }
+  ]
+}

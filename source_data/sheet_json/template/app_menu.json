@@ -1,0 +1,86 @@
+{
+  "flow_type": "template",
+  "flow_name": "app_menu",
+  "status": "released",
+  "rows": [
+    {
+      "type": "button",
+      "name": "button_about",
+      "value": "About App",
+      "action_list": "click | go_to: app_about"
+    },
+    {
+      "type": "button",
+      "name": "button_terms",
+      "value": "@global.terms_and_conditions",
+      "action_list": "click | go_to: app_menu_terms"
+    },
+    {
+      "type": "button",
+      "name": "button_privacy",
+      "value": "@global.privacy_policy",
+      "action_list": "click | go_to: app_menu_privacy_policy"
+    },
+    {
+      "type": "button",
+      "name": "button_id",
+      "value": "User Id",
+      "action_list": "click | go_to: user_code"
+    },
+    {
+      "type": "button",
+      "name": "button_open_feedback",
+      "value": "Feedback",
+      "action_list": "click | feedback:open;\nclick | emit: force_reprocess;",
+      "condition": "!@fields._feedback_sidebar_open"
+    },
+    {
+      "type": "button",
+      "name": "button_close_feedback",
+      "value": "Feedback",
+      "action_list": "click | feedback:close;\nclick | emit: force_reprocess;",
+      "condition": "@fields._feedback_sidebar_open"
+    },
+    {
+      "type": "button",
+      "name": "button_templates",
+      "value": "Templates",
+      "action_list": "click | go_to:/template"
+    },
+    {
+      "type": "button",
+      "name": "button_tour",
+      "value": "How to use @global.app_name",
+      "action_list": "click | start_tour: home_screen_tour"
+    },
+    {
+      "type": "button",
+      "name": "button_reset",
+      "value": "Reset app",
+      "action_list": "click | reset_app"
+    },
+    {
+      "type": "debug_toggle",
+      "name": "debug_toggle"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_navigation"
+    },
+    {
+      "type": "toggle_bar",
+      "name": "toggle_navigation",
+      "value": "@fields.show_nav_buttons",
+      "action_list": "changed | set_field: show_nav_buttons: this.value"
+    },
+    {
+      "type": "text",
+      "name": "toggle_text",
+      "value": "Show navigation buttons",
+      "parameter_list": "flex: 1"
+    },
+    {
+      "type": "end_display_group"
+    }
+  ]
+}

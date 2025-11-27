@@ -1,0 +1,138 @@
+{
+  "flow_type": "template",
+  "flow_name": "review_hp",
+  "status": "released",
+  "rows": [
+    {
+      "name": "session_id",
+      "value": "@fields.current_session"
+    },
+    {
+      "name": "topic_id",
+      "value": "@local.session_id"
+    },
+    {
+      "name": "topic_concat",
+      "value": "topic.@local.topic_id"
+    },
+    {
+      "name": "topic_data",
+      "value": "@data.@local.topic_concat"
+    },
+    {
+      "name": "topic_title",
+      "value": "@local.topic_data.title"
+    },
+    {
+      "name": "tasks",
+      "value": "_tasks"
+    },
+    {
+      "name": "task_data",
+      "value": "@local.session_id@local.tasks"
+    },
+    {
+      "name": "completed",
+      "value": "_completed"
+    },
+    {
+      "name": "completed_field",
+      "value": "task_@local.session_id@local.completed"
+    },
+    {
+      "name": "ww_id",
+      "value": "session.@local.session_id"
+    },
+    {
+      "name": "session_data",
+      "value": "@data.@local.ww_id"
+    },
+    {
+      "name": "card_title",
+      "value": "@local.session_data.title"
+    },
+    {
+      "name": "card_image",
+      "value": "@local.session_data.image_asset"
+    },
+    {
+      "name": "data_list_name",
+      "value": "review_hp"
+    },
+    {
+      "name": "id",
+      "value": "child_dev"
+    },
+    {
+      "name": "data_list_name_id",
+      "value": "@local.data_list_name.@local.id"
+    },
+    {
+      "name": "row_data",
+      "value": "@data.@local.data_list_name_id"
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "@local.row_data.title",
+      "condition": "!!(@local.row_data.title)"
+    },
+    {
+      "type": "text",
+      "name": "question_done",
+      "value": "@local.row_data.question_done",
+      "condition": "!!(@local.row_data.question_done)"
+    },
+    {
+      "name": "store_response_field",
+      "value": "hp_done_@local.id"
+    },
+    {
+      "name": "answer_list",
+      "value": "name: yes | text: @local.row_data.option_yes;\nname: no | text: @local.row_data.option_no;"
+    },
+    {
+      "type": "radio_button_grid",
+      "name": "radio_button_grid",
+      "action_list": "changed | set_field:@local.store_response_field: @local.radio_button_grid",
+      "parameter_list": "answer_list: @local.answer_list;\nitem_width: 70px;\ngrid_width: 350px;"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "feedback_yes"
+    },
+    {
+      "type": "begin_template",
+      "value": "review_hp_yes",
+      "parameter_list": "style:column",
+      "hidden": "@local.radio_button_grid!=\"yes\""
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "feedback_no",
+      "parameter_list": "style:column",
+      "hidden": "@local.radio_button_grid!=\"no\""
+    },
+    {
+      "type": "text_bubble",
+      "name": "feedback_no",
+      "value": "@local.row_data.feedback_no",
+      "parameter_list": "speaker_position: @local.speaker_position;\nvariant: @local.variant;"
+    },
+    {
+      "type": "text",
+      "name": "feedback_no",
+      "value": "@local.row_data.feedback_no",
+      "condition": false
+    },
+    {
+      "type": "end_display_group"
+    }
+  ]
+}

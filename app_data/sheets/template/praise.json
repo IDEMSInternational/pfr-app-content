@@ -199,15 +199,6 @@
           "condition"
         ]
       }
-    },
-    {
-      "value": "lottie_src: lottie/cascading_stars.json;",
-      "_translations": {
-        "value": {}
-      },
-      "type": "set_variable",
-      "name": "set_variable_11",
-      "_nested_name": "set_variable_11"
     }
   ],
   "_source": {

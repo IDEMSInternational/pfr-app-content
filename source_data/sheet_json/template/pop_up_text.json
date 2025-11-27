@@ -1,0 +1,60 @@
+{
+  "flow_type": "template",
+  "flow_name": "pop_up_text",
+  "status": "released",
+  "rows": [
+    {
+      "name": "data_list_name",
+      "value": "story"
+    },
+    {
+      "name": "id",
+      "value": "@fields.current_story_id"
+    },
+    {
+      "name": "join_image",
+      "value": "_image_asset"
+    },
+    {
+      "name": "join_text",
+      "value": "_text"
+    },
+    {
+      "name": "story_data_row",
+      "value": "@local.data_list_name.@local.id"
+    },
+    {
+      "name": "story_data",
+      "value": "@data.@local.story_data_row"
+    },
+    {
+      "type": "begin_items",
+      "value": "@data.number"
+    },
+    {
+      "name": "image_src_temp",
+      "value": "slide_@item.id@local.join_image"
+    },
+    {
+      "name": "image_src",
+      "value": "@local.data_list_name.@local.id.@local.image_src_temp"
+    },
+    {
+      "name": "text_temp",
+      "value": "slide_@item.id@local.join_text"
+    },
+    {
+      "name": "text",
+      "value": "@local.data_list_name.@local.id.@local.text_temp"
+    },
+    {
+      "type": "text",
+      "name": "text_@item.id",
+      "value": "@data.@local.text",
+      "condition": "!!(@data.@local.text)"
+    },
+    {
+      "type": "end_items"
+    }
+  ]
+}

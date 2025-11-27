@@ -1,0 +1,24 @@
+{
+  "flow_type": "template",
+  "flow_name": "tips_text",
+  "status": "released",
+  "rows": [
+    {
+      "name": "tips_id",
+      "value": "@fields.current_tips_id"
+    },
+    {
+      "name": "tips_tips_id",
+      "value": "tips.@local.tips_id"
+    },
+    {
+      "name": "row_data",
+      "value": "@data.@local.tips_tips_id"
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "value": "@local.row_data.audio_transcript"
+    }
+  ]
+}

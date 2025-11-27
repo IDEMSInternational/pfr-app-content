@@ -1,0 +1,26 @@
+{
+  "flow_type": "generator",
+  "flow_name": "gen_conclusion_blocks",
+  "status": "released",
+  "parameter_list": {
+    "input_data_list": "conclusion",
+    "output_flow_name": "@gen.id",
+    "output_flow_type": "template"
+  },
+  "session": "conclusion",
+  "rows": [
+    {
+      "type": "begin_template",
+      "name": "@gen.data_list_name",
+      "value": "@gen.data_list_name",
+      "action_list": "completed | emit: completed; uncompleted | emit: uncompleted;"
+    },
+    {
+      "name": "id",
+      "value": "@gen.row_id"
+    },
+    {
+      "type": "end_template"
+    }
+  ]
+}

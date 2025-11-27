@@ -1,0 +1,94 @@
+{
+  "flow_type": "template",
+  "flow_name": "accept_terms",
+  "status": "released",
+  "rows": [
+    {
+      "type": "image",
+      "name": "image",
+      "value": "images/shield.svg",
+      "style_list": "max-height: 100px"
+    },
+    {
+      "type": "text",
+      "name": "text_1",
+      "value": "By providing your consent below you acknowledge reading and accepting the @global.terms_and_conditions and @global.privacy_policy. The most important commitments are:\n1. This is, and will always be, a fully free app.\n2. Your data will never be sold. We are not for profit.\n3. By using the app you are helping to make the app better for you and others.\n4. Your anonymised data may be used for research purposes by our @global.parent_app team."
+    },
+    {
+      "type": "button",
+      "name": "button_1",
+      "value": "@global.terms_and_conditions",
+      "action_list": "click | pop_up: app_menu_terms"
+    },
+    {
+      "type": "button",
+      "name": "button_2",
+      "value": "@global.privacy_policy",
+      "action_list": "click | pop_up: app_menu_privacy_policy"
+    },
+    {
+      "type": "text",
+      "name": "text_2",
+      "value": "These policies are still under construction. We value advice and input to improve them."
+    },
+    {
+      "name": "consent_text",
+      "value": "I consent to the commitments stated above."
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_checkbox"
+    },
+    {
+      "type": "simple_checkbox",
+      "name": "checkbox",
+      "parameter_list": "align: left"
+    },
+    {
+      "type": "text",
+      "name": "text",
+      "value": "@local.consent_text",
+      "parameter_list": "style: emphasised",
+      "style_list": "flex:1"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_template",
+      "name": "nav_buttons_no_consent",
+      "value": "nav_buttons",
+      "action_list": "completed | pop_up: accept_terms_warning",
+      "condition": "!@local.checkbox"
+    },
+    {
+      "name": "display_back",
+      "value": false
+    },
+    {
+      "name": "button_completed",
+      "value": "@global.continue_button"
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "type": "begin_template",
+      "name": "nav_buttons_consent",
+      "value": "nav_buttons",
+      "action_list": "completed | emit:completed;\ncompleted | set_field: terms_v20230301_accepted: true;\nuncompleted | emit:uncompleted",
+      "condition": "@local.checkbox"
+    },
+    {
+      "name": "display_back",
+      "value": false
+    },
+    {
+      "name": "button_completed",
+      "value": "@global.continue_button"
+    },
+    {
+      "type": "end_template"
+    }
+  ]
+}
