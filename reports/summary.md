@@ -24,11 +24,11 @@
 | round_button | 5 |
 | select_text | 1 |
 | set_field | 5 |
-| set_variable | 521 |
+| set_variable | 513 |
 | simple_checkbox | 3 |
 | subtitle | 2 |
 | task_card | 3 |
-| template | 175 |
+| template | 167 |
 | text | 82 |
 | text_area | 5 |
 | text_box | 10 |
@@ -46,12 +46,12 @@
 | type | count |
 | --- | --- |
 | app_update | 1 |
-| emit: completed | 169 |
+| emit: completed | 161 |
 | emit: force_reload | 5 |
 | emit: force_reprocess | 4 |
 | emit: force_restart | 2 |
 | emit: server_sync | 3 |
-| emit: uncompleted | 167 |
+| emit: uncompleted | 159 |
 | feedback | 7 |
 | go_to | 14 |
 | pop_up | 7 |
@@ -68,8 +68,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 109295 KB | 109.3 MB |
-| unused | 33479 KB | 33.5 MB |
+| total | 107199 KB | 107.2 MB |
+| unused | 3107 KB | 3.1 MB |
 </details>
 
 <details open>
@@ -82,70 +82,8 @@ Assets that appear in app-data but do not have references within sheets
 | android/icon-background.png | 7 |
 | android/icon.png | 25.1 |
 | android/splash.png | 596.6 |
+| audio/relax/relax_19.mp3 | 1746.5 |
 | audio/ssemakula_1.mp3 | 283.3 |
-| images/IMG-20241217-WA0003.jpg | 133.3 |
-| images/X/child_dev.png | 440.2 |
-| images/X/current_pract.png | 578.3 |
-| images/X/current_pract_picture_quiz_1.png | 538.1 |
-| images/X/current_pract_picture_quiz_2.png | 201.6 |
-| images/X/current_pract_picture_quiz_3.png | 151.9 |
-| images/X/current_pract_picture_quiz_4.png | 395.3 |
-| images/X/current_pract_picture_quiz_5.png | 237.7 |
-| images/X/current_pract_picture_quiz_6.png | 222.2 |
-| images/X/current_pract_picture_quiz_7.png | 210 |
-| images/X/family_relation.png | 998.1 |
-| images/art_12.jpg | 469.6 |
-| images/art_16.jpg | 331.4 |
-| images/art_18.jpg | 543.9 |
-| images/art_2.jpg | 807.5 |
-| images/art_4.jpg | 345.6 |
-| images/art_6.jpg | 250.4 |
-| images/avoid_free_gifts.jpg | 72.1 |
-| images/beautiful_landscape_modified_page_0001.jpg | 249.2 |
-| images/bernard_van_leer_foundation.jpg | 73.4 |
-| images/bunyonyi_photo_merge.jpg | 591.9 |
-| images/c_sexuality_3.jpg | 13.9 |
-| images/c_sexuality_4.jpg | 22.9 |
-| images/chdc_pfr_parenting_code.jpg | 148.8 |
-| images/child_health_logo_page_0001.jpg | 119.4 |
-| images/conclusion.jpg | 57 |
-| images/discussion_men.jpg | 570 |
-| images/discussion_women.jpg | 729.1 |
-| images/earth.jpg | 29.5 |
-| images/facililtator_diagram.jpg | 154.6 |
-| images/family_cooking_1.jpg | 439.5 |
-| images/family_praying.jpg | 722.8 |
-| images/family_preparing_cereal.jpg | 222.1 |
-| images/family_time_playing_reading.jpg | 869.7 |
-| images/father_and_moses_1.jpg | 115.6 |
-| images/father_and_moses_2.jpg | 111.7 |
-| images/father_and_moses_3.jpg | 109.9 |
-| images/father_and_moses_4.jpg | 130.8 |
-| images/father_and_mother.jpg | 6.7 |
-| images/father_handing _child_ball.jpg | 91.1 |
-| images/fathers_and_mothers_standing.jpg | 66.5 |
-| images/fathers_and_mothers_with_yarns_s14.jpg | 74 |
-| images/from PLH Digital Assets library/1-on1_father_son.svg | 51.1 |
-| images/from PLH Digital Assets library/celebrate.svg | 49.2 |
-| images/from PLH Digital Assets library/consequence.svg | 24.8 |
-| images/from PLH Digital Assets library/crisis.svg | 56.2 |
-| images/from PLH Digital Assets library/instruct.svg | 24.9 |
-| images/from PLH Digital Assets library/money.svg | 53 |
-| images/from PLH Digital Assets library/praise.svg | 36.3 |
-| images/from PLH Digital Assets library/rules.svg | 39.4 |
-| images/from PLH Digital Assets library/safe.svg | 24.3 |
-| images/from PLH Digital Assets library/selfcare.svg | 10.2 |
-| images/from PLH Digital Assets library/solve.svg | 24.8 |
-| images/from PLH Digital Assets library/stress.svg | 10 |
-| images/gender_box_1.jpg | 112.6 |
-| images/gender_box_2a.jpg | 135.2 |
-| images/grand_discipline_box.jpg | 86.6 |
-| images/head.jpg | 102.4 |
-| images/human_head.jpg | 153.3 |
-| images/icon_medal.jpg | 5 |
-| images/icons/arrow_back.svg | 0.2 |
-| images/icons/arrow_forward.svg | 0.2 |
-| images/icons/book.svg | 0.8 |
 | images/icons/faces/happy.svg | 1.3 |
 | images/icons/faces/neutral.svg | 0.5 |
 | images/icons/faces/sad.svg | 1.1 |
@@ -153,91 +91,12 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/pause_white.svg | 0.7 |
 | images/icons/play.svg | 0.5 |
 | images/icons/play_white.svg | 0.5 |
-| images/illustration_2_gender.jpg | 2721 |
-| images/irresponsible_husband.jpg | 44 |
-| images/johari_window_eng_page_0001.jpg | 99.5 |
-| images/limits_for_children_1.jpg | 229 |
-| images/limits_for_children_2.jpg | 204.8 |
-| images/limits_for_children_3.jpg | 62.4 |
-| images/managing_difficult_behaviour_1.jpg | 58.7 |
-| images/managing_difficult_behaviour_2.jpg | 294.1 |
-| images/managing_difficult_behaviour_3.jpg | 309.1 |
-| images/managing_difficult_behaviour_4.jpg | 312.4 |
-| images/managing_difficult_behaviour_5.jpg | 99.1 |
-| images/manual_icon.jpg | 44.4 |
-| images/moon.jpg | 20.3 |
-| images/mother_teasing_baby.jpg | 112.1 |
-| images/mother_washing_with_child.jpg | 123.2 |
-| images/move_in_groups.jpg | 127.6 |
-| images/mrc_uvri_uganda_logo.jpg | 9.4 |
-| images/new/Art 12.jpg | 469.6 |
-| images/new/Art 16.jpg | 331.4 |
-| images/new/Art 18.jpg | 543.9 |
-| images/new/Art 2.jpg | 807.5 |
-| images/new/Art 4.jpg | 345.6 |
-| images/new/Art 6.jpg | 250.4 |
-| images/new/Firm Parenting 1.jpg | 43.5 |
-| images/new/Gender Box Icons Inside_Female.pdf | 34.6 |
-| images/new/Gender Box Icons Inside_Female_page-0001.jpg | 117.2 |
-| images/new/Gender Box Icons Inside_Male.pdf | 35.3 |
-| images/new/Gender Box Icons Outside_Female.pdf | 25.8 |
-| images/new/Gender Box Icons Outside_Male.pdf | 25.8 |
-| images/new/ILLUSTRATION 2 GENDER.jpg | 566.8 |
-| images/new/Irresponsible Husband.jpg | 44 |
-| images/new/Managing Difficult Behaviour-01.svg | 578.6 |
-| images/new/Managing Difficult Behaviour.pdf | 208.3 |
-| images/new/Non-invoved parenting.jpg | 304.9 |
-| images/new/Okugunjula Illustration Lone.jpg | 255.6 |
-| images/new/Permissive Parenting.jpg | 46.4 |
-| images/new/Vicent and Mother.pdf | 165.3 |
-| images/new/What YourChild Wants from You.pdf | 670 |
-| images/new/Woman carrying baby and load.jpg | 126.9 |
-| images/new/child_dev.svg | 192.5 |
-| images/new/setting_limits.pdf | 143.4 |
-| images/new/vicent_mother.jpg | 317.3 |
-| images/oak_foundation_logo_page-0001.jpg | 38 |
-| images/okugunjula_illustration.jpg | 726.2 |
-| images/parent_child_reading.jpg | 439.9 |
-| images/parenting_icon.jpg | 52.1 |
-| images/physical_safety.jpg | 18.6 |
 | images/sexual_violence_research_initiative_logo.jpg | 75.7 |
-| images/sharing_caresession9.png | 1868.7 |
 | images/south_africa_medical_research_council_logo.jpg | 68.5 |
 | images/star.jpg | 16.9 |
-| images/sylvia_playing _with_toys_2.jpg | 70.5 |
-| images/sylvia_playing _with_toys_3.jpg | 60.9 |
-| images/sylvia_playing _with_toys_4.jpg | 71.8 |
-| images/sylvia_playing _with_toys_5.jpg | 53.8 |
-| images/sylvia_playing _with_toys_6.jpg | 81.1 |
-| images/sylvia_playing_with_toys_1.jpg | 60.4 |
 | images/university_of_glasgow_logo.jpg | 79 |
 | images/violence_against_children.jpg | 62.5 |
-| images/woman_carrying_baby_and_load.jpg | 126.9 |
-| logos/CHDC High Res Named Logo.jpg | 61.6 |
-| logos/erc.png | 105.3 |
-| logos/erc_blue.png | 96.4 |
-| logos/gcrf.png | 111.7 |
-| logos/gcrf_blue.png | 56.4 |
-| logos/gisp.png | 55.4 |
-| logos/gisp_blue.png | 53.9 |
-| logos/idems_blue.png | 39.4 |
-| logos/lego_foundation_blue.png | 39.3 |
-| logos/no_means_no.png | 257.9 |
-| logos/oak_foundation_blue.png | 48.2 |
-| logos/plh.png | 163.3 |
-| logos/plh_blue.png | 163.3 |
-| logos/ukri.png | 40.1 |
-| logos/ukri_blue.png | 37.6 |
-| logos/unicef.png | 66 |
-| logos/unicef_blue.png | 49.3 |
-| logos/university_of_oxford_blue.png | 71.2 |
-| logos/wellspring_blue.png | 65.4 |
-| logos/who.png | 105 |
-| logos/who_blue.png | 108 |
-| logos/za_dsd.png | 154.5 |
-| logos/za_dsd_blue.png | 112.5 |
 | lottie/cascading_stars.json | 140.5 |
-| pdf/facilitator_manual/10_review_pfr_manual.pdf | 1217.9 |
 </details>
 
 <details open>
@@ -247,14 +106,8 @@ Assets that have references within sheets but do not appear in app-data
 
 | path | count |
 | --- | --- |
-| audio/relax/relax_18.mp3 | 1 |
-| audio/relax/relax_20.mp3 | 1 |
-| audio/relax/relax_21.mp3 | 1 |
-| audio/relax/relax_22.mp3 | 1 |
-| audio/relax/relax_23.mp3 | 1 |
-| audio/relax/relax_24.mp3 | 1 |
-| audio/relax/relax_25.mp4 | 1 |
 | images/icons/buoy_white.svg | 1 |
+| images/new/setting_limits.jpg | 1 |
 | plh_images/icons/globe_circle.svg | 1 |
 </details>
 
@@ -282,7 +135,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | audio/relax/relax_15.mp3 | 125 | 1 |
 | audio/relax/relax_16.mp3 | 274 | 1 |
 | audio/relax/relax_17.mp3 | 148 | 1 |
-| audio/relax/relax_19.mp3 | 1746.5 | 1 |
 | audio/relax/relax_2.mp3 | 404.4 | 1 |
 | audio/relax/relax_3.mp3 | 152.5 | 1 |
 | audio/relax/relax_4.mp3 | 347.9 | 1 |
@@ -323,7 +175,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/parent_child_heart.svg | 2.9 | 14 |
 | images/icons/picture_book.svg | 1.9 | 58 |
 | images/icons/smile.svg | 0.7 | 16 |
-| images/icons/smile_eyes_down.svg | 0.9 | 26 |
+| images/icons/smile_eyes_down.svg | 0.9 | 18 |
 | images/icons/star.svg | 0.6 | 2 |
 | images/icons/thought_bubble.svg | 2 | 9 |
 | images/icons/tick.svg | 0.4 | 3 |
@@ -333,7 +185,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/new/gender_outside_female.jpg | 101.5 | 1 |
 | images/new/gender_outside_male.jpg | 67.3 | 1 |
 | images/new/sarah.svg | 578.6 | 1 |
-| images/new/setting_limits.jpg | 349.9 | 1 |
 | images/non_involved_parenting_1.jpg | 81.8 | 1 |
 | images/non_involved_parenting_2.jpg | 304.9 | 1 |
 | images/notpayattention_session3.png | 689.1 | 1 |
@@ -365,13 +216,13 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | logos/sos_logo.png | 11 | 1 |
 | logos/university_of_oxford.png | 92.7 | 1 |
 | logos/wellspring.png | 61.7 | 1 |
-| lottie/blue_dots.json | 14.7 | 4 |
-| lottie/breathing_heart.json | 46.7 | 4 |
-| lottie/bulging_circles.json | 11.8 | 3 |
+| lottie/blue_dots.json | 14.7 | 2 |
+| lottie/breathing_heart.json | 46.7 | 3 |
+| lottie/bulging_circles.json | 11.8 | 1 |
 | lottie/checkmark.json | 23.6 | 1 |
-| lottie/looping_rings.json | 10.4 | 4 |
-| lottie/soothing_waves.json | 7.6 | 5 |
-| lottie/square_flow.json | 5.9 | 5 |
+| lottie/looping_rings.json | 10.4 | 3 |
+| lottie/soothing_waves.json | 7.6 | 4 |
+| lottie/square_flow.json | 5.9 | 4 |
 | lottie/well_done.json | 38.8 | 1 |
 | pdf/facilitator_manual/11_discipline_pfr_manual_2021.pdf | 3995 | 2 |
 | pdf/facilitator_manual/12_education_pfr_manual_2021.pdf | 1857.1 | 2 |
@@ -414,6 +265,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | generator |  | 18 |
 | global |  | 2 |
 | template |  | 47 |
-| template | generated | 148 |
+| template | generated | 140 |
 | template | legal_terms | 2 |
 </details>
