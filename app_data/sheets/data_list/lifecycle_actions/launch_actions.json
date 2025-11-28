@@ -111,7 +111,7 @@
       "id": "app_start_onboarding_celebration",
       "priority": 5,
       "condition_list": [
-        "!@fields.onboarding_celebration_submitted && @fields.onboarding_celebration"
+        "!@fields.onboarding_celebration && @fields.user_mode"
       ],
       "action_list": [
         {
