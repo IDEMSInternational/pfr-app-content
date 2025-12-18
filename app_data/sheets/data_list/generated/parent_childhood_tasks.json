@@ -54,18 +54,10 @@
     {
       "id": "parent_childhood_set_hp",
       "data_list_name": [
-        "set_hp"
+        "sethp_block_group"
       ],
       "row_id": "parent_childhood",
       "completed_field": "task_parent_childhood_set_hp_completed"
-    },
-    {
-      "id": "parent_childhood_praise",
-      "data_list_name": [
-        "praise"
-      ],
-      "row_id": "parent_childhood",
-      "completed_field": "task_parent_childhood_praise_completed"
     }
   ]
 }

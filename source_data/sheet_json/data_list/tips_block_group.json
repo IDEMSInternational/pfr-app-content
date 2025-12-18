@@ -1,0 +1,29 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "tips_block_group",
+  "status": "released",
+  "rows": [
+    {
+      "id": "@default",
+      "icon_asset": "images/icons/light_bulb.svg"
+    },
+    {
+      "id": "establish_limits",
+      "topic": "positive_parenting",
+      "title": "Tips on how to Set Limits for our children",
+      "task_1_data": "tips",
+      "task_1_id": "establish_limits",
+      "task_2_data": "praise",
+      "task_2_id": "positive_parenting"
+    },
+    {
+      "id": "gender_stereotypes",
+      "topic": "gender_power",
+      "title": "Key highlights on norms, practices and behaviour",
+      "task_1_data": "tips",
+      "task_1_id": "gender_stereotypes",
+      "task_2_data": "praise",
+      "task_2_id": "gender_power"
+    }
+  ]
+}

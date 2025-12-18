@@ -20,13 +20,8 @@
     },
     {
       "id": "onboarding_ground_rules",
-      "data_list_name": "onboarding_content",
+      "data_list_name": "onboarding_block",
       "row_id": "ground_rules"
-    },
-    {
-      "id": "onboarding_praise",
-      "data_list_name": "praise",
-      "row_id": "onboarding"
     }
   ]
 }

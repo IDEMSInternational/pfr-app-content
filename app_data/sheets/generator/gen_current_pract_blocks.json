@@ -82,12 +82,7 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "current_pract_set_hp",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "current_pract_praise",
+      "flow_name": "current_pract_sethp_block_group",
       "flow_subtype": "generated",
       "flow_type": "template"
     }

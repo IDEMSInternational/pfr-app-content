@@ -17,31 +17,27 @@
       "title": "Welcome to Parenting for Respectability",
       "session_type": "onboarding",
       "image_asset": "images/pfr_latest_logo.jpg",
-      "goal_1": "* Introduction to PfR.",
-      "goal_2": "* Explore expectations and set ground rules."
+      "goal_1": "In this lesson, you will learn about Parenting for Respectability. How the programme works and what to expect."
     },
     {
       "id": "family_relation",
       "number": 1,
       "session_type": "onboarding",
-      "goal_1": "* Appreciate the importance of family relationships especially relations with one’s children and partner.",
-      "goal_2": "* Encourage participants to recruit their partners.",
+      "goal_1": "Strong relationships are the fertile soil from which all good things grow. In this course, you’ll learn why family relationships matter, especially those with your spouse and child, and you’ll learn how to recruit your partner to join this learning journey with you!",
       "manual_pdf_asset": "pdf/facilitator_manual/1_family_relation_pfr_manual_2021.pdf"
     },
     {
       "id": "current_pract",
       "number": 2,
       "session_type": "topic",
-      "goal_1": "* Explore parenting goals and factors that facilitate the achievement of these goals.",
-      "goal_2": "* Explore parents’ current beliefs and practices regarding parent – child interaction.",
+      "goal_1": "In this lesson, we’ll explore what your *current* parenting practices and beliefs are and set some goals together! ",
       "manual_pdf_asset": "pdf/facilitator_manual/2_current_pract_pfr_manual_2021.pdf"
     },
     {
       "id": "child_dev",
       "number": 3,
       "session_type": "topic",
-      "goal_1": "* Explore the basic developmental needs and behaviors of children 0 – 17 years.",
-      "goal_2": "* Discuss the importance of fathers’ supportiveness during pregnancy and childhood.",
+      "goal_1": "In this lesson, we will explore the phases of child development from age 0-17. \n\nDid you know that fathers play an important role in pregnancy and childhood development? Good parenting helps children reach their full potential!",
       "goal_3": "* Importance of parenting practices for children to reach their full potential.",
       "manual_pdf_asset": "pdf/facilitator_manual/3_child_dev_pfr_manual_2021.pdf"
     },
@@ -49,37 +45,34 @@
       "id": "parent_childhood",
       "number": 4,
       "session_type": "topic",
-      "goal_1": "* To reflect on how the influence of our parent figures affect our own parenting practices",
-      "goal_2": "* To uphold the positive influences of our parent figures while parenting our children",
+      "goal_1": "If we reflect back on our own childhood, we can remember what moments of positive parenting felt like! In this lesson, we’re going to reflect on how the influence of our parent figures affect our own parenting today. \n\nWe can uphold the positive influence of our parent figures while we parent our children today. ",
       "manual_pdf_asset": "pdf/facilitator_manual/4_parent_childhood_pfr_manual_2021.pdf"
     },
     {
       "id": "positive_parenting",
       "number": 5,
       "session_type": "topic",
-      "goal_1": "* Explore positive parent-child interaction and reflect upon different styles of parenting which promote positive relationships and respectability.",
+      "goal_1": "In this lesson, you’ll learn what positive parent-child interaction is and the different styles of parenting which promote positive relationships and respectability.",
       "manual_pdf_asset": "pdf/facilitator_manual/5_positive_parenting_pfr_manual_2021.pdf"
     },
     {
       "id": "discipline_children",
       "number": 6,
       "session_type": "topic",
-      "goal_1": "*To explore the different styles of parenting and select on predominant one for your family.",
+      "goal_1": "In this lesson, you’ll learn about the different styles of parenting and select one to focus on for your family. ",
       "manual_pdf_asset": "pdf/facilitator_manual/6_gender_power_pfr_manual_2021.pdf"
     },
     {
       "id": "gender_power",
       "number": 7,
       "session_type": "topic",
-      "goal_1": "* To reflect on the impact of gendered power on the lives of men, women boys and girls.",
-      "goal_2": "* Encourage men to commit to positive notions of ‘being a man’."
+      "goal_1": "In this lesson, you’ll learn how gender norms can be harmful to both women and men, girls and boys."
     },
     {
       "id": "impact_conflict",
       "number": 8,
       "session_type": "topic",
-      "goal_1": "* Reflect on own experiences and common causes of spousal conflict.",
-      "goal_2": "* Discuss the effects of spousal conflict on parenting.",
+      "goal_1": "In this lesson, you will reflect on your own experiences with spousal conflict and you will learn about the effects of spousal conflict on parenting and how to begin building relationships built on respect. ",
       "goal_3": "* Envision intimate relationships based on respect.",
       "manual_pdf_asset": "pdf/facilitator_manual/7_impact_conflict_pfr_manual_2021.pdf"
     },
@@ -87,57 +80,49 @@
       "id": "sharing_care",
       "number": 9,
       "session_type": "topic",
-      "goal_1": "* Reflect on the time men and women dedicate to caring for their children and shaping their future.   ",
-      "goal_2": "* Improve men’s self–confidence and efficacy in caregiving.",
+      "goal_1": "Men are made for parenting. In this lesson, you’ll reflect on the time men and women spend parenting and learn how to feel confident stepping in. ",
       "manual_pdf_asset": "pdf/facilitator_manual/8_sharing_care_pfr_manual_2021.pdf"
     },
     {
       "id": "healthy_relation",
       "number": 10,
       "session_type": "topic",
-      "goal_1": "* Explore what constitutes a healthy marriage and sexuality.",
-      "goal_2": "* Importance of father’s supportiveness during pregnancy and after birth.",
+      "goal_1": "In this lesson, you’ll learn what a healthy marriage and sexuality is and the important role that fathers play during pregnancy and after birth.",
       "manual_pdf_asset": "pdf/facilitator_manual/9_healthy_relation_pfr_manual_2021.pdf"
     },
     {
       "id": "parenting_teens",
       "number": 11,
       "session_type": "topic",
-      "goal_1": "* Identify the differences between punishment and discipline while exploring the effects of punishment on children’s development. ",
-      "goal_2": "* Practising effective strategies for managing anger and disappointment.",
-      "goal_3": "* Explore how to positively and sensitively engage with children to promote respect.",
+      "goal_1": "In this lesson, you’ll learn the difference between **punishment** and **discipline** and how each effects our children and their behaviour. You’ll also learn anger management techniques to use when your children disappoint you and how to promote respect in your home.",
       "manual_pdf_asset": "pdf/facilitator_manual/11_discipline_pfr_manual_2021.pdf"
     },
     {
       "id": "education",
       "number": 12,
       "session_type": "topic",
-      "goal_1": "* Encourage both parent and child to be accountable for the child’s education.",
-      "goal_2": "* Explore ways to increase parents’ engagement at school and cooperation with teachers.",
+      "goal_1": "Parents can shape a child’s success at school. In this lesson, you’ll learn how to support your child’s education so they can achieve their potential. ",
       "manual_pdf_asset": "pdf/facilitator_manual/12_education_pfr_manual_2021.pdf"
     },
     {
       "id": "gender_equal",
       "number": 13,
       "session_type": "topic",
-      "goal_1": "* Understand the issues in which fathers and mothers tend to have different perspectives regarding child up-bringing    ",
-      "goal_2": "* To reflect on how to resolve different parenting roles for proper upbringing of children",
+      "goal_1": "Have you ever disagreed with your spouse on how to raise your children? Often, men and women see things differently. In this lesson, we’ll learn why that is and how to resolve these challenges together.  ",
       "manual_pdf_asset": "pdf/facilitator_manual/13_gender_equal_pfr_manual_2021.pdf"
     },
     {
       "id": "prevent_abuse",
       "number": 14,
       "session_type": "topic",
-      "goal_1": "* Exploring long-term goals for preventing sexual abuse and early sex.",
-      "goal_2": " * Facilitating healthy communication between parents and children about sexuality.",
+      "goal_1": "In this lesson we will learn how to protect our children from sexual abuse and early sex. ",
       "manual_pdf_asset": "pdf/facilitator_manual/14_prevent_abuse_pfr_manual_2021.pdf"
     },
     {
       "id": "reduce_conflict",
       "number": 15,
       "session_type": "topic",
-      "goal_1": "* Explore constructive ways of sharing information to avoid violent situation in relationships.",
-      "goal_2": "* Express personal needs and feelings and listen reflectively and empathically.",
+      "goal_1": "In this lesson, we’ll learn how to resolve conflicts without violence. ",
       "manual_pdf_asset": "pdf/facilitator_manual/15_reduce_conflict_pfr_manual_2021.pdf"
     },
     {
@@ -146,8 +131,7 @@
       "title": "Conclusion",
       "session_type": "conclusion",
       "image_asset": "images/mother_kids_with_magazine.jpg",
-      "goal_1": "* Reflect on your experience of the programme  ",
-      "goal_2": "* To reinforce commitment to positive, more equitable and respectful parenting",
+      "goal_1": "The goal of this lesson is to reflect on everything you have learned and celebrate what you have accomplished!",
       "manual_pdf_asset": "pdf/facilitator_manual/16_conclusion_pfr_manual_2021.pdf"
     }
   ]

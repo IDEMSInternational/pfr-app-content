@@ -67,12 +67,7 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "family_relation_set_hp",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "family_relation_praise",
+      "flow_name": "family_relation_sethp_block_group",
       "flow_subtype": "generated",
       "flow_type": "template"
     }

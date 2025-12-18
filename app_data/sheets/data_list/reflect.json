@@ -7,6 +7,7 @@
       "id": "child_who",
       "topic": "current_pract",
       "title": "Who is your child",
+      "audio_asset": "audio/audio_2.mp3",
       "audio_transcript": "How a caregiver perceive their child shapes the type of care the child is given.\n     \nFamily is at the heart of many people, successful parenting should nurture ideals of respect, handwork and integrity in both children and parents.\n\nBeing kind and understanding to your children is a sign of confident parenting and warm family relationship, and fosters good behavior and well-being of children.",
       "icon_asset": "images/icons/thought_bubble.svg",
       "intro_text": "Let's imagine the following situation."
@@ -14,6 +15,7 @@
     {
       "id": "child_20",
       "topic": "current_pract",
+      "audio_asset": "audio/audio_1.mp3",
       "audio_transcript": "Close your eyes and imagine the following: Your child or grandchild is grown up. You are about to celebrate his/her 20th birthday. Imagine what he or she will look like at that age. What kind of person do you hope he/she will be? What kind of relationship will you have with your child? \n\nWhat have you put in place to consistently ensure that your child/ren achive and thrive? Note them down on a piece of paper.\nThere are two main elements of parenting i.e. love and discipline which should be provided in equal measures. When parenting it's important to think about the long-term goals and allow your child to adjust your life pattern.",
       "icon_asset": "images/icons/thought_bubble.svg",
       "intro_text": "Let's imagine the following situation."

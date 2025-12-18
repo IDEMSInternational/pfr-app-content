@@ -5,8 +5,8 @@
   "rows": [
     {
       "type": "template",
-      "name": "tips",
-      "value": "tips",
+      "name": "tips_block_group",
+      "value": "tips_block_group",
       "action_list": [
         {
           "trigger": "completed",
@@ -33,10 +33,10 @@
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "tips.id"
+          "_nested_name": "tips_block_group.id"
         }
       ],
-      "_nested_name": "tips"
+      "_nested_name": "tips_block_group"
     }
   ]
 }

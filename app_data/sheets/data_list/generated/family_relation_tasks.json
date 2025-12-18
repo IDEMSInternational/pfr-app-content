@@ -36,20 +36,12 @@
       "completed_field": "task_family_relation_tips_1_completed"
     },
     {
-      "id": "family_relation_set_hp",
+      "id": "family_relation_sethp_block_group",
       "data_list_name": [
-        "set_hp"
+        "sethp_block_group"
       ],
       "row_id": "family_relation",
-      "completed_field": "task_family_relation_set_hp_completed"
-    },
-    {
-      "id": "family_relation_praise",
-      "data_list_name": [
-        "praise"
-      ],
-      "row_id": "family_relation",
-      "completed_field": "task_family_relation_praise_completed"
+      "completed_field": "task_family_relation_sethp_block_group_completed"
     }
   ]
 }

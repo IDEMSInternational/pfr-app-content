@@ -46,18 +46,10 @@
     {
       "id": "positive_parenting_tips",
       "data_list_name": [
-        "tips"
+        "tips_block_group"
       ],
       "row_id": "establish_limits",
       "completed_field": "task_positive_parenting_tips_completed"
-    },
-    {
-      "id": "positive_parenting_praise",
-      "data_list_name": [
-        "praise"
-      ],
-      "row_id": "positive_parenting",
-      "completed_field": "task_positive_parenting_praise_completed"
     }
   ]
 }

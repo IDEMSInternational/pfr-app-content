@@ -1,4 +1,8 @@
 {
+  "PfR Logos.zip": {
+    "md5Checksum": "4df2fe99324f538bc2a79ba77b0aedb2",
+    "size_kb": 586
+  },
   "android/icon-background.png": {
     "md5Checksum": "12c68f0e8007b8d9c0bd02ea9e96f61b",
     "size_kb": 7
@@ -14,6 +18,14 @@
   "audio/adolescents_session11.mp3": {
     "md5Checksum": "ca90a6d56e3d74c73ed2cdd4424f3c46",
     "size_kb": 150.7
+  },
+  "audio/audio_1.mp3": {
+    "md5Checksum": "caf9ba3f5dfca51878b17ba4663dd3ee",
+    "size_kb": 268.8
+  },
+  "audio/audio_2.mp3": {
+    "md5Checksum": "735d963191ea3e6260e7d277e163e32a",
+    "size_kb": 156.9
   },
   "audio/caregiving_session9.mp3": {
     "md5Checksum": "ac8762f7e2460853cb1e169af557ef24",
@@ -291,6 +303,10 @@
     "md5Checksum": "16aa814234ee17fd9e50cae072dee432",
     "size_kb": 0.4
   },
+  "images/merged_logos.png": {
+    "md5Checksum": "c1f50cb0debca0d10d70db34c949cbbe",
+    "size_kb": 353.5
+  },
   "images/mother_kids_with_magazine.jpg": {
     "md5Checksum": "91fb355590d8a23311e5bd669927d806",
     "size_kb": 838.2
@@ -446,6 +462,62 @@
   "logos/oak_foundation.png": {
     "md5Checksum": "eedd51376b0839bd7305a1adc4429c2b",
     "size_kb": 69.2
+  },
+  "logos/pfr_logo.svg": {
+    "md5Checksum": "5aede62e0fb16253caa87da8c83885dc",
+    "size_kb": 45
+  },
+  "logos/pfr_logos/chdc1.png": {
+    "md5Checksum": "bab72518a025399bb5e4340090aa329f",
+    "size_kb": 62.3
+  },
+  "logos/pfr_logos/evaluation.png": {
+    "md5Checksum": "52bece6db35ad2030a7a5e89e450d174",
+    "size_kb": 28.2
+  },
+  "logos/pfr_logos/glasgow.png": {
+    "md5Checksum": "16e59d8ea45b9094631211a0b5fd8922",
+    "size_kb": 43.7
+  },
+  "logos/pfr_logos/gpi.png": {
+    "md5Checksum": "12da7e55d80da968f24c986fc469215e",
+    "size_kb": 40.1
+  },
+  "logos/pfr_logos/idems.png": {
+    "md5Checksum": "8712fe585d0e51983ca38c8e5e04c394",
+    "size_kb": 25.4
+  },
+  "logos/pfr_logos/innodems.png": {
+    "md5Checksum": "6265334e625c5200c1232edcaee4e615",
+    "size_kb": 23.4
+  },
+  "logos/pfr_logos/lego.png": {
+    "md5Checksum": "de5690197657284e22942c073ebb941c",
+    "size_kb": 18.4
+  },
+  "logos/pfr_logos/makerere.png": {
+    "md5Checksum": "e99d9d9552681ac6c82dca534dc4c65d",
+    "size_kb": 135.8
+  },
+  "logos/pfr_logos/oak.png": {
+    "md5Checksum": "99083228150dfcdaab93e57c1b52dfce",
+    "size_kb": 47.9
+  },
+  "logos/pfr_logos/oxford.png": {
+    "md5Checksum": "035272ab126c62fdc5554d174bfc8190",
+    "size_kb": 36.2
+  },
+  "logos/pfr_logos/sos.png": {
+    "md5Checksum": "62b198dbc01fcbae04b6da1020ca59a3",
+    "size_kb": 28.5
+  },
+  "logos/pfr_logos/svri.png": {
+    "md5Checksum": "d6342f59e7f947b50ab4147d82cfef67",
+    "size_kb": 60.4
+  },
+  "logos/pfr_logos/wellspring.png": {
+    "md5Checksum": "a284641ee8cbde1ce7511b381f24e514",
+    "size_kb": 33.5
   },
   "logos/sos_logo.png": {
     "md5Checksum": "8875c1f324513c19570a82a8c3e530e4",

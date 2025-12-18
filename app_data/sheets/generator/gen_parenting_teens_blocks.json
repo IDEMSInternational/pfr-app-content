@@ -75,11 +75,6 @@
       "flow_name": "parenting_teens_set_hp",
       "flow_subtype": "generated",
       "flow_type": "template"
-    },
-    {
-      "flow_name": "parenting_teens_praise",
-      "flow_subtype": "generated",
-      "flow_type": "template"
     }
   ]
 }

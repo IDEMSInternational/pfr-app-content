@@ -1,12 +1,12 @@
 {
-  "flow_name": "discipline_children_praise",
+  "flow_name": "current_pract_sethp_block_group",
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
     {
       "type": "template",
-      "name": "praise",
-      "value": "praise",
+      "name": "sethp_block_group",
+      "value": "sethp_block_group",
       "action_list": [
         {
           "trigger": "completed",
@@ -28,15 +28,15 @@
       "rows": [
         {
           "name": "id",
-          "value": "discipline_children",
+          "value": "current_pract",
           "_translations": {
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "praise.id"
+          "_nested_name": "sethp_block_group.id"
         }
       ],
-      "_nested_name": "praise"
+      "_nested_name": "sethp_block_group"
     }
   ]
 }

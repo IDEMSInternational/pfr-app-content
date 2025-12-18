@@ -351,6 +351,12 @@
       }
     },
     {
+      "name": "last_button",
+      "value": false,
+      "type": "set_variable",
+      "_nested_name": "last_button"
+    },
+    {
       "name": "now",
       "value": "@calc(timestamp())",
       "_translations": {
@@ -555,6 +561,15 @@
             "@local.session_card_click_history"
           ],
           "_raw": "click | set_field:@local.click_history_field_name: @local.session_card_click_history"
+        },
+        {
+          "trigger": "click",
+          "action_id": "set_field",
+          "args": [
+            "currently_on_last",
+            "@local.last_button"
+          ],
+          "_raw": "click | set_field: currently_on_last: @local.last_button"
         }
       ],
       "parameter_list": {
@@ -643,6 +658,26 @@
                 "fieldName": "session_card_click_history"
               }
             ]
+          },
+          "4": {
+            "args": {
+              "1": [
+                {
+                  "fullExpression": "@local.last_button",
+                  "matchedExpression": "@local.last_button",
+                  "type": "local",
+                  "fieldName": "last_button"
+                }
+              ]
+            },
+            "_raw": [
+              {
+                "fullExpression": "click | set_field: currently_on_last: @local.last_button",
+                "matchedExpression": "@local.last_button",
+                "type": "local",
+                "fieldName": "last_button"
+              }
+            ]
           }
         },
         "parameter_list": {
@@ -697,6 +732,10 @@
         "@local.session_card_click_history": [
           "action_list.3.args.1",
           "action_list.3._raw"
+        ],
+        "@local.last_button": [
+          "action_list.4.args.1",
+          "action_list.4._raw"
         ],
         "@local.task_id": [
           "parameter_list.task_id"

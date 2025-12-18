@@ -9,7 +9,7 @@
     },
     {
       "name": "id",
-      "value": "child_dev"
+      "value": "@fields.current_session"
     },
     {
       "name": "data_list_name_id",
@@ -23,7 +23,8 @@
       "type": "title",
       "name": "title",
       "value": "@local.row_data.title",
-      "condition": "!!(@local.row_data.title)"
+      "condition": "!!(@local.row_data.title)",
+      "comments": "!!(@local.row_data.title)"
     },
     {
       "type": "lottie_animation",
@@ -43,7 +44,8 @@
       "name": "nav_buttons",
       "value": "nav_buttons",
       "action_list": "completed | emit: completed; uncompleted | emit: uncompleted;",
-      "condition": "@fields.show_nav_buttons"
+      "condition": "@fields.show_nav_buttons",
+      "comments": "@fields.show_nav_buttons"
     },
     {
       "type": "end_template"

@@ -912,6 +912,132 @@
       "topic": "conclusion",
       "question_type": "text_input",
       "question_text": "What kind of support do you need from the sub county/ district?"
+    },
+    {
+      "id": "practice_1",
+      "topic": "family_relation",
+      "question_type": "select_one",
+      "question_text": "Can you try it this week?",
+      "option_1_text": "Yes",
+      "option_2_text": "No",
+      "option_3_text": "Maybe"
+    },
+    {
+      "id": "practice_2",
+      "topic": "current_pract",
+      "question_type": "select_one",
+      "question_text": "Can you try it this week?",
+      "option_1_text": "Yes",
+      "option_2_text": "No",
+      "option_3_text": "Maybe"
+    },
+    {
+      "id": "practice_3",
+      "topic": "child_dev",
+      "question_type": "select_one",
+      "question_text": "Can you try it this week?",
+      "option_1_text": "Yes",
+      "option_2_text": "No",
+      "option_3_text": "Maybe"
+    },
+    {
+      "id": "practice_4",
+      "topic": "parent_childhood",
+      "question_type": "select_one",
+      "question_text": "Can you try it this week?",
+      "option_1_text": "Yes",
+      "option_2_text": "No",
+      "option_3_text": "Maybe"
+    },
+    {
+      "id": "practice_5",
+      "topic": "discipline_children",
+      "question_type": "select_one",
+      "question_text": "Can you try it this week?",
+      "option_1_text": "Yes",
+      "option_2_text": "No",
+      "option_3_text": "Maybe"
+    },
+    {
+      "id": "practice_6",
+      "topic": "impact_conflict",
+      "question_type": "select_one",
+      "question_text": "Can you try it this week?",
+      "option_1_text": "Yes",
+      "option_2_text": "No",
+      "option_3_text": "Maybe"
+    },
+    {
+      "id": "practice_7",
+      "topic": "sharing_care",
+      "question_type": "select_one",
+      "question_text": "Can you try it this week?",
+      "option_1_text": "Yes",
+      "option_2_text": "No",
+      "option_3_text": "Maybe"
+    },
+    {
+      "id": "practice_8",
+      "topic": "healthy_relation",
+      "question_type": "select_one",
+      "question_text": "Can you try it this week?",
+      "option_1_text": "Yes",
+      "option_2_text": "No",
+      "option_3_text": "Maybe"
+    },
+    {
+      "id": "practice_9",
+      "topic": "parenting_teens",
+      "question_type": "select_one",
+      "question_text": "Can you try it this week?",
+      "option_1_text": "Yes",
+      "option_2_text": "No",
+      "option_3_text": "Maybe"
+    },
+    {
+      "id": "practice_10",
+      "topic": "education",
+      "question_type": "select_one",
+      "question_text": "Can you try it this week?",
+      "option_1_text": "Yes",
+      "option_2_text": "No",
+      "option_3_text": "Maybe"
+    },
+    {
+      "id": "practice_11",
+      "topic": "gender_equal",
+      "question_type": "select_one",
+      "question_text": "Can you try it this week?",
+      "option_1_text": "Yes",
+      "option_2_text": "No",
+      "option_3_text": "Maybe"
+    },
+    {
+      "id": "practice_12",
+      "topic": "prevent_abuse",
+      "question_type": "select_one",
+      "question_text": "Can you try it this week?",
+      "option_1_text": "Yes",
+      "option_2_text": "No",
+      "option_3_text": "Maybe"
+    },
+    {
+      "id": "practice_13",
+      "topic": "reduce_conflict",
+      "question_type": "select_one",
+      "question_text": "Can you try it this week?",
+      "option_1_text": "Yes",
+      "option_2_text": "No",
+      "option_3_text": "Maybe"
+    },
+    {
+      "id": "practice_14",
+      "topic": "conclusion",
+      "question_type": "select_one",
+      "question_text": "Can you try it this week?",
+      "option_1_text": "Yes",
+      "option_2_text": "No",
+      "option_3_text": "Maybe"
     }
   ]
 }

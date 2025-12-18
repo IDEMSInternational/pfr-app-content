@@ -148,7 +148,7 @@
       "task_1_data": "story",
       "task_1_id": "caregiving_2",
       "task_2_data": "quiz",
-      "task_2_id": "sharing_care"
+      "task_2_id": "sharing"
     },
     {
       "id": "rships_communication",
@@ -157,7 +157,7 @@
       "task_1_data": "story",
       "task_1_id": "rships_communication",
       "task_2_data": "quiz",
-      "task_2_id": "healthy_relation"
+      "task_2_id": "healthy_rel"
     },
     {
       "id": "discipline_1",
@@ -206,7 +206,7 @@
       "task_1_data": "story",
       "task_1_id": "prevent_abuse_2",
       "task_2_data": "quiz",
-      "task_2_id": "prevent_abuse"
+      "task_2_id": "abuse"
     }
   ]
 }

@@ -626,6 +626,50 @@
       "exclude_from_translation": true,
       "rows": [
         {
+          "name": "last_block",
+          "value": true,
+          "condition": "@item._last",
+          "type": "set_variable",
+          "_nested_name": "items_16.last_block",
+          "_dynamicFields": {
+            "condition": [
+              {
+                "fullExpression": "@item._last",
+                "matchedExpression": "@item._last",
+                "type": "item",
+                "fieldName": "_last"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@item._last": [
+              "condition"
+            ]
+          }
+        },
+        {
+          "name": "last_block",
+          "value": false,
+          "condition": "!@item._last",
+          "type": "set_variable",
+          "_nested_name": "items_16.last_block",
+          "_dynamicFields": {
+            "condition": [
+              {
+                "fullExpression": "!@item._last",
+                "matchedExpression": "!@item._last",
+                "type": "item",
+                "fieldName": "_last"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "!@item._last": [
+              "condition"
+            ]
+          }
+        },
+        {
           "name": "now",
           "value": "@calc(timestamp())",
           "_translations": {
@@ -876,6 +920,41 @@
                   "value"
                 ],
                 "@item.id.task_id": [
+                  "_nested_name"
+                ]
+              }
+            },
+            {
+              "name": "last_button",
+              "value": "@local.last_block",
+              "_translations": {
+                "value": {}
+              },
+              "type": "set_variable",
+              "_nested_name": "items_16.card_@item.id.last_button",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@local.last_block",
+                    "matchedExpression": "@local.last_block",
+                    "type": "local",
+                    "fieldName": "last_block"
+                  }
+                ],
+                "_nested_name": [
+                  {
+                    "fullExpression": "items_16.card_@item.id.last_button",
+                    "matchedExpression": "@item.id.last_button",
+                    "type": "item",
+                    "fieldName": "id"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.last_block": [
+                  "value"
+                ],
+                "@item.id.last_button": [
                   "_nested_name"
                 ]
               }

@@ -65,11 +65,6 @@
       "flow_name": "onboarding_ground_rules",
       "flow_subtype": "generated",
       "flow_type": "template"
-    },
-    {
-      "flow_name": "onboarding_praise",
-      "flow_subtype": "generated",
-      "flow_type": "template"
     }
   ]
 }

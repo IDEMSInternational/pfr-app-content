@@ -95,11 +95,6 @@
       "flow_name": "discipline_children_set_hp",
       "flow_subtype": "generated",
       "flow_type": "template"
-    },
-    {
-      "flow_name": "discipline_children_praise",
-      "flow_subtype": "generated",
-      "flow_type": "template"
     }
   ]
 }

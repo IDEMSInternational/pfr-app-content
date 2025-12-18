@@ -70,18 +70,10 @@
     {
       "id": "child_dev_set_hp",
       "data_list_name": [
-        "set_hp"
+        "sethp_block_group"
       ],
       "row_id": "child_dev",
       "completed_field": "task_child_dev_set_hp_completed"
-    },
-    {
-      "id": "child_dev_praise",
-      "data_list_name": [
-        "praise"
-      ],
-      "row_id": "child_dev",
-      "completed_field": "task_child_dev_praise_completed"
     }
   ]
 }

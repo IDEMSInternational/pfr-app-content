@@ -80,11 +80,6 @@
       "flow_name": "gender_equal_set_hp",
       "flow_subtype": "generated",
       "flow_type": "template"
-    },
-    {
-      "flow_name": "gender_equal_praise",
-      "flow_subtype": "generated",
-      "flow_type": "template"
     }
   ]
 }

@@ -75,11 +75,6 @@
       "flow_name": "impact_conflict_set_hp",
       "flow_subtype": "generated",
       "flow_type": "template"
-    },
-    {
-      "flow_name": "impact_conflict_praise",
-      "flow_subtype": "generated",
-      "flow_type": "template"
     }
   ]
 }

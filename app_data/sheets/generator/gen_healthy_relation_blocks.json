@@ -70,11 +70,6 @@
       "flow_name": "healthy_relation_set_hp",
       "flow_subtype": "generated",
       "flow_type": "template"
-    },
-    {
-      "flow_name": "healthy_relation_praise",
-      "flow_subtype": "generated",
-      "flow_type": "template"
     }
   ]
 }

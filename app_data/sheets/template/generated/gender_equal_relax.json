@@ -5,8 +5,8 @@
   "rows": [
     {
       "type": "template",
-      "name": "relax",
-      "value": "relax",
+      "name": "check_in",
+      "value": "check_in",
       "action_list": [
         {
           "trigger": "completed",
@@ -33,10 +33,10 @@
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "relax.id"
+          "_nested_name": "check_in.id"
         }
       ],
-      "_nested_name": "relax"
+      "_nested_name": "check_in"
     }
   ]
 }

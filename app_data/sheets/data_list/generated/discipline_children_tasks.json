@@ -32,7 +32,7 @@
       "data_list_name": [
         "quiz"
       ],
-      "row_id": "discipline_children",
+      "row_id": "discipline",
       "completed_field": "task_discipline_children_quiz_completed"
     },
     {
@@ -78,18 +78,10 @@
     {
       "id": "discipline_children_set_hp",
       "data_list_name": [
-        "set_hp"
+        "sethp_block_group"
       ],
       "row_id": "discipline_children",
       "completed_field": "task_discipline_children_set_hp_completed"
-    },
-    {
-      "id": "discipline_children_praise",
-      "data_list_name": [
-        "praise"
-      ],
-      "row_id": "discipline_children",
-      "completed_field": "task_discipline_children_praise_completed"
     }
   ]
 }

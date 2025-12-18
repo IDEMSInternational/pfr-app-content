@@ -113,7 +113,7 @@
       "question_2_id": "stereotypes_2"
     },
     {
-      "id": "discipline_children",
+      "id": "discipline",
       "topic": "discipline_children",
       "title": "Types of parenting styles",
       "intro_text": "There are four different kinds of parenting styles: \n\nFor parents to make use of principles on Love/connectedness & Setting limits and boundaries, we need to understand four parenting styles: \n\n* Authoritative/Firm Parenting\n* Strict/Authoritarian Parenting\n* Permissive parenting\n* Indifferent/Uninvolved parenting",
@@ -162,7 +162,7 @@
       "question_2_id": "normal_2"
     },
     {
-      "id": "sharing_care",
+      "id": "sharing",
       "topic": "sharing_care",
       "question_1_id": "sharing_care_who",
       "question_2_id": "sharing_care_time",
@@ -175,7 +175,7 @@
       "question_9_id": "caregiving_woman"
     },
     {
-      "id": "healthy_relation",
+      "id": "healthy_rel",
       "topic": "healthy_relation",
       "question_1_id": "story_relate",
       "question_2_id": "marriage_like",
@@ -233,7 +233,7 @@
       "question_2_id": "prevent_abuse_2"
     },
     {
-      "id": "prevent_abuse",
+      "id": "abuse",
       "topic": "prevent_abuse",
       "question_1_id": "prevent_abuse_3",
       "question_2_id": "prevent_abuse_4",

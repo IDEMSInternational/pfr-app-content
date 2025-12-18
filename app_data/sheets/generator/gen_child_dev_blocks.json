@@ -90,11 +90,6 @@
       "flow_name": "child_dev_set_hp",
       "flow_subtype": "generated",
       "flow_type": "template"
-    },
-    {
-      "flow_name": "child_dev_praise",
-      "flow_subtype": "generated",
-      "flow_type": "template"
     }
   ]
 }

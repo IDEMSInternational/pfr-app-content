@@ -60,20 +60,12 @@
       "completed_field": "task_current_pract_tips_completed"
     },
     {
-      "id": "current_pract_set_hp",
+      "id": "current_pract_sethp_block_group",
       "data_list_name": [
-        "set_hp"
+        "sethp_block_group"
       ],
       "row_id": "current_pract",
-      "completed_field": "task_current_pract_set_hp_completed"
-    },
-    {
-      "id": "current_pract_praise",
-      "data_list_name": [
-        "praise"
-      ],
-      "row_id": "current_pract",
-      "completed_field": "task_current_pract_praise_completed"
+      "completed_field": "task_current_pract_sethp_block_group_completed"
     }
   ]
 }

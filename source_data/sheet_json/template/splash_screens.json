@@ -24,7 +24,7 @@
     {
       "type": "image",
       "name": "image",
-      "value": "images/pfr_latest_logo.jpg",
+      "value": "logos/pfr_logo.svg",
       "exclude_from_translation": true
     },
     {
