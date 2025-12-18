@@ -38,18 +38,10 @@
     {
       "id": "gender_power_tips",
       "data_list_name": [
-        "tips"
+        "tips_block_group"
       ],
       "row_id": "gender_stereotypes",
       "completed_field": "task_gender_power_tips_completed"
-    },
-    {
-      "id": "gender_power_praise",
-      "data_list_name": [
-        "praise"
-      ],
-      "row_id": "gender_power",
-      "completed_field": "task_gender_power_praise_completed"
     }
   ]
 }

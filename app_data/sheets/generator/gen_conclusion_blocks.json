@@ -72,7 +72,7 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "conclusion_praise",
+      "flow_name": "conclusion_set_hp",
       "flow_subtype": "generated",
       "flow_type": "template"
     }

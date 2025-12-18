@@ -32,6 +32,12 @@
       "condition": "!!(@local.quiz_data.intro_text)"
     },
     {
+      "type": "text",
+      "name": "text",
+      "value": "@local.quiz_data.text",
+      "condition": "!!(@local.quiz_data.text)"
+    },
+    {
       "name": "question_1_id",
       "value": "@local.quiz_data.question_1_id"
     },

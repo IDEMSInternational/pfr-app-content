@@ -46,18 +46,10 @@
     {
       "id": "reduce_conflict_set_hp",
       "data_list_name": [
-        "set_hp"
+        "sethp_block_group"
       ],
       "row_id": "reduce_conflict",
       "completed_field": "task_reduce_conflict_set_hp_completed"
-    },
-    {
-      "id": "reduce_conflict_praise",
-      "data_list_name": [
-        "praise"
-      ],
-      "row_id": "reduce_conflict",
-      "completed_field": "task_reduce_conflict_praise_completed"
     }
   ]
 }

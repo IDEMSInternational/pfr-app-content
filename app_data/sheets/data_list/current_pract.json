@@ -53,16 +53,9 @@
       "row_id": "raise_child"
     },
     {
-      "id": "current_pract_set_hp",
+      "id": "current_pract_sethp_block_group",
       "data_list_name": [
-        "set_hp"
-      ],
-      "row_id": "current_pract"
-    },
-    {
-      "id": "current_pract_praise",
-      "data_list_name": [
-        "praise"
+        "sethp_block_group"
       ],
       "row_id": "current_pract"
     }

@@ -80,11 +80,6 @@
       "flow_name": "parent_childhood_set_hp",
       "flow_subtype": "generated",
       "flow_type": "template"
-    },
-    {
-      "flow_name": "parent_childhood_praise",
-      "flow_subtype": "generated",
-      "flow_type": "template"
     }
   ]
 }

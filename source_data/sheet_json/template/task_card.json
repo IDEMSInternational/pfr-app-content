@@ -79,6 +79,10 @@
       "exclude_from_translation": true
     },
     {
+      "name": "last_button",
+      "value": false
+    },
+    {
       "name": "now",
       "value": "@calc(timestamp())",
       "exclude_from_translation": true
@@ -108,7 +112,7 @@
     {
       "type": "task_card",
       "name": "task_card",
-      "action_list": "click | set_field: @local.completed_field: true;\nclick | emit: force_reload;\nclick | go_to: @local.template;\nclick | set_field:@local.click_history_field_name: @local.session_card_click_history",
+      "action_list": "click | set_field: @local.completed_field: true;\nclick | emit: force_reload;\nclick | go_to: @local.template;\nclick | set_field:@local.click_history_field_name: @local.session_card_click_history;\nclick | set_field: currently_on_last: @local.last_button",
       "parameter_list": "task_id: @local.task_id;\ncompleted_field: @local.completed_field;\ntitle: @local.card_title;\nstyle: button;\nin_progress_icon: images/icons/in_progress.svg;\ncompleted_icon: images/icons/tick.svg;\nimage: @local.card_image;",
       "exclude_from_translation": true
     }

@@ -163,8 +163,8 @@
           "type": "display_grid",
           "parameter_list": {
             "item_width": "100px",
-            "grid_width": "80%",
-            "grid_gap": "70px",
+            "grid_width": "100%",
+            "grid_gap": "8px",
             "item_border": "none"
           },
           "rows": [

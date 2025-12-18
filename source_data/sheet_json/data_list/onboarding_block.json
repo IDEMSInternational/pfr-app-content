@@ -1,0 +1,20 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "onboarding_block",
+  "status": "released",
+  "rows": [
+    {
+      "id": "@default",
+      "icon_asset": "images/icons/light_bulb.svg"
+    },
+    {
+      "id": "ground_rules",
+      "title": "Guidelines",
+      "icon_asset": "images/icons/light_bulb.svg",
+      "task_1_data": "onboarding_content",
+      "task_1_id": "ground_rules",
+      "task_2_data": "praise",
+      "task_2_id": "onboarding"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "sethp_quiz",
+  "status": "released",
+  "rows": [
+    {
+      "id": "@default"
+    },
+    {
+      "id": "family_relation",
+      "topic": "family_relation",
+      "intro_text": "You can improve your relationships this week! ",
+      "text": "Your home assignment is to live as if you have just 3 months left to live with your children and spouse. What will you say to them? How will you treat them?",
+      "question_1_id": "practice_1"
+    },
+    {
+      "id": "current_pract",
+      "topic": "current_pract",
+      "intro_text": "You can build the family you want!",
+      "text": "Think about your child in the future. Who do you want them to be? What will their relationships look like? \n\nYour home assignment is to discuss this vision with your family members and set goals together that will nurture your children to build the family we desire. ",
+      "question_1_id": "practice_2"
+    },
+    {
+      "id": "child_dev",
+      "topic": "child_dev",
+      "intro_text": "Play may feel awkard, but it isn't hard!",
+      "text": "Your home assignment is to take 5 minutes every day and  play with your children in a game of their choice (as long as it's safe!). ",
+      "question_1_id": "practice_3"
+    },
+    {
+      "id": "parent_childhood",
+      "topic": "parent_childhood",
+      "intro_text": "Sharing is caring!",
+      "text": "Your home assignment is to recreate a playful or fun moment from your childhood with your own child to improve your relationship and bond .",
+      "question_1_id": "practice_4"
+    },
+    {
+      "id": "discipline_children",
+      "topic": "discipline_children",
+      "text": "This week your home assignment is to practice the parenting style that you would want to be predominant in your family during the week. ",
+      "question_1_id": "practice_5"
+    },
+    {
+      "id": "impact_conflict",
+      "topic": "impact_conflict",
+      "intro_text": "You can resolve conflict peacefully!",
+      "text": "Your home assignment is o practice the new techniques for resolving conflict.",
+      "question_1_id": "practice_6"
+    },
+    {
+      "id": "sharing_care",
+      "topic": "sharing_care",
+      "text": "This week, you have 2 home assignments! \nFirst, discuss with your partner and children about the benefits and challenges of family time together\nThen, practice a new way to care for your child/ren, or renew an old practice that you haven't done in a while, to improve your relationship and bond. \n\nNeed an idea? Try telling your children you are proud of them each morning before school!",
+      "question_1_id": "practice_7"
+    },
+    {
+      "id": "healthy_relation",
+      "topic": "healthy_relation",
+      "intro_text": "A positive partnership is possible!",
+      "text": "If you have a partner, this week your home assignment is discuss with them the goals of your marriage and how to improve marital satisfaction without resorting to blaming each other \n\nTry three new things during this week to spice up your relationship.",
+      "question_1_id": "practice_8"
+    },
+    {
+      "id": "parenting_teens",
+      "topic": "parenting_teens",
+      "intro_text": "It's not too late to have a good relationship with your teen!",
+      "text": "This week, your home assignment is to find something different and fun to do with your teen. While you're together, invite feedback to help you understand your teen better. Try to understand the things they enjoy doing and how you can support them better. ",
+      "question_1_id": "practice_9"
+    },
+    {
+      "id": "education",
+      "topic": "education",
+      "intro_text": "You don't need money to support your child's education!",
+      "text": "If you have children in school, your home assignment is to identify any areas of support your child needs to achieve in school and to provide help. As an example, they may need more time to study, need a routine around homework to stay focused, or need help talking to a teacher. These needs should not be financial in nature. ",
+      "question_1_id": "practice_10"
+    },
+    {
+      "id": "gender_equal",
+      "topic": "gender_equal",
+      "intro_text": "It starts with self-examination!",
+      "text": "This week, your home assignment is to reflect on the effects of the gender norms and practices that influence your behaviour and parenting practices with your children and spouse.",
+      "question_1_id": "practice_11"
+    },
+    {
+      "id": "prevent_abuse",
+      "topic": "prevent_abuse",
+      "intro_text": "Open communication between you and your children can give great insight into their friendships!",
+      "text": "This week, your home assignment is to reflect on the positive things you remember from your teen years and your relationships with your parents that helped you delay sex. Practice one of these skills with your own family. ",
+      "question_1_id": "practice_12"
+    },
+    {
+      "id": "reduce_conflict",
+      "topic": "reduce_conflict",
+      "text": "This week, your home assignment is to share the knowledge you gained from this activity with your spouse, children, and neighbors.",
+      "question_1_id": "practice_13"
+    },
+    {
+      "id": "conclusion",
+      "topic": "conclusion",
+      "text": "We have come to the end of the programme but there is only one more thing to be done: the award of certificates.        \n\nAs a participant who has successfully completed the programme, you will be awarded a certificate (we will send you a PDF to print either to your telephone or email)",
+      "question_1_id": "practice_14"
+    }
+  ]
+}

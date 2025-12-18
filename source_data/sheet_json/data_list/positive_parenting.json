@@ -30,13 +30,8 @@
     },
     {
       "id": "positive_parenting_tips",
-      "data_list_name": "tips",
+      "data_list_name": "tips_block_group",
       "row_id": "establish_limits"
-    },
-    {
-      "id": "positive_parenting_praise",
-      "data_list_name": "praise",
-      "row_id": "positive_parenting"
     }
   ]
 }

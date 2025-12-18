@@ -5,8 +5,8 @@
   "rows": [
     {
       "type": "template",
-      "name": "set_hp",
-      "value": "set_hp",
+      "name": "sethp_block_group",
+      "value": "sethp_block_group",
       "action_list": [
         {
           "trigger": "completed",
@@ -33,10 +33,10 @@
             "value": {}
           },
           "type": "set_variable",
-          "_nested_name": "set_hp.id"
+          "_nested_name": "sethp_block_group.id"
         }
       ],
-      "_nested_name": "set_hp"
+      "_nested_name": "sethp_block_group"
     }
   ]
 }

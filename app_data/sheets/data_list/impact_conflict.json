@@ -41,14 +41,7 @@
     {
       "id": "impact_conflict_set_hp",
       "data_list_name": [
-        "set_hp"
-      ],
-      "row_id": "impact_conflict"
-    },
-    {
-      "id": "impact_conflict_praise",
-      "data_list_name": [
-        "praise"
+        "sethp_block_group"
       ],
       "row_id": "impact_conflict"
     }

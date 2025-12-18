@@ -28,6 +28,24 @@
       "value": "@data.@local.tips_data_row"
     },
     {
+      "name": "no_of_parts_list",
+      "value": "!!@local.row_data.text; "
+    },
+    {
+      "name": "no_of_parts",
+      "value": "@calc(@local.no_of_parts_list.filter(Boolean).length)",
+      "condition": "!@fields.currently_on_last"
+    },
+    {
+      "name": "no_of_parts",
+      "value": "@calc(@local.no_of_parts_list.filter(Boolean).length+1)",
+      "condition": "@fields.currently_on_last"
+    },
+    {
+      "name": "show_part_no",
+      "value": 1
+    },
+    {
       "type": "title",
       "name": "title",
       "value": "@local.tips_data.title",
@@ -176,8 +194,8 @@
       "type": "begin_template",
       "name": "nav_buttons",
       "value": "nav_buttons",
-      "action_list": "completed | emit: completed; uncompleted | emit: uncompleted;",
-      "condition": "@fields.show_nav_buttons"
+      "condition": "@fields.show_nav_buttons",
+      "action_list": "completed | emit: completed; uncompleted | emit: uncompleted;"
     },
     {
       "type": "end_template"

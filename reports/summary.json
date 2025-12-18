@@ -39,7 +39,7 @@
       },
       {
         "type": "display_group",
-        "count": 52
+        "count": 56
       },
       {
         "type": "image",
@@ -47,7 +47,7 @@
       },
       {
         "type": "items",
-        "count": 19
+        "count": 23
       },
       {
         "type": "lottie_animation",
@@ -87,7 +87,7 @@
       },
       {
         "type": "set_variable",
-        "count": 513
+        "count": 594
       },
       {
         "type": "simple_checkbox",
@@ -103,11 +103,11 @@
       },
       {
         "type": "template",
-        "count": 167
+        "count": 158
       },
       {
         "type": "text",
-        "count": 82
+        "count": 90
       },
       {
         "type": "text_area",
@@ -127,7 +127,7 @@
       },
       {
         "type": "title",
-        "count": 29
+        "count": 30
       },
       {
         "type": "toggle_bar",
@@ -151,7 +151,7 @@
       },
       {
         "type": "emit: completed",
-        "count": 161
+        "count": 148
       },
       {
         "type": "emit: force_reload",
@@ -171,7 +171,7 @@
       },
       {
         "type": "emit: uncompleted",
-        "count": 159
+        "count": 146
       },
       {
         "type": "feedback",
@@ -191,11 +191,11 @@
       },
       {
         "type": "set_field",
-        "count": 30
+        "count": 31
       },
       {
         "type": "set_local",
-        "count": 18
+        "count": 24
       },
       {
         "type": "speaker_position",
@@ -215,18 +215,22 @@
     "data": [
       {
         "assets": "total",
-        "KB": "107199 KB",
-        "MB": "107.2 MB"
+        "KB": "107352 KB",
+        "MB": "107.4 MB"
       },
       {
         "assets": "unused",
-        "KB": "3107 KB",
-        "MB": "3.1 MB"
+        "KB": "4948 KB",
+        "MB": "4.9 MB"
       }
     ]
   },
   "assets_unused": {
     "data": [
+      {
+        "path": "PfR Logos.zip",
+        "size_kb": 586
+      },
       {
         "path": "android/icon-background.png",
         "size_kb": 7
@@ -276,6 +280,10 @@
         "size_kb": 0.5
       },
       {
+        "path": "images/merged_logos.png",
+        "size_kb": 353.5
+      },
+      {
         "path": "images/sexual_violence_research_initiative_logo.jpg",
         "size_kb": 75.7
       },
@@ -294,6 +302,58 @@
       {
         "path": "images/violence_against_children.jpg",
         "size_kb": 62.5
+      },
+      {
+        "path": "logos/CHDC_logo.png",
+        "size_kb": 52
+      },
+      {
+        "path": "logos/Evaluation_fund_logo.png",
+        "size_kb": 9.3
+      },
+      {
+        "path": "logos/GPI_logo.png",
+        "size_kb": 14.8
+      },
+      {
+        "path": "logos/SVRI_logo.png",
+        "size_kb": 21.2
+      },
+      {
+        "path": "logos/University_of_Glasgow-logo.png",
+        "size_kb": 9.4
+      },
+      {
+        "path": "logos/idems.png",
+        "size_kb": 75.6
+      },
+      {
+        "path": "logos/innodems.png",
+        "size_kb": 87.3
+      },
+      {
+        "path": "logos/lego_foundation.png",
+        "size_kb": 54.4
+      },
+      {
+        "path": "logos/makerere_university_logo.png",
+        "size_kb": 342.5
+      },
+      {
+        "path": "logos/oak_foundation.png",
+        "size_kb": 69.2
+      },
+      {
+        "path": "logos/sos_logo.png",
+        "size_kb": 11
+      },
+      {
+        "path": "logos/university_of_oxford.png",
+        "size_kb": 92.7
+      },
+      {
+        "path": "logos/wellspring.png",
+        "size_kb": 61.7
       },
       {
         "path": "lottie/cascading_stars.json",
@@ -326,6 +386,16 @@
         "path": "audio/adolescents_session11.mp3",
         "count": 1,
         "size_kb": 150.7
+      },
+      {
+        "path": "audio/audio_1.mp3",
+        "count": 1,
+        "size_kb": 268.8
+      },
+      {
+        "path": "audio/audio_2.mp3",
+        "count": 1,
+        "size_kb": 156.9
       },
       {
         "path": "audio/caregiving_session9.mp3",
@@ -584,7 +654,7 @@
       },
       {
         "path": "images/icons/light_bulb.svg",
-        "count": 177,
+        "count": 179,
         "size_kb": 2.6
       },
       {
@@ -709,7 +779,7 @@
       },
       {
         "path": "images/pfr_latest_logo.jpg",
-        "count": 4,
+        "count": 2,
         "size_kb": 7.6
       },
       {
@@ -748,69 +818,74 @@
         "size_kb": 632.8
       },
       {
-        "path": "logos/CHDC_logo.png",
-        "count": 1,
-        "size_kb": 52
+        "path": "logos/pfr_logo.svg",
+        "count": 2,
+        "size_kb": 45
       },
       {
-        "path": "logos/Evaluation_fund_logo.png",
+        "path": "logos/pfr_logos/chdc1.png",
         "count": 1,
-        "size_kb": 9.3
+        "size_kb": 62.3
       },
       {
-        "path": "logos/GPI_logo.png",
+        "path": "logos/pfr_logos/evaluation.png",
         "count": 1,
-        "size_kb": 14.8
+        "size_kb": 28.2
       },
       {
-        "path": "logos/SVRI_logo.png",
+        "path": "logos/pfr_logos/glasgow.png",
         "count": 1,
-        "size_kb": 21.2
+        "size_kb": 43.7
       },
       {
-        "path": "logos/University_of_Glasgow-logo.png",
+        "path": "logos/pfr_logos/gpi.png",
         "count": 1,
-        "size_kb": 9.4
+        "size_kb": 40.1
       },
       {
-        "path": "logos/idems.png",
+        "path": "logos/pfr_logos/idems.png",
         "count": 1,
-        "size_kb": 75.6
+        "size_kb": 25.4
       },
       {
-        "path": "logos/innodems.png",
+        "path": "logos/pfr_logos/innodems.png",
         "count": 1,
-        "size_kb": 87.3
+        "size_kb": 23.4
       },
       {
-        "path": "logos/lego_foundation.png",
+        "path": "logos/pfr_logos/lego.png",
         "count": 1,
-        "size_kb": 54.4
+        "size_kb": 18.4
       },
       {
-        "path": "logos/makerere_university_logo.png",
+        "path": "logos/pfr_logos/makerere.png",
         "count": 1,
-        "size_kb": 342.5
+        "size_kb": 135.8
       },
       {
-        "path": "logos/oak_foundation.png",
+        "path": "logos/pfr_logos/oak.png",
         "count": 1,
-        "size_kb": 69.2
+        "size_kb": 47.9
       },
       {
-        "path": "logos/sos_logo.png",
+        "path": "logos/pfr_logos/oxford.png",
         "count": 1,
-        "size_kb": 11
+        "size_kb": 36.2
       },
       {
-        "path": "logos/university_of_oxford.png",
+        "path": "logos/pfr_logos/sos.png",
         "count": 1,
-        "size_kb": 92.7
+        "size_kb": 28.5
       },
       {
-        "path": "logos/wellspring.png",
+        "path": "logos/pfr_logos/svri.png",
         "count": 1,
-        "size_kb": 61.7
+        "size_kb": 60.4
+      },
+      {
+        "path": "logos/pfr_logos/wellspring.png",
+        "count": 1,
+        "size_kb": 33.5
       },
       {
         "path": "lottie/blue_dots.json",
@@ -984,7 +1059,7 @@
       {
         "type": "data_list",
         "subtype": null,
-        "total": 44
+        "total": 47
       },
       {
         "type": "data_list",
@@ -1024,12 +1099,12 @@
       {
         "type": "template",
         "subtype": null,
-        "total": 47
+        "total": 50
       },
       {
         "type": "template",
         "subtype": "generated",
-        "total": 140
+        "total": 124
       },
       {
         "type": "template",

@@ -14,12 +14,27 @@
     },
     {
       "name": "id",
-      "value": "child_dev",
+      "value": "@fields.current_session",
       "_translations": {
         "value": {}
       },
       "type": "set_variable",
-      "_nested_name": "id"
+      "_nested_name": "id",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@fields.current_session",
+            "matchedExpression": "@fields.current_session",
+            "type": "fields",
+            "fieldName": "current_session"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@fields.current_session": [
+          "value"
+        ]
+      }
     },
     {
       "name": "data_list_name_id",

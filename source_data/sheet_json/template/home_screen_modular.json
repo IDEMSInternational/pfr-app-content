@@ -8,7 +8,7 @@
     {
       "type": "update_action_list",
       "name": "custom_actions_1",
-      "action_list": "nav_resume | emit: force_reload"
+      "action_list": "nav_resume | emit: force_reload;"
     },
     {
       "type": "begin_display_group",

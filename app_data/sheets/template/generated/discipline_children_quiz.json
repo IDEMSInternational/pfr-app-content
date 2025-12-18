@@ -28,7 +28,7 @@
       "rows": [
         {
           "name": "id",
-          "value": "discipline_children",
+          "value": "discipline",
           "_translations": {
             "value": {}
           },

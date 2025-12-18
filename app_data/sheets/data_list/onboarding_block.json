@@ -1,0 +1,21 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "onboarding_block",
+  "status": "released",
+  "rows": [
+    {
+      "id": "ground_rules",
+      "title": "Guidelines",
+      "icon_asset": "images/icons/light_bulb.svg",
+      "task_1_data": "onboarding_content",
+      "task_1_id": "ground_rules",
+      "task_2_data": "praise",
+      "task_2_id": "onboarding"
+    }
+  ],
+  "_source": {
+    "name": "1NCaqs4T3sbFVV0jh_aTmbeSI517WchVv",
+    "path": "global/data_lists/onboarding.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1n6Vv8MidA-hcSW0B18u_Ok7uwp0yED3bnfRIWek3sPI"
+  }
+}

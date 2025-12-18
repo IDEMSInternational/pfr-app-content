@@ -161,6 +161,16 @@
       "exclude_from_translation": true
     },
     {
+      "name": "last_block",
+      "value": true,
+      "condition": "@item._last"
+    },
+    {
+      "name": "last_block",
+      "value": false,
+      "condition": "!@item._last"
+    },
+    {
       "name": "now",
       "value": "@calc(timestamp())",
       "style_list": true
@@ -206,6 +216,10 @@
       "name": "task_id",
       "value": "@item.id",
       "exclude_from_translation": true
+    },
+    {
+      "name": "last_button",
+      "value": "@local.last_block"
     },
     {
       "type": "end_template",

@@ -12,9 +12,9 @@
 | dashed_box | 1 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 52 |
+| display_group | 56 |
 | image | 13 |
-| items | 19 |
+| items | 23 |
 | lottie_animation | 3 |
 | navigation_bar | 1 |
 | nested_properties | 1 |
@@ -24,17 +24,17 @@
 | round_button | 5 |
 | select_text | 1 |
 | set_field | 5 |
-| set_variable | 513 |
+| set_variable | 594 |
 | simple_checkbox | 3 |
 | subtitle | 2 |
 | task_card | 3 |
-| template | 167 |
-| text | 82 |
+| template | 158 |
+| text | 90 |
 | text_area | 5 |
 | text_box | 10 |
 | text_bubble | 8 |
 | tile_component | 1 |
-| title | 29 |
+| title | 30 |
 | toggle_bar | 1 |
 | update_action_list | 3 |
 | video | 3 |
@@ -46,18 +46,18 @@
 | type | count |
 | --- | --- |
 | app_update | 1 |
-| emit: completed | 161 |
+| emit: completed | 148 |
 | emit: force_reload | 5 |
 | emit: force_reprocess | 4 |
 | emit: force_restart | 2 |
 | emit: server_sync | 3 |
-| emit: uncompleted | 159 |
+| emit: uncompleted | 146 |
 | feedback | 7 |
 | go_to | 14 |
 | pop_up | 7 |
 | reset_app | 2 |
-| set_field | 30 |
-| set_local | 18 |
+| set_field | 31 |
+| set_local | 24 |
 | speaker_position | 1 |
 | start_tour | 1 |
 | variant | 1 |
@@ -68,8 +68,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 107199 KB | 107.2 MB |
-| unused | 3107 KB | 3.1 MB |
+| total | 107352 KB | 107.4 MB |
+| unused | 4948 KB | 4.9 MB |
 </details>
 
 <details open>
@@ -79,6 +79,7 @@ Assets that appear in app-data but do not have references within sheets
 
 | path | size_kb |
 | --- | --- |
+| PfR Logos.zip | 586 |
 | android/icon-background.png | 7 |
 | android/icon.png | 25.1 |
 | android/splash.png | 596.6 |
@@ -91,11 +92,25 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/pause_white.svg | 0.7 |
 | images/icons/play.svg | 0.5 |
 | images/icons/play_white.svg | 0.5 |
+| images/merged_logos.png | 353.5 |
 | images/sexual_violence_research_initiative_logo.jpg | 75.7 |
 | images/south_africa_medical_research_council_logo.jpg | 68.5 |
 | images/star.jpg | 16.9 |
 | images/university_of_glasgow_logo.jpg | 79 |
 | images/violence_against_children.jpg | 62.5 |
+| logos/CHDC_logo.png | 52 |
+| logos/Evaluation_fund_logo.png | 9.3 |
+| logos/GPI_logo.png | 14.8 |
+| logos/SVRI_logo.png | 21.2 |
+| logos/University_of_Glasgow-logo.png | 9.4 |
+| logos/idems.png | 75.6 |
+| logos/innodems.png | 87.3 |
+| logos/lego_foundation.png | 54.4 |
+| logos/makerere_university_logo.png | 342.5 |
+| logos/oak_foundation.png | 69.2 |
+| logos/sos_logo.png | 11 |
+| logos/university_of_oxford.png | 92.7 |
+| logos/wellspring.png | 61.7 |
 | lottie/cascading_stars.json | 140.5 |
 </details>
 
@@ -119,6 +134,8 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | path | size_kb | count |
 | --- | --- | --- |
 | audio/adolescents_session11.mp3 | 150.7 | 1 |
+| audio/audio_1.mp3 | 268.8 | 1 |
+| audio/audio_2.mp3 | 156.9 | 1 |
 | audio/caregiving_session9.mp3 | 1156 | 1 |
 | audio/circle_friends.mp3 | 543.2 | 1 |
 | audio/marital_session10.mp3 | 1007.3 | 1 |
@@ -170,7 +187,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/home_white.svg | 0.9 | 2 |
 | images/icons/in_progress.svg | 1.1 | 3 |
 | images/icons/library_white.svg | 1.1 | 2 |
-| images/icons/light_bulb.svg | 2.6 | 177 |
+| images/icons/light_bulb.svg | 2.6 | 179 |
 | images/icons/paper_pencil.svg | 1.1 | 90 |
 | images/icons/parent_child_heart.svg | 2.9 | 14 |
 | images/icons/picture_book.svg | 1.9 | 58 |
@@ -195,7 +212,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/parents_kids_reading_magazine.jpg | 753.7 | 1 |
 | images/permissive_parenting_1.jpg | 31.6 | 1 |
 | images/permissive_parenting_2.jpg | 40.1 | 1 |
-| images/pfr_latest_logo.jpg | 7.6 | 4 |
+| images/pfr_latest_logo.jpg | 7.6 | 2 |
 | images/session_15.jpg | 130.6 | 1 |
 | images/session_7.png | 471 | 1 |
 | images/sexual_abuse_prevention.jpg | 52.6 | 1 |
@@ -203,19 +220,20 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/strict_parenting_1.jpg | 33 | 1 |
 | images/strict_parenting_2.jpg | 17.8 | 1 |
 | images/too_much_control.png | 632.8 | 1 |
-| logos/CHDC_logo.png | 52 | 1 |
-| logos/Evaluation_fund_logo.png | 9.3 | 1 |
-| logos/GPI_logo.png | 14.8 | 1 |
-| logos/SVRI_logo.png | 21.2 | 1 |
-| logos/University_of_Glasgow-logo.png | 9.4 | 1 |
-| logos/idems.png | 75.6 | 1 |
-| logos/innodems.png | 87.3 | 1 |
-| logos/lego_foundation.png | 54.4 | 1 |
-| logos/makerere_university_logo.png | 342.5 | 1 |
-| logos/oak_foundation.png | 69.2 | 1 |
-| logos/sos_logo.png | 11 | 1 |
-| logos/university_of_oxford.png | 92.7 | 1 |
-| logos/wellspring.png | 61.7 | 1 |
+| logos/pfr_logo.svg | 45 | 2 |
+| logos/pfr_logos/chdc1.png | 62.3 | 1 |
+| logos/pfr_logos/evaluation.png | 28.2 | 1 |
+| logos/pfr_logos/glasgow.png | 43.7 | 1 |
+| logos/pfr_logos/gpi.png | 40.1 | 1 |
+| logos/pfr_logos/idems.png | 25.4 | 1 |
+| logos/pfr_logos/innodems.png | 23.4 | 1 |
+| logos/pfr_logos/lego.png | 18.4 | 1 |
+| logos/pfr_logos/makerere.png | 135.8 | 1 |
+| logos/pfr_logos/oak.png | 47.9 | 1 |
+| logos/pfr_logos/oxford.png | 36.2 | 1 |
+| logos/pfr_logos/sos.png | 28.5 | 1 |
+| logos/pfr_logos/svri.png | 60.4 | 1 |
+| logos/pfr_logos/wellspring.png | 33.5 | 1 |
 | lottie/blue_dots.json | 14.7 | 2 |
 | lottie/breathing_heart.json | 46.7 | 3 |
 | lottie/bulging_circles.json | 11.8 | 1 |
@@ -256,7 +274,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 
 | type | subtype | total |
 | --- | --- | --- |
-| data_list |  | 44 |
+| data_list |  | 47 |
 | data_list | app_config_language_list | 1 |
 | data_list | generated | 18 |
 | data_list | legal_terms | 2 |
@@ -264,7 +282,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | data_pipe |  | 2 |
 | generator |  | 18 |
 | global |  | 2 |
-| template |  | 47 |
-| template | generated | 140 |
+| template |  | 50 |
+| template | generated | 124 |
 | template | legal_terms | 2 |
 </details>

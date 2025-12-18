@@ -1,0 +1,124 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "sethp_block_group",
+  "status": "released",
+  "rows": [
+    {
+      "id": "@default",
+      "title": "Let's Practice",
+      "icon_asset": "images/icons/parent_child_heart.svg"
+    },
+    {
+      "id": "family_relation",
+      "topic": "family_relation",
+      "task_1_data": "sethp_quiz",
+      "task_1_id": "family_relation",
+      "task_2_data": "praise",
+      "task_2_id": "family_relation"
+    },
+    {
+      "id": "current_pract",
+      "topic": "current_pract",
+      "task_1_data": "sethp_quiz",
+      "task_1_id": "current_pract",
+      "task_2_data": "praise",
+      "task_2_id": "current_pract"
+    },
+    {
+      "id": "child_dev",
+      "topic": "child_dev",
+      "task_1_data": "sethp_quiz",
+      "task_1_id": "child_dev",
+      "task_2_data": "praise",
+      "task_2_id": "child_dev"
+    },
+    {
+      "id": "parent_childhood",
+      "topic": "parent_childhood",
+      "task_1_data": "sethp_quiz",
+      "task_1_id": "parent_childhood",
+      "task_2_data": "praise",
+      "task_2_id": "parent_childhood"
+    },
+    {
+      "id": "discipline_children",
+      "topic": "discipline_children",
+      "task_1_data": "sethp_quiz",
+      "task_1_id": "discipline_children",
+      "task_2_data": "praise",
+      "task_2_id": "discipline_children"
+    },
+    {
+      "id": "impact_conflict",
+      "topic": "impact_conflict",
+      "task_1_data": "sethp_quiz",
+      "task_1_id": "impact_conflict",
+      "task_2_data": "praise",
+      "task_2_id": "impact_conflict"
+    },
+    {
+      "id": "sharing_care",
+      "topic": "sharing_care",
+      "task_1_data": "sethp_quiz",
+      "task_1_id": "sharing_care",
+      "task_2_data": "praise",
+      "task_2_id": "sharing_care"
+    },
+    {
+      "id": "healthy_relation",
+      "topic": "healthy_relation",
+      "task_1_data": "sethp_quiz",
+      "task_1_id": "healthy_relation",
+      "task_2_data": "praise",
+      "task_2_id": "healthy_relation"
+    },
+    {
+      "id": "parenting_teens",
+      "topic": "parenting_teens",
+      "task_1_data": "sethp_quiz",
+      "task_1_id": "parenting_teens",
+      "task_2_data": "praise",
+      "task_2_id": "parenting_teens"
+    },
+    {
+      "id": "education",
+      "topic": "education",
+      "task_1_data": "sethp_quiz",
+      "task_1_id": "education",
+      "task_2_data": "praise",
+      "task_2_id": "education"
+    },
+    {
+      "id": "gender_equal",
+      "topic": "gender_equal",
+      "task_1_data": "sethp_quiz",
+      "task_1_id": "gender_equal",
+      "task_2_data": "praise",
+      "task_2_id": "gender_equal"
+    },
+    {
+      "id": "prevent_abuse",
+      "topic": "prevent_abuse",
+      "task_1_data": "sethp_quiz",
+      "task_1_id": "prevent_abuse",
+      "task_2_data": "praise",
+      "task_2_id": "prevent_abuse"
+    },
+    {
+      "id": "reduce_conflict",
+      "topic": "reduce_conflict",
+      "task_1_data": "sethp_quiz",
+      "task_1_id": "reduce_conflict",
+      "task_2_data": "praise",
+      "task_2_id": "reduce_conflict"
+    },
+    {
+      "id": "conclusion",
+      "topic": "conclusion",
+      "task_1_data": "sethp_quiz",
+      "task_1_id": "conclusion",
+      "task_2_data": "praise",
+      "task_2_id": "conclusion"
+    }
+  ]
+}

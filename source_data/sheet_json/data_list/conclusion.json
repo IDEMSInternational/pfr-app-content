@@ -29,8 +29,8 @@
       "row_id": "future_group"
     },
     {
-      "id": "conclusion_praise",
-      "data_list_name": "praise",
+      "id": "conclusion_set_hp",
+      "data_list_name": "sethp_block_group",
       "row_id": "conclusion"
     }
   ]
