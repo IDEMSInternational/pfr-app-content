@@ -9,8 +9,14 @@
       "parameter_list": "style:large center"
     },
     {
+      "type": "image",
+      "name": "image_asset",
+      "value": "logos/merged_logos.png"
+    },
+    {
       "type": "begin_items",
-      "value": "@data.organisation_group"
+      "value": "@data.organisation_group",
+      "condition": false
     },
     {
       "type": "text",
@@ -35,11 +41,6 @@
       "name": "dg_@item.id",
       "condition": "@local.this_group == @item.group",
       "parameter_list": "style: column"
-    },
-    {
-      "type": "image",
-      "name": "image_asset",
-      "value": "@item.image_asset"
     },
     {
       "type": "text",

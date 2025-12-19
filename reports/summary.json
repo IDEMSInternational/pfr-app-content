@@ -215,13 +215,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "107352 KB",
-        "MB": "107.4 MB"
+        "KB": "107729 KB",
+        "MB": "107.7 MB"
       },
       {
         "assets": "unused",
-        "KB": "4948 KB",
-        "MB": "4.9 MB"
+        "KB": "4594 KB",
+        "MB": "4.6 MB"
       }
     ]
   },
@@ -278,10 +278,6 @@
       {
         "path": "images/icons/play_white.svg",
         "size_kb": 0.5
-      },
-      {
-        "path": "images/merged_logos.png",
-        "size_kb": 353.5
       },
       {
         "path": "images/sexual_violence_research_initiative_logo.jpg",
@@ -816,6 +812,11 @@
         "path": "images/too_much_control.png",
         "count": 1,
         "size_kb": 632.8
+      },
+      {
+        "path": "logos/merged_logos.png",
+        "count": 1,
+        "size_kb": 377
       },
       {
         "path": "logos/pfr_logo.svg",
