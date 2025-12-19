@@ -303,10 +303,6 @@
     "md5Checksum": "16aa814234ee17fd9e50cae072dee432",
     "size_kb": 0.4
   },
-  "images/merged_logos.png": {
-    "md5Checksum": "c1f50cb0debca0d10d70db34c949cbbe",
-    "size_kb": 353.5
-  },
   "images/mother_kids_with_magazine.jpg": {
     "md5Checksum": "91fb355590d8a23311e5bd669927d806",
     "size_kb": 838.2
@@ -458,6 +454,10 @@
   "logos/makerere_university_logo.png": {
     "md5Checksum": "5d25ba66c7e3ab9a18b6b7039307f15c",
     "size_kb": 342.5
+  },
+  "logos/merged_logos.png": {
+    "md5Checksum": "adfb91e5e50010e783c58de7d8203622",
+    "size_kb": 377
   },
   "logos/oak_foundation.png": {
     "md5Checksum": "eedd51376b0839bd7305a1adc4429c2b",

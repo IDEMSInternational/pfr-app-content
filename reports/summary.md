@@ -68,8 +68,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 107352 KB | 107.4 MB |
-| unused | 4948 KB | 4.9 MB |
+| total | 107729 KB | 107.7 MB |
+| unused | 4594 KB | 4.6 MB |
 </details>
 
 <details open>
@@ -92,7 +92,6 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/pause_white.svg | 0.7 |
 | images/icons/play.svg | 0.5 |
 | images/icons/play_white.svg | 0.5 |
-| images/merged_logos.png | 353.5 |
 | images/sexual_violence_research_initiative_logo.jpg | 75.7 |
 | images/south_africa_medical_research_council_logo.jpg | 68.5 |
 | images/star.jpg | 16.9 |
@@ -220,6 +219,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/strict_parenting_1.jpg | 33 | 1 |
 | images/strict_parenting_2.jpg | 17.8 | 1 |
 | images/too_much_control.png | 632.8 | 1 |
+| logos/merged_logos.png | 377 | 1 |
 | logos/pfr_logo.svg | 45 | 2 |
 | logos/pfr_logos/chdc1.png | 62.3 | 1 |
 | logos/pfr_logos/evaluation.png | 28.2 | 1 |
